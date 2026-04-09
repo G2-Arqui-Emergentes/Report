@@ -328,6 +328,51 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 3.4. Product Backlog
 
+| Orden | Código US | Título                                               | Story Points |
+|-------|-----------|------------------------------------------------------|--------------|
+| 1     | US014     | Invitación de usuarios con código de acceso           | 8 |
+| 2     | US015     | Registro de nuevos proyectos                          | 8 |
+| 3     | US016     | Asignación de usuarios a proyectos                    | 8 |
+| 4     | US017     | Asignar Tareas para los usuarios                      | 8 |
+| 5     | US019     | Notificaciones de tareas asignadas                    | 8 |
+| 6     | US023     | Ver progreso de tareas en tiempo real con indicadores inteligentes | 8 |
+| 7     | US024     | Ver métricas de rendimiento con indicadores de riesgo | 8 |
+| 8     | US026     | Generar reporte inteligente de desempeño por miembro  | 8 |
+| 9     | US027     | Reporte inteligente de tareas cumplidas y retrasadas  | 8 |
+| 10    | US029     | Notificación automatizada de tarea asignada           | 8 |
+| 11    | US030     | Notificación automatizada de fecha límite cercana     | 8 |
+| 12    | US031     | Notificación automatizada de tarea completada         | 8 |
+| 13    | TS01      | Validación de seguridad en la API                     | 8 |
+| 14    | TS02      | Optimización del rendimiento de la base de datos      | 8 |
+| 15    | TS03      | Gestión de Proyectos (implementación en backend)      | 8 |
+| 16    | TS04      | Gestión de Tareas (implementación en backend)         | 8 |
+| 17    | SS1       | Integración con herramientas de comunicación (Slack)  | 8 |
+| 18    | SS2       | Integración con Google Calendar                       | 8 |
+| 19    | US010     | Registro de usuario                                   | 8 |
+| 20    | US011     | Inicio de sesión                                      | 8 |
+| 21    | US012     | Recuperación de contraseña                            | 5 |
+| 22    | US018     | Establecer prioridad de tareas                        | 5 |
+| 23    | US020     | Modificación de fechas límite de tareas               | 5 |
+| 24    | US021     | Modificación de la prioridad de tareas                | 5 |
+| 25    | US022     | Actualización de estado de tareas                     | 5 |
+| 26    | US025     | Visualizar calendario de tareas con alertas inteligentes | 5 |
+| 27    | US028     | Visualizar resumen semanal inteligente de avances     | 5 |
+| 28    | US032     | Notificación automatizada de mensajes en proyecto     | 5 |
+| 29    | US033     | Notificación automatizada de actualización de tareas  | 5 |
+| 30    | TS05      | Administración de Usuarios (backend)                  | 5 |
+| 31    | TS06      | Manejo de Reportes (backend)                          | 5 |
+| 32    | US013     | Cierre de sesión                                      | 3 |
+| 33    | US05      | Adaptabilidad móvil                                   | 3 |
+| 34    | US06      | Navegación mediante Encabezado                        | 3 |
+| 35    | US09      | Pie de página                                         | 3 |
+| 36    | US01      | Información general sobre TaskMaster                  | 8 |
+| 37    | US02      | Llamado a la acción para descargar la aplicación      | 8 |
+| 38    | US08      | About the team                                        | 8 |
+| 39    | US03      | Testimonios de usuarios                               | 5 |
+| 40    | US04      | Muestra de planes y precios                           | 5 |
+| 41    | US07      | Misión y visión                                       | 5 |
+
+
 
 ## Capítulo IV: Strategic-Level Software Design
 
