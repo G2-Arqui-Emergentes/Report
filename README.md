@@ -263,7 +263,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## Capítulo III: Requirements Specification
 
+La presente sección describe la especificación de requisitos del sistema propuesto, elaborada a partir del análisis de la información obtenida durante la etapa de investigación. Su objetivo es definir de manera clara las funcionalidades y características que deberá cumplir el producto digital, considerando las necesidades de los usuarios y el contexto del problema identificado.
+
+Esta sección incluye el desarrollo de distintos artefactos que permiten estructurar la solución, tales como el To-Be Scenario Mapping, las User Stories, el Impact Map y el Product Backlog. Estos elementos facilitan la comprensión del comportamiento esperado del sistema, así como la priorización y organización de los requerimientos, permitiendo orientar el desarrollo bajo un enfoque ágil y centrado en el usuario.
+
 ### 3.1. To-Be Scenario Mapping
+
+En esta sección se presenta el To-Be Scenario Mapping, el cual describe el escenario futuro de interacción de los usuarios con el sistema propuesto. Para su elaboración, el equipo siguió un proceso estructurado que incluyó la preparación del análisis, la generación de ideas mediante lluvia de ideas individual, la revisión y consolidación de actividades, así como la identificación y definición de las fases principales del proceso, organizadas como columnas.
+
+Asimismo, se consideraron las dimensiones de Doing, Thinking y Feeling para cada User Persona, permitiendo comprender no solo las acciones que realizan, sino también sus percepciones y emociones durante la interacción con el sistema. Finalmente, el mapa To-Be fue contrastado conceptualmente con el escenario actual (As-Is), identificando mejoras significativas como la incorporación de analítica inteligente y automatización de procesos, las cuales optimizan la gestión de proyectos y la toma de decisiones.
+
+**Segmento 1: Líder o gerente de proyectos de software**
+
+![texto alternativo](assets/TB1/TOBE1.jpg)
+
+**Segmento 2: Miembro de un equipo de desarrollo de software**
+
+![texto alternativo](assets/TB1/tobe2.jpg)
 
 ### 3.2. User Stories
 
