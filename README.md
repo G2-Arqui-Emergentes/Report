@@ -342,6 +342,14 @@ Asimismo, se consideraron las dimensiones de Doing, Thinking y Feeling para cada
 
 ### 3.3. Impact Mapping
 
+**Segmento Team leader**
+
+![texto alternativo](assets/TB1/12.png)
+
+**Segmento Team member**
+
+![texto alternativo](assets/TB1/13.png)
+
 ### 3.4. Product Backlog
 
 | Orden | Código US | Título                                               | Story Points |
