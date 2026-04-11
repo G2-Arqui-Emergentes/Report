@@ -70,7 +70,7 @@ Abril 2026
 | Versión | Fecha      | Autor | Descripción de modificación |
 |---------|------------|-------|-----------------------------|
 | TB1     | 09/04/2026 | Omar Luquillas Asto | Creación de estructura inicial del informe |
-| TB1     | /04/2026 |  |  |
+| TB1     | 11/04/2026 | Luciana Sanchez Silva | Desarrollo del capítulo 1 |
 | TB1     | /04/2026 |  |  |
 | TB1     | /04/2026 |  |  |
 | TB1     | /04/2026 |  |  |
