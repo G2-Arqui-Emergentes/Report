@@ -641,7 +641,9 @@ El Product Backlog organiza todas las funcionalidades identificadas, priorizadas
 | 40    | US04          | Planes y precios                            | Como visitante, deseo ver planes disponibles para elegir el más adecuado.                                                        | 5            |
 | 41    | US07          | Misión y visión                             | Como visitante, deseo conocer la misión y visión para entender la empresa.                                                       | 5            |
 
+LINK: https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes
 
+![alt text](assets/TB1/TRELLO.png)
 
 ## Capítulo IV: Strategic-Level Software Design
 
@@ -866,11 +868,36 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 
 ## Conclusiones
 
-
-### Conclusiones y recomendaciones
+El desarrollo de TaskMaster demuestra que la centralización de la gestión de proyectos, junto con el uso de metodologías modernas como Lean UX y Domain-Driven Design, permite abordar eficazmente los problemas de fragmentación, baja visibilidad y desorganización en equipos de trabajo; además, la incorporación de tecnologías emergentes como inteligencia artificial para analítica y alertas, y RPA para automatización de notificaciones, posiciona la solución como innovadora y competitiva. Se recomienda continuar fortaleciendo estas capacidades mediante una mayor integración de IA y automatización, validaciones constantes con usuarios reales y mejoras progresivas en la experiencia de usuario, con el fin de asegurar una adopción efectiva y escalabilidad del producto en el mercado.
 
 
 ## Bibliografía
+
+-Chandrasekaran, P. (2024, 9 agosto). Remote EventStorming in Practice. Domain-driven Design: A Practitioner’s Guide. https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+
+-Ddd-Crew. (s. f.). GitHub - ddd-crew/bounded-context-canvas: A structured approach to designing and documenting each of your bounded contexts. GitHub. https://github.com/ddd-crew/bounded-context-canvas
+
+Miro. (n.d.). Miro | Bounded context Canvas. Miro. Recuperado el 19 de septiembre de 2025, de https://miro.com/app/board/uXjVJHX-IGk=/
+
+Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 2025, de https://miro.com/app/board/uXjVJIJqxgg=/
+
+-Biblioteca UPC. (2024). Biblioteca virtual de la Universidad Peruana de Ciencias Aplicadas. https://biblioteca.upc.edu.pe
+
+-Miro. (2024). Miro. Miro Corporation. https://miro.com
+
+-LucidChart. (2024). LucidChart. Lucid Software Inc. https://www.lucidchart.com
+
+-Cohn, M. (2006). Historias de usuario: Un enfoque ágil. Pearson Educación. https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+
+-Pressman, R. S. (2010). Ingeniería de Software: Un enfoque práctico. McGraw-Hill. https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+
+-The C4 model for visualising software architecture. (2024). https://c4model.com/.
+
+-Structurizr. (2024). https://www.structurizr.com/
+
+-Nielsen Norman Group. (2023). 10 Usability Heuristics for User Interface Design. https://www.nngroup.com.
+
+-Interaction Design Foundation. (2022). What is User Interface (UI) Design. https://www.interaction-design.org
 
 
 ## Anexos
