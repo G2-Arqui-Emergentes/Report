@@ -21,9 +21,9 @@ Profesor: Marino Humberto Jara Palacios
 <br><br>
 <strong>Informe de Trabajo Final</strong>  
 <br><br>
-Startup:
+Startup: Apex Cybernetics
 <br><br>
-Producto:
+Producto: TaskMaster
 <br><br>
 <strong>Integrantes</strong>
 <br><br>
@@ -226,21 +226,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.1. Startup Profile
 
-En el actual paradigma de la transformación digital, las organizaciones se enfrentan a un fenómeno crítico de fragmentación tecnológica. La dependencia sistémica de herramientas heterogéneas e inconexas —como hojas de cálculo de baja escala, protocolos de comunicación asíncronos (correos electrónicos) y plataformas de mensajería instantánea— ha derivado en un “ruido operativo” que limita la escalabilidad, duplica los esfuerzos y reduce la eficiencia de los equipos de trabajo. Esta falta de interoperabilidad compromete la integridad de los datos y la visibilidad transversal del ciclo de vida del proyecto.
+En el actual paradigma de la transformación digital, las organizaciones se enfrentan a un fenómeno crítico de fragmentación tecnológica. La dependencia sistémica de herramientas heterogéneas e inconexas, como hojas de cálculo de baja escala, protocolos de comunicación asíncronos (correos electrónicos) y plataformas de mensajería instantánea, ha derivado en un “ruido operativo” que limita la escalabilidad, duplica los esfuerzos y reduce la eficiencia de los equipos de trabajo. Esta falta de interoperabilidad compromete la integridad de los datos y la visibilidad transversal del ciclo de vida del proyecto.
 
-Frente a esta problemática, nuestra startup surge como una solución que va más allá de centralizar información. Nuestro objetivo es transformar los datos en inteligencia accionable. A través de la integración de Inteligencia Artificial (IA) y Automatización Robótica de Procesos (RPA), evolucionamos de una gestión reactiva basada en el pasado hacia una gestión predictiva, permitiendo a los equipos anticiparse a los escenarios futuros y mejorar la toma de decisiones en tiempo real.
+Frente a esta problemática, nuestra startup Apex Cybernetics surge como una solución que va más allá de centralizar información. Nuestro objetivo es transformar los datos en inteligencia accionable. A través de la integración de Inteligencia Artificial (IA) y Automatización Robótica de Procesos (RPA), evolucionamos de una gestión reactiva basada en el pasado hacia una gestión predictiva, permitiendo a los equipos anticiparse a los escenarios futuros y mejorar la toma de decisiones en tiempo real.
 
 #### 1.1.1. Descripción de la Startup
 
 Nuestra empresa se dedica a crear herramientas digitales que ayudan a los equipos de trabajo a organizarse mejor y a cuidar sus recursos. Nos enfocamos en pequeñas y medianas empresas (pymes) que necesitan una solución efectiva para gestionar sus proyectos, pero sin la complicación o los altos costos de los programas tradicionales.
 
-Para lograrlo, hemos desarrollado **Nombre STARTUP**, una plataforma de gestión de proyectos que no solo sirve para organizar tareas, sino que utiliza tecnología avanzada para facilitar el trabajo diario:
-
-- Analítica Inteligente: **Nombre STARTUP** incluye una IA que revisa automáticamente cómo va avanzando el equipo. Puede identificar si alguien tiene demasiada carga de trabajo, detectar qué tareas se están retrasando y generar reportes de rendimiento sin que el jefe de proyecto tenga que hacer cálculos manuales.
-
-- Seguimiento y Alertas: La plataforma utiliza indicadores visuales de riesgo basados en IA. Esto funciona como un "semáforo" que avisa cuando un proyecto está en peligro de salirse de las fechas pactadas o del presupuesto, permitiendo reaccionar antes de que ocurra un problema.
-
-- Automatización de Notificaciones: Mediante el uso de RPA (Automatización Robótica de Procesos), el sistema se encarga de las tareas repetitivas. Envía recordatorios automáticos de fechas límite y alertas inteligentes a los miembros del equipo, asegurando que nadie olvide sus compromisos.
+Para lograrlo, hemos desarrollado TaskMaster, una plataforma de gestión de proyectos que no solo sirve para organizar tareas, sino que utiliza tecnología avanzada para facilitar el trabajo diario:
 
 **Objetivo:** Brindar a las empresas una solución centralizada que combine la planificación de tareas con el control financiero, mejorando la eficiencia y la comunicación mediante el uso de inteligencia y automatización.
 
@@ -260,7 +254,7 @@ Para lograrlo, hemos desarrollado **Nombre STARTUP**, una plataforma de gestión
 
 ### 1.2. Solution Profile
 
-**NAME** es una solución integral diseñada para eliminar el caos operativo causado por el uso de herramientas desconectadas. A diferencia de un gestor de tareas tradicional, nuestra plataforma actúa como un ecosistema inteligente que centraliza la comunicación, el avance técnico y el control financiero en un solo lugar.
+TaskMaster es una solución integral diseñada para eliminar el caos operativo causado por el uso de herramientas desconectadas. A diferencia de un gestor de tareas tradicional, nuestra plataforma actúa como un ecosistema inteligente que centraliza la comunicación, el avance técnico y el control financiero en un solo lugar.
 
 **La solución se basa en tres pilares de innovación:**
 
