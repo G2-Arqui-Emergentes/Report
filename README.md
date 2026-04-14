@@ -67,13 +67,14 @@ Abril 2026
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor | Descripción de modificación |
-|---------|------------|-------|-----------------------------|
-| TB1     | 09/04/2026 | Omar Luquillas Asto | Creación de estructura inicial del informe |
-| TB1     | 11/04/2026 | Luciana Sanchez Silva | Desarrollo del capítulo 1 |
-| TB1     | /04/2026 |  |  |
-| TB1     | /04/2026 |  |  |
-| TB1     | /04/2026 |  |  |
+
+| Versión | Fecha      | Autor                                       | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------- | ---------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| TB1     | 09/04/2026 | Omar Luquillas Asto (U20211G641)            | Creación de la estructura inicial del informe. Strategic-Level Domain-Driven Design: EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping. Software Architecture: Software Architecture System Landscape Diagram, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams, Software Architecture Deployment Diagrams.           |
+| TB1     | 09/04/2026 | Sandoval Paiva, Valentino                   | To-Be Scenario Mapping: Definición del escenario futuro del sistema. User Stories: Redacción y estructuración de historias de usuario. Impact Mapping: Identificación de impactos y objetivos del producto. Product Backlog: Organización y priorización de funcionalidades del sistema.                                                                                                                                             |
+| TB1     | 09/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Startup Profile: Descripción de la Startup, Perfiles de integrantes del equipo. Solution Profile: Antecedentes y problemática. Lean UX Process: Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas. Segmentos objetivo: Definición del público objetivo del proyecto.                                                                                                                    |
+| TB1     | 09/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Competidores: Identificación de competidores. Análisis competitivo: Evaluación de competidores. Estrategias y tácticas frente a competidores: Definición de acciones frente al mercado. Entrevistas: Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas. Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping. Ubiquitous Language: Definición del lenguaje común del dominio. |
+| TB1     | 09/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Strategic-Level Attribute-Driven Design: Design Purpose, Attribute-Driven Design Inputs (Primary Functionality, Quality Attribute Scenarios, Constraints), Architectural Drivers Backlog, Architectural Design Decisions, Quality Attribute Scenario Refinements.                                                                                                                                                                    |
 
 
 ## Project Report Collaboration Insights
@@ -81,6 +82,16 @@ Abril 2026
 |  URL del repositorio del reporte  |
 | :-----------------------------------: |
 | [https://github.com/G2-Arqui-Emergentes/Report](https://github.com/G2-Arqui-Emergentes/Report) |
+
+**TB1:**
+
+**REPORT**
+
+Luquillas Asto, Omar: 
+Peña Riofrio, Maria Fernanda: 
+Pilares Pocohuanca, Maria: 
+Sanchez Silva, Luciana Celeste:	
+Sandoval Paiva, Valentino: 
 
 
 ## Contenido
@@ -171,36 +182,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td><strong>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br> A <br><br>
+        <em>TB1</em><br>Fortalecí la comunicación oral al explicar soluciones técnicas del sistema, argumentando el uso de tecnologías y proponiendo ideas de manera estructurada. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> B <br><br>
+        <em>TB1</em><br> Reconocí la importancia de una comunicación oral efectiva al participar en la coordinación y explicación de ideas dentro del equipo, asegurando la comprensión de todos los integrantes. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> C <br><br>
+        <em>TB1</em><br> Desarrollé habilidades de comunicación oral al exponer ideas del proyecto y colaborar en la organización de la información, facilitando su entendimiento en el equipo. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> D <br><br>
+        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> E
+        <em>TB1</em><br> Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
       </td>
       <td>
-        TB1:<br> A
+        TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
       </td>
     </tr>
     <tr>
       <td><strong>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br> A <br><br>
+        <em>TB1</em><br> Fortalecí la comunicación escrita al documentar soluciones técnicas del sistema, explicando de manera objetiva el uso de tecnologías y procesos implementados. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> B <br><br>
+        <em>TB1</em><br> Reconocí la importancia de la comunicación escrita efectiva al participar en la redacción y revisión del informe, asegurando coherencia, orden y comprensión del contenido. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> C <br><br>
+        <em>TB1</em><br> Desarrollé habilidades de comunicación escrita al contribuir en la elaboración del documento final, organizando ideas de manera estructurada y accesible para diferentes niveles de conocimiento. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> D <br><br>
+        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> E
+        <em>TB1</em><br> Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
       </td>
       <td>
-        TB1:<br> A
+        TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
       </td>
     </tr>
   </tbody>
