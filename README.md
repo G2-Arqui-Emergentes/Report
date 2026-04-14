@@ -310,7 +310,7 @@ Después, se identificaron otros elementos como los comandos y los actores invol
 
 Como resultado, se obtuvo un primer modelo del dominio que sirvió como base para las siguientes etapas del diseño, especialmente para la identificación de subdominios y Bounded Contexts. A continuación, se muestran las capturas de la sesión realizada.
 
-![ddd](assets/TB1/event_storming.jpg)
+![Event Storming](assets/TB1/event_storming.png)
 
 #### 4.2.2. Candidate Context Discovery
 
@@ -318,37 +318,37 @@ Tras finalizar la sesión de Event Storming, el equipo llevó a cabo la activida
 
 Inicialmente, se organizaron los eventos en los principales flujos del negocio, lo que permitió tener una visión más clara del comportamiento general del sistema. Estos flujos sirvieron como base para comenzar a identificar agrupaciones naturales dentro del dominio.
 
-![ddd](assets/TB1/candidate_context_discovery_1.jpg)
-![ddd](assets/TB1/candidate_context_discovery_2.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_1.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_2.png)
 
 Una vez definidos los procesos principales en el tablero de Event Storming, se procedió a identificar los pain points o puntos de dolor. Estos representan las dificultades, fricciones o problemas que pueden experimentar los usuarios dentro del flujo, permitiendo detectar oportunidades de mejora en el sistema.
 
-![ddd](assets/TB1/candidate_context_discovery_3.jpg)
-![ddd](assets/TB1/candidate_context_discovery_4.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_3.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_4.png)
 
 Posteriormente, se identificaron los eventos pivotales, es decir, aquellos que representan hitos importantes dentro del flujo del negocio, como el inicio o final de procesos relevantes. Estos eventos fueron clave para delimitar los contextos, ya que alrededor de ellos se concentran múltiples interacciones del sistema.
 
-![ddd](assets/TB1/candidate_context_discovery_5.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_5.png)
 
 Luego, se identificaron los comandos que originan los eventos, así como los actores responsables de ejecutarlos, como el líder del proyecto y los miembros del equipo. Este paso permitió entender cómo se generan los cambios dentro del sistema y quiénes participan en cada parte del proceso.
 
-![ddd](assets/TB1/candidate_context_discovery_6.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_6.png)
 
 En esta etapa también se reconocieron las políticas y los invariantes de negocio. Las políticas representan respuestas automáticas o manuales ante ciertos eventos, mientras que los invariantes son reglas que deben cumplirse para garantizar la consistencia del sistema. Esto ayudó a definir mejor las condiciones bajo las cuales operan los procesos.
 
-![ddd](assets/TB1/candidate_context_discovery_7.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_7.png)
 
 Asimismo, se identificaron los modelos de lectura, los cuales representan la información necesaria para los usuarios en distintos puntos del sistema, como reportes o vistas de estado. Estos modelos permiten apoyar la toma de decisiones y asegurar que la información esté disponible de manera adecuada.
 
-![ddd](assets/TB1/candidate_context_discovery_8.jpg)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_8.png)
 
 Finalmente, se analizaron las relaciones entre los distintos elementos del dominio, agrupando aquellos con mayor cohesión y separando los que tienen menor interacción. Este proceso permitió definir límites más claros y consistentes, dando como resultado la identificación de los Bounded Contexts que estructuran el sistema.
 
-![ddd](assets/TB1/candidate_context_discovery_9.png)
-![ddd](assets/TB1/candidate_context_discovery_10.jpg)
-![ddd](assets/TB1/candidate_context_discovery_11.jpg)
-![ddd](assets/TB1/candidate_context_discovery_12.jpg)
-![ddd](assets/TB1/candidate_context_discovery_13.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_9.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_10.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_11.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_12.png)
+![Candidate Context Discovery](assets/TB1/candidate_context_discovery_13.png)
 
 #### 4.2.3. Domain Message Flows Modeling
 
@@ -362,7 +362,7 @@ Este escenario describe el proceso mediante el cual un Team Leader crea y asigna
 
 A partir de este evento, otros bounded contexts reaccionan de forma independiente: Notificaciones envía alertas al usuario asignado, Visualización y Seguimiento actualiza los tableros de tareas, y Analítica y Reportes actualiza las métricas relacionadas con la carga de trabajo. Este escenario muestra claramente un flujo basado en eventos, donde un cambio en el dominio se propaga hacia otros contextos sin generar un fuerte acoplamiento.
 
-![ddd](assets/TB1/domain_message_flows_modeling_1.png)
+![Domain Message Flows Modeling](assets/TB1/domain_message_flows_modeling_1.png)
 
 Escenario 2: Complete Task
 
@@ -370,7 +370,7 @@ En este escenario, un Team Member actualiza el estado de una tarea a completada.
 
 Como consecuencia, el bounded context de Analítica y Reportes recalcula las métricas de desempeño, Visualización y Seguimiento actualiza los dashboards para reflejar el nuevo estado de la tarea, y Notificaciones informa al líder del proyecto sobre la finalización. Este flujo evidencia cómo múltiples contextos colaboran a partir de un único evento de negocio.
 
-![ddd](assets/TB1/domain_message_flows_modeling_2.png)
+![Domain Message Flows Modeling](assets/TB1/domain_message_flows_modeling_2.png)
 
 Escenario 3: Task Overdue Detection
 
@@ -378,7 +378,7 @@ Este escenario representa la detección automática de tareas vencidas dentro de
 
 Este evento es consumido por Analítica y Reportes, que actualiza los indicadores de riesgo, por Visualización y Seguimiento, que muestra alertas en la interfaz, y por Notificaciones, que envía avisos a los usuarios correspondientes. Este escenario demuestra la automatización del sistema y la reacción de múltiples contextos ante eventos críticos.
 
-![ddd](assets/TB1/domain_message_flows_modeling_3.png)
+![Domain Message Flows Modeling](assets/TB1/domain_message_flows_modeling_3.png)
 
 #### 4.2.4. Bounded Context Canvases
 
@@ -396,7 +396,7 @@ Este bounded context representa el núcleo del sistema, ya que se encarga de la 
 
 Asimismo, este contexto genera eventos clave del dominio, como la creación, actualización o vencimiento de tareas, los cuales son consumidos por otros bounded contexts. De esta manera, actúa como el principal emisor de información dentro del sistema y como punto central de coordinación de procesos.
 
-![ddd](assets/TB1/bounded_context_canvases_1.png)
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_1.png)
 
 **Analítica y Reportes**
 
@@ -404,7 +404,7 @@ Este bounded context tiene como finalidad procesar la información generada por 
 
 Además, incorpora capacidades de análisis que permiten evaluar el rendimiento de los miembros, identificar tareas atrasadas y analizar la carga de trabajo. Estos resultados pueden ser utilizados por otros contextos, como Visualización y Seguimiento, para mejorar la interpretación de la información por parte de los usuarios.
 
-![ddd](assets/TB1/bounded_context_canvases_2.png)
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_2.png)
 
 **Visualización y Seguimiento**
 
@@ -412,7 +412,7 @@ Este contexto se encarga de presentar la información del sistema de manera clar
 
 Adicionalmente, integra indicadores visuales que permiten identificar situaciones relevantes, como retrasos o posibles riesgos en la ejecución de tareas. Para ello, consume información tanto del contexto de Gestión de Proyectos y Tareas como de Analítica y Reportes.
 
-![ddd](assets/TB1/bounded_context_canvases_3.png)
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_3.png)
 
 **Registro y Autenticación de Usuario**
 
@@ -420,7 +420,7 @@ Este bounded context es responsable de la gestión de identidades dentro del sis
 
 Su función principal es garantizar que solo usuarios autorizados puedan acceder al sistema y realizar acciones dentro de él. Además, proporciona la información necesaria para que otros contextos puedan identificar correctamente a los actores involucrados en cada proceso.
 
-![ddd](assets/TB1/bounded_context_canvases_4.png)
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_4.png)
 
 **Notificaciones**
 
@@ -428,7 +428,7 @@ Este bounded context gestiona la comunicación entre el sistema y los usuarios. 
 
 Asimismo, incorpora mecanismos de automatización que permiten generar recordatorios automáticos, alertas por vencimiento y notificaciones inteligentes sin intervención manual. Esto asegura que los usuarios se mantengan informados de manera oportuna sobre los cambios y eventos importantes dentro del sistema.
 
-![ddd](assets/TB1/bounded_context_canvases_5.png)
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_5.png)
 
 
 #### 4.2.5. Context Mapping
@@ -461,7 +461,7 @@ Finalmente, se consideró el uso de patrones de diseño de Domain-Driven Design,
 
 El resultado de este análisis se representa en el siguiente Context Map, el cual muestra de manera visual las relaciones estructurales entre los bounded contexts del sistema.
 
-![ddd](assets/TB1/context_mapping.png)
+![Context Mapping](assets/TB1/context_mapping.png)
 
 
 ### 4.3. Software Architecture
@@ -472,25 +472,25 @@ En la arquitectura de software primero nos enfocamos en aterrizar la estructura 
 
 En esta sección se presenta el System Landscape Diagram, el cual permite visualizar el sistema dentro de un entorno más amplio, considerando no solo a los usuarios que interactúan con la solución, sino también a otros sistemas externos relevantes. Este diagrama ofrece una perspectiva general del ecosistema en el que se encuentra la aplicación, mostrando cómo se relaciona con actores y servicios externos. De esta manera, se facilita la comprensión del alcance del sistema, sus dependencias y las posibles integraciones con otros sistemas dentro del entorno digital.
 
-![ddd](assets/TB1/system_landscape_diagram.png)
+![System Landscape Diagram](assets/TB1/system_landscape_diagram.png)
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 
 El diagrama muestra a TaskMaster System en el centro de la interacción. Los usuarios gestionan proyectos y consultan análisis directamente en la plataforma, mientras que el sistema se encarga de orquestar la comunicación con servicios externos. La relación con Mailgun permite que el usuario reciba notificaciones automáticas, y la integración con Google Calendar garantiza que los hitos del proyecto estén siempre sincronizados fuera de la aplicación.
 
-![ddd](assets/TB1/context_level_diagram.png)
+![Context Level Diagram](assets/TB1/context_level_diagram.png)
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 
 En este nivel, se observa cómo el tráfico entra a través de una Landing Page o directamente a las aplicaciones (Angular para web y Flutter para móvil). Todas las peticiones pasan por un API Gateway que las redirige a los servicios correspondientes de Spring Boot. Todos estos servicios comparten una base de datos central en PostgreSQL, asegurando la integridad de la información mientras se mantiene una arquitectura modular y fácil de mantener.
 
-![ddd](assets/TB1/container_level_diagram.png)
+![Container Level Diagram](assets/TB1/container_level_diagram.png)
 
 #### 4.3.4. Software Architecture Deployment Diagrams
 
 Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribuyen nuestros contenedores en la infraestructura real. Para esta solución, hemos optado por un ecosistema en la nube aprovechando la versatilidad de Vercel para el frontend, GitHub Pages para la landing informativa y Render para alojar tanto nuestros servicios de backend como la base de datos gestionada. Este esquema refleja una configuración de producción pensada en la disponibilidad y facilidad de despliegue continuo.
 
-![ddd](assets/TB1/deployment_diagram.png)
+![Deployment Diagram](assets/TB1/deployment_diagram.png)
 
 
 ## Conclusiones
