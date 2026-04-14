@@ -530,6 +530,8 @@ Asimismo, se consideraron las dimensiones de Doing, Thinking y Feeling para cada
 
 ### 3.2. User Stories
 
+Las User Stories fueron definidas siguiendo el enfoque ágil, describiendo funcionalidades desde la perspectiva del usuario e incluyendo criterios de aceptación bajo el formato Given-When-Then.
+
 | **EPIC(ID)** | **Título**                              | **Descripción**                                                                                                                                                        |
 | ------------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **EP01**     | **Landing Page**                        | Como visitante, quiero acceder a una página de inicio clara que explique los beneficios de TaskMaster, para evaluar si es adecuado para mis necesidades.               |
@@ -598,6 +600,8 @@ Asimismo, se consideraron las dimensiones de Doing, Thinking y Feeling para cada
 ![texto alternativo](assets/TB1/13.png)
 
 ### 3.4. Product Backlog
+
+El Product Backlog organiza todas las funcionalidades identificadas, priorizadas según su valor para el usuario y el negocio.
 
 | Orden | User Story Id | Título                                      | Descripción                                                                                                                      | Story Points |
 | ----- | ------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ |
