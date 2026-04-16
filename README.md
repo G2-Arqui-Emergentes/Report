@@ -296,59 +296,61 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 En esta sección se describe el proceso seguido por el equipo para la toma de decisiones a nivel estratégico aplicando Domain-Driven Design (DDD). El objetivo fue comprender el dominio del sistema de gestión de proyectos, identificar sus principales subdominios y definir límites claros mediante Bounded Contexts.
 
-Para ello, se utilizaron técnicas como Event Storming para explorar los eventos y flujos clave del negocio, así como el descubrimiento de contextos candidatos, el modelado de flujos de mensajes y la elaboración de Bounded Context Canvases. Finalmente, se estableció un Context Map que define las relaciones e interacciones entre los distintos contextos.
-
-Este enfoque permitió estructurar el sistema de manera clara, alineando las necesidades del negocio con la solución tecnológica propuesta.
+Para ello, se utilizaron técnicas como EventStorming para explorar los eventos y flujos clave del negocio, así como el descubrimiento de contextos candidatos, el modelado de flujos de mensajes y la elaboración de Bounded Context Canvases. Finalmente, se estableció un Context Map que define las relaciones e interacciones entre los distintos contextos.
 
 #### 4.2.1. EventStorming
 
-El equipo realizó una sesión de Event Storming con una duración aproximada de entre 1 y 2 horas, con el objetivo de obtener una primera aproximación al modelado del dominio del sistema de gestión de proyectos. Esta actividad permitió identificar los eventos principales del negocio y entender cómo fluye el sistema de manera general.
+El equipo realizó una sesión de EventStorming con una duración aproximada de entre 1 y 2 horas, con el objetivo de obtener una primera aproximación al modelado del dominio del sistema de gestión de proyectos. Esta actividad permitió identificar los eventos principales del negocio y establecer un punto de partida para comprender la dinámica de la aplicación.
 
-Durante la sesión, se inició con una lluvia de ideas en la que se identificaron los eventos más importantes de la aplicación. Estos fueron representados mediante post-its de color naranja, los cuales simbolizan hechos que ocurren dentro del sistema, como la creación de proyectos, la asignación de tareas o la actualización de su estado. Luego, los eventos se organizaron de forma cronológica para visualizar mejor el flujo del proceso.
+Durante esta fase inicial, se llevó a cabo una lluvia de ideas, en la que se identificaron los eventos más significativos del dominio. Estos hechos, representados mediante post-its de color naranja, se redactaron en tiempo pasado para describir acciones que ya han ocurrido, tales como la creación de proyectos, el registro de tareas o la asignación de prioridades.
 
-Después, se identificaron otros elementos como los comandos y los actores involucrados, por ejemplo, el líder del proyecto y los miembros del equipo. Esto ayudó a tener una visión más clara de cómo interactúan los diferentes componentes del sistema.
+Este ejercicio facilitó la detección de conceptos clave y las primeras interacciones entre los roles de Team Leader y Team Member, estableciendo una base sólida para el posterior descubrimiento de subdominios y la definición de Bounded Contexts. A continuación, se presentan las capturas correspondientes a esta primera etapa de exploración.
 
-Como resultado, se obtuvo un primer modelo del dominio que sirvió como base para las siguientes etapas del diseño, especialmente para la identificación de subdominios y Bounded Contexts. A continuación, se muestran las capturas de la sesión realizada.
-
-![Event Storming](assets/TB1/event_storming.png)
+![Event Storming](assets/TB1/event_storming_step1.png)
 
 #### 4.2.2. Candidate Context Discovery
 
-Tras finalizar la sesión de Event Storming, el equipo llevó a cabo la actividad de Candidate Context Discovery, con el objetivo de identificar los posibles Bounded Contexts a partir del dominio previamente modelado. Esta sesión tuvo una duración aproximada de entre 1 y 2 horas y se centró en analizar los eventos y sus relaciones. Para este proceso se utilizó principalmente la técnica look-for-pivotal-events, buscando identificar los eventos clave que representan cambios importantes dentro del flujo del negocio.
+Tras la fase de exploración inicial, el equipo procedió a refinar el modelo del dominio mediante un proceso iterativo de diseño estratégico. Esta etapa se enfocó en dar estructura a los eventos identificados, analizando las causas, las reglas de negocio y las interacciones necesarias para consolidar la arquitectura del sistema de gestión de proyectos. A través de este refinamiento, se logró una transición fluida desde una lluvia de ideas desorganizada hacia la definición de límites de contexto claros y consistentes.
 
-Inicialmente, se organizaron los eventos en los principales flujos del negocio, lo que permitió tener una visión más clara del comportamiento general del sistema. Estos flujos sirvieron como base para comenzar a identificar agrupaciones naturales dentro del dominio.
+Inicialmente, los eventos de dominio se organizaron de forma cronológica para establecer el flujo de valor del sistema. Se priorizó el diseño del "happy path", representando el escenario ideal donde el líder crea el proyecto y los miembros completan sus tareas sin contratiempos. Posteriormente, se integraron flujos alternativos para cubrir casos como la expulsión de miembros o el vencimiento de tareas, asegurando que la línea de tiempo reflejara la realidad operativa del negocio.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_1.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_2.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step2.png)
 
-Una vez definidos los procesos principales en el tablero de Event Storming, se procedió a identificar los pain points o puntos de dolor. Estos representan las dificultades, fricciones o problemas que pueden experimentar los usuarios dentro del flujo, permitiendo detectar oportunidades de mejora en el sistema.
+Una vez establecida la línea de tiempo, se analizaron los puntos de fricción o incertidumbre conocidos como pain points. En esta fase se identificaron cuellos de botella y riesgos potenciales, como la posible expiración de códigos de acceso o la sobrecarga de trabajo de los integrantes. Este análisis permitió detectar qué partes del proceso requerían una mayor atención a nivel de diseño o una automatización más robusta.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_3.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_4.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step3.png)
 
-Posteriormente, se identificaron los eventos pivotales, es decir, aquellos que representan hitos importantes dentro del flujo del negocio, como el inicio o final de procesos relevantes. Estos eventos fueron clave para delimitar los contextos, ya que alrededor de ellos se concentran múltiples interacciones del sistema.
+Posteriormente, se identificaron los eventos pivotales que marcan cambios significativos en el estado o contexto del negocio. Estos hitos sirvieron para dividir el flujo en fases lógicas, separando claramente el momento de configuración del proyecto del periodo de ejecución y seguimiento. Estos puntos de quiebre facilitaron la visualización de los límites naturales entre las diferentes etapas del ciclo de vida del software.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_5.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step4.png)
 
-Luego, se identificaron los comandos que originan los eventos, así como los actores responsables de ejecutarlos, como el líder del proyecto y los miembros del equipo. Este paso permitió entender cómo se generan los cambios dentro del sistema y quiénes participan en cada parte del proceso.
+Con el flujo estructurado, se definieron los comandos que representan las intenciones de los usuarios y disparan los eventos del sistema. Estas acciones se formularon en modo imperativo, vinculándolas a los actores específicos, como el Team Leader o el Team Member. Este paso fue fundamental para entender qué operaciones debe exponer el sistema en cada interfaz para que los usuarios puedan interactuar con el dominio.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_6.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step5.png)
 
-En esta etapa también se reconocieron las políticas y los invariantes de negocio. Las políticas representan respuestas automáticas o manuales ante ciertos eventos, mientras que los invariantes son reglas que deben cumplirse para garantizar la consistencia del sistema. Esto ayudó a definir mejor las condiciones bajo las cuales operan los procesos.
+Para gestionar la lógica automática, se establecieron políticas de automatización que conectan eventos con comandos sin intervención humana directa. Estas reglas permiten que, ante un hecho específico como el cambio de estado de una tarea, el sistema responda automáticamente ejecutando análisis de rendimiento o enviando notificaciones, lo que garantiza una respuesta proactiva ante las dinámicas del equipo.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_7.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step6.png)
 
-Asimismo, se identificaron los modelos de lectura, los cuales representan la información necesaria para los usuarios en distintos puntos del sistema, como reportes o vistas de estado. Estos modelos permiten apoyar la toma de decisiones y asegurar que la información esté disponible de manera adecuada.
+Asimismo, se identificaron los modelos de lectura o vistas necesarias para que los actores puedan tomar decisiones informadas. Estos representan la información visual, como el tablero Kanban o los dashboards de analítica, que los usuarios consultan antes de ejecutar cualquier comando. La definición de estos modelos asegura que el sistema proporcione los datos adecuados en el momento preciso del flujo.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_8.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step7.png)
 
-Finalmente, se analizaron las relaciones entre los distintos elementos del dominio, agrupando aquellos con mayor cohesión y separando los que tienen menor interacción. Este proceso permitió definir límites más claros y consistentes, dando como resultado la identificación de los Bounded Contexts que estructuran el sistema.
+El modelo se complementó mediante la integración de sistemas externos que interactúan con el dominio pero no forman parte de su núcleo. Se mapearon servicios de terceros para la sincronización de calendarios y el envío de correos electrónicos, identificando cómo estos servicios externos reaccionan a los eventos internos o cómo inyectan información relevante hacia nuestro sistema.
 
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_9.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_10.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_11.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_12.png)
-![Candidate Context Discovery](assets/TB1/candidate_context_discovery_13.png)
+![Candidate Context Discovery](assets/TB1/event_storming_step8.png)
+
+En una etapa avanzada de refinamiento, los elementos se organizaron en agregados para garantizar la consistencia y la integridad de los datos. Estos grupos de objetos de dominio actúan como una unidad, recibiendo comandos y produciendo eventos bajo reglas de negocio estrictas. Esto permitió encapsular la lógica relacionada con entidades clave como el proyecto, las tareas y la gestión de usuarios.
+
+![Candidate Context Discovery](assets/TB1/event_storming_step9.png)
+
+Finalmente, se determinaron los límites de los contextos delimitados analizando la cohesión entre los agregados y la influencia de las políticas de automatización. Esta agrupación final permitió segmentar el dominio en unidades lógicas independientes y manejables, resultando en la identificación de los cinco Bounded Contexts que estructuran la solución tecnológica.
+
+![Candidate Context Discovery](assets/TB1/event_storming_bc1.png)
+![Candidate Context Discovery](assets/TB1/event_storming_bc2.png)
+![Candidate Context Discovery](assets/TB1/event_storming_bc3.png)
+![Candidate Context Discovery](assets/TB1/event_storming_bc4.png)
+![Candidate Context Discovery](assets/TB1/event_storming_bc5.png)
 
 #### 4.2.3. Domain Message Flows Modeling
 
@@ -390,19 +392,19 @@ La separación en bounded contexts permite reducir la complejidad, facilitar la 
 
 A continuación, se describe cada uno de estos contextos, resaltando su propósito, responsabilidades y su rol dentro de la arquitectura del sistema.
 
+**Registro y Autenticación de Usuario**
+
+Este bounded context es responsable de la gestión de identidades dentro del sistema. Permite el registro de usuarios, el inicio de sesión y la validación de credenciales, así como la asignación de roles según el tipo de usuario.
+
+Su función principal es garantizar que solo usuarios autorizados puedan acceder al sistema y realizar acciones dentro de él. Además, proporciona la información necesaria para que otros contextos puedan identificar correctamente a los actores involucrados en cada proceso.
+
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_1.png)
+
 **Gestión de Proyectos y Tareas**
 
 Este bounded context representa el núcleo del sistema, ya que se encarga de la creación, organización y gestión de proyectos y tareas. Permite a los Team Leaders definir fechas, prioridades y asignar responsables, mientras que los Team Members pueden actualizar el estado de sus tareas.
 
 Asimismo, este contexto genera eventos clave del dominio, como la creación, actualización o vencimiento de tareas, los cuales son consumidos por otros bounded contexts. De esta manera, actúa como el principal emisor de información dentro del sistema y como punto central de coordinación de procesos.
-
-![Bounded Context Canvases](assets/TB1/bounded_context_canvases_1.png)
-
-**Analítica y Reportes**
-
-Este bounded context tiene como finalidad procesar la información generada por el sistema para transformarla en métricas y reportes útiles para la toma de decisiones. A partir de los eventos recibidos, calcula indicadores relacionados con el desempeño del equipo y el estado de los proyectos.
-
-Además, incorpora capacidades de análisis que permiten evaluar el rendimiento de los miembros, identificar tareas atrasadas y analizar la carga de trabajo. Estos resultados pueden ser utilizados por otros contextos, como Visualización y Seguimiento, para mejorar la interpretación de la información por parte de los usuarios.
 
 ![Bounded Context Canvases](assets/TB1/bounded_context_canvases_2.png)
 
@@ -414,19 +416,19 @@ Adicionalmente, integra indicadores visuales que permiten identificar situacione
 
 ![Bounded Context Canvases](assets/TB1/bounded_context_canvases_3.png)
 
-**Registro y Autenticación de Usuario**
-
-Este bounded context es responsable de la gestión de identidades dentro del sistema. Permite el registro de usuarios, el inicio de sesión y la validación de credenciales, así como la asignación de roles según el tipo de usuario.
-
-Su función principal es garantizar que solo usuarios autorizados puedan acceder al sistema y realizar acciones dentro de él. Además, proporciona la información necesaria para que otros contextos puedan identificar correctamente a los actores involucrados en cada proceso.
-
-![Bounded Context Canvases](assets/TB1/bounded_context_canvases_4.png)
-
 **Notificaciones**
 
 Este bounded context gestiona la comunicación entre el sistema y los usuarios. Recibe eventos relevantes generados en otros contextos y los transforma en notificaciones que son enviadas en tiempo real.
 
 Asimismo, incorpora mecanismos de automatización que permiten generar recordatorios automáticos, alertas por vencimiento y notificaciones inteligentes sin intervención manual. Esto asegura que los usuarios se mantengan informados de manera oportuna sobre los cambios y eventos importantes dentro del sistema.
+
+![Bounded Context Canvases](assets/TB1/bounded_context_canvases_4.png)
+
+**Analítica y Reportes**
+
+Este bounded context tiene como finalidad procesar la información generada por el sistema para transformarla en métricas y reportes útiles para la toma de decisiones. A partir de los eventos recibidos, calcula indicadores relacionados con el desempeño del equipo y el estado de los proyectos.
+
+Además, incorpora capacidades de análisis que permiten evaluar el rendimiento de los miembros, identificar tareas atrasadas y analizar la carga de trabajo. Estos resultados pueden ser utilizados por otros contextos, como Visualización y Seguimiento, para mejorar la interpretación de la información por parte de los usuarios.
 
 ![Bounded Context Canvases](assets/TB1/bounded_context_canvases_5.png)
 
