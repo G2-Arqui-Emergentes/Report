@@ -553,6 +553,75 @@ ClickUp es una plataforma de productividad y gestión de proyectos todo en uno q
 #### 2.1.1. Análisis competitivo
 
 
+En esta sección se expone un análisis de los principales competidores de WorkHub, poniendo el foco en aquellos que operan bajo modelos de negocio digitales similares o que, aunque no coincida por completo, ofrecen productos o servicios que se solapan parcialmente con nuestra propuesta. Se consideran tanto los competidores directos, que actúan en el mismo segmento de mercado, como los indirectos, que abarcan ámbitos relacionados con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
+
+**1. Wrike**
+
+**Descripción:**
+
+Wrike es una plataforma de gestión de proyectos y trabajo colaborativo diseñada para equipos de distintos tamaños. Permite planificar, priorizar y dar seguimiento a tareas en tiempo real, con funcionalidades orientadas a mejorar la visibilidad del flujo de trabajo y la comunicación entre los miembros del equipo.
+
+**Características principales:**
+- Organización de proyectos mediante diagramas de Gantt, tableros Kanban, calendarios y listas.
+
+- Creación de tareas, subtareas y dependencias para una planificación detallada.
+
+- Colaboración centralizada con comentarios, menciones, archivos adjuntos y aprobaciones en línea.
+
+- Automatización de flujos de trabajo y recordatorios para reducir tareas repetitivas.
+
+- Reportes personalizables con métricas de desempeño y paneles de control en tiempo real.
+
+- Integraciones con más de 400 herramientas, incluyendo Slack, Salesforce, Microsoft Teams y Google Workspace.
+
+- Aplicación móvil con acceso a tareas, notificaciones y actualización de proyectos desde cualquier lugar.
+
+**2. Trello**
+
+**Descripción:**
+
+Trello es una herramienta de gestión de proyectos basada en tableros Kanban, diseñada para facilitar la organización visual de tareas y proyectos. Su interfaz intuitiva y flexible lo convierte en una opción popular para equipos que buscan simplicidad y colaboración en tiempo real.
+
+**Características principales:**
+
+- Tableros, listas y tarjetas para organizar proyectos y tareas de forma visual.
+
+- Personalización de tarjetas con etiquetas, fechas de vencimiento, checklists y archivos adjuntos.
+
+- Colaboración en equipo mediante comentarios, menciones y notificaciones.
+
+- Automatización de tareas con Butler (reglas, recordatorios y acciones automáticas).
+
+- Integraciones con herramientas como Slack, Google Drive, Jira, Dropbox y más.
+
+- Plantillas predefinidas para distintos tipos de proyectos y flujos de trabajo.
+
+- Aplicación móvil con acceso completo a tableros y colaboración en cualquier lugar.
+
+**3. ClickUp**
+
+**Descripción:**
+
+ClickUp es una plataforma de productividad y gestión de proyectos todo en uno que busca centralizar tareas, documentos, comunicación y seguimiento de objetivos en un solo lugar. Está pensada para equipos que necesitan una solución flexible y personalizable, adaptándose tanto a proyectos simples como a flujos de trabajo complejos.
+
+**Características principales:**
+
+- Organización de proyectos mediante listas, tableros Kanban, calendarios, cronogramas y diagramas de Gantt.
+
+-Gestión detallada de tareas con subtareas, prioridades, dependencias y asignaciones múltiples.
+
+- Colaboración en tiempo real con comentarios, menciones, chat integrado y documentos compartidos.
+
+- Paneles de control e informes personalizables para monitorear productividad y avances.
+
+- Funcionalidades de seguimiento de tiempo y estimaciones de esfuerzo.
+
+- Automatización de procesos para reducir tareas repetitivas.
+
+- Amplia integración con herramientas como Slack, GitHub, Zoom, Google Workspace, entre otras.
+
+- Aplicación móvil y de escritorio con sincronización completa para trabajar desde cualquier dispositivo.
+
 
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
