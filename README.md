@@ -249,7 +249,7 @@ Para lograrlo, hemos desarrollado TaskMaster, una plataforma de gestión de proy
 |   ![m1](./assets/TB1/m1.jpg)  | Luciana Celeste Sanchez Silva   | U202215979    | Mi nombre es Luciana Celeste Sanchez Silva, tengo 20 años y vivo en Lima. En la actualidad, me encuentro estudiando el 5to ciclo de la carrera de ingeniería de software en la UPC debido a que desde una edad temprana tuve una fascinación relacionada con el uso de la tecnología y la programación. En mi tiempo libre trato de crecer y expandir mi conocimiento en todas las áreas posibles. De igual forma, me gusta nadar, escuchar música y tocar la guitarra. Me comprometo a colaborar en todo momento con la elaboración de esta startup, y llegar a un trabajo sobresaliente. Mis habilidades son: responsabilidad, resolución de problemas, y disciplina.    |
 |  ![m2](./assets/TB1/m2.png)   | Omar Luquillas Asto    | U20211G641    | Soy estudiante de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología, el desarrollo de software y la programación. Tengo conocimientos en lenguajes de programación como C++, Python y Java. Me considero una persona investigadora, ya que me gusta aprender cosas nuevas y siempre estoy en busca de soluciones creativas e innovadoras que generen un impacto positivo en la vida de las personas. Además, valoro el trabajo en equipo, soy responsable y me comprometo a cumplir con mis tareas de manera eficiente.    |
 | ![m3](./assets/TB1/m3.png)   |  Valentino Sandoval Paiva   | U20211A962   | Soy Valentino Sandoval, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre.   |
-| ![m4](./assets/TB1/m4.jpg)    | Maria Fernanda Peña Riofrio   | U202113279   | Mi nombre es Maria Fernanda Peña Riofrio, tengo 21 años, estudio el 6to ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Soy una persona responsable y me gusta ayudar a las demás personas, esto sera evidenciado en el transcuros del proyecto ayudando a mis demás compañeros de equipo. En mis tiempos libres me gusta mucho leer, escuchar música e investigar sobre temas de mi interes.    |
+| ![m4](./assets/TB1/m4.jpg)    | Maria Fernanda Peña Riofrio   | U202113279   | Mi nombre es Maria Fernanda Peña Riofrio, tengo 22 años, estudio el 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Soy una persona responsable y me gusta ayudar a las demás personas, esto sera evidenciado en el transcuros del proyecto ayudando a mis demás compañeros de equipo. En mis tiempos libres me gusta mucho leer, escuchar música e investigar sobre temas de mi interes.    |
 | ![m5](./assets/TB1/m5.jpg)     | Maria Pilares Pocohuanca   | U202215528    | Mi nombre es Maria Pilares Pocohuanca tengo 22 años y estudio la carrera de ingeniería de software en la UPC. Desde niña tuve mucho interés por las matemáticas y la tecnología, motivo por el cual estudio una ingeniería enfocada más a la programación. Me considero una persona perseverante aunque algo impaciente. Sin embargo, como miembro del equipo me comprometo a colaborar con mis compañeros y realizar todas las indicaciones que se dicten, todo con el fin de presentar un buen proyecto.   |
 
 ### 1.2. Solution Profile
@@ -1181,21 +1181,162 @@ LINK: https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954
 
 ### 4.1. Strategic-Level Attribute-Driven Design
 
+En esta sección se presenta el proceso de diseño arquitectónico basado en Attribute-Driven Design (ADD), aplicado a la solución propuesta por la startup Apex Cybernetics con su producto TaskMaster.
+Se describen los principales insumos del diseño, los drivers arquitectónicos, las decisiones tomadas y la forma en que se abordan los atributos de calidad, con el objetivo de definir una arquitectura alineada a las necesidades del negocio y de los usuarios.
+
 #### 4.1.1. Design Purpose
 
+El propósito del proceso de diseño arquitectónico es definir una solución de software robusta, escalable y alineada a los objetivos estratégicos de la startup Apex Cybernetics, mediante la aplicación del enfoque Attribute-Driven Design (ADD) dentro de un contexto de Domain-Driven Design (DDD).
+Este proceso responde a la problemática identificada en el proyecto, relacionada con la ineficiente gestión de tareas, coordinación de equipos y seguimiento del progreso en entornos digitales, especialmente en organizaciones que requieren optimizar su productividad y mantener un control claro sobre sus actividades. La falta de herramientas integradas y adaptables genera desorganización, pérdida de información y baja eficiencia operativa.
+A través del diseño estratégico, se busca construir una arquitectura para el producto TaskMaster que:
+
+- Soporte las funcionalidades principales identificadas en las historias de usuario, como la gestión de tareas, asignación de responsabilidades, monitoreo de progreso y colaboración entre usuarios.
+
+- Garantice atributos de calidad esenciales como escalabilidad, disponibilidad, rendimiento y usabilidad, considerando el crecimiento potencial de usuarios y la necesidad de acceso continuo a la plataforma.
+
+- Permita una adecuada separación de responsabilidades mediante la identificación de Bounded Contexts, facilitando la evolución del sistema, su mantenibilidad y la integración con futuras funcionalidades.
+
+Asimismo, este proceso de diseño está orientado a satisfacer las necesidades de los segmentos objetivo del producto, tales como equipos de trabajo, gestores de proyectos y organizaciones digitales, brindándoles una herramienta eficiente que centralice la gestión de tareas, mejore la colaboración y contribuya a una toma de decisiones más informada
 #### 4.1.2. Attribute-Driven Design Inputs
+
+En esta sección se presentan los principales insumos utilizados para el proceso de diseño arquitectónico basado en Attribute-Driven Design (ADD) para el producto **TaskMaster** de la startup Apex Cybernetics.
+Estos insumos incluyen la funcionalidad principal del sistema, los escenarios de atributos de calidad y las restricciones del entorno, los cuales permiten identificar los drivers arquitectónicos que guían las decisiones de diseño.
 
 ##### 4.1.2.1. Primary Functionality (Primary User Stories)
 
+En esta sección se presentan las User Stories más relevantes que tienen un impacto directo en la arquitectura del sistema. Estas fueron seleccionadas debido a que definen funcionalidades críticas como la gestión de tareas, colaboración entre usuarios y control del progreso, las cuales requieren decisiones importantes a nivel de diseño, escalabilidad y estructura del sistema.
+
+A continuación, se detallan las historias de usuario seleccionadas:
+
+| EPIC/USER STORY ID | TÍTULO | DESCRIPCIÓN | CRITERIO DE ACEPTACIÓN | RELACIONADO CON (EPIC ID) |
+|--------------------|--------|-------------|------------------------|---------------------------|
+| US023 | Ver progreso de tareas en tiempo real con indicadores inteligentes | Como miembro del equipo, quiero ver el progreso de las tareas en tiempo real con indicadores inteligentes, para identificar posibles retrasos y actuar a tiempo. | El sistema muestra estados actualizados en tiempo real y resalta tareas en riesgo o próximas a vencer mediante lógica inteligente. | EP04 |
+| US024 | Ver métricas de rendimiento con indicadores de riesgo | Como líder de equipo, quiero ver métricas de rendimiento con indicadores de riesgo, para identificar problemas en el progreso del proyecto. | El sistema genera reportes con métricas de desempeño y niveles de riesgo (alto, medio, bajo). | EP04 |
+|US026 | Generar reporte inteligente de desempeño por miembro | Como líder de equipo, quiero generar reportes inteligentes por miembro, para identificar áreas de mejora y recibir recomendaciones | El sistema genera reportes con métricas, riesgos y recomendaciones basadas en análisis mediante IA. | EP05 |
+| US027 | Reporte inteligente de tareas cumplidas y retrasadas | Como líder de equipo, quiero recibir reportes de tareas cumplidas y retrasadas, para anticipar problemas del proyecto. | El sistema genera reportes con análisis de tendencias y predicción de cumplimiento usando IA. | EP05 |
+| US030 | Notificación automatizada de fecha límite cercana | Como miembro del equipo, quiero recibir recordatorios automáticos de tareas próximas a vencer. | El sistema detecta tareas próximas a vencer y envía notificaciones automáticamente. | EP06 |
+
 ##### 4.1.2.2. Quality Attribute Scenarios
+
+En esta sección se presentan los escenarios iniciales de atributos de calidad que tienen mayor impacto en la arquitectura del sistema TaskMaster.
+
+Estos escenarios se enfocan en atributos clave como rendimiento, escalabilidad, disponibilidad, modificabilidad y automatización, considerando además el uso de tecnologías emergentes como Inteligencia Artificial (IA) y RPA, los cuales requieren procesamiento en tiempo real, análisis de datos y ejecución automática de eventos.
+
+A continuación, se detallan los escenarios identificados:
+
+| ATRIBUTO | FUENTE | ESTÍMULO | ARTEFACTO | ENTORNO | RESPUESTA | MEDIDA |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Rendimiento | Usuario | Consulta el progreso de tareas en tiempo real | Sistema de visualización / backend | Operación normal con múltiples usuarios | El sistema procesa y muestra datos actualizados en tiempo real | Tiempo de respuesta ≤ 2 segundos |
+| Escalabilidad | Sistema | Incremento simultáneo de usuarios activos | Infraestructura del sistema | Alta carga (muchos equipos usando la plataforma) | El sistema mantiene estabilidad y distribuye la carga | Soporta ≥ 1000 usuarios concurrentes sin degradación |
+| Disponibilidad | Usuario | Accede a la plataforma para consultar tareas | Sistema completo | Operación continua (24/7) | El sistema se mantiene accesible sin interrupciones | Disponibilidad ≥ 99.5% |
+| Modificabilidad | Desarrollador | Se requiere actualizar lógica de IA para análisis | Módulo de analítica (IA) | Sistema en mantenimiento/evolución | Se implementan cambios sin afectar otros módulos | Tiempo de implementación ≤ 2 días sin impacto en producción |
+| Automatización (RPA) | Sistema | Se detecta una tarea próxima a vencer | Módulo de notificaciones | Ejecución automática programada | El sistema genera y envía notificaciones automáticamente | Notificación enviada en ≤ 5 segundos desde detección |
+| Precisión (IA) | Sistema | Se analizan datos para generar reportes inteligentes | Módulo de analítica (IA) | Procesamiento de datos históricos | El sistema genera insights y predicciones | Precisión ≥ 85% en predicciones de riesgo |
 
 ##### 4.1.2.3. Constraints
 
+En esta sección se presentan las principales restricciones del sistema **TaskMaster**, desarrollado por Apex Cybernetics, las cuales no son negociables y condicionan el diseño de la arquitectura.
+
+Estas restricciones están relacionadas principalmente con el uso de tecnologías emergentes como Inteligencia Artificial (IA) y Automatización mediante RPA, así como con requerimientos de interoperabilidad, rendimiento y despliegue en entornos modernos. Dichos constraints guían las decisiones arquitectónicas y aseguran la viabilidad técnica de la solución.
+
+A continuación, se detallan los constraints definidos como Technical Stories:
+
+| TECHNICAL STORY ID | TÍTULO | DESCRIPCIÓN | CRITERIOS DE ACEPTACIÓN | RELACIONADO CON (EPIC ID) |
+| ----- | ----- | ----- | ----- | ----- |
+| TS01 | Integración obligatoria de IA | El sistema debe integrar módulos de Inteligencia Artificial para análisis de rendimiento, generación de reportes y predicción de riesgos | El sistema genera reportes inteligentes, métricas y predicciones basadas en datos de tareas | EP05 |
+| TS02 | Automatización mediante RPA | El sistema debe automatizar el envío de notificaciones y alertas sin intervención manual | Las notificaciones se generan automáticamente ante eventos como asignaciones, vencimientos o cambios | EP06 |
+| TS03 | Procesamiento en tiempo real | El sistema debe procesar y reflejar cambios en tareas en tiempo real | Los cambios en tareas se visualizan inmediatamente sin recarga manual | EP04 |
+| TS04 | Arquitectura escalable | El sistema debe soportar crecimiento de usuarios y carga de trabajo sin degradación significativa | El sistema mantiene rendimiento estable con múltiples usuarios concurrentes | EP04 |
+| TS05 | Interoperabilidad del sistema | El sistema debe permitir integración con servicios externos (correo, APIs, servicios de IA) | El sistema se integra correctamente con servicios externos para notificaciones y analítica | EP05 |
+| TS06 | Despliegue en entorno cloud | El sistema debe ser desplegado en infraestructura cloud para garantizar disponibilidad y escalabilidad | El sistema está disponible en línea y soporta acceso remoto continuo | EP04 |
+
 #### 4.1.3. Architectural Drivers Backlog
+
+En esta sección se presenta el conjunto de Architectural Drivers definidos a partir del análisis de las Primary User Stories, los Quality Attribute Scenarios y los Constraints del sistema **TaskMaster**.
+
+Estos drivers fueron identificados mediante un proceso iterativo inspirado en el enfoque de Quality Attribute Workshop (QAW), permitiendo priorizar aquellos elementos con mayor impacto tanto en los stakeholders como en la complejidad técnica de la arquitectura.
+
+A continuación, se presenta el backlog de drivers arquitectónicos, ordenados según su nivel de importancia e impacto:
+
+| DRIVER ID | TÍTULO DE DRIVER | DESCRIPCIÓN | IMPORTANCIA PARA STAKEHOLDERS | IMPACTO EN ARCHITECTURE TECHNICAL COMPLEXITY |
+| ----- | ----- | ----- | ----- | ----- |
+| AD01 | Procesamiento en tiempo real | El sistema debe reflejar cambios en tareas y estados en tiempo real para mejorar la toma de decisiones | HIGH | HIGH |
+| AD02 | Analítica inteligente con IA | El sistema debe generar reportes, métricas y predicciones utilizando inteligencia artificial | HIGH | HIGH |
+| AD03 | Automatización de notificaciones (RPA) | El sistema debe enviar notificaciones automáticas basadas en eventos sin intervención manual | HIGH | MEDIUM |
+| AD04 | Escalabilidad del sistema | El sistema debe soportar un alto número de usuarios concurrentes sin degradación del rendimiento | HIGH | HIGH |
+| AD05 | Alta disponibilidad | El sistema debe estar disponible de forma continua para los usuarios | HIGH | MEDIUM |
+| AD06 | Integración con servicios externos | El sistema debe integrarse con APIs externas (correo, servicios de IA, etc.) | MEDIUM | HIGH |
+| AD07 | Modificabilidad de módulos de IA | El sistema debe permitir actualizar modelos o lógica de IA sin afectar otros componentes | MEDIUM | HIGH |
+| AD08 | Generación de alertas inteligentes | El sistema debe detectar riesgos y generar alertas basadas en el comportamiento de las tareas | HIGH | HIGH |
+| AD09 | Visualización eficiente de datos | El sistema debe mostrar información clara y actualizada en dashboards y reportes | MEDIUM | MEDIUM |
+| AD10 | Despliegue en entorno cloud | El sistema debe operar en infraestructura cloud para garantizar escalabilidad y acceso remoto | MEDIUM | MEDIUM |
 
 #### 4.1.4. Architectural Design Decisions
 
+En esta sección se presentan las decisiones de diseño arquitectónico para el sistema **TaskMaster**, basadas en el análisis de los Architectural Drivers identificados previamente.
+
+Siguiendo un enfoque inspirado en el Quality Attribute Workshop (QAW), el equipo evaluó diferentes patrones arquitectónicos considerando su impacto en atributos de calidad como rendimiento, escalabilidad, disponibilidad y capacidad de integración con tecnologías emergentes como IA y RPA.
+
+A continuación, se presenta la matriz de evaluación de patrones candidatos:
+
+| DRIVER ID | TÍTULO DE DRIVER | PATTERN 1: DDD (Domain-Driven Design) |  | PATTERN 2: MVC |  | PATTERN 3: Event-Driven Architecture |  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+|  |  | **Pro** | **Contra** | **Pro** | **Contra** | **Pro** | **Contra** |
+| AD01 | Procesamiento en tiempo real | Permite modelar dominios complejos y separar lógica | No gestiona eventos en tiempo real directamente | Simple de implementar | Limitado para tiempo real | Soporta eventos en tiempo real eficientemente | Mayor complejidad de implementación |
+| AD02 | Analítica inteligente con IA | Facilita separar lógica de negocio de IA | Requiere integración adicional | Fácil de estructurar | No es adecuado para analítica avanzada | Permite procesamiento asíncrono de datos | Requiere manejo de eventos complejo |
+| AD03 | Automatización de notificaciones (RPA) | Organiza lógica de negocio | No automatiza eventos por sí solo | Implementación rápida | Acoplamiento alto | Ideal para triggers automáticos y flujos RPA | Difícil de depurar |
+| AD04 | Escalabilidad del sistema | Permite dividir por dominios | Puede volverse complejo | Estructura simple | Escalabilidad limitada | Alta escalabilidad mediante desacoplamiento | Requiere infraestructura adicional |
+| AD05 | Alta disponibilidad | Facilita separación de componentes | No garantiza disponibilidad por sí solo | Fácil mantenimiento | No soporta failover | Permite sistemas resilientes distribuidos | Mayor costo operativo |
+
 #### 4.1.5. Quality Attribute Scenario Refinements
+
+En esta sección se presentan los escenarios de atributos de calidad refinados y priorizados para el sistema **TaskMaster**.
+
+Como resultado del proceso de Quality Attribute Workshop (QAW), se priorizaron escenarios relacionados con procesamiento en tiempo real, analítica con IA y automatización mediante RPA, debido a su alto impacto en la arquitectura y en los objetivos del negocio.
+
+| Scenario Refinement for Scenario 1 \- Tiempo Real |  |  |
+| :---- | :---- | :---- |
+| **Scenario(s):** |  |  Visualización del progreso de tareas en tiempo rea |
+| **Business Goals:** |  | Mejorar el monitoreo y la toma de decisiones del equipo |
+| **Relevant Quality Attributes:** |  | Rendimiento, Escalabilida |
+|   | **Stimulus:** | Consulta de tareas en tiempo real |
+| **Scenario Components** | **Stimulus Source:** |  Usuario |
+|  | **Environment:** | Operación normal con múltiples usuarios concurrentes |
+|  | **Artifact (if Known)** | Backend / sistema de eventos |
+|  | **Response:** |  El sistema actualiza y muestra el estado de las tareas en tiempo real |
+|  | **Response Measure:** | Tiempo de respuesta ≤ 2 segundos |
+| **Questions:** |  | ¿Se usará WebSockets o polling para actualización en tiempo real? |
+| **Issues:** |  | Posible sobrecarga del sistema con alta concurrencia |
+
+
+| Scenario Refinement for Scenario 2 \- IA \- Analitica |  |  |
+| :---- | :---- | :---- |
+| **Scenario(s):** |  |  Generación de reportes inteligentes con predicción |
+| **Business Goals:** |  |  Anticipar riesgos y mejorar la productividad |
+| **Relevant Quality Attributes:** |  |  Precisión, Modificabilidad |
+|   | **Stimulus:** |  Solicitud de reporte inteligente |
+| **Scenario Components** | **Stimulus Source:** |  Líder de equipo |
+|  | **Environment:** |  Procesamiento de datos históricos |
+|  | **Artifact (if Known)** | Módulo de IA |
+|  | **Response:** | El sistema genera reportes con métricas, riesgos y predicciones |
+|  | **Response Measure:** | Precisión ≥ 85% en predicciones |
+| **Questions:** |  | ¿Se usará IA propia o servicios externos? |
+| **Issues:** |  |  Dependencia de la calidad de los datos |
+
+| Scenario Refinement for Scenario 3 \- RPA \- Automatización |  |  |
+| :---- | :---- | :---- |
+| **Scenario(s):** |  |  Notificación automática por tareas próximas a vencer |
+| **Business Goals:** |  |  Reducir retrasos y mejorar el cumplimiento de tareas |
+| **Relevant Quality Attributes:** |  |  Disponibilidad, Automatización |
+|   | **Stimulus:** | Detección automática de tarea próxima a vencer |
+| **Scenario Components** | **Stimulus Source:** |  Sistema |
+|  | **Environment:** | Ejecución automática programada |
+|  | **Artifact (if Known)** | Módulo de notificaciones |
+|  | **Response:** | El sistema envía notificaciones automáticas |
+|  | **Response Measure:** | Notificación enviada ≤ 5 segundos |
+| **Questions:** |  | ¿Se usará un scheduler interno o externo? |
+| **Issues:** |  | Posible saturación de notificaciones si no se controla la frecuencia |
+
 
 ### 4.2. Strategic-Level Domain-Driven Design
 
