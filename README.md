@@ -897,6 +897,128 @@ A continuación, se presentan las User Personas que representan a nuestros dos s
 #### 2.3.2. User Task Matrix
 
 
+**Semento 1: Líderes de projecto:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Actividades</th>
+      <th colspan="2">Suno Quispe Huaman</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Supervisar avance de proyectos en tiempo real</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asignar tareas y definir roles</td>
+      <td>Diario/Semanal</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar reportes financieros (presupuestos, pagos básicos)</td>
+      <td>Semanal</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordinar comunicación entre áreas y equipos</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Generar reportes de progreso para la dirección</td>
+      <td>Semanal/Mensual</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Personalizar flujos de trabajo según el proyecto</td>
+      <td>Según necesidad</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de retrasos o riesgos en proyectos</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Evaluar desempeño del equipo mediante métricas</td>
+      <td>Mensual</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Semento 2: Equipo de Desarrollo de Proyectos:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Actividades</th>
+      <th colspan="2">Diego Ramírez Tejeda</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visualizar tareas asignadas en tableros Kanban</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Registrar avances y actualizar estado de tareas</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar plazos en calendarios compartidos</td>
+      <td>Diario/Semanal</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Colaborar con otros miembros mediante comentarios/chat</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recibir notificaciones de cambios en prioridades</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Gestionar prioridades personales de trabajo</td>
+      <td>Diario/Semanal</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar entregables del equipo para asegurar calidad</td>
+      <td>Semanal</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Adaptarse a nuevas herramientas o procesos internos</td>
+      <td>Según necesidad</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Acceder a tutoriales o soporte técnico de la herramienta</td>
+      <td>Según necesidad</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 #### 2.3.3. Empathy Mapping
