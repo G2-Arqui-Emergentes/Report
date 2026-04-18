@@ -879,11 +879,18 @@ Las entrevistas con integrantes de equipos de desarrollo de proyectos revelan de
 
 ### 2.3. Needfinding
 
-
-
-
 #### 2.3.1. User Personas
 
+
+A continuación, se presentan las User Personas que representan a nuestros dos segmentos principales.
+
+**Semento 1: Líderes de proyectos:**
+
+![ddd](Assets/TB1/SunoQuispeHuaman.png)
+
+**Semento 2: Equipo de Desarrollo de Proyectos:**
+
+![ddd](Assets/TB1/DiegoRamírezTejeda.png)
 
 
 
