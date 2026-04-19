@@ -800,7 +800,7 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Inicio del video** | 8:31 |
 | **Fin del video** | 23:14 |
 | **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ImagenEntrevista](assets/TB1/Imagen_Entrevista2.PNG) |
+| **Foto entrevista** | ![ImagenEntrevista](assets/TB1/Imagen_Entrevista2.png) |
 | **Resumen** | Durante la entrevista, Carlos, gerente de desarrollo de aplicaciones y servicios en Atentus, explicó que trabaja principalmente de forma remota, coordinando equipos con empleados en distintas partes del mundo. Para la gestión utiliza metodologías ágiles como Agile y Scrum, junto con herramientas como Jira para organizar sprints y el product backlog. Destacó que una de sus principales necesidades es que las herramientas de gestión puedan integrarse con sistemas ya existentes, ya que ninguna empresa empieza desde cero y resulta esencial migrar progresivamente sin afectar la operatividad. También recalcó la importancia de que estas herramientas sean capaces de adaptarse a los horarios y dinámicas de trabajo de un equipo global, pues la coordinación en contextos remotos es clave. Finalmente, resaltó que, en un mercado altamente competitivo, es necesario innovar constantemente, y afirmó estar abierto a probar nuevas soluciones siempre que aporten valor y se ajusten a las necesidades reales de la empresa. |
 
 
