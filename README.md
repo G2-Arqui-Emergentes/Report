@@ -786,6 +786,11 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Foto entrevista** | ![Texto alternativo](Assets/TB1/entrevista1.png) |
 | **Resumen** | La entrevista con Juan de la Cruz, lidel del Grupo JPSP, reveló aspectos clave sobre la gestión de proyectos y el impacto de las herramientas que existen actualmente. El destacó que su principal responsabilidad es supervisar al equipo de desarrollo para cumplir con los plazos y estándares de calidad, mientras maneja el crecimiento rápido y los desafíos de integración tecnológica. Aunque también menciono que ha tenido experiencias mixtas con las herramientas actuales, principalmente debido a problemas de integración y personalización, considera esencial que las nuevas soluciones ofrezcan flexibilidad, integración fluida y capacidades avanzadas. La incorporación de tecnologías emergentes es vista como crucial para mejorar la eficiencia y la toma de decisiones. Además, se busca una solución que facilite la colaboración y la comunicación centralizada, y que esté dispuesta a adaptarse a las necesidades cambiantes del equipo. El entrevistado enfatiza la importancia de la seguridad y prioriza a los proveedores que brindan soporte confiable y pueden adaptar sus soluciones a los requisitos individuales. En el futuro, se espera una evolución hacia mayor automatización y herramientas que se adapten rápidamente a los cambios en los proyectos. |
 
+
+---
+
+
+
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
 | **Nombre entrevistado** | Carlos Medina Domingues |
@@ -797,6 +802,10 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Link del video** | https://goo.su/SUO1 |
 | **Foto entrevista** | ![ImagenEntrevista](Assets/TB1/Imagen_Entrevista2.PNG) |
 | **Resumen** | Durante la entrevista, Carlos, gerente de desarrollo de aplicaciones y servicios en Atentus, explicó que trabaja principalmente de forma remota, coordinando equipos con empleados en distintas partes del mundo. Para la gestión utiliza metodologías ágiles como Agile y Scrum, junto con herramientas como Jira para organizar sprints y el product backlog. Destacó que una de sus principales necesidades es que las herramientas de gestión puedan integrarse con sistemas ya existentes, ya que ninguna empresa empieza desde cero y resulta esencial migrar progresivamente sin afectar la operatividad. También recalcó la importancia de que estas herramientas sean capaces de adaptarse a los horarios y dinámicas de trabajo de un equipo global, pues la coordinación en contextos remotos es clave. Finalmente, resaltó que, en un mercado altamente competitivo, es necesario innovar constantemente, y afirmó estar abierto a probar nuevas soluciones siempre que aporten valor y se ajusten a las necesidades reales de la empresa. |
+
+
+---
+
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
@@ -816,6 +825,10 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 
 
 
+---
+
+
+
 **Segmento 2: Equipo de Desarrollo de proyectos**
 
 | **ENTREVISTA 1** |  |
@@ -830,6 +843,11 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Foto entrevista** | ![ddd](Assets/TB1/eric_1.png) |
 | **Resumen** | El entrevistado, de 24 años y parte de un equipo de desarrollo de proyectos multidisciplinario en psicología, señaló que su rol se centra en analizar necesidades, coordinar entregables y apoyar la organización del flujo de trabajo. Su equipo trabaja en proyectos digitales con participación de desarrolladores, diseñadores y administradores, pero enfrenta dificultades en la gestión debido a la dispersión de información entre múltiples canales (correos, chats, hojas de cálculo), lo que provoca retrasos, duplicidad de esfuerzos y una menor eficiencia en la colaboración. Además, mencionó experiencias negativas con herramientas poco intuitivas y rígidas, que limitan la capacidad de cumplir plazos con calidad. En cuanto a necesidades, destacó la importancia de contar con una plataforma centralizada que integre tableros visuales, calendarios compartidos, notificaciones claras. |
 
+
+---
+
+
+
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
 | **Nombre entrevistado** | Jhon Chuchon |
@@ -841,6 +859,10 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Link del video** | https://goo.su/SUO1 |
 | **Foto entrevista** | ![ddd](Assets/TB1/Entrevista5.png) |
 | **Resumen** | El entrevistado forma parte de un equipo de desarrollo de proyectos, donde apoya en la programación de módulos y pruebas de nuevas funcionalidades. Su equipo está conformado por programadores juniors y seniors, diseñadores UX, QA testers y analistas de requerimientos, trabajando bajo metodologías ágiles. Entre los principales desafíos mencionó la comunicación, ya que al trabajar de forma remota no siempre están conectados al mismo tiempo, así como los cambios repentinos de prioridades que generan desorden al pausar tareas en curso. Sobre herramientas anteriores como Trello, Slack, Excel y Drive, señaló que fueron un dolor de cabeza porque la información estaba dispersa y en ocasiones se duplicaban tareas por falta de claridad. Considera que sería de gran ayuda contar con una plataforma unificada que les permita ahorrar tiempo, ser más eficientes, automatizar procesos con alertas, y que además sea fácil de aprender, rápida, ligera e integrable con aplicaciones externas. |
+
+
+---
+
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
@@ -870,6 +892,10 @@ Las entrevistas con líderes de empresas destacan una urgente necesidad de moder
 La mayoría de los líderes, aproximadamente 67%, ha tenido experiencias mixtas con las soluciones actuales, citando problemas de integración y personalización. La flexibilidad y una buena relación costo-beneficio son cruciales, con un 70% de los encuestados indicando que las nuevas soluciones deben adaptarse a las necesidades del equipo. Además, la seguridad de los datos es prioritaria para el 80%, quienes buscan proveedores confiables.
 
 Los líderes están enfocados en encontrar herramientas modernas que no solo mejoren la eficiencia y la colaboración, sino que también respondan a las cambiantes demandas de los proyectos. La integración de la IA y la personalización de las herramientas son vistas como esenciales para el éxito futuro en sus organizaciones.
+
+
+---
+
 
 **Análisis Segmento 2: Equipo de Desarrollo de proyectos**
 
@@ -1026,7 +1052,7 @@ A continuación, se presentan las User Personas que representan a nuestros dos s
 El Empathy Map nos permite identificar las emociones, pensamientos y acciones de nuestros usuarios, para comprender mejor sus necesidades y motivaciones. Con este propósito, se elaboraron los siguientes cuadros para los segmentos objetivo definidos:
 
 
-**Semento 1: Líderes de projecto:**
+**Segmento 1: Líderes de proyecto:**
 <br>
 <br>
 
@@ -1035,7 +1061,7 @@ El Empathy Map nos permite identificar las emociones, pensamientos y acciones de
 <br>
 <br>
 
-**Semento 2: Equipo de Desarrollo de Proyectos:**
+**Segmento 2: Equipo de Desarrollo de proyectos:**
 
 <br>
 <br>
@@ -1047,7 +1073,6 @@ El Empathy Map nos permite identificar las emociones, pensamientos y acciones de
 
 
 ### 2.4. Ubiquitous Language
-
 
 En el proyecto, es fundamental contar con un lenguaje común que nos permita comunicarnos de manera clara y sin ambigüedades. Por ello, definimos un Ubiquitous Language, compuesto por términos clave que utilizaremos para describir tareas, roles y procesos. De esta forma, aseguramos que todos los involucrados compartan la misma comprensión y podamos trabajar de manera más organizada y eficiente.
 
