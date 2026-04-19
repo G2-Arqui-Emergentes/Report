@@ -1023,6 +1023,27 @@ A continuación, se presentan las User Personas que representan a nuestros dos s
 
 #### 2.3.3. Empathy Mapping
 
+El Empathy Map nos permite identificar las emociones, pensamientos y acciones de nuestros usuarios, para comprender mejor sus necesidades y motivaciones. Con este propósito, se elaboraron los siguientes cuadros para los segmentos objetivo definidos:
+
+
+**Semento 1: Líderes de projecto:**
+<br>
+<br>
+
+![ddd](Assets/TB1/EmpathymapSegmento1.png)
+
+<br>
+<br>
+
+**Semento 2: Equipo de Desarrollo de Proyectos:**
+
+<br>
+<br>
+
+![ddd](Assets/TB1/EmpathymapSegmento2.png)
+
+<br>
+<br>
 
 
 
