@@ -1193,11 +1193,11 @@ Las User Stories fueron definidas siguiendo el enfoque ágil, describiendo funci
 
 **Segmento Team leader**
 
-![texto alternativo](assets/TB1/12.png)
+![texto alternativo](assets/TB1/Impactm1.png)
 
 **Segmento Team member**
 
-![texto alternativo](assets/TB1/13.png)
+![texto alternativo](assets/TB1/Impactm2.png)
 
 ### 3.4. Product Backlog
 
