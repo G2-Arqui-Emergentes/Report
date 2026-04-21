@@ -87,15 +87,19 @@ Abril 2026
 
 **REPORT**
 
-Luquillas Asto, Omar: 
+![alt text](assets/TB1/REPO.png)
 
-Peña Riofrio, Maria Fernanda: 
+COMMITS:
 
-Pilares Pocohuanca, Maria: 
+Luquillas Asto, Omar: 22
 
-Sanchez Silva, Luciana Celeste:	
+Peña Riofrio, Maria Fernanda: 1
 
-Sandoval Paiva, Valentino: 
+Pilares Pocohuanca, Maria: 17
+
+Sanchez Silva, Luciana Celeste:	2
+
+Sandoval Paiva, Valentino: 12
 
 
 ## Contenido
