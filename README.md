@@ -772,7 +772,7 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 #### 2.2.2. Registro de entrevistas
 
 
-**Segmento 1:** **Líder o Gerente de Empresa (Product Owner y Scrum Master)**
+**Segmento 1:** **Líder o Gerente de Empresa**
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
@@ -780,49 +780,11 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Edad** | 25 |
 | **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima  |
-| **Inicio del video** | 0:08 |
-| **Fin del video** | 8:30 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![Texto alternativo](assets/TB1/entrevista1.png) |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 8:23 |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQDPKwC3T17dTIFuN-sGoMHfAZQ7C9A2ug6KuDGvwmoSWr](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQDPKwC3T17dTIFuN-sGoMHfAZQ7C9A2ug6KuDGvwmoSWrY)Y |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista1.png) |
 | **Resumen** | La entrevista con Juan de la Cruz, lidel del Grupo JPSP, reveló aspectos clave sobre la gestión de proyectos y el impacto de las herramientas que existen actualmente. El destacó que su principal responsabilidad es supervisar al equipo de desarrollo para cumplir con los plazos y estándares de calidad, mientras maneja el crecimiento rápido y los desafíos de integración tecnológica. Aunque también menciono que ha tenido experiencias mixtas con las herramientas actuales, principalmente debido a problemas de integración y personalización, considera esencial que las nuevas soluciones ofrezcan flexibilidad, integración fluida y capacidades avanzadas. La incorporación de tecnologías emergentes es vista como crucial para mejorar la eficiencia y la toma de decisiones. Además, se busca una solución que facilite la colaboración y la comunicación centralizada, y que esté dispuesta a adaptarse a las necesidades cambiantes del equipo. El entrevistado enfatiza la importancia de la seguridad y prioriza a los proveedores que brindan soporte confiable y pueden adaptar sus soluciones a los requisitos individuales. En el futuro, se espera una evolución hacia mayor automatización y herramientas que se adapten rápidamente a los cambios en los proyectos. |
-
-
----
-
-
-
-| **ENTREVISTA 2** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Carlos Medina Domingues |
-| **Edad** | 54 |
-| **Profesión** | Ingeniero de Sistemas  |
-| **Departamento** | Lima |
-| **Inicio del video** | 8:31 |
-| **Fin del video** | 23:14 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ImagenEntrevista](assets/TB1/Imagen_Entrevista2.png) |
-| **Resumen** | Durante la entrevista, Carlos, gerente de desarrollo de aplicaciones y servicios en Atentus, explicó que trabaja principalmente de forma remota, coordinando equipos con empleados en distintas partes del mundo. Para la gestión utiliza metodologías ágiles como Agile y Scrum, junto con herramientas como Jira para organizar sprints y el product backlog. Destacó que una de sus principales necesidades es que las herramientas de gestión puedan integrarse con sistemas ya existentes, ya que ninguna empresa empieza desde cero y resulta esencial migrar progresivamente sin afectar la operatividad. También recalcó la importancia de que estas herramientas sean capaces de adaptarse a los horarios y dinámicas de trabajo de un equipo global, pues la coordinación en contextos remotos es clave. Finalmente, resaltó que, en un mercado altamente competitivo, es necesario innovar constantemente, y afirmó estar abierto a probar nuevas soluciones siempre que aporten valor y se ajusten a las necesidades reales de la empresa. |
-
-
----
-
-
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Alejandro David Bejarano Medina |
-| **Edad** | 55 |
-| **Profesión** | Ingeniero Electrico  |
-| **Departamento** | Lima |
-| **Inicio del video** | 23:15 |
-| **Fin del video** | 30:57 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](assets/TB1/alejandrobejarano.jpg) |
-| **Resumen** | El entrevistado, líder de empresa orientada principalmente a las ventas y servicios, destacó que actualmente enfrentan limitaciones al gestionar sus procesos de forma manual con herramientas básicas como Office, lo que retrasa la eficiencia y dificulta la innovación. Entre los principales desafíos mencionó la competencia en un mercado en crecimiento y la necesidad de optimizar la gestión de proyectos y servicios. Considera esencial contar con un sistema integral que abarque tanto la parte administrativa como todo el ciclo de servicios, con características avanzadas, personalizables y seguras, que restrinjan accesos indebidos. Además, valora la integración con herramientas existentes, la colaboración fluida entre equipos y el cumplimiento de plazos de entrega por parte de socios estratégicos. Ve la adopción de una nueva herramienta como clave para un cambio total en los próximos años, permitiendo un mejor control en tiempo real de actividades, inversiones y logística, lo cual impactaría directamente en la competitividad y crecimiento de la empresa. |
-
-| **Duración total de las entrevistas** | 30:57  |
-|---------------------------------------|---|
-| **Link general del video**            | https://goo.su/SUO1  |
-
 
 
 ---
@@ -833,15 +795,15 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 
 | **ENTREVISTA 1** |  |
 |------------------|----------------------------|
-| **Nombre entrevistado** | Eric Espinoza Perez |
-| **Edad** | 24 |
-| **Profesión** | Ingeniero de Sistemas |
+| **Nombre entrevistado** | Josep Melgarejo |
+| **Edad** | 23 |
+| **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima |
-| **Inicio del video** |  31:00|
-| **Fin del video** | 38:17 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](assets/TB1/eric_1.png) |
-| **Resumen** | El entrevistado, de 24 años y parte de un equipo de desarrollo de proyectos multidisciplinario en psicología, señaló que su rol se centra en analizar necesidades, coordinar entregables y apoyar la organización del flujo de trabajo. Su equipo trabaja en proyectos digitales con participación de desarrolladores, diseñadores y administradores, pero enfrenta dificultades en la gestión debido a la dispersión de información entre múltiples canales (correos, chats, hojas de cálculo), lo que provoca retrasos, duplicidad de esfuerzos y una menor eficiencia en la colaboración. Además, mencionó experiencias negativas con herramientas poco intuitivas y rígidas, que limitan la capacidad de cumplir plazos con calidad. En cuanto a necesidades, destacó la importancia de contar con una plataforma centralizada que integre tableros visuales, calendarios compartidos, notificaciones claras. |
+| **Inicio del video** |  00:00|
+| **Fin del video** | 7:44 |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w) |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista2.png) |
+| **Resumen** | Josep menciona que la compañía se especializa en crear plataformas web para pequeñas y medianas empresas, así como para start-ups. La persona entrevistada tiene un papel orientado a la gestión de productos y a la implementación de metodologías ágiles, liderando la coordinación de equipos y la definición de prioridades. Uno de los retos más grandes que enfrentan es crecer sin perder velocidad de respuesta, por lo que están enfocados en perfeccionar la planificación de sus proyectos. Destaca que las herramientas que utilizan deben ser simples de implementar, intuitivas y adaptables. Sus experiencias anteriores con proveedores de software no han sido del todo positivas, pues las soluciones ofrecidas no encajan con su manera de trabajar. Por ello, considera esencial disponer de una plataforma que pueda ajustarse a los procesos particulares de cada organización. |
 
 
 ---
@@ -854,31 +816,11 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Edad** | 22 |
 | **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima |
-| **Inicio del video** | 38:18 |
-| **Fin del video** | 48:47  |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](assets/TB1/Entrevista5.png) |
+| **Inicio del video** | 7:45 |
+| **Fin del video** | 18:09  |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w) |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista3.png) |
 | **Resumen** | El entrevistado forma parte de un equipo de desarrollo de proyectos, donde apoya en la programación de módulos y pruebas de nuevas funcionalidades. Su equipo está conformado por programadores juniors y seniors, diseñadores UX, QA testers y analistas de requerimientos, trabajando bajo metodologías ágiles. Entre los principales desafíos mencionó la comunicación, ya que al trabajar de forma remota no siempre están conectados al mismo tiempo, así como los cambios repentinos de prioridades que generan desorden al pausar tareas en curso. Sobre herramientas anteriores como Trello, Slack, Excel y Drive, señaló que fueron un dolor de cabeza porque la información estaba dispersa y en ocasiones se duplicaban tareas por falta de claridad. Considera que sería de gran ayuda contar con una plataforma unificada que les permita ahorrar tiempo, ser más eficientes, automatizar procesos con alertas, y que además sea fácil de aprender, rápida, ligera e integrable con aplicaciones externas. |
-
-
----
-
-
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Andres Santos Espinoza |
-| **Edad** | 20 |
-| **Profesión** | Ingeniero de Software |
-| **Departamento** | Lima |
-| **Inicio del video** | 48:48 |
-| **Fin del video** | 55:22 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](assets/TB1/andresentrevista.jpg) |
-| **Resumen** |El entrevistado, miembro de un equipo multidisciplinario de desarrollo de proyectos digitales, desempeña tareas de programación, pruebas, análisis y coordinación del flujo de trabajo. Señaló que los principales desafíos son la comunicación remota y los cambios repentinos de prioridades, lo que genera desorden y retrasos. Su experiencia con herramientas como Trello, Slack, Excel y Drive fue negativa por la dispersión de información y duplicidad de tareas. Considera clave contar con una plataforma unificada, intuitiva, ligera y flexible, que integre tableros visuales, calendarios, notificaciones claras y automatización con alertas. Resaltó que la falta de herramientas adecuadas disminuye la productividad y limita la calidad de las entregas, mientras que una solución optimizada mejoraría la eficiencia, la visibilidad del progreso y la colaboración entre áreas, siempre que sea fácil de adoptar y permita personalización y soporte continuo.  |
-
-| **Duración total de las entrevistas** | 55:22  |
-|---------------------------------------|---|
-| **Link general del video**            | https://goo.su/SUO1  |
 
 
 
