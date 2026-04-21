@@ -1545,3 +1545,8 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 ## Anexos
 
+- VIDEO ENTREVISTAS: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQDPKwC3T17dTIFuN-sGoMHfAZQ7C9A2ug6KuDGvwmoSWrY
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w
