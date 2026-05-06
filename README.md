@@ -1631,6 +1631,20 @@ Esta capa recibe las solicitudes, valida los datos de entrada y los transforma e
 
 
 #### 5.4.3.	Application Layer.
+
+
+La Application Layer orquesta los casos de uso del bounded context. Aquí se encuentran los servicios de comando y consulta que gestionan la creación y recuperación de notificaciones.
+
+Los principales componentes son:
+
+- `NotificationCommandService`
+- `NotificationQueryService`
+- `CreateNotificationCommandFromResourceAssembler`
+- `NotificationResourceFromEntityAssembler`
+
+Además, el módulo reacciona a eventos internos del sistema, como asignaciones de tareas o cambios de estado, para generar notificaciones automáticas.
+
+
 #### 5.4.4.	Infrastructure Layer.
 #### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
