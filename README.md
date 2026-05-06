@@ -1646,9 +1646,29 @@ Además, el módulo reacciona a eventos internos del sistema, como asignaciones 
 
 
 #### 5.4.4.	Infrastructure Layer.
+
+
+La Infrastructure Layer implementa la persistencia y las integraciones externas necesarias para que el contexto funcione. Aquí se concretan los repositorios que almacenan y recuperan notificaciones, además de adaptadores para comunicación con servicios externos de mensajería o envío, como correo o push, cuando aplique.
+
+Sus responsabilidades principales son:
+
+- guardar notificaciones nuevas;
+- consultar notificaciones por usuario;
+- recuperar una notificación específica;
+- eliminar notificaciones;
+- adaptar el envío hacia servicios externos.
+
+
 #### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
+
+
+
 ##### 5.4.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+
 ##### 5.4.7.2.	Bounded Context Database Design Diagram.
 
 
