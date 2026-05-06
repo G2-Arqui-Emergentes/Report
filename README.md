@@ -1664,6 +1664,7 @@ Sus responsabilidades principales son:
 
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
 
+Este nivel muestra cómo se materializa el bounded context en clases, entidades y estructuras de datos. La intención es evidenciar la separación entre dominio, aplicación e infraestructura, manteniendo bajo acoplamiento y alta cohesión.
 
 
 ##### 5.4.7.1.	Bounded Context Domain Layer Class Diagrams.
