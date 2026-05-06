@@ -1724,6 +1724,25 @@ Esta capa muestra con claridad el salto del trabajo actual: ahora el contexto an
 #### 5.5.3.	Application Layer.
 
 
+La Application Layer coordina el flujo de casos de uso mediante servicios de comando, consulta y eventos. Sus componentes principales son:
+
+- `ProjectAnalyticsCommandService`
+- `MemberAnalyticsCommandService`
+- `ProjectAnalyticsQueryService`
+- `MemberAnalyticsQueryService`
+
+También utiliza assemblers para convertir recursos HTTP en comandos o DTOs de salida. La lógica de aplicación administra la ejecución de casos como:
+
+- generar métricas de proyecto;
+- generar métricas de miembro;
+- recalcular ranking;
+- actualizar presupuesto aprobado/usado;
+- definir tarifa por hora;
+- responder consultas de dashboards.
+
+Esta capa funciona como el puente entre la interacción del usuario y el cálculo de negocio, manteniendo la arquitectura desacoplada y coherente con CQRS.
+
+
 
 #### 5.5.4.	Infrastructure Layer.
 
