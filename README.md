@@ -1678,7 +1678,7 @@ Este nivel muestra cómo se materializa el bounded context en clases, entidades 
 
 ### 5.5.	Bounded Context:  Analítica y Reportes
 
-Este bounded context está orientado al procesamiento de información operativa para convertirla en métricas útiles para la toma de decisiones. En el avance actual, el módulo ya no se limita a “mostrar reportes”, sino que genera indicadores de proyecto y de miembro, calcula rankings, administra presupuesto y calcula tarifas por hora. Eso lo vuelve más robusto y más cercano a una solución analítica real dentro del sistema.
+Este bounded context está orientado al procesamiento de información operativa para convertirla en métricas útiles para la toma de decisiones. El módulo ya no se limita a “mostrar reportes”, sino que genera indicadores de proyecto y de miembro, calcula rankings, administra presupuesto y calcula tarifas por hora. Eso lo vuelve más robusto y más cercano a una solución analítica real dentro del sistema.
 
 
 #### 5.5.1.	Domain Layer.
@@ -1705,8 +1705,24 @@ La lógica de dominio se encarga de calcular conteos, promedios, horas invertida
 #### 5.5.2.	Interface Layer.
 
 
+La Interface Layer expone los endpoints HTTP que permiten generar y consultar métricas vivas, tanto a nivel de proyecto como de miembro.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| POST | `/api/v1/projects/{projectId}/analytics/generate` | Genera o actualiza las métricas del proyecto. |
+| GET | `/api/v1/projects/{projectId}/analytics` | Obtiene las métricas actuales del proyecto. |
+| POST | `/api/v1/projects/{projectId}/ranking/recalculate` | Recalcula el ranking del proyecto. |
+| GET | `/api/v1/projects/{projectId}/ranking` | Obtiene el ranking actual. |
+| PATCH | `/api/v1/projects/{projectId}/budget` | Actualiza el presupuesto del proyecto. |
+| POST | `/api/v1/projects/{projectId}/members/{memberId}/analytics/generate` | Genera métricas de un miembro. |
+| GET | `/api/v1/projects/{projectId}/members/{memberId}/analytics` | Obtiene las métricas de un miembro. |
+| PATCH | `/api/v1/projects/{projectId}/members/{memberId}/hourly-rate` | Actualiza la tarifa por hora del miembro. |
+
+Esta capa muestra con claridad el salto del trabajo actual: ahora el contexto analítico ya no es solo descriptivo, sino que permite consultar y recalcular información útil para seguimiento, presupuesto y desempeño.
+
 
 #### 5.5.3.	Application Layer.
+
 
 
 #### 5.5.4.	Infrastructure Layer.
