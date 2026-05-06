@@ -1747,6 +1747,13 @@ Esta capa funciona como el puente entre la interacción del usuario y el cálcul
 #### 5.5.4.	Infrastructure Layer.
 
 
+La Infrastructure Layer implementa la persistencia de los agregados analíticos y las operaciones concretas sobre la base de datos. Los repositorios principales son:
+
+- `ProjectAnalyticsRepository`
+- `MemberAnalyticsRepository`
+
+Sus funciones incluyen recuperar métricas por proyecto o por miembro, guardar agregados actualizados y sostener la información necesaria para que los dashboards se mantengan consistentes. En esta capa no se calcula la lógica de negocio; solo se materializa y consulta la información procesada por las capas superiores.
+
 
 #### 5.5.6.	Bounded Context Software Architecture Component Level Diagrams.
 
