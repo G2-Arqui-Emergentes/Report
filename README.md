@@ -1677,14 +1677,65 @@ Este nivel muestra cómo se materializa el bounded context en clases, entidades 
 
 
 ### 5.5.	Bounded Context:  Analítica y Reportes
+
+Este bounded context está orientado al procesamiento de información operativa para convertirla en métricas útiles para la toma de decisiones. En el avance actual, el módulo ya no se limita a “mostrar reportes”, sino que genera indicadores de proyecto y de miembro, calcula rankings, administra presupuesto y calcula tarifas por hora. Eso lo vuelve más robusto y más cercano a una solución analítica real dentro del sistema.
+
+
 #### 5.5.1.	Domain Layer.
+
+
+La Domain Layer concentra las reglas que permiten construir métricas confiables a partir de proyectos, tareas y miembros. Los agregados principales son:
+
+- `ProjectAnalytics`
+- `MemberAnalytics`
+
+Estos agregados trabajan con objetos de valor como:
+
+- `DateRange`
+- `TaskStats`
+- `AverageMetric`
+- `BudgetUsage`
+
+Además, el contexto maneja datos como `bestMemberId`, `worstMemberId` y `rankingReason`, que permiten resumir el desempeño del equipo de forma interpretables por el usuario.
+
+La lógica de dominio se encarga de calcular conteos, promedios, horas invertidas, costo estimado, presupuesto usado y velocidad de trabajo, separando claramente el cálculo de negocio de la persistencia.
+
+
+
 #### 5.5.2.	Interface Layer.
+
+
+
 #### 5.5.3.	Application Layer.
+
+
 #### 5.5.4.	Infrastructure Layer.
+
+
+
 #### 5.5.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+
+
 #### 5.5.7.	Bounded Context Software Architecture Code Level Diagrams.
+
+
+
 ##### 5.5.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+
+
 ##### 5.5.7.2.	Bounded Context Database Design Diagram.
+
+
+
+
+
+
+
+
+
+
 
 ## Capítulo VI: Solution UX Design
 ### 6.1.	Style Guidelines.                         
