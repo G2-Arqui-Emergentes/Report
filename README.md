@@ -1601,15 +1601,45 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 ##### 5.3.7.1.	Bounded Context Domain Layer Class Diagrams.
 ##### 5.3.7.2.	Bounded Context Database Design Diagram.
 
+
+---
+
 ### 5.4.	Bounded Context:  Notificaciones
+
+Este bounded context se encarga de crear, almacenar, consultar y eliminar notificaciones dentro de la plataforma. En el avance actual, ya no se presenta solo como un módulo de avisos, sino como un componente formal de comunicación reactiva entre eventos del sistema y el usuario autenticado. Su objetivo es mantener informado al usuario sobre acciones relevantes como asignaciones de tareas, cambios de estado, recordatorios o eventos internos generados por otros módulos.
+
+
 #### 5.4.1.	Domain Layer.
+
+La Domain Layer concentra las reglas de negocio relacionadas con la gestión de notificaciones. En este contexto, la entidad principal es `Notification`, la cual representa un mensaje asociado a un usuario, con información como identificador, contenido, estado de lectura y marca de tiempo. También se maneja la clasificación de notificaciones mediante `NotificationType` y estados como `READ` y `UNREAD`, permitiendo distinguir el tipo de evento y su situación dentro del flujo del usuario.
+
+El dominio define que una notificación debe estar asociada a un usuario válido, contener un mensaje significativo y conservar trazabilidad temporal. Además, admite la generación de notificaciones a partir de eventos del sistema, manteniendo el comportamiento independiente de la interfaz y de la persistencia.
+
+
+
 #### 5.4.2.	Interface Layer.
+
+La Interface Layer expone los endpoints REST que permiten interactuar con el bounded context desde el frontend o desde servicios internos. En el trabajo actual, el controlador principal es `NotificationController`, construido bajo una estructura limpia y documentado con Swagger 3.0.
+
+
+| Endpoint | Descripción | Método |
+|---|---|---|
+| `/api/v1/notifications/me` | Obtiene las notificaciones del usuario autenticado. | GET |
+| `/api/v1/notifications` | Crea una nueva notificación dentro del sistema. | POST |
+
+Esta capa recibe las solicitudes, valida los datos de entrada y los transforma en comandos o consultas para delegarlos a la capa de aplicación. No contiene lógica de negocio, solo coordinación de entrada y salida.
+
+
 #### 5.4.3.	Application Layer.
 #### 5.4.4.	Infrastructure Layer.
 #### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.4.7.1.	Bounded Context Domain Layer Class Diagrams.
 ##### 5.4.7.2.	Bounded Context Database Design Diagram.
+
+
+---
+
 
 ### 5.5.	Bounded Context:  Analítica y Reportes
 #### 5.5.1.	Domain Layer.
