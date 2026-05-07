@@ -1624,10 +1624,363 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 
 ## Capítulo V: Tactical-Level Software Design.
 ### 5.1.	Bounded Context:  Registro y Autenticación de Usuario
+
+El bounded context de Registro y Autenticación de Usuario es responsable de gestionar la identidad digital de los usuarios dentro de la plataforma TaskMaster. Este contexto encapsula los procesos de registro, autenticación, autorización y administración de roles, garantizando que únicamente usuarios válidos puedan acceder a los recursos y funcionalidades del sistema.
+
+Asimismo, este bounded context ha sido diseñado considerando capacidades futuras de tecnologías emergentes, especialmente relacionadas con inteligencia artificial orientada a seguridad y automatización de procesos de autenticación mediante RPA.
+
+---
+
 #### 5.1.1.	Domain Layer.
+
+La Domain Layer representa el núcleo del dominio relacionado con identidad y control de acceso. Aquí se modelan las entidades, objetos de valor y servicios encargados de mantener la consistencia y seguridad de los procesos de autenticación y autorización.
+
+### Aggregate Root: User
+
+**Descripción**
+El agregado `User` representa la cuenta principal de un usuario dentro del sistema y actúa como raíz del agregado. Encapsula las credenciales, roles y estados de seguridad asociados al usuario.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador único del usuario |
+| username | String | Nombre de usuario único |
+| passwordHash | String | Contraseña cifrada |
+| email | EmailAddress | Correo electrónico validado |
+| roles | Set<Role> | Roles asignados al usuario |
+| status | UserStatus | Estado de la cuenta |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `register()`: Registra un nuevo usuario validando reglas de negocio.
+- `assignRole(Role role)`: Asigna un rol al usuario.
+- `changePassword(String newPassword)`: Actualiza la contraseña.
+- `lockAccount()`: Bloquea la cuenta ante actividad sospechosa.
+- `enableAccount()`: Reactiva la cuenta.
+- `validatePassword(String password)`: Valida credenciales.
+
+---
+
+### Entity: Role
+
+**Descripción**
+Representa los permisos y niveles de acceso disponibles dentro de la plataforma.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del rol |
+| name | RoleName | Nombre del rol |
+
+**Valores de RoleName**
+
+- TEAM_MEMBER
+- TEAM_LEADER
+- ADMIN
+
+**Métodos**
+
+- `isLeader()`
+- `isAdmin()`
+
+---
+
+### Value Object: EmailAddress
+
+**Descripción**
+Objeto de valor encargado de representar una dirección de correo válida.
+
+**Reglas de validación**
+
+- Debe tener formato válido.
+- No puede exceder la longitud permitida.
+- Es inmutable.
+
+---
+
+### Value Object: UserStatus
+
+**Valores**
+
+- ACTIVE
+- LOCKED
+- DISABLED
+
+---
+
+### Domain Service: AuthenticationService
+
+**Descripción**
+Encapsula la lógica de autenticación independiente de infraestructura técnica.
+
+**Métodos**
+
+- `authenticate(username, password)`
+- `validateCredentials(user, password)`
+- `initiatePasswordReset(email)`
+
+---
+
+### Domain Service: SecurityPolicyService
+
+**Descripción**
+Gestiona reglas de seguridad y prepara el dominio para futuras capacidades de inteligencia artificial enfocadas en detección de accesos sospechosos.
+
+**Métodos**
+
+- `isLoginAttemptValid(user, metadata)`
+- `evaluateRisk(loginData)`
+- `detectAnomalousBehavior(userActivity)`
+
+**Relación con tecnologías emergentes**
+
+Este servicio permitirá integrar modelos de IA capaces de:
+
+- Detectar patrones sospechosos de inicio de sesión.
+- Identificar accesos inusuales.
+- Generar alertas inteligentes de seguridad.
+
+---
+
+### Repository Interfaces
+
+**UserRepository**
+
+**Métodos:**
+
+- `save(User user)`
+- `findById(Long id)`
+- `findByUsername(String username)`
+- `findByEmail(String email)`
+
+**RoleRepository**
+
+**Métodos:**
+
+- `save(Role role)`
+- `findByName(String name)`
+- `findAll()`
+
+---
+
 #### 5.1.2.	Interface Layer.
+
+La Interface Layer expone los endpoints REST y gestiona la interacción entre los usuarios y el sistema.
+
+---
+
+### Controller: AuthenticationController
+
+**Descripción**
+Gestiona los procesos de autenticación y acceso.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| signUp | POST /auth/sign-up | Registro de usuario |
+| signIn | POST /auth/sign-in | Inicio de sesión |
+| logout | POST /auth/logout | Cierre de sesión |
+| resetPassword | POST /auth/reset-password | Recuperación de contraseña |
+
+---
+
+### Controller: UsersController
+
+**Descripción**
+Permite administrar usuarios registrados.
+
+| Método | Ruta |
+|---|---|
+| getAllUsers | GET /users |
+| getUserById | GET /users/{id} |
+| updateUserStatus | PUT /users/{id}/status |
+
+---
+
+### Controller: RolesController
+
+| Método | Ruta |
+|---|---|
+| getRoles | GET /roles |
+
+---
+
+### Assemblers y Resources
+
+Se utilizan DTOs y assemblers para desacoplar la API del dominio.
+
+**Resources principales**
+
+- SignInResource
+- SignUpResource
+- UserResource
+- RoleResource
+
+**Assemblers principales**
+
+- UserResourceAssembler
+- SignInCommandAssembler
+
+---
+
 #### 5.1.3.	Application Layer.
+
+La Application Layer orquesta los flujos de negocio y coordina comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**SignUpCommandHandler**
+
+Responsabilidades:
+
+- Validar datos del usuario.
+- Crear usuario.
+- Generar eventos de registro.
+
+**SignInCommandHandler**
+
+Responsabilidades:
+
+- Validar credenciales.
+- Generar token JWT.
+- Registrar actividad de acceso.
+
+**AssignRoleCommandHandler**
+
+Responsabilidades:
+
+- Asignar roles.
+- Validar permisos.
+
+**ResetPasswordCommandHandler**
+
+Responsabilidades:
+
+- Generar solicitudes de recuperación.
+- Disparar automatizaciones de notificación.
+
+---
+
+### Query Handlers
+
+- GetUserByIdQueryHandler
+- GetAllUsersQueryHandler
+- GetRolesQueryHandler
+
+---
+
+### Domain Events
+
+**UserRegisteredEvent**
+
+Se genera cuando un usuario es registrado exitosamente.
+
+**UserLoggedInEvent**
+
+Se genera cuando un usuario inicia sesión.
+
+**SuspiciousLoginDetectedEvent**
+
+Evento preparado para integraciones futuras con servicios inteligentes de seguridad.
+
+---
+
+### Servicios de soporte
+
+- TokenService
+- HashingService
+
+---
+
+### Integración con tecnologías emergentes
+
+**Inteligencia Artificial**
+
+La Application Layer permite integrar servicios de IA orientados a:
+
+- análisis de comportamiento de acceso
+- evaluación de riesgo
+- detección de accesos anómalos
+
+**RPA**
+
+Se incorporan automatizaciones para:
+
+- recuperación automática de contraseña
+- envío automático de correos
+- notificaciones inteligentes de seguridad
+
+---
+
 #### 5.1.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa los mecanismos técnicos de persistencia y conexión con servicios externos.
+
+---
+
+### Repository Implementations
+
+**JpaUserRepository**
+
+Implementación concreta del repositorio de usuarios.
+
+**JpaRoleRepository**
+
+Implementación concreta del repositorio de roles.
+
+---
+
+### Servicios técnicos
+
+**BCryptHashingService**
+
+Responsable del cifrado de contraseñas.
+
+**JwtTokenService**
+
+Encargado de generar y validar tokens JWT.
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Gestiona el envío de:
+
+- recuperación de contraseña
+- confirmaciones de registro
+- alertas de seguridad
+
+**NotificationAutomationService**
+
+Servicio orientado a automatizaciones RPA.
+
+**Funciones automatizadas**
+
+- envío automático de recordatorios
+- alertas inteligentes de acceso
+- automatización de recuperación de cuenta
+
+---
+
+### Integración IA
+
+**ExternalSecurityAnalysisService**
+
+Servicio preparado para consumir modelos de inteligencia artificial relacionados con:
+
+- análisis de riesgo
+- comportamiento sospechoso
+- patrones de acceso
+
+---
+
 #### 5.1.6.	Bounded Context Software Architecture Component Level Diagrams.
 #### 5.1.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.1.7.1.	Bounded Context Domain Layer Class Diagrams.
