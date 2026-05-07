@@ -1780,30 +1780,288 @@ Sus funciones incluyen recuperar métricas por proyecto o por miembro, guardar a
 
 
 ## Capítulo VI: Solution UX Design
-### 6.1.	Style Guidelines.                         
-#### 6.1.1.	General Style Guidelines.
-#### 6.1.2.	Web, Mobile & Devices Style Guidelines.
-### 6.2.	Information Architecture.
-#### 6.2.2.	Labeling Systems.
-#### 6.2.3.	Searching Systems.
-#### 6.2.4.	SEO Tags and Meta Tags.
-#### 6.2.5.	Navigation Systems.
-### 6.3.	Landing Page UI Design.
-#### 6.3.1.	Landing Page Wireframe.
-#### 6.3.2.	Landing Page Mock-up.
+### 6.1 Product design  
+
+El diseño del producto de WorkHub se basa en un enfoque centrado en el usuario, priorizando la claridad visual, la accesibilidad y la eficiencia en la gestión colaborativa de proyectos. La interfaz busca ofrecer una experiencia intuitiva donde cada elemento, desde la navegación hasta la disposición de las tareas, responda a las necesidades reales de los equipos de trabajo. Este enfoque permite equilibrar estética y funcionalidad, garantizando una interacción fluida y coherente con los principios del diseño de experiencias digitales (Nielsen Norman Group, 2023).
+
+### 6.1. Style Guidelines  
+
+El diseño de estilo de WorkHub se fundamenta en la coherencia visual y la identidad de marca, garantizando una experiencia estética uniforme en todos los componentes de la interfaz. Se aplicó una paleta cromática equilibrada que combina tonos neutros con acentos contrastantes para resaltar acciones clave, junto con una tipografía moderna y legible que refuerza la claridad comunicativa. Asimismo, se definieron márgenes, espaciados y jerarquías visuales consistentes para mantener armonía entre las vistas de proyectos, tareas y estadísticas. Estas guías de estilo buscan no solo reforzar la identidad visual de la plataforma, sino también mejorar la usabilidad y la comprensión del contenido por parte del usuario (Interaction Design Foundation, 2022).
+
+#### 6.1.1. General Style Guidelines  
+
+**Branding**
+
+La identidad de TaskMaster refleja organización, colaboración y eficiencia. Su diseño combina colores cálidos y suaves que transmiten equilibrio y dinamismo, mientras que el logotipo y la interfaz proyectan una estética moderna y accesible. El branding busca conectar con jóvenes profesionales y estudiantes que valoran la simplicidad y la claridad en la gestión de proyectos.
+
+![ddd](assets/TP1/branding.png)
+
+**Color:**
+
+Para WorkHub, una plataforma de gestión colaborativa de proyectos y tareas, la paleta de colores busca reflejar claridad, accesibilidad y profesionalismo. Los tonos principales transmiten confianza y simplicidad, mientras que los secundarios se aplican en fondos, estados y tipografía para mantener equilibrio visual y una experiencia coherente.
+
+- Colores Primarios:
+  
+La paleta de colores primarios de TaskMaster representa la esencia visual de la aplicación. Combina tonos cálidos y profundos como el RedWine600 y el Coral300, que transmiten energía, compromiso y dinamismo, con matices suaves como Blush100, que equilibran la intensidad visual y aportan armonía. Estos colores se utilizan principalmente en elementos de acción, encabezados y fondos clave, reforzando la identidad de marca y asegurando una interfaz coherente y atractiva.
+
+![ddd](assets/TP1/primarycolor.png)
+
+| Nombre | Hex | Descripción |
+|---------|------|--------------|
+| Brownish900 | #332A2A | Fondo oscuro y texto principal en modo oscuro. |
+| Brownish800 | #452B2B | Fondo alternativo o contenedores secundarios en modo oscuro. |
+| AlertRed | #D90404 | Color de alerta o error para mensajes importantes o botones críticos. |
+| Blush100 | #F2D0D3 | Fondo claro o elementos de contraste suave en interfaces limpias. |
+| Coral300 | #F27979 | Color de acento cálido para destacar botones o indicadores secundarios. |
+| RedWine600 | #A62424 | Color principal de marca, utilizado en headers, íconos y botones primarios. |
+| RedWine500 | #733030 | Variante más oscura para hover states o sombreados de elementos activos. |
+
+- Colores Secundarios:
+
+Los colores secundarios complementan la identidad principal de TaskMaster, proporcionando versatilidad y contraste en la interfaz. Incluyen tonos neutros como Black, White y LightGray, que aportan claridad y estructura, junto con acentos vibrantes como BrightRed, VividGreen, SunYellow y los tonos Lavender, que añaden dinamismo y ayudan a resaltar estados o categorías dentro de la aplicación.
+
+![ddd](assets/TP1/secondarycolor.png)
+
+| Nombre          | Hex     | Descripción                                                                  |
+| --------------- | ------- | ---------------------------------------------------------------------------- |
+| **Black**       | #000000 | Usado para texto principal, íconos o elementos que requieren alto contraste. |
+| **White**       | #FFFFFF | Fondo base para mantener limpieza y legibilidad en la interfaz.              |
+| **LightGray**   | #EFEFEF | Fondo neutro o separador visual entre secciones y tarjetas.                  |
+| **BrightRed**   | #FF0000 | Indicador de error, advertencia o acciones críticas.                         |
+| **VividGreen**  | #00FF09 | Representa éxito, confirmaciones o tareas completadas.                       |
+| **SunYellow**   | #FFD900 | Utilizado para advertencias suaves o resaltado de información importante.    |
+| **Lavender600** | #A06FC3 | Color de acento decorativo en componentes secundarios.                       |
+| **Lavender500** | #AC89C4 | Variante más clara del acento, aplicada en fondos o detalles visuales.       |
+
+
+**Typography**
+
+La tipografía de TaskMaster refuerza su enfoque en la claridad y la modernidad. Se emplea Sulphur Point para títulos y encabezados, transmitiendo fuerza y presencia visual, mientras que MS Reference Sans Serif se utiliza para textos descriptivos y funcionales, garantizando legibilidad en cualquier tamaño o dispositivo. La jerarquía tipográfica está cuidadosamente definida para guiar la atención del usuario y mantener una experiencia visual equilibrada.
+
+![ddd](assets/TP1/tipografia.png)
+
+#### 6.1.2. Web, Mobile & Devices Style Guidelines.
+
+
+
+### 6.2. Information Architecture  
+
+La Arquitectura de la Información de TaskMaster se basa en una estructura jerárquica y organizada que permite al usuario acceder de manera intuitiva a las diferentes funciones del sistema. Como señalan Morville y Rosenfeld (2006), una buena arquitectura de la información “proporciona estructura, significado y contexto a los datos, facilitando su comprensión y uso eficiente”. En concordancia con este enfoque, TaskMaster organiza su contenido en secciones principales como proyectos, tareas, estadísticas y notificaciones, promoviendo una experiencia de navegación coherente, accesible y centrada en el usuario.
+
+#### 6.2.1. Organization Systems  
+
+En TaskMaster, se emplean diferentes sistemas de organización del contenido para garantizar una experiencia de uso clara, estructurada y enfocada en la productividad.
+
+Organización Jerárquica: En la pantalla principal y en el panel de proyectos, se prioriza la información esencial, mostrando primero los proyectos activos, las tareas pendientes y los avances recientes. Esta jerarquía visual permite que los usuarios comprendan rápidamente el estado general de su trabajo y luego profundicen en detalles específicos de cada proyecto o tarea.
+
+Organización Secuencial: Aplicada en los flujos de registro, creación de proyectos y asignación de tareas, donde el usuario avanza paso a paso siguiendo un orden lógico. Este enfoque facilita el aprendizaje inicial y evita errores durante la configuración o actualización de información.
+
+Organización Matricial: Presente en la sección de tareas y estadísticas, donde el usuario puede filtrar y cruzar información por estado, prioridad, responsable o fecha límite. Esto permite visualizar los datos desde distintos enfoques, adaptándose a las necesidades de planificación y seguimiento de cada equipo.
+
+En cuanto a los tipos de clasificación empleados:
+
+Por proyecto: Todas las tareas, recursos y miembros se agrupan dentro de su respectivo proyecto, promoviendo la organización y el trabajo en equipo.
+
+Por prioridad: Las tareas se categorizan según su nivel de urgencia o importancia, facilitando la gestión del tiempo y la toma de decisiones.
+
+Cronológica: Las actividades y notificaciones se ordenan por fecha, lo que permite un control eficiente del progreso y las próximas entregas.
+
+
+#### 6.2.2. Labelling Systems  
+
+En TaskMaster, se implementó un sistema de etiquetas simple, directo y coherente con las funciones principales de la aplicación. El objetivo fue que los usuarios identifiquen rápidamente cada sección sin necesidad de aprendizaje previo, utilizando palabras cortas, comunes y de uso cotidiano.
+
+Las etiquetas definidas son:
+
+- Proyectos
+
+- Calendario
+
+- Notificaciones
+
+- Tareas
+
+- Perfil
+
+- Membresías
+
+Cada etiqueta fue seleccionada para reflejar de manera inmediata la acción o información que el usuario encontrará. Por ejemplo, en “Proyectos”, el usuario puede visualizar y gestionar todos sus proyectos activos; en “Calendario”, consultar plazos y entregas; mientras que “Notificaciones” concentra avisos sobre actualizaciones o colaboraciones recientes. Asimismo, se evitó el uso de tecnicismos o nombres abstractos, priorizando la claridad, consistencia y familiaridad con el lenguaje cotidiano del público objetivo.
+
+#### 6.2.3. Searching Systems  
+
+Las funciones de búsqueda en TaskMaster se han diseñado para que los usuarios puedan encontrar rápidamente información relevante sin sentirse abrumados por la cantidad de datos disponibles. El objetivo es ofrecer una navegación eficiente, precisa y centrada en la productividad dentro de la aplicación. A continuación, se detallan las principales opciones de búsqueda y los filtros implementados, así como la forma en que se muestran los resultados.
+
+Barra de búsqueda global:
+En la pantalla principal de la aplicación se implementa una barra de búsqueda que permite localizar proyectos, tareas o notificaciones específicas. Esta barra se encuentra en la parte superior, accesible en todo momento, y utiliza sugerencias automáticas para agilizar la búsqueda.
+
+Búsqueda de notificaciones:
+En el módulo de Notificaciones, los usuarios pueden ingresar palabras clave para filtrar avisos relacionados con actualizaciones de tareas, cambios de estado o nuevas asignaciones. Los resultados se muestran de manera cronológica, priorizando las notificaciones más recientes y relevantes.
+
+Búsqueda de tareas:
+En la sección de Tareas, los usuarios pueden buscar tareas por nombre, estado o prioridad. Además, es posible filtrar por fecha límite o miembro asignado. Al seleccionar una tarea, se despliega una vista detallada con la descripción, progreso y responsable, permitiendo acceder a toda la información sin salir del módulo principal.
+
+Búsqueda de proyectos:
+En el módulo de Proyectos, se permite localizar proyectos activos o archivados ingresando su nombre o identificador. Los resultados muestran el nombre del proyecto, presupuesto, fechas de inicio y fin, y estado actual. Esta funcionalidad ayuda a los usuarios a acceder de manera inmediata al proyecto que desean gestionar.
+
+Búsqueda de proyectos con tareas asignadas:
+TaskMaster incluye un filtro combinado que permite visualizar proyectos que contienen tareas activas asignadas a un usuario específico. Esto facilita el seguimiento del trabajo individual y grupal, permitiendo a los líderes de proyecto identificar rápidamente qué miembros tienen responsabilidades en curso y en qué proyectos están involucrados.
+
+#### 6.2.4. SEO Tags and Meta Tags  
+
+Esta sección define cómo se implementarán las etiquetas de optimización para motores de búsqueda en el sitio web y cómo se optimizará la presencia de TaskMaster en la Play Store. El objetivo es mejorar la visibilidad de la plataforma, atraer tráfico orgánico y asegurar que tanto los usuarios como los motores de búsqueda comprendan de inmediato el propósito de la aplicación.
+
+Para Landing Page Web:
+
+- Title: TaskMaster - Gestiona tus proyectos de manera colaborativa y eficiente
+
+- Meta Description: Plataforma colaborativa para planificar, asignar y controlar tareas en equipo. Gestiona proyectos, establece prioridades y visualiza el progreso en tiempo real con TaskMaster.
+
+- Meta Keywords: gestión de proyectos, tareas colaborativas, productividad, trabajo en equipo, organización digital, app de gestión, seguimiento de tareas
+
+- Meta Author: WorkHub - TaskMaster Team
+
+Para Mobile App (Play Store):
+
+- App Title: TaskMaster: Gestión de Proyectos y Tareas
+
+- App Keywords: proyectos, tareas, colaboración, productividad, organización, planificación, trabajo en equipo, gestión ágil
+
+- App Subtitle: Organiza, planifica y colabora con tu equipo desde una sola aplicación.
+
+- App Description: TaskMaster es una aplicación diseñada para optimizar la gestión de proyectos y tareas en equipos de trabajo. Permite asignar responsabilidades, definir fechas límite, establecer prioridades y monitorear el progreso en tiempo real. Con una interfaz moderna y accesible, TaskMaster impulsa la productividad, mejora la comunicación y ayuda a mantener el control total de cada proyecto, desde la planificación hasta la ejecución. Ideal para estudiantes, profesionales y equipos que buscan trabajar de forma organizada y eficiente.
+
+#### 6.2.5. Navigation Systems  
+La estructura de navegación de TaskMaster ha sido diseñada para ofrecer una experiencia de usuario intuitiva, fluida y coherente entre la versión web y la aplicación móvil. Su objetivo es facilitar el acceso a la información, garantizar una interacción eficiente y mantener una organización visual clara que optimice la productividad del usuario.
+
+Landing Page (Web):
+
+La barra de navegación principal, ubicada en la parte superior de la página, permite a los usuarios desplazarse rápidamente por las secciones informativas del sitio. Las secciones disponibles son:
+
+Características: Presenta las principales funcionalidades de la plataforma y sus ventajas competitivas.
+
+Beneficios: Explica cómo TaskMaster mejora la gestión de proyectos y la colaboración en equipo.
+
+Nosotros: Muestra la historia, misión y valores del equipo desarrollador de WorkHub.
+
+FAQ: Contiene preguntas frecuentes que resuelven dudas comunes sobre el uso de la plataforma.
+
+Contáctanos: Proporciona formularios y datos de contacto para soporte y consultas directas.
+
+Aplicación Móvil:
+
+En la versión móvil, la navegación se organiza mediante una barra inferior fija con iconos intuitivos que representan las secciones más utilizadas por los usuarios. Las opciones principales son:
+
+Proyectos: Permite visualizar, crear y gestionar proyectos activos.
+
+Calendario: Muestra las fechas de inicio, vencimiento y progreso de las tareas programadas.
+
+Tareas: Acceso directo a las tareas personales o asignadas dentro de los proyectos.
+
+Notificaciones: Centraliza los avisos sobre actualizaciones, asignaciones o cambios de estado.
+
+Perfil: Permite al usuario visualizar y editar su información personal, membresía y estadísticas.
+
+### 6.3. Landing Page UI Design  
+
+El wireframe de la Landing Page de TaskMaster representa la estructura base y la distribución visual del sitio web antes de su diseño final. Su propósito es definir la jerarquía de la información, la ubicación de los elementos clave y el flujo de navegación que guiará al usuario desde su primera interacción. Este esquema permite visualizar de forma clara cómo se organizan las secciones principales como Características, Beneficios, Nosotros, FAQ y Contáctanos, garantizando una experiencia coherente, intuitiva y alineada con los objetivos de comunicación y promoción de la plataforma.
+
+#### 6.3.1. Landing Page Wireframe  
+
+En esta sección se presenta la estructura base de la página principal del proyecto, mostrando la disposición inicial de los elementos visuales y la jerarquía de contenido. El wireframe permite definir la arquitectura de información antes de aplicar estilos gráficos o componentes interactivos.
+
+![Inicio Wireframe](assets/TP1/L1.png)  
+![Características Wireframe](assets/TP1/L2.png)  
+![About the Team Wireframe](assets/TP1/L3.png)  
+![Beneficios](assets/TP1/L4.png)
+![Nosotros Wireframe](assets/TP1/L5.png)  
+![About the Team Wireframe](assets/TP1/L6.png)  
+![Contáctanos Wireframe](assets/TP1/L7.png)  
+
+#### 6.3.2. Landing Page Mock-up  
+
+El mock-up de la Landing Page muestra la propuesta visual final, incorporando colores, tipografía y estilo gráfico definidos en la guía de diseño. Este prototipo de alta fidelidad permite visualizar la apariencia y coherencia estética del sitio web antes de su desarrollo.
+
+![Inicio Mockup](assets/TP1/LA1.png)  
+![Inicio Mockup](assets/TP1/LA2.png)  
+![Inicio Mockup](assets/TP1/LA3.png)  
+![Inicio Mockup](assets/TP1/LA4.png)  
+![Inicio Mockup](assets/TP1/LA5.png)  
+![Inicio Mockup](assets/TP1/LA6.png)  
+![Inicio Mockup](assets/TP1/LA7.png)  
 
 ### 6.4.	Applications UX/UI Design.
+
+Esta sección detalla el proceso de diseño de la experiencia (UX) y la interfaz de usuario (UI) de la aplicación móvil y web, enfocado en ofrecer una navegación intuitiva, coherente y funcional. Se abordan los lineamientos visuales, interacción y usabilidad general del sistema.
+
 #### 6.4.1.	Applications Wireframes.
+
+**Mobile Applications Wireframes**
+
+Los wireframes representan la estructura funcional de cada pantalla de la aplicación móvil, definiendo la distribución de elementos y flujos de interacción básicos. Sirven como punto de partida para validar la organización visual y funcional del producto.
+
+![ddd](assets/TP1/wireframes.png) 
+
+**Web Applications Wireframes**  
+
+
+
 #### 6.4.2.	Applications Wireflow Diagrams.
-#### 6.4.3.	Applications Mock-ups.
-#### 6.4.4.	Applications User Flow Diagrams.
+
+**Mobile Applications Wireflow Diagrams**  
+
+Los diagramas de wireflow integran los wireframes con los flujos de navegación, mostrando la relación entre pantallas y las acciones del usuario. Este recurso visual facilita la comprensión del recorrido del usuario dentro de la aplicación.
+
+![ddd](assets/TP1/W1.png)  
+![ddd](assets/TP1/W2.png)  
+![ddd](assets/TP1/W3.png)  
+![ddd](assets/TP1/W4.png)  
+![ddd](assets/TP1/W5.png)   
+![ddd](assets/TP1/W6.png)  
+![ddd](assets/TP1/W7.png)  
+![ddd](assets/TP1/W8.png)  
+![ddd](assets/TP1/W9.png)  
+
+#### 6.4.2.	Applications Mock-ups.
+
+**Mobile Applications Mock-ups**
+
+Los mock-ups presentan las pantallas finales de la aplicación móvil con el diseño visual completo, reflejando el estilo gráfico, paleta de colores, iconografía y tipografía definidos. Permiten apreciar la identidad visual del producto antes de su implementación.
+
+![ddd](assets/TP1/W10.png)  
+
+#### 6.4.3.	Applications User Flow Diagrams.
+
+**Mobile Applications User Flow Diagrams**
+
+En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales.
+
+![ddd](assets/TP1/WA1.jpeg)
+![ddd](assets/TP1/WA2.jpeg)
+![ddd](assets/TP1/WA3.jpeg)
+![ddd](assets/TP1/WA4.jpeg)
+![ddd](assets/TP1/WA5.jpeg)
+![ddd](assets/TP1/WA6.jpeg)
+![ddd](assets/TP1/WA7.jpeg)
+![ddd](assets/TP1/WA8.jpeg)
+![ddd](assets/TP1/WA9.jpeg)
+
+
 ### 6.5.	Applications Prototyping.
+
+**Mobile Applications Prototyping**
+
+En esta sección se presentan los prototipos interactivos desarrollados en Figma, que permiten simular la navegación y las interacciones principales de la aplicación móvil. Estos prototipos reflejan las decisiones de diseño, los criterios de usabilidad y la coherencia con la arquitectura de información definida. A continuación, se incluye el enlace al prototipo funcional en Figma para su exploración.
+[https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1](https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1)
 
 ## Conclusiones
 
 **TB1**
 
 - El desarrollo de TaskMaster demuestra que la centralización de la gestión de proyectos, junto con el uso de metodologías modernas como Lean UX y Domain-Driven Design, permite abordar eficazmente los problemas de fragmentación, baja visibilidad y desorganización en equipos de trabajo; además, la incorporación de tecnologías emergentes como inteligencia artificial para analítica y alertas, y RPA para automatización de notificaciones, posiciona la solución como innovadora y competitiva. Se recomienda continuar fortaleciendo estas capacidades mediante una mayor integración de IA y automatización, validaciones constantes con usuarios reales y mejoras progresivas en la experiencia de usuario, con el fin de asegurar una adopción efectiva y escalabilidad del producto en el mercado.
+
+**TP**
+
+- En esta segunda entrega del proyecto se consolidó el paso de una visión estratégica a un enfoque táctico, permitiendo definir con mayor precisión la estructura interna de TaskMaster mediante la identificación de Bounded Contexts y su organización en capas (Domain, Application, Interface e Infrastructure), lo que asegura una arquitectura modular, escalable y alineada a los principios de Domain-Driven Design. Además, la elaboración de diagramas a nivel de componentes, código, clases y base de datos permitió materializar las decisiones arquitectónicas en representaciones técnicas claras y coherentes con los requerimientos del sistema. Paralelamente, el desarrollo del Solution UX Design complementó esta base técnica al incorporar lineamientos de diseño, arquitectura de información y prototipos que garantizan una experiencia de usuario intuitiva y consistente. En conjunto, esta fase integra de manera efectiva la arquitectura de software con el diseño centrado en el usuario, dejando una base sólida y validada para la futura implementación del sistema.
 
 
 ## Bibliografía
