@@ -75,7 +75,11 @@ Abril 2026
 | TB1     | 09/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Startup Profile: Descripción de la Startup, Perfiles de integrantes del equipo. Solution Profile: Antecedentes y problemática. Lean UX Process: Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas. Segmentos objetivo: Definición del público objetivo del proyecto.                                                                                                                    |
 | TB1     | 09/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Competidores: Identificación de competidores. Análisis competitivo: Evaluación de competidores. Estrategias y tácticas frente a competidores: Definición de acciones frente al mercado. Entrevistas: Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas. Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping. Ubiquitous Language: Definición del lenguaje común del dominio. |
 | TB1     | 09/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Strategic-Level Attribute-Driven Design: Design Purpose, Attribute-Driven Design Inputs (Primary Functionality, Quality Attribute Scenarios, Constraints), Architectural Drivers Backlog, Architectural Design Decisions, Quality Attribute Scenario Refinements.                                                                                                                                                                    |
-
+| TP      | 30/04/2026 | Omar Luquillas Asto (U20211G641)            | Solution UX Design: Definición de Style Guidelines (general, web, mobile & devices), Information Architecture (labeling, searching, SEO y navigation systems), Landing Page UI Design (wireframe y mockup), Applications UX/UI Design (wireframes, wireflows, mockups, user flows) y prototyping de la aplicación. |
+| TP      | 30/04/2026 | Sandoval Paiva, Valentino                   | Solution UX Design: Desarrollo de lineamientos de diseño y experiencia de usuario, arquitectura de información, diseño de landing page (wireframe y mockup), diseño de aplicaciones (wireframes, wireflows, mockups, user flows) y prototipado de la solución. |
+| TP      | 30/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Solution UX Design: Elaboración de guías de estilo, arquitectura de información, sistemas de navegación y búsqueda, diseño de interfaces (landing page y aplicaciones), diagramas de flujo de usuario y prototipos interactivos centrados en la experiencia del usuario. |
+| TP      | 30/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Tactical-Level Software Design: Definición de Bounded Contexts y estructuración en capas (Domain, Interface, Application, Infrastructure), elaboración de diagramas a nivel de componentes y código, diagramas de clases del dominio y diseño de base de datos. |
+| TP      | 30/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Tactical-Level Software Design: Desarrollo de la arquitectura a nivel táctico mediante Bounded Contexts, definición de capas del sistema, diagramas de componentes y código, modelado del dominio con diagramas de clases y diseño de la base de datos. |
 
 ## Project Report Collaboration Insights
 
@@ -87,13 +91,35 @@ Abril 2026
 
 **REPORT**
 
+![alt text](assets/TB1/REPO.png)
+
+COMMITS:
+
+Luquillas Asto, Omar: 22
+
+Peña Riofrio, Maria Fernanda: 1
+
+Pilares Pocohuanca, Maria: 17
+
+Sanchez Silva, Luciana Celeste:	2
+
+Sandoval Paiva, Valentino: 12
+
+**TP:**
+
+**REPORT**
+
+![alt text]()
+
+COMMITS:
+
 Luquillas Asto, Omar: 
 
 Peña Riofrio, Maria Fernanda: 
 
 Pilares Pocohuanca, Maria: 
 
-Sanchez Silva, Luciana Celeste:	luccsss
+Sanchez Silva, Luciana Celeste:	
 
 Sandoval Paiva, Valentino: 
 
@@ -263,9 +289,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
         Sandoval Paiva, Valentino<br>
         <em>TB1</em><br> Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
+        <br><br><strong>TP</strong><br><br>
+        Luquillas Asto, Omar<br>
+        Reforcé la comunicación oral al presentar propuestas de diseño UX/UI, explicando con claridad decisiones de usabilidad, estructura visual y navegación, adaptando el discurso según el nivel técnico del público. <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        Fortalecí la comunicación oral al explicar la arquitectura táctica del sistema, detallando los Bounded Contexts y su organización en capas, asegurando una comprensión clara tanto para perfiles técnicos como no técnicos. <br><br>
+        Pilares Pocohuanca, Maria<br>
+        Mejoré la exposición de ideas al explicar la estructura por capas (Domain, Application, Interface, Infrastructure) y los diagramas del sistema, organizando la información de forma lógica y comprensible. <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Fortalecí la comunicación oral al presentar flujos de usuario, wireflows y decisiones de diseño UX, explicando de manera estructurada cómo interactúan los usuarios con el sistema. <br><br>
+        Sandoval Paiva, Valentino<br>
+        Reforcé la comunicación oral al sustentar decisiones de diseño UX/UI y arquitectura de navegación, explicando la experiencia del usuario de forma clara, objetiva y adaptada a distintos niveles de conocimiento.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
+        <br><br><strong>TP:</strong><br>
+        En esta fase se consolidó la capacidad del equipo para comunicar ideas de manera oral integrando tanto aspectos técnicos como de diseño, logrando explicar de forma clara la arquitectura del sistema y la experiencia de usuario. Esto permitió una comunicación más efectiva entre distintos niveles jerárquicos y especialidades, fortaleciendo la argumentación y la claridad en la presentación de soluciones de ingeniería.
       </td>
     </tr>
     <tr>
@@ -281,9 +320,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
         Sandoval Paiva, Valentino<br>
         <em>TB1</em><br> Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
+        <br><br><strong>TP</strong><br><br>
+        Luquillas Asto, Omar<br>
+        Mejoré la comunicación escrita al desarrollar secciones de UX Design, describiendo lineamientos de estilo, arquitectura de información y decisiones de diseño de forma clara y estructurada. <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        Fortalecí la redacción técnica al documentar el diseño táctico del sistema, incluyendo la organización en capas, diagramas y la relación entre componentes. <br><br>
+        Pilares Pocohuanca, Maria<br>
+        Mejoré la documentación al estructurar y detallar los Bounded Contexts, diagramas de clases y diseño de base de datos, asegurando coherencia y claridad en la información técnica. <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Fortalecí la comunicación escrita al documentar wireframes, user flows y componentes de experiencia de usuario, organizando la información de manera comprensible para distintos perfiles. <br><br>
+        Sandoval Paiva, Valentino<br>
+        Reforcé la redacción técnica al detallar prototipos, navegación y estructura UX/UI, explicando de manera clara cómo se relacionan los elementos del sistema.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
+        <br><br><strong>TP:</strong><br>
+        En esta etapa se consolidó la comunicación escrita del equipo al integrar documentación detallada de arquitectura de software y diseño UX/UI, logrando un informe más completo, coherente y comprensible para distintos tipos de público. Esto permitió presentar soluciones de ingeniería con mayor claridad, precisión y organización.
       </td>
     </tr>
   </tbody>
