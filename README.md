@@ -1987,10 +1987,468 @@ Servicio preparado para consumir modelos de inteligencia artificial relacionados
 ##### 5.1.7.2.	Bounded Context Database Design Diagram.
 
 ### 5.2.	Bounded Context:  Gestión de Proyectos y Tareas
+
+El bounded context de Gestión de Proyectos y Tareas es responsable de administrar la planificación, organización, asignación y seguimiento operativo de proyectos y tareas dentro de la plataforma TaskMaster. Este contexto representa el núcleo funcional del sistema, ya que concentra las reglas de negocio relacionadas con la ejecución de actividades colaborativas entre equipos de trabajo.
+
+Asimismo, este bounded context incorpora capacidades preparadas para tecnologías emergentes basadas en inteligencia artificial, orientadas al análisis predictivo de carga laboral, identificación de tareas críticas y evaluación automática de riesgos operativos. De igual manera, se integra con automatizaciones RPA para la generación de recordatorios y alertas inteligentes relacionadas con vencimientos y asignaciones.
+
+---
+
 #### 5.2.1.	Domain Layer.
+
+La Domain Layer modela las entidades, agregados y servicios que representan las reglas de negocio asociadas a la gestión de proyectos, tareas y colaboración entre usuarios.
+
+---
+
+### Aggregate Root: Project
+
+**Descripción**
+El agregado `Project` representa un proyecto de trabajo dentro del sistema y actúa como raíz del agregado. Encapsula la información general del proyecto, sus miembros y las tareas asociadas.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del proyecto |
+| name | String | Nombre del proyecto |
+| description | String | Descripción general |
+| status | ProjectStatus | Estado del proyecto |
+| startDate | Date | Fecha de inicio |
+| endDate | Date | Fecha límite |
+| ownerId | Long | Identificador del líder |
+| members | List<ProjectMember> | Miembros asociados |
+| tasks | List<Task> | Tareas del proyecto |
+| createdAt | Date | Fecha de creación |
+
+**Métodos principales**
+
+- `createTask()`
+- `assignMember()`
+- `removeMember()`
+- `changeStatus()`
+- `calculateProgress()`
+- `closeProject()`
+
+---
+
+### Entity: Task
+
+**Descripción**
+Representa una actividad específica perteneciente a un proyecto.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador de tarea |
+| title | String | Título de la tarea |
+| description | String | Descripción |
+| status | TaskStatus | Estado actual |
+| priority | TaskPriority | Nivel de prioridad |
+| dueDate | Date | Fecha límite |
+| assignedUserId | Long | Usuario asignado |
+| estimatedHours | Integer | Tiempo estimado |
+| completedAt | Date | Fecha de finalización |
+
+**Métodos principales**
+
+- `assignUser()`
+- `updateStatus()`
+- `markAsCompleted()`
+- `changePriority()`
+- `isOverdue()`
+- `calculateDelayRisk()`
+
+---
+
+### Entity: ProjectMember
+
+**Descripción**
+Representa la participación de un usuario dentro de un proyecto.
+
+**Atributos**
+
+- id
+- userId
+- role
+- joinedAt
+
+---
+
+### Value Object: ProjectStatus
+
+**Valores**
+
+- PLANNING
+- ACTIVE
+- COMPLETED
+- CANCELLED
+
+---
+
+### Value Object: TaskStatus
+
+**Valores**
+
+- PENDING
+- IN_PROGRESS
+- COMPLETED
+- BLOCKED
+- OVERDUE
+
+---
+
+### Value Object: TaskPriority
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: WorkloadAnalysisService
+
+**Descripción**
+Servicio de dominio encargado de analizar la distribución de tareas y carga laboral de los miembros del proyecto.
+
+**Métodos**
+
+- `analyzeWorkload(projectId)`
+- `detectOverloadedUsers()`
+- `calculateTeamCapacity()`
+
+**Relación con IA**
+
+Este servicio será integrado con modelos de inteligencia artificial capaces de:
+
+- analizar rendimiento del equipo
+- identificar sobrecarga laboral
+- detectar desequilibrio en asignaciones
+- predecir retrasos operativos
+
+---
+
+### Domain Service: TaskRiskAnalysisService
+
+**Descripción**
+Servicio responsable de evaluar riesgos asociados al progreso de tareas.
+
+**Métodos**
+
+- `evaluateTaskRisk(task)`
+- `predictDelayProbability(task)`
+- `detectCriticalTasks(projectId)`
+
+**Relación con IA**
+
+Este servicio permitirá integrar algoritmos predictivos orientados a:
+
+- detección temprana de retrasos
+- clasificación automática de tareas críticas
+- generación de alertas inteligentes
+
+---
+
+### Domain Service: ProjectCollaborationService
+
+**Descripción**
+
+Gestiona reglas relacionadas con colaboración y coordinación de equipos.
+
+**Métodos**
+
+- `validateAssignment()`
+- `verifyMemberPermissions()`
+- `recommendTaskDistribution()`
+
+---
+
+### Repository Interfaces
+
+**ProjectRepository**
+
+Métodos principales:
+
+- `save(Project project)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+- `findAll()`
+
+**TaskRepository**
+
+Métodos principales:
+
+- `save(Task task)`
+- `findByProjectId(Long projectId)`
+- `findOverdueTasks()`
+- `findByAssignedUser(Long userId)`
+
+**ProjectMemberRepository**
+
+Métodos principales:
+
+- `save(ProjectMember member)`
+- `findByProjectId(Long projectId)`
+
+---
+
 #### 5.2.2.	Interface Layer.
+
+La Interface Layer expone las funcionalidades relacionadas con proyectos y tareas mediante endpoints REST.
+
+---
+
+### Controller: ProjectsController
+
+**Descripción**
+Gestiona operaciones relacionadas con proyectos.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| createProject | POST /projects | Crear proyecto |
+| getProjects | GET /projects | Obtener proyectos |
+| getProjectById | GET /projects/{id} | Obtener proyecto |
+| updateProject | PUT /projects/{id} | Actualizar proyecto |
+| closeProject | PUT /projects/{id}/close | Finalizar proyecto |
+
+---
+
+### Controller: TasksController
+
+**Descripción**
+Gestiona tareas asociadas a proyectos.
+
+| Método | Ruta |
+|---|---|
+| createTask | POST /tasks |
+| assignTask | PUT /tasks/{id}/assign |
+| updateTaskStatus | PUT /tasks/{id}/status |
+| getTasksByProject | GET /projects/{id}/tasks |
+
+---
+
+### Controller: ProjectMembersController
+
+| Método | Ruta |
+|---|---|
+| addMember | POST /projects/{id}/members |
+| removeMember | DELETE /projects/{id}/members/{memberId} |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- ProjectResource
+- TaskResource
+- ProjectMemberResource
+- CreateProjectResource
+- CreateTaskResource
+
+**Assemblers principales**
+
+- ProjectResourceAssembler
+- TaskResourceAssembler
+- ProjectCommandAssembler
+
+---
+
 #### 5.2.3.	Application Layer.
+
+La Application Layer coordina los procesos de negocio relacionados con proyectos y tareas mediante comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**CreateProjectCommandHandler**
+
+Responsabilidades:
+
+- Crear proyectos.
+- Validar reglas de negocio.
+- Registrar eventos iniciales.
+
+**CreateTaskCommandHandler**
+
+Responsabilidades:
+
+- Crear tareas.
+- Validar asignaciones.
+- Calcular prioridad inicial.
+
+**AssignTaskCommandHandler**
+
+Responsabilidades:
+
+- Asignar usuarios.
+- Validar carga laboral.
+- Generar alertas inteligentes.
+
+**UpdateTaskStatusCommandHandler**
+
+Responsabilidades:
+
+- Actualizar estado.
+- Verificar vencimientos.
+- Disparar automatizaciones.
+
+**CloseProjectCommandHandler**
+
+Responsabilidades:
+
+- Finalizar proyectos.
+- Validar tareas pendientes.
+- Generar métricas finales.
+
+### Query Handlers
+
+- GetProjectsQueryHandler
+- GetProjectByIdQueryHandler
+- GetTasksByProjectQueryHandler
+- GetOverdueTasksQueryHandler
+
+---
+
+### Domain Events
+
+**ProjectCreatedEvent**
+
+Se genera cuando un proyecto es creado.
+
+**TaskAssignedEvent**
+
+Se genera cuando una tarea es asignada.
+
+**TaskOverdueEvent**
+
+Evento emitido cuando una tarea excede su fecha límite.
+
+**CriticalTaskDetectedEvent**
+
+Evento generado cuando una tarea es clasificada como crítica mediante análisis inteligente.
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra capacidades de IA orientadas a:
+
+- análisis de productividad
+- predicción de retrasos
+- identificación de riesgos
+- recomendaciones de asignación
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- recordatorios automáticos
+- alertas de vencimiento
+- seguimiento automático de tareas críticas
+- notificaciones inteligentes
+
+**Servicios de soporte**
+
+- NotificationService
+- SchedulingService
+- WorkloadMetricsService
+
+---
+
 #### 5.2.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa persistencia, servicios externos y mecanismos técnicos necesarios para la ejecución del bounded context.
+
+---
+
+### Repository Implementations
+
+**JpaProjectRepository**
+
+Implementación concreta de persistencia de proyectos.
+
+**JpaTaskRepository**
+
+Implementación concreta de persistencia de tareas.
+
+**JpaProjectMemberRepository**
+
+Implementación concreta de persistencia de miembros.
+
+---
+
+### Servicios técnicos
+
+**NotificationServiceImpl**
+
+Gestiona envío de notificaciones.
+
+**SchedulerService**
+
+Gestiona tareas automáticas programadas.
+
+**AIAnalyticsIntegrationService**
+
+Servicio encargado de consumir modelos externos de inteligencia artificial.
+
+**Funcionalidades**
+
+- análisis predictivo
+- evaluación de riesgos
+- análisis de rendimiento
+- cálculo inteligente de carga laboral
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable de:
+
+- envío de alertas
+- recordatorios automáticos
+- notificaciones inteligentes
+
+**CalendarIntegrationService**
+
+Permite sincronizar tareas y vencimientos con calendarios externos.
+
+**RpaWorkflowAutomationService**
+
+Servicio encargado de automatizar procesos repetitivos.
+
+**Automatizaciones principales**
+
+- envío automático de recordatorios
+- generación de alertas por vencimiento
+- seguimiento automatizado de tareas críticas
+- escalamiento automático de incidencias
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado para integrar tecnologías emergentes relacionadas con:
+
+**Inteligencia Artificial**
+
+- predicción de retrasos
+- análisis de productividad
+- evaluación automática de riesgos
+- recomendaciones inteligentes
+
+**Robotic Process Automation (RPA)**
+
+- automatización de notificaciones
+- ejecución automática de recordatorios
+- seguimiento inteligente de tareas vencidas
+
+---
+
 #### 5.2.6.	Bounded Context Software Architecture Component Level Diagrams.
 #### 5.2.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.2.7.1.	Bounded Context Domain Layer Class Diagrams.
