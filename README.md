@@ -2455,10 +2455,484 @@ Este bounded context ha sido diseñado para integrar tecnologías emergentes rel
 ##### 5.2.7.2.	Bounded Context Database Design Diagram.
 
 ### 5.3.	Bounded Context:  Visualización y Seguimiento
+
+El bounded context de Visualización y Seguimiento es responsable de consolidar, analizar y representar información relacionada con el estado operativo de proyectos, tareas y desempeño de equipos dentro de la plataforma TaskMaster. Su propósito principal es proporcionar visibilidad en tiempo real sobre el progreso de las actividades, facilitando la toma de decisiones estratégicas y operativas.
+
+Este bounded context incorpora capacidades basadas en inteligencia artificial orientadas al análisis predictivo, generación de alertas inteligentes e identificación automática de riesgos, permitiendo transformar datos operativos en información útil para líderes y miembros de equipos.
+
+Asimismo, integra automatizaciones basadas en RPA para el envío de reportes, alertas y seguimiento automatizado de incidencias críticas.
+
+---
+
 #### 5.3.1.	Domain Layer.
+
+La Domain Layer modela las entidades, objetos de valor y servicios encargados de representar indicadores, métricas, alertas y análisis relacionados con el seguimiento de proyectos y tareas.
+
+---
+
+### Aggregate Root: Dashboard
+
+**Descripción**
+El agregado `Dashboard` representa un panel de visualización que consolida indicadores y métricas de seguimiento asociadas a proyectos y equipos de trabajo.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del dashboard |
+| name | String | Nombre del dashboard |
+| ownerId | Long | Usuario propietario |
+| widgets | List<DashboardWidget> | Componentes visuales |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `addWidget()`
+- `removeWidget()`
+- `refreshMetrics()`
+- `generateSummary()`
+
+---
+
+### Entity: DashboardWidget
+
+**Descripción**
+Representa un componente visual utilizado dentro del dashboard.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| title | String |
+| widgetType | WidgetType |
+| dataSource | String |
+| position | Integer |
+
+**Métodos principales**
+
+- `updateData()`
+- `renderVisualization()`
+
+---
+
+### Entity: RiskIndicator
+
+**Descripción**
+Representa un indicador de riesgo calculado automáticamente mediante análisis inteligente.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| projectId | Long |
+| riskLevel | RiskLevel |
+| probability | Double |
+| generatedAt | Date |
+| description | String |
+
+**Métodos principales**
+
+- `calculateRiskScore()`
+- `classifyRiskLevel()`
+- `generateRecommendation()`
+
+---
+
+### Entity: SmartAlert
+
+**Descripción**
+Representa una alerta inteligente generada automáticamente por análisis predictivos.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| type | AlertType |
+| severity | AlertSeverity |
+| message | String |
+| createdAt | Date |
+| isResolved | Boolean |
+
+
+**Métodos principales**
+
+- `markAsResolved()`
+- `escalateAlert()`
+
+---
+
+### Value Object: RiskLevel
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Value Object: WidgetType
+
+**Valores**
+
+- TASK_PROGRESS
+- TEAM_PERFORMANCE
+- WORKLOAD_ANALYSIS
+- RISK_MONITORING
+- PRODUCTIVITY_METRICS
+
+---
+
+### Value Object: AlertSeverity
+
+**Valores**
+
+- INFO
+- WARNING
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: RiskAnalysisService
+
+**Descripción**
+Servicio encargado de analizar información operativa para identificar riesgos dentro de proyectos y tareas.
+
+**Métodos**
+
+- `analyzeProjectRisk(projectId)`
+- `detectOperationalRisks()`
+- `calculateRiskProbability()`
+
+**Relación con IA**
+
+Este servicio integra modelos de inteligencia artificial capaces de:
+
+- detectar patrones de retraso
+- identificar tareas críticas
+- calcular probabilidades de incumplimiento
+- generar recomendaciones inteligentes
+
+---
+
+### Domain Service: TeamPerformanceAnalysisService
+
+**Descripción**
+Analiza métricas relacionadas con desempeño y productividad de equipos.
+
+**Métodos**
+
+- `analyzeTeamPerformance(teamId)`
+- `calculateProductivityMetrics()`
+- `identifyPerformanceIssues()`
+
+**Relación con IA**
+
+Permite implementar análisis predictivos relacionados con:
+
+- productividad del equipo
+- carga laboral
+- tareas atrasadas
+- eficiencia operativa
+
+---
+
+### Domain Service: SmartAlertService
+
+**Descripción**
+Gestiona la generación automática de alertas inteligentes.
+
+## Métodos
+
+- `generateAlert()`
+- `prioritizeAlerts()`
+- `escalateCriticalAlerts()`
+
+---
+
+### Repository Interfaces
+
+**DashboardRepository**
+
+Métodos principales:
+
+- `save(Dashboard dashboard)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+
+**RiskIndicatorRepository**
+
+Métodos principales:
+
+- `save(RiskIndicator riskIndicator)`
+- `findByProjectId(Long projectId)`
+- `findCriticalRisks()`
+
+**SmartAlertRepository**
+
+Métodos principales:
+
+- `save(SmartAlert alert)`
+- `findActiveAlerts()`
+- `findBySeverity(AlertSeverity severity)`
+
 #### 5.3.2.	Interface Layer.
+
+La Interface Layer expone dashboards, métricas y alertas mediante endpoints REST y componentes visuales.
+
+---
+
+### Controller: DashboardController
+
+**Descripción**
+Gestiona paneles de seguimiento y visualización.
+
+| Método | Ruta |
+|---|---|
+| createDashboard | POST /dashboards |
+| getDashboard | GET /dashboards/{id} |
+| refreshDashboard | PUT /dashboards/{id}/refresh |
+
+---
+
+### Controller: RiskMonitoringController
+
+**Descripción**
+Gestiona indicadores de riesgo.
+
+| Método | Ruta |
+|---|---|
+| getProjectRisks | GET /risks/project/{id} |
+| getCriticalRisks | GET /risks/critical |
+
+---
+
+### Controller: SmartAlertsController
+
+**Descripción**
+Gestiona alertas inteligentes.
+
+| Método | Ruta |
+|---|---|
+| getAlerts | GET /alerts |
+| resolveAlert | PUT /alerts/{id}/resolve |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- DashboardResource
+- RiskIndicatorResource
+- SmartAlertResource
+- TeamPerformanceResource
+
+**Assemblers principales**
+
+- DashboardResourceAssembler
+- RiskResourceAssembler
+- AlertResourceAssembler
+
+---
+
 #### 5.3.3.	Application Layer.
+
+La Application Layer coordina los flujos relacionados con métricas, análisis predictivo y seguimiento inteligente.
+
+---
+
+### Command Handlers
+
+**CreateDashboardCommandHandler**
+
+Responsabilidades:
+
+- Crear dashboards personalizados.
+- Configurar widgets iniciales.
+
+**RefreshDashboardCommandHandler**
+
+Responsabilidades:
+
+- Actualizar métricas.
+- Obtener información en tiempo real.
+- Ejecutar análisis predictivos.
+
+**ResolveAlertCommandHandler**
+
+Responsabilidades:
+
+- Resolver alertas.
+- Registrar historial de incidencias.
+
+---
+
+### Query Handlers
+
+- GetDashboardQueryHandler
+- GetProjectRisksQueryHandler
+- GetCriticalAlertsQueryHandler
+- GetPerformanceMetricsQueryHandler
+
+---
+
+### Domain Events
+
+**DashboardUpdatedEvent**
+
+Evento generado al actualizar métricas del dashboard.
+
+**RiskDetectedEvent**
+
+Evento generado cuando se identifica un riesgo operativo.
+
+**CriticalAlertGeneratedEvent**
+
+Evento generado cuando una alerta crítica es detectada.
+
+**TeamPerformanceAnalyzedEvent**
+
+Evento generado tras analizar productividad del equipo.
+
+---
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra servicios de IA orientados a:
+
+- análisis predictivo
+- identificación de riesgos
+- evaluación de desempeño
+- generación de recomendaciones inteligentes
+- detección automática de tareas críticas
+
+---
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- envío automático de reportes
+- alertas inteligentes automatizadas
+- escalamiento automático de incidencias
+- seguimiento automatizado de riesgos críticos
+
+---
+
+**Servicios de soporte**
+
+- MetricsAggregationService
+- ReportGenerationService
+- VisualizationService
+- AlertNotificationService
+
+---
+
 #### 5.3.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa mecanismos de persistencia, integración externa y conexión con servicios analíticos inteligentes.
+
+---
+
+### Repository Implementations
+
+**JpaDashboardRepository**
+
+Implementación de persistencia para dashboards.
+
+**JpaRiskIndicatorRepository**
+
+Implementación de persistencia para indicadores de riesgo.
+
+**JpaSmartAlertRepository**
+
+Implementación de persistencia para alertas inteligentes.
+
+---
+
+### Servicios técnicos
+
+**DashboardMetricsService**
+
+Gestiona consolidación y cálculo de métricas.
+
+**DataVisualizationService**
+
+Genera representaciones visuales y gráficas.
+
+**AIAnalyticsEngineService**
+
+Servicio encargado de consumir modelos de inteligencia artificial.
+
+**Funcionalidades principales**
+
+- análisis predictivo
+- detección de riesgos
+- evaluación de productividad
+- identificación de anomalías
+- generación de recomendaciones inteligentes
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable del envío de:
+
+- alertas críticas
+- reportes automáticos
+- notificaciones inteligentes
+
+**ReportAutomationService**
+
+Servicio orientado a automatización de reportes mediante RPA.
+
+**Automatizaciones principales**
+
+- generación automática de reportes
+- envío programado de métricas
+- alertas automáticas de riesgo
+- escalamiento de incidencias críticas
+
+**NotificationAutomationService**
+
+Automatiza procesos relacionados con:
+
+- seguimiento de alertas
+- envío de recordatorios
+- monitoreo automático de riesgos
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado específicamente para integrar tecnologías emergentes enfocadas en analítica avanzada y automatización inteligente.
+
+**Inteligencia Artificial**
+
+- análisis predictivo
+- indicadores inteligentes de riesgo
+- alertas automáticas
+- análisis de desempeño
+- identificación de anomalías operativas
+
+**Robotic Process Automation (RPA)**
+
+- automatización de reportes
+- seguimiento automático de incidencias
+- envío inteligente de notificaciones
+- monitoreo automatizado de riesgos
+
+---
+
 #### 5.3.6.	Bounded Context Software Architecture Component Level Diagrams.
 #### 5.3.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.3.7.1.	Bounded Context Domain Layer Class Diagrams.
