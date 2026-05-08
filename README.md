@@ -2450,9 +2450,24 @@ Este bounded context ha sido diseñado para integrar tecnologías emergentes rel
 ---
 
 #### 5.2.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram representa la descomposición interna del bounded context de Registro y Autenticación de Usuario, mostrando los componentes pertenecientes a las capas Interface, Application, Domain e Infrastructure, así como la integración con servicios de Inteligencia Artificial (AI) y automatización RPA para validaciones de seguridad y notificaciones automáticas.
+
+![BC1_Component](assets/TP1/BC1_Components_diagram.png)
+
 #### 5.2.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.2.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las principales entidades, servicios de dominio, interfaces y relaciones correspondientes al Domain Layer del bounded context de Registro y Autenticación de Usuario, siguiendo principios de Domain-Driven Design (DDD).
+
+![BC1_Class](assets/TP1/BC1_Class_diagram.png)
+
 ##### 5.2.7.2.	Bounded Context Database Design Diagram.
+
+El siguiente Database Diagram muestra las entidades persistentes y relaciones utilizadas para gestionar usuarios, roles, intentos de inicio de sesión y procesos de recuperación de contraseña dentro del bounded context de Registro y Autenticación de Usuario.
+
+![BC1_Database](assets/TP1/BC1_Database_diagram.png)
+
 
 ### 5.3.	Bounded Context:  Visualización y Seguimiento
 
