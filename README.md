@@ -2963,10 +2963,23 @@ Este bounded context ha sido diseñado específicamente para integrar tecnologí
 ---
 
 #### 5.3.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram muestra los componentes internos del bounded context de Visualización y Seguimiento, incluyendo módulos de dashboards, monitoreo de riesgos, alertas inteligentes y servicios de análisis predictivo basados en AI.
+
+![BC3_Component](assets/TP1/BC3_Components_diagram.png)
+
 #### 5.3.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.3.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las entidades y servicios de dominio responsables de la generación de dashboards, indicadores de riesgo, alertas inteligentes y análisis de desempeño dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Class](assets/TP1/BC3_Class_diagram.png)
+
 ##### 5.3.7.2.	Bounded Context Database Design Diagram.
 
+El siguiente Database Diagram representa las entidades persistentes relacionadas con dashboards, indicadores de riesgo, métricas de rendimiento, alertas inteligentes y reportes automatizados generados dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Database](assets/TP1/BC3_Database_diagram.png)
 
 ---
 
