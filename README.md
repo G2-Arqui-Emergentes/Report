@@ -1624,35 +1624,1362 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 
 ## Capítulo V: Tactical-Level Software Design.
 ### 5.1.	Bounded Context:  Registro y Autenticación de Usuario
+
+El bounded context de Registro y Autenticación de Usuario es responsable de gestionar la identidad digital de los usuarios dentro de la plataforma TaskMaster. Este contexto encapsula los procesos de registro, autenticación, autorización y administración de roles, garantizando que únicamente usuarios válidos puedan acceder a los recursos y funcionalidades del sistema.
+
+Asimismo, este bounded context ha sido diseñado considerando capacidades futuras de tecnologías emergentes, especialmente relacionadas con inteligencia artificial orientada a seguridad y automatización de procesos de autenticación mediante RPA.
+
+---
+
 #### 5.1.1.	Domain Layer.
+
+La Domain Layer representa el núcleo del dominio relacionado con identidad y control de acceso. Aquí se modelan las entidades, objetos de valor y servicios encargados de mantener la consistencia y seguridad de los procesos de autenticación y autorización.
+
+### Aggregate Root: User
+
+**Descripción**
+El agregado `User` representa la cuenta principal de un usuario dentro del sistema y actúa como raíz del agregado. Encapsula las credenciales, roles y estados de seguridad asociados al usuario.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador único del usuario |
+| username | String | Nombre de usuario único |
+| passwordHash | String | Contraseña cifrada |
+| email | EmailAddress | Correo electrónico validado |
+| roles | Set<Role> | Roles asignados al usuario |
+| status | UserStatus | Estado de la cuenta |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `register()`: Registra un nuevo usuario validando reglas de negocio.
+- `assignRole(Role role)`: Asigna un rol al usuario.
+- `changePassword(String newPassword)`: Actualiza la contraseña.
+- `lockAccount()`: Bloquea la cuenta ante actividad sospechosa.
+- `enableAccount()`: Reactiva la cuenta.
+- `validatePassword(String password)`: Valida credenciales.
+
+---
+
+### Entity: Role
+
+**Descripción**
+Representa los permisos y niveles de acceso disponibles dentro de la plataforma.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del rol |
+| name | RoleName | Nombre del rol |
+
+**Valores de RoleName**
+
+- TEAM_MEMBER
+- TEAM_LEADER
+- ADMIN
+
+**Métodos**
+
+- `isLeader()`
+- `isAdmin()`
+
+---
+
+### Value Object: EmailAddress
+
+**Descripción**
+Objeto de valor encargado de representar una dirección de correo válida.
+
+**Reglas de validación**
+
+- Debe tener formato válido.
+- No puede exceder la longitud permitida.
+- Es inmutable.
+
+---
+
+### Value Object: UserStatus
+
+**Valores**
+
+- ACTIVE
+- LOCKED
+- DISABLED
+
+---
+
+### Domain Service: AuthenticationService
+
+**Descripción**
+Encapsula la lógica de autenticación independiente de infraestructura técnica.
+
+**Métodos**
+
+- `authenticate(username, password)`
+- `validateCredentials(user, password)`
+- `initiatePasswordReset(email)`
+
+---
+
+### Domain Service: SecurityPolicyService
+
+**Descripción**
+Gestiona reglas de seguridad y prepara el dominio para futuras capacidades de inteligencia artificial enfocadas en detección de accesos sospechosos.
+
+**Métodos**
+
+- `isLoginAttemptValid(user, metadata)`
+- `evaluateRisk(loginData)`
+- `detectAnomalousBehavior(userActivity)`
+
+**Relación con tecnologías emergentes**
+
+Este servicio permitirá integrar modelos de IA capaces de:
+
+- Detectar patrones sospechosos de inicio de sesión.
+- Identificar accesos inusuales.
+- Generar alertas inteligentes de seguridad.
+
+---
+
+### Repository Interfaces
+
+**UserRepository**
+
+**Métodos:**
+
+- `save(User user)`
+- `findById(Long id)`
+- `findByUsername(String username)`
+- `findByEmail(String email)`
+
+**RoleRepository**
+
+**Métodos:**
+
+- `save(Role role)`
+- `findByName(String name)`
+- `findAll()`
+
+---
+
 #### 5.1.2.	Interface Layer.
+
+La Interface Layer expone los endpoints REST y gestiona la interacción entre los usuarios y el sistema.
+
+---
+
+### Controller: AuthenticationController
+
+**Descripción**
+Gestiona los procesos de autenticación y acceso.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| signUp | POST /auth/sign-up | Registro de usuario |
+| signIn | POST /auth/sign-in | Inicio de sesión |
+| logout | POST /auth/logout | Cierre de sesión |
+| resetPassword | POST /auth/reset-password | Recuperación de contraseña |
+
+---
+
+### Controller: UsersController
+
+**Descripción**
+Permite administrar usuarios registrados.
+
+| Método | Ruta |
+|---|---|
+| getAllUsers | GET /users |
+| getUserById | GET /users/{id} |
+| updateUserStatus | PUT /users/{id}/status |
+
+---
+
+### Controller: RolesController
+
+| Método | Ruta |
+|---|---|
+| getRoles | GET /roles |
+
+---
+
+### Assemblers y Resources
+
+Se utilizan DTOs y assemblers para desacoplar la API del dominio.
+
+**Resources principales**
+
+- SignInResource
+- SignUpResource
+- UserResource
+- RoleResource
+
+**Assemblers principales**
+
+- UserResourceAssembler
+- SignInCommandAssembler
+
+---
+
 #### 5.1.3.	Application Layer.
+
+La Application Layer orquesta los flujos de negocio y coordina comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**SignUpCommandHandler**
+
+Responsabilidades:
+
+- Validar datos del usuario.
+- Crear usuario.
+- Generar eventos de registro.
+
+**SignInCommandHandler**
+
+Responsabilidades:
+
+- Validar credenciales.
+- Generar token JWT.
+- Registrar actividad de acceso.
+
+**AssignRoleCommandHandler**
+
+Responsabilidades:
+
+- Asignar roles.
+- Validar permisos.
+
+**ResetPasswordCommandHandler**
+
+Responsabilidades:
+
+- Generar solicitudes de recuperación.
+- Disparar automatizaciones de notificación.
+
+---
+
+### Query Handlers
+
+- GetUserByIdQueryHandler
+- GetAllUsersQueryHandler
+- GetRolesQueryHandler
+
+---
+
+### Domain Events
+
+**UserRegisteredEvent**
+
+Se genera cuando un usuario es registrado exitosamente.
+
+**UserLoggedInEvent**
+
+Se genera cuando un usuario inicia sesión.
+
+**SuspiciousLoginDetectedEvent**
+
+Evento preparado para integraciones futuras con servicios inteligentes de seguridad.
+
+---
+
+### Servicios de soporte
+
+- TokenService
+- HashingService
+
+---
+
+### Integración con tecnologías emergentes
+
+**Inteligencia Artificial**
+
+La Application Layer permite integrar servicios de IA orientados a:
+
+- análisis de comportamiento de acceso
+- evaluación de riesgo
+- detección de accesos anómalos
+
+**RPA**
+
+Se incorporan automatizaciones para:
+
+- recuperación automática de contraseña
+- envío automático de correos
+- notificaciones inteligentes de seguridad
+
+---
+
 #### 5.1.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa los mecanismos técnicos de persistencia y conexión con servicios externos.
+
+---
+
+### Repository Implementations
+
+**JpaUserRepository**
+
+Implementación concreta del repositorio de usuarios.
+
+**JpaRoleRepository**
+
+Implementación concreta del repositorio de roles.
+
+---
+
+### Servicios técnicos
+
+**BCryptHashingService**
+
+Responsable del cifrado de contraseñas.
+
+**JwtTokenService**
+
+Encargado de generar y validar tokens JWT.
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Gestiona el envío de:
+
+- recuperación de contraseña
+- confirmaciones de registro
+- alertas de seguridad
+
+**NotificationAutomationService**
+
+Servicio orientado a automatizaciones RPA.
+
+**Funciones automatizadas**
+
+- envío automático de recordatorios
+- alertas inteligentes de acceso
+- automatización de recuperación de cuenta
+
+---
+
+### Integración IA
+
+**ExternalSecurityAnalysisService**
+
+Servicio preparado para consumir modelos de inteligencia artificial relacionados con:
+
+- análisis de riesgo
+- comportamiento sospechoso
+- patrones de acceso
+
+---
+
 #### 5.1.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram representa la descomposición interna del bounded context de Registro y Autenticación de Usuario, mostrando los componentes pertenecientes a las capas Interface, Application, Domain e Infrastructure, así como la integración con servicios de Inteligencia Artificial (AI) y automatización RPA para validaciones de seguridad y notificaciones automáticas.
+
+![BC1_Component](assets/TP1/BC1_Components_diagram.png)
+
 #### 5.1.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.1.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las principales entidades, servicios de dominio, interfaces y relaciones correspondientes al Domain Layer del bounded context de Registro y Autenticación de Usuario, siguiendo principios de Domain-Driven Design (DDD).
+
+![BC1_Class](assets/TP1/BC1_Class_diagram.png)
+
+
 ##### 5.1.7.2.	Bounded Context Database Design Diagram.
 
+El siguiente Database Diagram muestra las entidades persistentes y relaciones utilizadas para gestionar usuarios, roles, intentos de inicio de sesión y procesos de recuperación de contraseña dentro del bounded context de Registro y Autenticación de Usuario.
+
+![BC1_Database](assets/TP1/BC1_Database_diagram.png)
+
 ### 5.2.	Bounded Context:  Gestión de Proyectos y Tareas
+
+El bounded context de Gestión de Proyectos y Tareas es responsable de administrar la planificación, organización, asignación y seguimiento operativo de proyectos y tareas dentro de la plataforma TaskMaster. Este contexto representa el núcleo funcional del sistema, ya que concentra las reglas de negocio relacionadas con la ejecución de actividades colaborativas entre equipos de trabajo.
+
+Asimismo, este bounded context incorpora capacidades preparadas para tecnologías emergentes basadas en inteligencia artificial, orientadas al análisis predictivo de carga laboral, identificación de tareas críticas y evaluación automática de riesgos operativos. De igual manera, se integra con automatizaciones RPA para la generación de recordatorios y alertas inteligentes relacionadas con vencimientos y asignaciones.
+
+---
+
 #### 5.2.1.	Domain Layer.
+
+La Domain Layer modela las entidades, agregados y servicios que representan las reglas de negocio asociadas a la gestión de proyectos, tareas y colaboración entre usuarios.
+
+---
+
+### Aggregate Root: Project
+
+**Descripción**
+El agregado `Project` representa un proyecto de trabajo dentro del sistema y actúa como raíz del agregado. Encapsula la información general del proyecto, sus miembros y las tareas asociadas.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del proyecto |
+| name | String | Nombre del proyecto |
+| description | String | Descripción general |
+| status | ProjectStatus | Estado del proyecto |
+| startDate | Date | Fecha de inicio |
+| endDate | Date | Fecha límite |
+| ownerId | Long | Identificador del líder |
+| members | List<ProjectMember> | Miembros asociados |
+| tasks | List<Task> | Tareas del proyecto |
+| createdAt | Date | Fecha de creación |
+
+**Métodos principales**
+
+- `createTask()`
+- `assignMember()`
+- `removeMember()`
+- `changeStatus()`
+- `calculateProgress()`
+- `closeProject()`
+
+---
+
+### Entity: Task
+
+**Descripción**
+Representa una actividad específica perteneciente a un proyecto.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador de tarea |
+| title | String | Título de la tarea |
+| description | String | Descripción |
+| status | TaskStatus | Estado actual |
+| priority | TaskPriority | Nivel de prioridad |
+| dueDate | Date | Fecha límite |
+| assignedUserId | Long | Usuario asignado |
+| estimatedHours | Integer | Tiempo estimado |
+| completedAt | Date | Fecha de finalización |
+
+**Métodos principales**
+
+- `assignUser()`
+- `updateStatus()`
+- `markAsCompleted()`
+- `changePriority()`
+- `isOverdue()`
+- `calculateDelayRisk()`
+
+---
+
+### Entity: ProjectMember
+
+**Descripción**
+Representa la participación de un usuario dentro de un proyecto.
+
+**Atributos**
+
+- id
+- userId
+- role
+- joinedAt
+
+---
+
+### Value Object: ProjectStatus
+
+**Valores**
+
+- PLANNING
+- ACTIVE
+- COMPLETED
+- CANCELLED
+
+---
+
+### Value Object: TaskStatus
+
+**Valores**
+
+- PENDING
+- IN_PROGRESS
+- COMPLETED
+- BLOCKED
+- OVERDUE
+
+---
+
+### Value Object: TaskPriority
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: WorkloadAnalysisService
+
+**Descripción**
+Servicio de dominio encargado de analizar la distribución de tareas y carga laboral de los miembros del proyecto.
+
+**Métodos**
+
+- `analyzeWorkload(projectId)`
+- `detectOverloadedUsers()`
+- `calculateTeamCapacity()`
+
+**Relación con IA**
+
+Este servicio será integrado con modelos de inteligencia artificial capaces de:
+
+- analizar rendimiento del equipo
+- identificar sobrecarga laboral
+- detectar desequilibrio en asignaciones
+- predecir retrasos operativos
+
+---
+
+### Domain Service: TaskRiskAnalysisService
+
+**Descripción**
+Servicio responsable de evaluar riesgos asociados al progreso de tareas.
+
+**Métodos**
+
+- `evaluateTaskRisk(task)`
+- `predictDelayProbability(task)`
+- `detectCriticalTasks(projectId)`
+
+**Relación con IA**
+
+Este servicio permitirá integrar algoritmos predictivos orientados a:
+
+- detección temprana de retrasos
+- clasificación automática de tareas críticas
+- generación de alertas inteligentes
+
+---
+
+### Domain Service: ProjectCollaborationService
+
+**Descripción**
+
+Gestiona reglas relacionadas con colaboración y coordinación de equipos.
+
+**Métodos**
+
+- `validateAssignment()`
+- `verifyMemberPermissions()`
+- `recommendTaskDistribution()`
+
+---
+
+### Repository Interfaces
+
+**ProjectRepository**
+
+Métodos principales:
+
+- `save(Project project)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+- `findAll()`
+
+**TaskRepository**
+
+Métodos principales:
+
+- `save(Task task)`
+- `findByProjectId(Long projectId)`
+- `findOverdueTasks()`
+- `findByAssignedUser(Long userId)`
+
+**ProjectMemberRepository**
+
+Métodos principales:
+
+- `save(ProjectMember member)`
+- `findByProjectId(Long projectId)`
+
+---
+
 #### 5.2.2.	Interface Layer.
+
+La Interface Layer expone las funcionalidades relacionadas con proyectos y tareas mediante endpoints REST.
+
+---
+
+### Controller: ProjectsController
+
+**Descripción**
+Gestiona operaciones relacionadas con proyectos.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| createProject | POST /projects | Crear proyecto |
+| getProjects | GET /projects | Obtener proyectos |
+| getProjectById | GET /projects/{id} | Obtener proyecto |
+| updateProject | PUT /projects/{id} | Actualizar proyecto |
+| closeProject | PUT /projects/{id}/close | Finalizar proyecto |
+
+---
+
+### Controller: TasksController
+
+**Descripción**
+Gestiona tareas asociadas a proyectos.
+
+| Método | Ruta |
+|---|---|
+| createTask | POST /tasks |
+| assignTask | PUT /tasks/{id}/assign |
+| updateTaskStatus | PUT /tasks/{id}/status |
+| getTasksByProject | GET /projects/{id}/tasks |
+
+---
+
+### Controller: ProjectMembersController
+
+| Método | Ruta |
+|---|---|
+| addMember | POST /projects/{id}/members |
+| removeMember | DELETE /projects/{id}/members/{memberId} |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- ProjectResource
+- TaskResource
+- ProjectMemberResource
+- CreateProjectResource
+- CreateTaskResource
+
+**Assemblers principales**
+
+- ProjectResourceAssembler
+- TaskResourceAssembler
+- ProjectCommandAssembler
+
+---
+
 #### 5.2.3.	Application Layer.
+
+La Application Layer coordina los procesos de negocio relacionados con proyectos y tareas mediante comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**CreateProjectCommandHandler**
+
+Responsabilidades:
+
+- Crear proyectos.
+- Validar reglas de negocio.
+- Registrar eventos iniciales.
+
+**CreateTaskCommandHandler**
+
+Responsabilidades:
+
+- Crear tareas.
+- Validar asignaciones.
+- Calcular prioridad inicial.
+
+**AssignTaskCommandHandler**
+
+Responsabilidades:
+
+- Asignar usuarios.
+- Validar carga laboral.
+- Generar alertas inteligentes.
+
+**UpdateTaskStatusCommandHandler**
+
+Responsabilidades:
+
+- Actualizar estado.
+- Verificar vencimientos.
+- Disparar automatizaciones.
+
+**CloseProjectCommandHandler**
+
+Responsabilidades:
+
+- Finalizar proyectos.
+- Validar tareas pendientes.
+- Generar métricas finales.
+
+### Query Handlers
+
+- GetProjectsQueryHandler
+- GetProjectByIdQueryHandler
+- GetTasksByProjectQueryHandler
+- GetOverdueTasksQueryHandler
+
+---
+
+### Domain Events
+
+**ProjectCreatedEvent**
+
+Se genera cuando un proyecto es creado.
+
+**TaskAssignedEvent**
+
+Se genera cuando una tarea es asignada.
+
+**TaskOverdueEvent**
+
+Evento emitido cuando una tarea excede su fecha límite.
+
+**CriticalTaskDetectedEvent**
+
+Evento generado cuando una tarea es clasificada como crítica mediante análisis inteligente.
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra capacidades de IA orientadas a:
+
+- análisis de productividad
+- predicción de retrasos
+- identificación de riesgos
+- recomendaciones de asignación
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- recordatorios automáticos
+- alertas de vencimiento
+- seguimiento automático de tareas críticas
+- notificaciones inteligentes
+
+**Servicios de soporte**
+
+- NotificationService
+- SchedulingService
+- WorkloadMetricsService
+
+---
+
 #### 5.2.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa persistencia, servicios externos y mecanismos técnicos necesarios para la ejecución del bounded context.
+
+---
+
+### Repository Implementations
+
+**JpaProjectRepository**
+
+Implementación concreta de persistencia de proyectos.
+
+**JpaTaskRepository**
+
+Implementación concreta de persistencia de tareas.
+
+**JpaProjectMemberRepository**
+
+Implementación concreta de persistencia de miembros.
+
+---
+
+### Servicios técnicos
+
+**NotificationServiceImpl**
+
+Gestiona envío de notificaciones.
+
+**SchedulerService**
+
+Gestiona tareas automáticas programadas.
+
+**AIAnalyticsIntegrationService**
+
+Servicio encargado de consumir modelos externos de inteligencia artificial.
+
+**Funcionalidades**
+
+- análisis predictivo
+- evaluación de riesgos
+- análisis de rendimiento
+- cálculo inteligente de carga laboral
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable de:
+
+- envío de alertas
+- recordatorios automáticos
+- notificaciones inteligentes
+
+**CalendarIntegrationService**
+
+Permite sincronizar tareas y vencimientos con calendarios externos.
+
+**RpaWorkflowAutomationService**
+
+Servicio encargado de automatizar procesos repetitivos.
+
+**Automatizaciones principales**
+
+- envío automático de recordatorios
+- generación de alertas por vencimiento
+- seguimiento automatizado de tareas críticas
+- escalamiento automático de incidencias
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado para integrar tecnologías emergentes relacionadas con:
+
+**Inteligencia Artificial**
+
+- predicción de retrasos
+- análisis de productividad
+- evaluación automática de riesgos
+- recomendaciones inteligentes
+
+**Robotic Process Automation (RPA)**
+
+- automatización de notificaciones
+- ejecución automática de recordatorios
+- seguimiento inteligente de tareas vencidas
+
+---
+
 #### 5.2.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram representa la arquitectura interna del bounded context de Gestión de Proyectos y Tareas, incluyendo componentes encargados de la administración de proyectos, tareas, análisis predictivo mediante AI y automatización de flujos utilizando RPA.
+
+![BC2_Component](assets/TP1/BC2_Components_diagram.png)
+
 #### 5.2.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.2.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las entidades, agregados, servicios de dominio y repositorios relacionados con la gestión de proyectos y tareas, así como los mecanismos de análisis de carga laboral y predicción de riesgos basados en AI.
+
+![BC2_Class](assets/TP1/BC2_Class_diagram.png)
+
 ##### 5.2.7.2.	Bounded Context Database Design Diagram.
 
+El siguiente Database Diagram representa la estructura de almacenamiento necesaria para gestionar proyectos, tareas, miembros de proyecto y predicciones de riesgo generadas mediante Inteligencia Artificial dentro del bounded context de Gestión de Proyectos y Tareas.
+
+![BC2_Database](assets/TP1/BC2_Database_diagram.png)
+
 ### 5.3.	Bounded Context:  Visualización y Seguimiento
+
+El bounded context de Visualización y Seguimiento es responsable de consolidar, analizar y representar información relacionada con el estado operativo de proyectos, tareas y desempeño de equipos dentro de la plataforma TaskMaster. Su propósito principal es proporcionar visibilidad en tiempo real sobre el progreso de las actividades, facilitando la toma de decisiones estratégicas y operativas.
+
+Este bounded context incorpora capacidades basadas en inteligencia artificial orientadas al análisis predictivo, generación de alertas inteligentes e identificación automática de riesgos, permitiendo transformar datos operativos en información útil para líderes y miembros de equipos.
+
+Asimismo, integra automatizaciones basadas en RPA para el envío de reportes, alertas y seguimiento automatizado de incidencias críticas.
+
+---
+
 #### 5.3.1.	Domain Layer.
+
+La Domain Layer modela las entidades, objetos de valor y servicios encargados de representar indicadores, métricas, alertas y análisis relacionados con el seguimiento de proyectos y tareas.
+
+---
+
+### Aggregate Root: Dashboard
+
+**Descripción**
+El agregado `Dashboard` representa un panel de visualización que consolida indicadores y métricas de seguimiento asociadas a proyectos y equipos de trabajo.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del dashboard |
+| name | String | Nombre del dashboard |
+| ownerId | Long | Usuario propietario |
+| widgets | List<DashboardWidget> | Componentes visuales |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `addWidget()`
+- `removeWidget()`
+- `refreshMetrics()`
+- `generateSummary()`
+
+---
+
+### Entity: DashboardWidget
+
+**Descripción**
+Representa un componente visual utilizado dentro del dashboard.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| title | String |
+| widgetType | WidgetType |
+| dataSource | String |
+| position | Integer |
+
+**Métodos principales**
+
+- `updateData()`
+- `renderVisualization()`
+
+---
+
+### Entity: RiskIndicator
+
+**Descripción**
+Representa un indicador de riesgo calculado automáticamente mediante análisis inteligente.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| projectId | Long |
+| riskLevel | RiskLevel |
+| probability | Double |
+| generatedAt | Date |
+| description | String |
+
+**Métodos principales**
+
+- `calculateRiskScore()`
+- `classifyRiskLevel()`
+- `generateRecommendation()`
+
+---
+
+### Entity: SmartAlert
+
+**Descripción**
+Representa una alerta inteligente generada automáticamente por análisis predictivos.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| type | AlertType |
+| severity | AlertSeverity |
+| message | String |
+| createdAt | Date |
+| isResolved | Boolean |
+
+
+**Métodos principales**
+
+- `markAsResolved()`
+- `escalateAlert()`
+
+---
+
+### Value Object: RiskLevel
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Value Object: WidgetType
+
+**Valores**
+
+- TASK_PROGRESS
+- TEAM_PERFORMANCE
+- WORKLOAD_ANALYSIS
+- RISK_MONITORING
+- PRODUCTIVITY_METRICS
+
+---
+
+### Value Object: AlertSeverity
+
+**Valores**
+
+- INFO
+- WARNING
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: RiskAnalysisService
+
+**Descripción**
+Servicio encargado de analizar información operativa para identificar riesgos dentro de proyectos y tareas.
+
+**Métodos**
+
+- `analyzeProjectRisk(projectId)`
+- `detectOperationalRisks()`
+- `calculateRiskProbability()`
+
+**Relación con IA**
+
+Este servicio integra modelos de inteligencia artificial capaces de:
+
+- detectar patrones de retraso
+- identificar tareas críticas
+- calcular probabilidades de incumplimiento
+- generar recomendaciones inteligentes
+
+---
+
+### Domain Service: TeamPerformanceAnalysisService
+
+**Descripción**
+Analiza métricas relacionadas con desempeño y productividad de equipos.
+
+**Métodos**
+
+- `analyzeTeamPerformance(teamId)`
+- `calculateProductivityMetrics()`
+- `identifyPerformanceIssues()`
+
+**Relación con IA**
+
+Permite implementar análisis predictivos relacionados con:
+
+- productividad del equipo
+- carga laboral
+- tareas atrasadas
+- eficiencia operativa
+
+---
+
+### Domain Service: SmartAlertService
+
+**Descripción**
+Gestiona la generación automática de alertas inteligentes.
+
+## Métodos
+
+- `generateAlert()`
+- `prioritizeAlerts()`
+- `escalateCriticalAlerts()`
+
+---
+
+### Repository Interfaces
+
+**DashboardRepository**
+
+Métodos principales:
+
+- `save(Dashboard dashboard)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+
+**RiskIndicatorRepository**
+
+Métodos principales:
+
+- `save(RiskIndicator riskIndicator)`
+- `findByProjectId(Long projectId)`
+- `findCriticalRisks()`
+
+**SmartAlertRepository**
+
+Métodos principales:
+
+- `save(SmartAlert alert)`
+- `findActiveAlerts()`
+- `findBySeverity(AlertSeverity severity)`
+
 #### 5.3.2.	Interface Layer.
+
+La Interface Layer expone dashboards, métricas y alertas mediante endpoints REST y componentes visuales.
+
+---
+
+### Controller: DashboardController
+
+**Descripción**
+Gestiona paneles de seguimiento y visualización.
+
+| Método | Ruta |
+|---|---|
+| createDashboard | POST /dashboards |
+| getDashboard | GET /dashboards/{id} |
+| refreshDashboard | PUT /dashboards/{id}/refresh |
+
+---
+
+### Controller: RiskMonitoringController
+
+**Descripción**
+Gestiona indicadores de riesgo.
+
+| Método | Ruta |
+|---|---|
+| getProjectRisks | GET /risks/project/{id} |
+| getCriticalRisks | GET /risks/critical |
+
+---
+
+### Controller: SmartAlertsController
+
+**Descripción**
+Gestiona alertas inteligentes.
+
+| Método | Ruta |
+|---|---|
+| getAlerts | GET /alerts |
+| resolveAlert | PUT /alerts/{id}/resolve |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- DashboardResource
+- RiskIndicatorResource
+- SmartAlertResource
+- TeamPerformanceResource
+
+**Assemblers principales**
+
+- DashboardResourceAssembler
+- RiskResourceAssembler
+- AlertResourceAssembler
+
+---
+
 #### 5.3.3.	Application Layer.
+
+La Application Layer coordina los flujos relacionados con métricas, análisis predictivo y seguimiento inteligente.
+
+---
+
+### Command Handlers
+
+**CreateDashboardCommandHandler**
+
+Responsabilidades:
+
+- Crear dashboards personalizados.
+- Configurar widgets iniciales.
+
+**RefreshDashboardCommandHandler**
+
+Responsabilidades:
+
+- Actualizar métricas.
+- Obtener información en tiempo real.
+- Ejecutar análisis predictivos.
+
+**ResolveAlertCommandHandler**
+
+Responsabilidades:
+
+- Resolver alertas.
+- Registrar historial de incidencias.
+
+---
+
+### Query Handlers
+
+- GetDashboardQueryHandler
+- GetProjectRisksQueryHandler
+- GetCriticalAlertsQueryHandler
+- GetPerformanceMetricsQueryHandler
+
+---
+
+### Domain Events
+
+**DashboardUpdatedEvent**
+
+Evento generado al actualizar métricas del dashboard.
+
+**RiskDetectedEvent**
+
+Evento generado cuando se identifica un riesgo operativo.
+
+**CriticalAlertGeneratedEvent**
+
+Evento generado cuando una alerta crítica es detectada.
+
+**TeamPerformanceAnalyzedEvent**
+
+Evento generado tras analizar productividad del equipo.
+
+---
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra servicios de IA orientados a:
+
+- análisis predictivo
+- identificación de riesgos
+- evaluación de desempeño
+- generación de recomendaciones inteligentes
+- detección automática de tareas críticas
+
+---
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- envío automático de reportes
+- alertas inteligentes automatizadas
+- escalamiento automático de incidencias
+- seguimiento automatizado de riesgos críticos
+
+---
+
+**Servicios de soporte**
+
+- MetricsAggregationService
+- ReportGenerationService
+- VisualizationService
+- AlertNotificationService
+
+---
+
 #### 5.3.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa mecanismos de persistencia, integración externa y conexión con servicios analíticos inteligentes.
+
+---
+
+### Repository Implementations
+
+**JpaDashboardRepository**
+
+Implementación de persistencia para dashboards.
+
+**JpaRiskIndicatorRepository**
+
+Implementación de persistencia para indicadores de riesgo.
+
+**JpaSmartAlertRepository**
+
+Implementación de persistencia para alertas inteligentes.
+
+---
+
+### Servicios técnicos
+
+**DashboardMetricsService**
+
+Gestiona consolidación y cálculo de métricas.
+
+**DataVisualizationService**
+
+Genera representaciones visuales y gráficas.
+
+**AIAnalyticsEngineService**
+
+Servicio encargado de consumir modelos de inteligencia artificial.
+
+**Funcionalidades principales**
+
+- análisis predictivo
+- detección de riesgos
+- evaluación de productividad
+- identificación de anomalías
+- generación de recomendaciones inteligentes
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable del envío de:
+
+- alertas críticas
+- reportes automáticos
+- notificaciones inteligentes
+
+**ReportAutomationService**
+
+Servicio orientado a automatización de reportes mediante RPA.
+
+**Automatizaciones principales**
+
+- generación automática de reportes
+- envío programado de métricas
+- alertas automáticas de riesgo
+- escalamiento de incidencias críticas
+
+**NotificationAutomationService**
+
+Automatiza procesos relacionados con:
+
+- seguimiento de alertas
+- envío de recordatorios
+- monitoreo automático de riesgos
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado específicamente para integrar tecnologías emergentes enfocadas en analítica avanzada y automatización inteligente.
+
+**Inteligencia Artificial**
+
+- análisis predictivo
+- indicadores inteligentes de riesgo
+- alertas automáticas
+- análisis de desempeño
+- identificación de anomalías operativas
+
+**Robotic Process Automation (RPA)**
+
+- automatización de reportes
+- seguimiento automático de incidencias
+- envío inteligente de notificaciones
+- monitoreo automatizado de riesgos
+
+---
+
 #### 5.3.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram muestra los componentes internos del bounded context de Visualización y Seguimiento, incluyendo módulos de dashboards, monitoreo de riesgos, alertas inteligentes y servicios de análisis predictivo basados en AI.
+
+![BC3_Component](assets/TP1/BC3_Components_diagram.png)
+
 #### 5.3.7.	Bounded Context Software Architecture Code Level Diagrams.
 ##### 5.3.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las entidades y servicios de dominio responsables de la generación de dashboards, indicadores de riesgo, alertas inteligentes y análisis de desempeño dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Class](assets/TP1/BC3_Class_diagram.png)
+
 ##### 5.3.7.2.	Bounded Context Database Design Diagram.
 
+El siguiente Database Diagram representa las entidades persistentes relacionadas con dashboards, indicadores de riesgo, métricas de rendimiento, alertas inteligentes y reportes automatizados generados dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Database](assets/TP1/BC3_Database_diagram.png)
 
 ---
 
