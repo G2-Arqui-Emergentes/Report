@@ -1606,13 +1606,13 @@ En esta sección se presenta el System Landscape Diagram, el cual permite visual
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 
-El diagrama muestra a TaskMaster System en el centro de la interacción. Los usuarios gestionan proyectos y consultan análisis directamente en la plataforma, mientras que el sistema se encarga de orquestar la comunicación con servicios externos. La relación con Mailgun permite que el usuario reciba notificaciones automáticas, y la integración con Google Calendar garantiza que los hitos del proyecto estén siempre sincronizados fuera de la aplicación.
+El diagrama muestra a TaskMaster System en el centro de la interacción. Los usuarios gestionan proyectos y consultan análisis directamente en la plataforma, mientras que el sistema se encarga de orquestar la comunicación con servicios externos. La relación con Mailgun permite que el usuario reciba notificaciones automáticas, la integración con Google Calendar garantiza que los hitos del proyecto estén siempre sincronizados fuera de la aplicación y la integración con Google Gemini potencia la plataforma al proporcionar análisis predictivos sobre el rendimiento de los equipos, generación automática de resúmenes de proyectos y sugerencias inteligentes para la optimización de tareas.
 
 ![Context Level Diagram](assets/TB1/context_level_diagram.png)
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 
-En este nivel, se observa cómo el tráfico entra a través de una Landing Page o directamente a las aplicaciones (Angular para web y Flutter para móvil). Todas las peticiones pasan por un API Gateway que las redirige a los servicios correspondientes de Spring Boot. Todos estos servicios comparten una base de datos central en PostgreSQL, asegurando la integridad de la información mientras se mantiene una arquitectura modular y fácil de mantener.
+En este nivel, se observa cómo el tráfico entra a través de una Landing Page o directamente a las aplicaciones (Vue para web y Flutter para móvil). Todas las peticiones pasan por un API Gateway que las redirige a los servicios correspondientes de Spring Boot. Todos estos servicios comparten una base de datos central en PostgreSQL, asegurando la integridad de la información mientras se mantiene una arquitectura modular y fácil de mantener.
 
 ![Container Level Diagram](assets/TB1/container_level_diagram.png)
 
