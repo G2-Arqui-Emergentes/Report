@@ -1713,6 +1713,7 @@ Sus responsabilidades principales son:
 
 #### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
 
+![ddd](assets/TP1/diagrama-componentes-BC-notificaciones.png)
 
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
 
