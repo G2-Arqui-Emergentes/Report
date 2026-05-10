@@ -1722,8 +1722,11 @@ Este nivel muestra cómo se materializa el bounded context en clases, entidades 
 
 ##### 5.4.7.1.	Bounded Context Domain Layer Class Diagrams.
 
+![ddd](assets/TP1/diagrama-domain-BC-notificaciones.png)
 
 ##### 5.4.7.2.	Bounded Context Database Design Diagram.
+
+![ddd](assets/TP1/diagrama-database-BC-notificaciones.png)
 
 
 ---
@@ -1810,24 +1813,25 @@ Sus funciones incluyen recuperar métricas por proyecto o por miembro, guardar a
 
 #### 5.5.6.	Bounded Context Software Architecture Component Level Diagrams.
 
+![ddd](assets/TP1/diagrama-componentes-BC-analiticayreportes.png)
 
 
 #### 5.5.7.	Bounded Context Software Architecture Code Level Diagrams.
 
+Refleja cómo se implementan los agregados analíticos, los servicios de aplicación y la persistencia de métricas. Se muestra la separación entre la lógica de cálculo y el acceso a datos.
 
 
 ##### 5.5.7.1.	Bounded Context Domain Layer Class Diagrams.
 
+![ddd](assets/TP1/diagrama-domain-BC-analiticayreportes.png)
 
 
 ##### 5.5.7.2.	Bounded Context Database Design Diagram.
 
+![ddd](assets/TP1/diagrama-database-BC-analiticayreportes.png)
 
 
-
-
-
-
+---
 
 
 
