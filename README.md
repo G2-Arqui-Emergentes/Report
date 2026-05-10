@@ -3376,13 +3376,33 @@ Esta sección detalla el proceso de diseño de la experiencia (UX) y la interfaz
 
 **Mobile Applications Wireframes**
 
-Los wireframes representan la estructura funcional de cada pantalla de la aplicación móvil, definiendo la distribución de elementos y flujos de interacción básicos. Sirven como punto de partida para validar la organización visual y funcional del producto.
+Los wireframes de la aplicación móvil presentan la estructura visual y funcional de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se consideran principios de usabilidad, jerarquía visual, accesibilidad y navegación intuitiva, permitiendo que los usuarios puedan interactuar de manera eficiente con las funcionalidades del sistema. Además, se evidencia la organización de la información y los flujos de interacción definidos para mejorar la experiencia de usuario en entornos móviles.
 
-![ddd](assets/TP1/wireframes.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile1.png)
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile2.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile3.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile4.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile5.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile6.png) 
 
 **Web Applications Wireframes**  
 
+Los wireframes de la aplicación web muestran la distribución estructural de los módulos, componentes y funcionalidades principales del sistema en un entorno de escritorio. El diseño propuesto aplica principios de arquitectura de información, consistencia visual y diseño centrado en el usuario, facilitando la navegación y comprensión de las distintas secciones de la plataforma. Además, se consideran elementos de diseño inclusivo y organización funcional para optimizar la experiencia de usuario y la interacción con el sistema.
 
+![Web Application Wireframe](assets/TP1/wireframe_web1.png)
+![Web Application Wireframe](assets/TP1/wireframe_web2.png)
+![Web Application Wireframe](assets/TP1/wireframe_web3.png)
+![Web Application Wireframe](assets/TP1/wireframe_web4.png)
+![Web Application Wireframe](assets/TP1/wireframe_web5.png)
+![Web Application Wireframe](assets/TP1/wireframe_web6.png)
+![Web Application Wireframe](assets/TP1/wireframe_web7.png)
+![Web Application Wireframe](assets/TP1/wireframe_web8.png)
+![Web Application Wireframe](assets/TP1/wireframe_web9.png)
+![Web Application Wireframe](assets/TP1/wireframe_web10.png)
+![Web Application Wireframe](assets/TP1/wireframe_web11.png)
+![Web Application Wireframe](assets/TP1/wireframe_web12.png)
+![Web Application Wireframe](assets/TP1/wireframe_web13.png)
+![Web Application Wireframe](assets/TP1/wireframe_web14.png)
 
 #### 6.4.2.	Applications Wireflow Diagrams.
 
@@ -3399,6 +3419,8 @@ Los diagramas de wireflow integran los wireframes con los flujos de navegación,
 ![ddd](assets/TP1/W7.png)  
 ![ddd](assets/TP1/W8.png)  
 ![ddd](assets/TP1/W9.png)  
+
+<!--
 
 #### 6.4.2.	Applications Mock-ups.
 
@@ -3431,6 +3453,8 @@ En esta parte se detallan los diagramas de flujo de usuario, donde se describen 
 
 En esta sección se presentan los prototipos interactivos desarrollados en Figma, que permiten simular la navegación y las interacciones principales de la aplicación móvil. Estos prototipos reflejan las decisiones de diseño, los criterios de usabilidad y la coherencia con la arquitectura de información definida. A continuación, se incluye el enlace al prototipo funcional en Figma para su exploración.
 [https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1](https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1)
+
+-->
 
 ## Conclusiones
 
