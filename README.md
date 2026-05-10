@@ -3374,17 +3374,6 @@ Esta sección detalla el proceso de diseño de la experiencia (UX) y la interfaz
 
 #### 6.4.1.	Applications Wireframes.
 
-**Mobile Applications Wireframes**
-
-Los wireframes de la aplicación móvil presentan la estructura visual y funcional de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se consideran principios de usabilidad, jerarquía visual, accesibilidad y navegación intuitiva, permitiendo que los usuarios puedan interactuar de manera eficiente con las funcionalidades del sistema. Además, se evidencia la organización de la información y los flujos de interacción definidos para mejorar la experiencia de usuario en entornos móviles.
-
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile1.png)
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile2.png) 
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile3.png) 
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile4.png) 
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile5.png) 
-![Mobile Application Wireframe](assets/TP1/wireframe_mobile6.png) 
-
 **Web Applications Wireframes**  
 
 Los wireframes de la aplicación web muestran la distribución estructural de los módulos, componentes y funcionalidades principales del sistema en un entorno de escritorio. El diseño propuesto aplica principios de arquitectura de información, consistencia visual y diseño centrado en el usuario, facilitando la navegación y comprensión de las distintas secciones de la plataforma. Además, se consideran elementos de diseño inclusivo y organización funcional para optimizar la experiencia de usuario y la interacción con el sistema.
@@ -3404,11 +3393,21 @@ Los wireframes de la aplicación web muestran la distribución estructural de lo
 ![Web Application Wireframe](assets/TP1/wireframe_web13.png)
 ![Web Application Wireframe](assets/TP1/wireframe_web14.png)
 
+**Mobile Applications Wireframes**
+
+Los wireframes de la aplicación móvil presentan la estructura visual y funcional de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se consideran principios de usabilidad, jerarquía visual, accesibilidad y navegación intuitiva, permitiendo que los usuarios puedan interactuar de manera eficiente con las funcionalidades del sistema. Además, se evidencia la organización de la información y los flujos de interacción definidos para mejorar la experiencia de usuario en entornos móviles.
+
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile1.png)
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile2.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile3.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile4.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile5.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile6.png) 
+
+
 #### 6.4.2.	Applications Wireflow Diagrams.
 
 Esta sección presenta los diagramas de Wireflow de las aplicaciones móvil y web, los cuales representan el flujo de interacción de los usuarios a través de las diferentes pantallas del sistema. Cada Wireflow se desarrolla a partir de un User Goal y su correspondiente Task Flow, permitiendo visualizar la secuencia de acciones, navegación y cambios de estado entre interfaces. Asimismo, los diagramas evidencian la aplicación de principios de usabilidad, arquitectura de información y diseño centrado en el usuario.
-
----
 
 **User Goal: Como usuario registrado quiero autenticarme con mis credenciales para acceder a mi cuenta y gestionar mis proyectos.**
 
@@ -3632,8 +3631,6 @@ Este wireflow comienza en la pantalla de tareas de un proyecto. El usuario local
 
 ![Wireflow Web](assets/TP1/wireflow_web15.png)
 ![Wireflow Mobile](assets/TP1/wireflow_mobile15.png)
-
----
 
 
 <!--
