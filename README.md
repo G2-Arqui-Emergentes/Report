@@ -1894,7 +1894,73 @@ La tipografía de TaskMaster refuerza su enfoque en la claridad y la modernidad.
 
 #### 6.1.2. Web, Mobile & Devices Style Guidelines.
 
+Para la interfaz móvil (Android e iOS) y web de TaskMaster se adopta un estilo de diseño minimalista, limpio y profesional, orientado a optimizar la claridad y la eficiencia en la interacción; considerando nuestros segmentos objetivo, se prioriza una estructura visual ordenada con una jerarquía bien definida, el uso de tipografía moderna y legible, y componentes correctamente alineados que faciliten una navegación intuitiva, buscando así reducir la carga cognitiva del usuario, permitir una rápida comprensión del estado de los proyectos y transmitir confianza, seriedad y profesionalismo en entornos empresariales.
 
+Los principios clave de diseño incluyen:
+
+- Uso predominante de **Sulphur Point** para títulos y encabezados, aportando fuerza y presencia visual. 
+- Para textos descriptivos, funcionales y de lectura prolongada, se emplea **MS Reference Sans Serif**, garantizando una legibilidad óptima en cualquier dispositivo.
+- Diseño centrado en la eficiencia con espaciado generoso, alineaciones consistentes y márgenes equilibrados para guiar la atención del usuario sin distracciones.
+- Uso de íconos lineales que representan con claridad las funciones de productividad de la plataforma.
+- Aplicación estratégica de la paleta de colores.
+
+**iOS Mobile Style Guidelines**
+
+Para los dispositivos iOS, se implementarán las directrices de Apple Human Interface Guidelines, integrando la identidad visual específica de TaskMaster:
+
+- **Tipografía**: Se utiliza Sulphur Point para otorgar fuerza a los encabezados y títulos, mientras que MS Reference Sans Serif se emplea en el cuerpo de texto para asegurar una legibilidad superior.
+
+- **Escala Tipográfica Sugerida:**
+
+  - Título: 26 pt
+
+  - Subtítulo: 18 pt
+
+  - Cuerpo: 16 pt
+
+- **Esquema Cromático:**
+
+  - Acciones Principales: Botones con fondo RedWine 600 (#A62424) y texto en contraste claro.
+
+  - Interfaz Base: Fondo general en blanco para una apariencia limpia.
+
+  - Contenido Textual: Brownish 900 (#332A2A) para máxima claridad.
+
+- **Interacción Táctil:** Los elementos interactivos mantendrán un área de contacto mínima de 66x66 pt.
+
+- **Suavizado de Bordes:** Radio de 8–10 pt en tarjetas, contenedores y botones para una estética moderna.
+
+- **Estructura de Navegación:** Implementación de una organización jerarquica, secuencial y matricial.
+
+**Android Mobile Style Guidelines**
+
+En la plataforma Android, se adoptarán los principios de Material Design, personalizados para el ecosistema visual de TaskMaster:
+
+**Tipografía:** Sulphur Point para elementos de impacto visual (encabezados) y MS Reference Sans Serif para descripciones y textos funcionales.
+
+- Escala de Fuente Recomendada:
+
+  - Título: 22–26 sp
+
+  - Subtítulo: 16–18 sp
+
+  - Cuerpo: 16 sp
+
+- **Esquema Cromático:**
+
+  - Elementos Primarios: Uso de RedWine 600 (#A62424) con texto en blanco.
+
+  - Acentos: Coral 300 (#F27979) para destacar indicadores secundarios o botones de menor jerarquía.
+
+  - Superficie: Fondo general en blanco para una apariencia limpia.
+
+  - Contenido Textual: Brownish 900 (#332A2A) para máxima claridad.
+
+  - Ergonomía Digital: Espaciado táctil garantizado de al menos 66x66 dp por cada componente accionable.
+
+- **Elevación y Relieve:** Uso de sombras suaves para distinguir botones flotantes (FAB) y tarjetas de información.
+
+- **Navegación y Dinamismo:** Implementación de una organización jerarquica, secuencial y matricial.
 
 ### 6.2. Information Architecture  
 
