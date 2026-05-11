@@ -3435,8 +3435,8 @@ El mock-up de la Landing Page muestra la propuesta visual final, incorporando co
 ![Inicio Mockup](assets/TP1/LA2.png)  
 ![Inicio Mockup](assets/TP1/LA3.png)  
 ![Inicio Mockup](assets/TP1/LA4.png)  
+![Inicio Mockup](assets/TP1/LA5.png)  
 ![Inicio Mockup](assets/TP1/landing1.png)  
-![Inicio Mockup](assets/TP1/LA6.png)  
 ![Inicio Mockup](assets/TP1/LA7.png)  
 
 ### 6.4.	Applications UX/UI Design.
