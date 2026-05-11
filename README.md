@@ -109,19 +109,19 @@ Sandoval Paiva, Valentino: 12
 
 **REPORT**
 
-![alt text]()
+![alt text](assets/TP1/commits.png)
 
 COMMITS:
 
-Luquillas Asto, Omar: 
+Luquillas Asto, Omar: 26
 
-Peña Riofrio, Maria Fernanda: 
+Peña Riofrio, Maria Fernanda: 8
 
-Pilares Pocohuanca, Maria: 
+Pilares Pocohuanca, Maria: 33
 
-Sanchez Silva, Luciana Celeste:	
+Sanchez Silva, Luciana Celeste:	4
 
-Sandoval Paiva, Valentino: 
+Sandoval Paiva, Valentino: 16
 
 
 ## Contenido
@@ -3435,7 +3435,7 @@ El mock-up de la Landing Page muestra la propuesta visual final, incorporando co
 ![Inicio Mockup](assets/TP1/LA2.png)  
 ![Inicio Mockup](assets/TP1/LA3.png)  
 ![Inicio Mockup](assets/TP1/LA4.png)  
-![Inicio Mockup](assets/TP1/LA5.png)  
+![Inicio Mockup](assets/TP1/landing1.png)  
 ![Inicio Mockup](assets/TP1/LA6.png)  
 ![Inicio Mockup](assets/TP1/LA7.png)  
 
