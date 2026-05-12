@@ -377,7 +377,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 En el actual paradigma de la transformación digital, las organizaciones se enfrentan a un fenómeno crítico de fragmentación tecnológica. La dependencia sistémica de herramientas heterogéneas e inconexas, como hojas de cálculo de baja escala, protocolos de comunicación asíncronos (correos electrónicos) y plataformas de mensajería instantánea, ha derivado en un “ruido operativo” que limita la escalabilidad, duplica los esfuerzos y reduce la eficiencia de los equipos de trabajo. Esta falta de interoperabilidad compromete la integridad de los datos y la visibilidad transversal del ciclo de vida del proyecto.
 
-Frente a esta problemática, nuestra startup Apex Cybernetics surge como una solución que va más allá de centralizar información. Nuestro objetivo es transformar los datos en inteligencia accionable. A través de la integración de Inteligencia Artificial (IA), evolucionamos de una gestión reactiva basada en el pasado hacia una gestión predictiva, permitiendo a los equipos anticiparse a los escenarios futuros y mejorar la toma de decisiones en tiempo real.
+Frente a esta problemática, nuestra startup Apex Cybernetics surge como una solución que va más allá de centralizar información. Nuestro objetivo es transformar los datos en inteligencia accionable. A través de la integración de Inteligencia Artificial (IA) y Automatización Robótica de Procesos (RPA), evolucionamos de una gestión reactiva basada en el pasado hacia una gestión predictiva, permitiendo a los equipos anticiparse a los escenarios futuros y mejorar la toma de decisiones en tiempo real.
 
 #### 1.1.1. Descripción de la Startup
 
@@ -387,7 +387,7 @@ Para lograrlo, hemos desarrollado TaskMaster, una plataforma de gestión de proy
 
 **Objetivo:** Brindar a las empresas una solución centralizada que combine la planificación de tareas con el control financiero, mejorando la eficiencia y la comunicación mediante el uso de inteligencia y automatización.
 
-**Misión:** Potenciar la productividad de las organizaciones mediante una plataforma que combine gestión humana y eficiencia tecnológica (IA) para asegurar la entrega exitosa de proyectos.
+**Misión:** Potenciar la productividad de las organizaciones mediante una plataforma que combine gestión humana y eficiencia tecnológica (IA/RPA) para asegurar la entrega exitosa de proyectos.
 
 **Visión:** Ser el referente latinoamericano en software de gestión inteligente, liderando la adopción de automatización y analítica predictiva en el sector empresarial para 2030.
 
@@ -409,7 +409,7 @@ TaskMaster es una solución integral diseñada para eliminar el caos operativo c
 
 - Centralización de la Gestión de Proyectos: Unificamos tareas, cronogramas y comunicación en un solo espacio digital. Esto elimina la necesidad de saltar entre múltiples aplicaciones, permitiendo que toda la información del proyecto esté siempre organizada y disponible.
 
-- Colaboración Activa y en Tiempo Real: Facilitamos que los miembros del equipo actualicen sus avances de forma instantánea. El sistema genera notificaciones inteligentes, recordatorios de vencimiento y alertas automáticas, asegurando que todos estén alineados sin esfuerzo manual.
+- Colaboración Activa y en Tiempo Real: Facilitamos que los miembros del equipo actualicen sus avances de forma instantánea. Gracias a la Automatización con RPA, el sistema genera notificaciones inteligentes, recordatorios de vencimiento y alertas automáticas, asegurando que todos estén alineados sin esfuerzo manual.
 
 - Asignación de Responsabilidades y Roles: Estructuramos el trabajo mediante roles definidos (jefes de proyecto y miembros). Esta base permite que nuestra IA de Analítica analice el rendimiento individual, detecte tareas atrasadas y sugiera una distribución justa de la carga de trabajo para evitar el agotamiento del equipo.
 
@@ -434,7 +434,7 @@ Para comprender mejor esta problemática, la analizamos mediante el modelo 5W2H,
 
 2. **When / Cuándo?**
 
-    - *¿Cuándo sucede el problema? Durante todo el ciclo del proyecto, pero se vuelve crítico en las fechas de entrega, donde la falta de alertas y seguimiento automatizado genera retrasos acumulados.
+    - *¿Cuándo sucede el problema?* Durante todo el ciclo del proyecto, pero se vuelve crítico en las fechas de entrega, donde la falta de alertas automáticas (RPA) genera retrasos acumulados.
 
     - *¿Cuándo utiliza el cliente el producto?* Diariamente, como panel central para recibir instrucciones de la IA y actualizaciones de los bots de notificación.
 
@@ -476,7 +476,7 @@ Según Pragma (2021), el proceso Lean UX es la mezcla de metodologías ágiles y
 Hemos identificado que los líderes de proyecto en pymes dedican excesivo tiempo al análisis manual de datos para identificar retrasos, lo que impide una reacción oportuna. El problema es que las herramientas actuales son reactivas (muestran lo que ya pasó). ¿Cómo podemos utilizar la IA de analítica predictiva  y los indicadores de riesgo  para que los líderes visualicen amenazas antes de que afecten el cronograma, permitiéndoles tomar decisiones estratégicas basadas en datos en lugar de suposiciones?
 
 **Problem Statement #2 – Miembros de Equipo (Foco en Productividad) :**
-Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo desequilibradas y al constante “ruido” de mensajes manuales para reportar avances. ¿Cómo podemos implementar un sistema de notificaciones inteligentes y una IA que equilibre las tareas y automatice el seguimiento del progreso, para que el equipo se enfoque exclusivamente en la ejecución técnica sin distracciones administrativas?
+Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo desequilibradas y al constante "ruido" de mensajes manuales para reportar avances. ¿Cómo podemos implementar un sistema de notificaciones inteligentes mediante RPA que automatice el seguimiento y una IA que equilibre las tareas, para que el equipo se enfoque exclusivamente en la ejecución técnica sin distracciones administrativas?
 
 ##### 1.2.2.2 Lean UX Assumptions
 
@@ -484,7 +484,7 @@ Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo 
 
 - Creo que mis clientes tienen la necesidad de: Centralizar la gestión de proyectos en una sola plataforma, evitando el uso disperso de herramientas como Excel, correos y chats, y eliminando la carga administrativa de realizar reportes y seguimientos manuales.
 
-- Estas necesidades se pueden resolver con: Una plataforma digital colaborativa que integre tableros Kanban, calendarios, asignación de tareas, un módulo financiero básico y tecnologías inteligentes basadas en IA para el análisis de rendimiento, predicción de riesgos y generación de notificaciones automáticas.
+- Estas necesidades se pueden resolver con: Una plataforma digital colaborativa que integre tableros Kanban, calendarios, asignación de tareas, un módulo financiero básico y, fundamentalmente, tecnologías inteligentes (IA y RPA) para la analítica de rendimiento y la automatización de notificaciones.
 
 - Mis clientes iniciales son (o serán): Pequeñas y medianas empresas (pymes) con equipos de desarrollo o áreas de proyectos que buscan mejorar la organización, el control de sus recursos y la previsión de riesgos mediante datos en tiempo real.
 
@@ -494,7 +494,7 @@ Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo 
 
 - Ganaré dinero mediante: Un modelo de licenciamiento (SaaS), con una versión gratuita limitada y planes de pago escalables según el tamaño de la empresa, el número de miembros y el nivel de acceso a las herramientas de analítica avanzada.
 
-- Mi principal competencia en el mercado será: Plataformas similares como Trello, Asana o Jira. Los superaremos debido a: un enfoque en la integración financiera simple, el uso de IA predictiva para reducir el trabajo operativo, precios más accesibles para pymes y una interfaz móvil intuitiva que no requiere capacitación extensa.
+- Mi principal competencia en el mercado será: Plataformas similares como Trello, Asana o Jira. Los superaremos debido a: Un enfoque en la integración financiera simple, el uso de IA predictiva y RPA nativo para reducir el trabajo operativo, precios más accesibles para pymes y una interfaz móvil intuitiva que no requiere capacitación extensa.
 
 - Mi mayor riesgo de producto es: Que las empresas perciban a **name** como una herramienta redundante frente a soluciones ya conocidas. Lo resolveremos mediante: Una diferenciación clara en la propuesta de valor (finanzas integradas + automatización inteligente) y versiones de prueba gratuitas que demuestren el ahorro real de tiempo.
 
@@ -502,7 +502,7 @@ Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo 
 
   - Que las pymes estén dispuestas a invertir en una solución digital pagada en lugar de continuar con herramientas gratuitas y procesos manuales.
 
-  - Que los usuarios puedan adoptar rápidamente las funciones de IA y automatización inteligente sin percibir complejidad técnica en la plataforma.
+  - Que los usuarios puedan adoptar rápidamente las funciones de IA y RPA sin percibir complejidad técnica en la plataforma.
 
 **User Assumptions (Suposiciones de Usuario)**
 
@@ -520,7 +520,7 @@ Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo 
 
   - Las dificultades para controlar presupuestos y plazos de forma integrada.
 
-- ¿Cuándo y cómo se usa nuestro producto?: Se utiliza de forma continua durante la jornada laboral. Los líderes lo consultan para revisar indicadores de riesgo y métricas de rendimiento impulsadas por IA, mientras que los colaboradores lo usan en dispositivos móviles para recibir notificaciones automáticas, registrar avances y gestionar sus tareas pendientes.
+- ¿Cuándo y cómo se usa nuestro producto?: Se utiliza de forma continua durante la jornada laboral. Los líderes lo consultan para revisar indicadores de riesgo y métricas de rendimiento (IA), mientras que los colaboradores lo usan en dispositivos móviles para recibir notificaciones inteligentes (RPA), registrar avances y gestionar sus tareas pendientes.
 
 - ¿Qué características son importantes?:
 
@@ -530,7 +530,7 @@ Los colaboradores enfrentan confusión y agotamiento debido a cargas de trabajo 
 
   - Alertas de riesgo : Indicadores inteligentes que anticipan retrasos.
 
-  - Automatización inteligente: Notificaciones y recordatorios automáticos para mejorar el seguimiento de tareas y fechas límite.
+  - Automatización : Notificaciones y recordatorios autónomos mediante RPA.
 
 - ¿Cómo debería verse y comportarse nuestro producto?: Debe tener una interfaz moderna, intuitiva y fácil de aprender. Su comportamiento debe ser proactivo: en lugar de solo esperar datos, el sistema debe alertar al usuario sobre eventos importantes (como un riesgo de atraso o una sobrecarga de tareas) de manera visual y clara, con un diseño totalmente adaptable a móviles.
 
@@ -549,8 +549,8 @@ Creemos que ofrecer un módulo financiero básico integrado con alertas de presu
 Sabremos que estamos en lo correcto cuando observemos que al menos el 60 % de los clientes activos utilicen semanalmente el módulo de estados de pago y presupuestos.
 
 - **Hypothesis Statement 04 (Adopción de Tecnología):**
-Creemos que una interfaz intuitiva permitirá que los usuarios adopten las funciones de IA y automatización inteligente sin necesidad de capacitación técnica.
-Sabremos que estamos en lo correcto cuando nuevos usuarios completen su primera tarea y configuren sus primeras notificaciones automáticas en menos de 10 minutos.
+Creemos que una interfaz intuitiva permitirá que los usuarios adopten las funciones de IA y RPA sin necesidad de capacitación técnica.
+Sabremos que estamos en lo correcto cuando nuevos usuarios completen su primera tarea y configuren su primera alerta automática en menos de 10 minutos.
 
 - **Hypothesis Statement 05 (Conversión):**
 Creemos que ofrecer una versión de prueba gratuita que incluya funciones básicas de analítica atraerá a clientes de pago.
@@ -580,8 +580,8 @@ Sabremos que estamos en lo correcto cuando los usuarios indiquen que han sustitu
 Creemos que un diseño visual moderno y una experiencia de usuario fluida motivarán un uso constante de la plataforma.
 Sabremos que estamos en lo correcto cuando los usuarios activos diarios (DAU) se conecten al menos 3 veces por semana para revisar sus indicadores.
 
-- **Hypothesis Statement 12 (Automatización Inteligente):**
-Creemos que los recordatorios automáticos y alertas por vencimiento reducirán los retrasos en las entregas.
+- **Hypothesis Statement 12 (Automatización RPA):**
+Creemos que los recordatorios automáticos y alertas por vencimiento  mediante RPA reducirán los retrasos en las entregas.
 Sabremos que estamos en lo correcto cuando el porcentaje de tareas finalizadas en la fecha establecida aumente un 15 % mes a mes.
 
 - **Hypothesis Statement 13 (Satisfacción):**
@@ -1331,7 +1331,7 @@ A continuación, se detallan las historias de usuario seleccionadas:
 
 En esta sección se presentan los escenarios iniciales de atributos de calidad que tienen mayor impacto en la arquitectura del sistema TaskMaster.
 
-Estos escenarios se enfocan en atributos clave como rendimiento, escalabilidad, disponibilidad, modificabilidad y automatización inteligente, considerando además el uso de tecnologías emergentes como Inteligencia Artificial (IA), las cuales requieren procesamiento en tiempo real, análisis de datos y generación automática de eventos.
+Estos escenarios se enfocan en atributos clave como rendimiento, escalabilidad, disponibilidad, modificabilidad y automatización, considerando además el uso de tecnologías emergentes como Inteligencia Artificial (IA) y RPA, los cuales requieren procesamiento en tiempo real, análisis de datos y ejecución automática de eventos.
 
 A continuación, se detallan los escenarios identificados:
 
@@ -1341,21 +1341,21 @@ A continuación, se detallan los escenarios identificados:
 | Escalabilidad | Sistema | Incremento simultáneo de usuarios activos | Infraestructura del sistema | Alta carga (muchos equipos usando la plataforma) | El sistema mantiene estabilidad y distribuye la carga | Soporta ≥ 1000 usuarios concurrentes sin degradación |
 | Disponibilidad | Usuario | Accede a la plataforma para consultar tareas | Sistema completo | Operación continua (24/7) | El sistema se mantiene accesible sin interrupciones | Disponibilidad ≥ 99.5% |
 | Modificabilidad | Desarrollador | Se requiere actualizar lógica de IA para análisis | Módulo de analítica (IA) | Sistema en mantenimiento/evolución | Se implementan cambios sin afectar otros módulos | Tiempo de implementación ≤ 2 días sin impacto en producción |
-| Automatización Inteligente | Sistema | Se detecta una tarea próxima a vencer | Módulo de notificaciones | Ejecución automática programada | El sistema genera y envía notificaciones automáticamente | Notificación enviada en ≤ 5 segundos desde detección |
+| Automatización (RPA) | Sistema | Se detecta una tarea próxima a vencer | Módulo de notificaciones | Ejecución automática programada | El sistema genera y envía notificaciones automáticamente | Notificación enviada en ≤ 5 segundos desde detección |
 | Precisión (IA) | Sistema | Se analizan datos para generar reportes inteligentes | Módulo de analítica (IA) | Procesamiento de datos históricos | El sistema genera insights y predicciones | Precisión ≥ 85% en predicciones de riesgo |
 
 ##### 4.1.2.3. Constraints
 
 En esta sección se presentan las principales restricciones del sistema **TaskMaster**, desarrollado por Apex Cybernetics, las cuales no son negociables y condicionan el diseño de la arquitectura.
 
-Estas restricciones están relacionadas principalmente con el uso de tecnologías emergentes como Inteligencia Artificial (IA), así como con requerimientos de interoperabilidad, rendimiento y despliegue en entornos modernos. Dichos constraints guían las decisiones arquitectónicas y aseguran la viabilidad técnica de la solución.
+Estas restricciones están relacionadas principalmente con el uso de tecnologías emergentes como Inteligencia Artificial (IA) y Automatización mediante RPA, así como con requerimientos de interoperabilidad, rendimiento y despliegue en entornos modernos. Dichos constraints guían las decisiones arquitectónicas y aseguran la viabilidad técnica de la solución.
 
 A continuación, se detallan los constraints definidos como Technical Stories:
 
 | TECHNICAL STORY ID | TÍTULO | DESCRIPCIÓN | CRITERIOS DE ACEPTACIÓN | RELACIONADO CON (EPIC ID) |
 | ----- | ----- | ----- | ----- | ----- |
 | TS01 | Integración obligatoria de IA | El sistema debe integrar módulos de Inteligencia Artificial para análisis de rendimiento, generación de reportes y predicción de riesgos | El sistema genera reportes inteligentes, métricas y predicciones basadas en datos de tareas | EP05 |
-| TS02 | Automatización inteligente | El sistema debe automatizar el envío de notificaciones y alertas sin intervención manual | Las notificaciones se generan automáticamente ante eventos como asignaciones, vencimientos o cambios | EP06 |
+| TS02 | Automatización mediante RPA | El sistema debe automatizar el envío de notificaciones y alertas sin intervención manual | Las notificaciones se generan automáticamente ante eventos como asignaciones, vencimientos o cambios | EP06 |
 | TS03 | Procesamiento en tiempo real | El sistema debe procesar y reflejar cambios en tareas en tiempo real | Los cambios en tareas se visualizan inmediatamente sin recarga manual | EP04 |
 | TS04 | Arquitectura escalable | El sistema debe soportar crecimiento de usuarios y carga de trabajo sin degradación significativa | El sistema mantiene rendimiento estable con múltiples usuarios concurrentes | EP04 |
 | TS05 | Interoperabilidad del sistema | El sistema debe permitir integración con servicios externos (correo, APIs, servicios de IA) | El sistema se integra correctamente con servicios externos para notificaciones y analítica | EP05 |
@@ -1373,7 +1373,7 @@ A continuación, se presenta el backlog de drivers arquitectónicos, ordenados s
 | ----- | ----- | ----- | ----- | ----- |
 | AD01 | Procesamiento en tiempo real | El sistema debe reflejar cambios en tareas y estados en tiempo real para mejorar la toma de decisiones | HIGH | HIGH |
 | AD02 | Analítica inteligente con IA | El sistema debe generar reportes, métricas y predicciones utilizando inteligencia artificial | HIGH | HIGH |
-| AD03 | Automatización inteligente de notificaciones | El sistema debe enviar notificaciones automáticas basadas en eventos sin intervención manual | HIGH | MEDIUM |
+| AD03 | Automatización de notificaciones (RPA) | El sistema debe enviar notificaciones automáticas basadas en eventos sin intervención manual | HIGH | MEDIUM |
 | AD04 | Escalabilidad del sistema | El sistema debe soportar un alto número de usuarios concurrentes sin degradación del rendimiento | HIGH | HIGH |
 | AD05 | Alta disponibilidad | El sistema debe estar disponible de forma continua para los usuarios | HIGH | MEDIUM |
 | AD06 | Integración con servicios externos | El sistema debe integrarse con APIs externas (correo, servicios de IA, etc.) | MEDIUM | HIGH |
@@ -1386,7 +1386,7 @@ A continuación, se presenta el backlog de drivers arquitectónicos, ordenados s
 
 En esta sección se presentan las decisiones de diseño arquitectónico para el sistema **TaskMaster**, basadas en el análisis de los Architectural Drivers identificados previamente.
 
-Siguiendo un enfoque inspirado en el Quality Attribute Workshop (QAW), el equipo evaluó diferentes patrones arquitectónicos considerando su impacto en atributos de calidad como rendimiento, escalabilidad, disponibilidad y capacidad de integración con tecnologías emergentes como IA y automatización inteligente..
+Siguiendo un enfoque inspirado en el Quality Attribute Workshop (QAW), el equipo evaluó diferentes patrones arquitectónicos considerando su impacto en atributos de calidad como rendimiento, escalabilidad, disponibilidad y capacidad de integración con tecnologías emergentes como IA y RPA.
 
 A continuación, se presenta la matriz de evaluación de patrones candidatos:
 
@@ -1395,7 +1395,7 @@ A continuación, se presenta la matriz de evaluación de patrones candidatos:
 |  |  | **Pro** | **Contra** | **Pro** | **Contra** | **Pro** | **Contra** |
 | AD01 | Procesamiento en tiempo real | Permite modelar dominios complejos y separar lógica | No gestiona eventos en tiempo real directamente | Simple de implementar | Limitado para tiempo real | Soporta eventos en tiempo real eficientemente | Mayor complejidad de implementación |
 | AD02 | Analítica inteligente con IA | Facilita separar lógica de negocio de IA | Requiere integración adicional | Fácil de estructurar | No es adecuado para analítica avanzada | Permite procesamiento asíncrono de datos | Requiere manejo de eventos complejo |
-| AD03 | Automatización inteligente de notificaciones | Organiza lógica de negocio | No automatiza eventos por sí solo | Implementación rápida | Acoplamiento alto |Ideal para triggers automáticos y flujos de notificación basados en eventos | Difícil de depurar |
+| AD03 | Automatización de notificaciones (RPA) | Organiza lógica de negocio | No automatiza eventos por sí solo | Implementación rápida | Acoplamiento alto | Ideal para triggers automáticos y flujos RPA | Difícil de depurar |
 | AD04 | Escalabilidad del sistema | Permite dividir por dominios | Puede volverse complejo | Estructura simple | Escalabilidad limitada | Alta escalabilidad mediante desacoplamiento | Requiere infraestructura adicional |
 | AD05 | Alta disponibilidad | Facilita separación de componentes | No garantiza disponibilidad por sí solo | Fácil mantenimiento | No soporta failover | Permite sistemas resilientes distribuidos | Mayor costo operativo |
 
@@ -1403,7 +1403,7 @@ A continuación, se presenta la matriz de evaluación de patrones candidatos:
 
 En esta sección se presentan los escenarios de atributos de calidad refinados y priorizados para el sistema **TaskMaster**.
 
-Como resultado del proceso de Quality Attribute Workshop (QAW), se priorizaron escenarios relacionados con procesamiento en tiempo real, analítica con IA y automatización inteligente, debido a su alto impacto en la arquitectura y en los objetivos del negocio.
+Como resultado del proceso de Quality Attribute Workshop (QAW), se priorizaron escenarios relacionados con procesamiento en tiempo real, analítica con IA y automatización mediante RPA, debido a su alto impacto en la arquitectura y en los objetivos del negocio.
 
 | Scenario Refinement for Scenario 1 \- Tiempo Real |  |  |
 | :---- | :---- | :---- |
@@ -1434,20 +1434,19 @@ Como resultado del proceso de Quality Attribute Workshop (QAW), se priorizaron e
 | **Questions:** |  | ¿Se usará IA propia o servicios externos? |
 | **Issues:** |  |  Dependencia de la calidad de los datos |
 
-| Scenario Refinement for Scenario 3 - Automatización Inteligente |                         |                                                                      |
-| :-------------------------------------------------------------- | :---------------------- | :------------------------------------------------------------------- |
-| **Scenario(s):**                                                |                         | Notificación automática por tareas próximas a vencer                 |
-| **Business Goals:**                                             |                         | Reducir retrasos y mejorar el cumplimiento de tareas                 |
-| **Relevant Quality Attributes:**                                |                         | Disponibilidad, Automatización                                       |
-|                                                                 | **Stimulus:**           | Detección automática de tarea próxima a vencer                       |
-| **Scenario Components**                                         | **Stimulus Source:**    | Sistema                                                              |
-|                                                                 | **Environment:**        | Ejecución automática programada                                      |
-|                                                                 | **Artifact (if Known)** | Módulo de notificaciones                                             |
-|                                                                 | **Response:**           | El sistema envía notificaciones automáticas                          |
-|                                                                 | **Response Measure:**   | Notificación enviada ≤ 5 segundos                                    |
-| **Questions:**                                                  |                         | ¿Se usará un scheduler interno o un servicio de eventos?             |
-| **Issues:**                                                     |                         | Posible saturación de notificaciones si no se controla la frecuencia |
-
+| Scenario Refinement for Scenario 3 \- RPA \- Automatización |  |  |
+| :---- | :---- | :---- |
+| **Scenario(s):** |  |  Notificación automática por tareas próximas a vencer |
+| **Business Goals:** |  |  Reducir retrasos y mejorar el cumplimiento de tareas |
+| **Relevant Quality Attributes:** |  |  Disponibilidad, Automatización |
+|   | **Stimulus:** | Detección automática de tarea próxima a vencer |
+| **Scenario Components** | **Stimulus Source:** |  Sistema |
+|  | **Environment:** | Ejecución automática programada |
+|  | **Artifact (if Known)** | Módulo de notificaciones |
+|  | **Response:** | El sistema envía notificaciones automáticas |
+|  | **Response Measure:** | Notificación enviada ≤ 5 segundos |
+| **Questions:** |  | ¿Se usará un scheduler interno o externo? |
+| **Issues:** |  | Posible saturación de notificaciones si no se controla la frecuencia |
 
 
 ### 4.2. Strategic-Level Domain-Driven Design
@@ -1657,7 +1656,7 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 
 El bounded context de Registro y Autenticación de Usuario es responsable de gestionar la identidad digital de los usuarios dentro de la plataforma TaskMaster. Este contexto encapsula los procesos de registro, autenticación, autorización y administración de roles, garantizando que únicamente usuarios válidos puedan acceder a los recursos y funcionalidades del sistema.
 
-Asimismo, este bounded context ha sido diseñado considerando capacidades futuras relacionadas con inteligencia artificial orientada a la seguridad, detección de comportamientos inusuales y automatización inteligente de procesos de autenticación y validación de acceso.
+Asimismo, este bounded context ha sido diseñado considerando capacidades futuras de tecnologías emergentes, especialmente relacionadas con inteligencia artificial orientada a seguridad y automatización de procesos de autenticación mediante RPA.
 
 ---
 
@@ -1937,6 +1936,14 @@ La Application Layer permite integrar servicios de IA orientados a:
 - evaluación de riesgo
 - detección de accesos anómalos
 
+**RPA**
+
+Se incorporan automatizaciones para:
+
+- recuperación automática de contraseña
+- envío automático de correos
+- notificaciones inteligentes de seguridad
+
 ---
 
 #### 5.1.4.	Infrastructure Layer.
@@ -1979,6 +1986,10 @@ Gestiona el envío de:
 - confirmaciones de registro
 - alertas de seguridad
 
+**NotificationAutomationService**
+
+Servicio orientado a automatizaciones RPA.
+
 **Funciones automatizadas**
 
 - envío automático de recordatorios
@@ -2001,7 +2012,7 @@ Servicio preparado para consumir modelos de inteligencia artificial relacionados
 
 #### 5.1.6.	Bounded Context Software Architecture Component Level Diagrams.
 
-El siguiente Component Diagram representa la descomposición interna del bounded context de Registro y Autenticación de Usuario, mostrando los componentes pertenecientes a las capas Interface, Application, Domain e Infrastructure, así como la integración con servicios de Inteligencia Artificial (IA) y mecanismos de automatización del sistema para validaciones de seguridad y notificaciones automáticas.
+El siguiente Component Diagram representa la descomposición interna del bounded context de Registro y Autenticación de Usuario, mostrando los componentes pertenecientes a las capas Interface, Application, Domain e Infrastructure, así como la integración con servicios de Inteligencia Artificial (AI) y automatización RPA para validaciones de seguridad y notificaciones automáticas.
 
 ![BC1_Component](assets/TP1/BC1_Components_diagram.png)
 
@@ -2023,7 +2034,7 @@ El siguiente Database Diagram muestra las entidades persistentes y relaciones ut
 
 El bounded context de Gestión de Proyectos y Tareas es responsable de administrar la planificación, organización, asignación y seguimiento operativo de proyectos y tareas dentro de la plataforma TaskMaster. Este contexto representa el núcleo funcional del sistema, ya que concentra las reglas de negocio relacionadas con la ejecución de actividades colaborativas entre equipos de trabajo.
 
-Asimismo, este bounded context incorpora capacidades preparadas para tecnologías basadas en inteligencia artificial, orientadas al análisis predictivo de carga laboral, identificación de tareas críticas y evaluación automática de riesgos operativos. De igual manera, integra mecanismos de automatización del sistema para la generación de recordatorios y alertas inteligentes relacionadas con vencimientos y asignaciones.
+Asimismo, este bounded context incorpora capacidades preparadas para tecnologías emergentes basadas en inteligencia artificial, orientadas al análisis predictivo de carga laboral, identificación de tareas críticas y evaluación automática de riesgos operativos. De igual manera, se integra con automatizaciones RPA para la generación de recordatorios y alertas inteligentes relacionadas con vencimientos y asignaciones.
 
 ---
 
@@ -2374,7 +2385,7 @@ La Application Layer integra capacidades de IA orientadas a:
 - identificación de riesgos
 - recomendaciones de asignación
 
-**Automatización del Sistema**
+**Integración con RPA**
 
 Se implementan automatizaciones para:
 
@@ -2450,7 +2461,7 @@ Responsable de:
 
 Permite sincronizar tareas y vencimientos con calendarios externos.
 
-**WorkflowAutomationService**
+**RpaWorkflowAutomationService**
 
 Servicio encargado de automatizar procesos repetitivos.
 
@@ -2474,11 +2485,17 @@ Este bounded context ha sido diseñado para integrar tecnologías emergentes rel
 - evaluación automática de riesgos
 - recomendaciones inteligentes
 
+**Robotic Process Automation (RPA)**
+
+- automatización de notificaciones
+- ejecución automática de recordatorios
+- seguimiento inteligente de tareas vencidas
+
 ---
 
 #### 5.2.6.	Bounded Context Software Architecture Component Level Diagrams.
 
-El siguiente Component Diagram representa la arquitectura interna del bounded context de Gestión de Proyectos y Tareas, incluyendo componentes encargados de la administración de proyectos, tareas, análisis predictivo mediante AI.
+El siguiente Component Diagram representa la arquitectura interna del bounded context de Gestión de Proyectos y Tareas, incluyendo componentes encargados de la administración de proyectos, tareas, análisis predictivo mediante AI y automatización de flujos utilizando RPA.
 
 ![BC2_Component](assets/TP1/BC2_Components_diagram.png)
 
@@ -2501,7 +2518,7 @@ El bounded context de Visualización y Seguimiento es responsable de consolidar,
 
 Este bounded context incorpora capacidades basadas en inteligencia artificial orientadas al análisis predictivo, generación de alertas inteligentes e identificación automática de riesgos, permitiendo transformar datos operativos en información útil para líderes y miembros de equipos.
 
-Asimismo, integra mecanismos de automatización del sistema para el envío de reportes, alertas y seguimiento automatizado de incidencias críticas.
+Asimismo, integra automatizaciones basadas en RPA para el envío de reportes, alertas y seguimiento automatizado de incidencias críticas.
 
 ---
 
@@ -2689,7 +2706,7 @@ Permite implementar análisis predictivos relacionados con:
 **Descripción**
 Gestiona la generación automática de alertas inteligentes.
 
-## Métodos
+### Métodos
 
 - `generateAlert()`
 - `prioritizeAlerts()`
@@ -2856,7 +2873,7 @@ La Application Layer integra servicios de IA orientados a:
 
 ---
 
-**Automatización del Sistema**
+**Integración con RPA**
 
 Se implementan automatizaciones para:
 
@@ -2934,7 +2951,7 @@ Responsable del envío de:
 
 **ReportAutomationService**
 
-Servicio encargado de automatizar la generación y distribución de reportes.
+Servicio orientado a automatización de reportes mediante RPA.
 
 **Automatizaciones principales**
 
@@ -2965,6 +2982,13 @@ Este bounded context ha sido diseñado específicamente para integrar tecnologí
 - análisis de desempeño
 - identificación de anomalías operativas
 
+**Robotic Process Automation (RPA)**
+
+- automatización de reportes
+- seguimiento automático de incidencias
+- envío inteligente de notificaciones
+- monitoreo automatizado de riesgos
+
 ---
 
 #### 5.3.6.	Bounded Context Software Architecture Component Level Diagrams.
@@ -2987,6 +3011,7 @@ El siguiente Database Diagram representa las entidades persistentes relacionadas
 ![BC3_Database](assets/TP1/BC3_Database_diagram.png)
 
 ---
+
 
 ### 5.4.	Bounded Context:  Notificaciones
 
@@ -3045,7 +3070,7 @@ Sus responsabilidades principales son:
 
 #### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
 
-![ddd](assets/TP1/diagrama-componentes-BC-notificaciones.png)
+![ddd](assets/TP1/diagrama-componentes-BC-notificaciones2.png)
 
 #### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3145,7 +3170,7 @@ Sus funciones incluyen recuperar métricas por proyecto o por miembro, guardar a
 
 #### 5.5.6.	Bounded Context Software Architecture Component Level Diagrams.
 
-![ddd](assets/TP1/diagrama-componentes-BC-analiticayreportes.png)
+![ddd](assets/TP1/diagrama-componentes-BC-analiticayreportes2.png)
 
 
 #### 5.5.7.	Bounded Context Software Architecture Code Level Diagrams.
@@ -3749,7 +3774,7 @@ En esta sección se presentan los prototipos interactivos desarrollados en Figma
 
 **TB1**
 
-El desarrollo de TaskMaster demuestra que la centralización de la gestión de proyectos, junto con el uso de metodologías modernas como Lean UX y Domain-Driven Design, permite abordar eficazmente los problemas de fragmentación, baja visibilidad y desorganización en equipos de trabajo; además, la incorporación de tecnologías basadas en inteligencia artificial para analítica, predicción de riesgos y generación de alertas inteligentes posiciona la solución como innovadora y competitiva. Se recomienda continuar fortaleciendo estas capacidades mediante una mayor integración de IA, mejoras en los mecanismos de automatización del sistema, validaciones constantes con usuarios reales y mejoras progresivas en la experiencia de usuario, con el fin de asegurar una adopción efectiva y escalabilidad del producto en el mercado.
+- El desarrollo de TaskMaster demuestra que la centralización de la gestión de proyectos, junto con el uso de metodologías modernas como Lean UX y Domain-Driven Design, permite abordar eficazmente los problemas de fragmentación, baja visibilidad y desorganización en equipos de trabajo; además, la incorporación de tecnologías emergentes como inteligencia artificial para analítica y alertas, y RPA para automatización de notificaciones, posiciona la solución como innovadora y competitiva. Se recomienda continuar fortaleciendo estas capacidades mediante una mayor integración de IA y automatización, validaciones constantes con usuarios reales y mejoras progresivas en la experiencia de usuario, con el fin de asegurar una adopción efectiva y escalabilidad del producto en el mercado.
 
 **TP**
 
@@ -3787,9 +3812,3 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 ## Anexos
 
-**Videos de Exposiciones**
-
-- Exposición Avance 1: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQAZO_cMWAd4RKKDMOsWrQU2ATJEeBNgs32C3dapT3eS7Zk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eYIa7c)
-- Exposición Avance 2: 
-
- 
