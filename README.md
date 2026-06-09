@@ -3770,6 +3770,238 @@ En esta sección se presentan los prototipos interactivos desarrollados en Figma
 
 -->
 
+
+## Capítulo VII: Product Implementation & Validation  
+
+### 7.1. Software Configuration Management  
+#### 7.1.1. Software Development Environment Configuration  
+En este apartado se describe la configuración del entorno de desarrollo de Task Master, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo.  
+Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida del desarrollo, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
+
+| Plataforma / Herramienta | Descripción | Enlace |
+|---------------------------|--------------|---------|
+| GitHub | Plataforma de control de versiones basada en Git que permite la colaboración entre desarrolladores, la gestión de ramas, control de cambios y automatización del despliegue continuo (CI/CD). | [https://github.com](https://github.com) |
+| Render | Servicio de despliegue automatizado para backend y frontend. Facilita la integración continua, escalado automático y monitoreo del sistema en producción. | [https://render.com](https://render.com) |
+| Figma | Herramienta colaborativa de diseño de interfaces, utilizada para la creación de wireframes, mockups y prototipos interactivos de Task Master. Permite trabajo simultáneo entre diseñadores y desarrolladores. | [https://www.figma.com](https://www.figma.com) |
+| Mural | Plataforma colaborativa para sesiones de ideación, flujo de usuario (user flow) y mapas de tareas. Ideal para estructurar el diseño de experiencias y estrategias de interacción del usuario. | [https://www.mural.co](https://www.mural.co) |
+| Lucidchart | Herramienta para la creación de diagramas UML, diagramas de flujo de tareas y modelos de procesos de Task Master. Facilita la documentación visual y el análisis técnico. | [https://lucidchart.com](https://lucidchart.com) |
+| Vertabelo | Plataforma especializada para el modelado y documentación de bases de datos relacionales, utilizada para diseñar la estructura de datos del sistema de gestión de tableros, columnas y tareas. | [https://vertabelo.com](https://vertabelo.com) |
+| Structurizr | Herramienta usada para representar la arquitectura C4 de Task Master (Contexto, Contenedor, Componente, Código), mostrando la relación entre los módulos principales (Gestión de Tareas, Tableros, Usuarios, Visualización). | [https://structurizr.com](https://structurizr.com) |
+| C4 Model | Modelo conceptual que permite documentar las decisiones arquitectónicas del sistema de manera jerárquica y comprensible para todo el equipo. | [https://c4model.com](https://c4model.com) |
+| Postman | Herramienta para pruebas y validación de APIs REST del backend de Task Master. Permite automatizar test cases, analizar respuestas y validar endpoints de integración. | [https://www.postman.com](https://www.postman.com) |
+| Trello | Plataforma de gestión de proyectos que facilita la organización de tareas y entregables mediante tableros, listas y tarjetas. Se emplea para la planificación ágil (sprints, backlogs, revisiones). | [https://trello.com](https://trello.com) |
+| UXPressia | Utilizada para la creación de User Personas y Customer Journey Maps, ayudando a entender las necesidades, frustraciones y objetivos de los usuarios que gestionan tareas dentro de la app. | [https://uxpressia.com](https://uxpressia.com) |
+| Canva | Aplicación complementaria para el diseño visual de materiales gráficos, como banners, íconos e imágenes promocionales de la marca Task Master. | [https://www.canva.com](https://www.canva.com) |
+| Firebase (opcional) | Plataforma en la nube utilizada para autenticación de usuarios y almacenamiento en tiempo real en etapas tempranas del desarrollo o pruebas del módulo de notificaciones. | [https://firebase.google.com](https://firebase.google.com) |
+
+
+#### 7.1.2. Source Code Management 
+
+En esta sección, el equipo de desarrollo de Task Master establece los medios y el esquema de organización aplicados para el seguimiento de modificaciones, utilizando GitHub como plataforma principal de control de versiones.  
+De esta manera, se configuró un repositorio remoto en GitHub para almacenar el código fuente, documentar los cambios y colaborar de manera eficiente entre los miembros del equipo durante todo el ciclo de desarrollo.
+
+Se utiliza GitHub como sistema centralizado para el versionado y la colaboración.  
+Los repositorios oficiales del proyecto Task Master son los siguientes:
+
+- Landing Page: `https://github.com/G2-Arqui-Emergentes/TaskMaster-LandingPage.git`
+- Wep Aplication: `https://github.com/G2-Arqui-Emergentes/Web-Frontend.git`
+- Movile Application: `https://github.com/G2-Arqui-Emergentes/Native-Frontend.git`
+- Backend Web Services: `https://github.com/G2-Arqui-Emergentes/Backend.git`
+
+Cada repositorio cuenta con flujos de trabajo independientes, integraciones de despliegue automático en Render y acciones de CI/CD configuradas en GitHub Actions.
+
+
+#### Implementación de GitFlow
+
+Para mantener una estructura organizada y evitar conflictos durante el desarrollo colaborativo, el equipo adopta la estrategia **GitFlow**, con ramas bien definidas para diferentes etapas y propósitos del proyecto.
+
+**Ramas base:**
+
+- **main**: Contiene la versión estable del código desplegada en producción.  
+- **develop**: Incluye las últimas actualizaciones y desarrollos en curso que eventualmente serán fusionados a `main`.
+
+**Feature branches:**
+
+Cada nueva funcionalidad o módulo inicia desde `develop`.  
+Convención de nombres: `feature/nombre-descriptivo`  
+Ejemplo: `feature/task-calendar-sync`
+
+**Release branches:**
+
+Cuando el proyecto alcanza una versión candidata para producción, se crea una rama de liberación desde `develop`.  
+Convención: `release/x.y.z` (siguiendo versionado semántico)
+
+**Hotfix branches:**
+
+Si se detecta un error crítico en producción, se crea una rama desde `main` para solucionarlo de inmediato.  
+
+
+#### Versionado Semántico (Semantic Versioning)
+
+El proyecto Task Master aplica **versionado semántico** (SemVer) siguiendo el formato **MAJOR.MINOR.PATCH**, asegurando coherencia entre las actualizaciones y compatibilidad entre versiones.
+
+| Parte  | Significado |
+|--------|--------------|
+| MAJOR  | Cambios incompatibles o refactorizaciones críticas que alteran el funcionamiento existente. |
+| MINOR  | Nuevas funcionalidades agregadas de forma retrocompatible. |
+| PATCH  | Corrección de errores menores sin alterar funcionalidades existentes. |
+
+**Tipos comunes de commits:**
+
+- `feat`: nueva funcionalidad o módulo implementado  
+- `fix`: corrección de errores  
+- `docs`: cambios en documentación  
+- `style`: ajustes de formato o estilo (sin afectar el código)  
+- `refactor`: reestructuración de código sin alterar el comportamiento  
+- `test`: creación o modificación de pruebas unitarias  
+- `chore`: tareas de mantenimiento o actualización de dependencias  
+
+
+#### 7.1.3. Source Code Style Guide & Conventions  
+
+El equipo ha definido las siguientes convenciones de nombres y estilos de codificación para el proyecto LearnHive, aplicadas en los lenguajes HTML, CSS, JavaScript, TypeScript y Java. Todas las nomenclaturas están en inglés, buscando claridad, estandarización y buenas prácticas de desarrollo. Se han adoptado guías de estilo reconocidas y actualizadas para cada tecnología.
+
+## HTML
+
+- Guía adoptada: [W3C HTML Style Guide](https://www.w3.org/TR/html5/)
+- Nomenclatura y convenciones:
+  - Minúsculas para etiquetas y atributos: `<div class="container">`
+  - Indentación: 2 espacios
+  - Atributos entre comillas dobles: `<img src="logo.png" alt="TaskMaster Logo">`
+  - Uso semántico de etiquetas: `<header>`, `<section>`, `<footer>`
+  - Comentarios HTML: `<!-- This is a comment -->`
+
+## CSS
+
+- Guía adoptada: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- Nomenclatura y convenciones:
+  - `kebab-case` para clases e IDs  
+    Ejemplo: `.main-header`, `#footer-section`
+  - Agrupación de estilos por componente
+  - Evitar el uso de `!important` salvo en casos necesarios
+  - Indentación: 2 espacios
+
+## JavaScript
+
+- Guía adoptada: [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- Nomenclatura y convenciones:
+  - `camelCase` para variables y funciones  
+    Ejemplo: `let Name = 'Luis';`, `function calculateAverage() {}`
+  - `PascalCase` para clases  
+    Ejemplo: `class DashboardManager {}`
+  - Evitar `snake_case`
+  - Usar `const` y `let` en lugar de `var`
+
+## TypeScript
+
+- Guía adoptada: [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- Nomenclatura y convenciones:
+  - `camelCase` para variables, funciones y propiedades  
+    Ejemplo: `let isActive: boolean = true;`, `function getUserData() {}`
+  - `PascalCase` para clases, interfaces, enums y tipos  
+    Ejemplo: `class CourseCard {}`, `interface UserProfileDTO {}`, `enum Role { Member,Leader  }`
+  - Tipado estricto (`strict: true`) habilitado
+  - Interfaces nombradas con sufijo `DTO` o `Props`
+  - Uso de modificadores `readonly`, `private`, `public`
+
+## Java
+
+- Guía adoptada: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- Nomenclatura y convenciones:
+  - `PascalCase` para clases  
+    Ejemplo: `public class CourseService {}`
+  - `camelCase` para variables, métodos y atributos  
+    Ejemplo: `int totalCourses;`, `calculateProgress();`
+  - Constantes en MAYÚSCULAS con `snake_case`  
+    Ejemplo: `public static final int MAX_MEMBERS = 50;`
+  - Paquetes en minúsculas separados por punto  
+    Ejemplo: `com.taskmaster.backend.controller`
+
+## Gherkin Conventions for Readable Specifications
+
+- Guía adoptada: [Gherkin Syntax and Conventions](https://cucumber.io/docs/gherkin/reference/)
+- Nomenclatura y convenciones:
+  - Estructura:
+    - Given: Define el contexto o estado inicial
+    - When: Define la acción o evento que ocurre
+    - Then: Define el resultado o expectativa
+  - Ejemplo:
+    ```gherkin
+    Feature: Member dashboard access
+      Scenario: Successful login with valid credentials
+        Given the Member is on the login page
+        When the member enters valid credentials
+        Then the member should be redirected to the dashboard
+    ```
+  - Uso de tablas para datos:
+    ```gherkin
+    Given the following users exist:
+      | username | password |
+      | member1 | pass123  |
+      | leader1 | pass456  |
+    ```
+
+## SQL / Data Modeling (Vertabelo)
+
+- Guía adoptada: [SQL Style Guide](https://www.sqlstyle.guide/)
+- Nomenclatura y convenciones:
+  - Nombres en inglés, en singular
+  - Prefijos según entidad o módulo
+  - Palabras reservadas en mayúsculas
+  - Relaciones consistentes entre tablas
+  - Ejemplo:
+    ```sql
+    CREATE TABLE Member (
+      member_id INT PRIMARY KEY,
+      first_name VARCHAR(50),
+      last_name VARCHAR(50),
+      enrollment_date DATE
+    );
+    ```
+
+## Kotlin / XML (Aplicativo móvil – Android Studio)
+
+- Guía adoptada: [Android Kotlin Style Guide](https://developer.android.com/kotlin/style-guide)
+- Nomenclatura y convenciones:
+  - Código limpio, reutilizable y seguro
+  - `camelCase` para variables y funciones  
+    Ejemplo: `val userName: String = "Eric"`
+  - `PascalCase` para clases y componentes de UI  
+    Ejemplo: `class DashboardActivity : AppCompatActivity()`
+  - XML en `snake_case`  
+    Ejemplo: `<TextView android:id="@+id/student_name_text" />`
+  - Comentarios claros y concisos
+
+
+#### 7.1.4. Software Deployment Configuration  
+
+## Despliegue del Frontend (Landing Page)
+
+La landing page de Task Master fue desarrollada utilizando HTML, CSS y JavaScript, enfocándose en un diseño responsivo, limpio y rápido.  
+El sitio se publica mediante GitHub Pages, lo que permite una distribución gratuita, confiable y accesible desde cualquier navegador.  
+Durante el proceso de preparación para producción, se aplican optimizaciones de carga como la reducción de archivos CSS y JS, la organización modular del código y la compresión de imágenes en formatos .jpg, .png y .svg.  
+
+## Despliegue del Backend (API – Spring Boot)
+
+El backend de Task Master está implementado con Java y el framework Spring Boot, siguiendo principios de arquitectura modular y escalable.  Actualmente, el entorno de despliegue se realiza en la nube en Render.  
+Se manejan variables de entorno para gestionar las credenciales y configuraciones sensibles, manteniendo la seguridad y trazabilidad del sistema.  
+La API REST está diseñada para gestionar tareas, usuarios y tableros de forma eficiente, garantizando una comunicación estable con el frontend y la aplicación móvil.
+
+## Configuración del Aplicativo Móvil (Android)
+
+La versión móvil de Task Master fue desarrollada en Android Studio, empleando Kotlin para la lógica y XML para el diseño de interfaces.  
+En la etapa actual, las pruebas se realizan mediante emuladores locales y dispositivos físicos, asegurando la compatibilidad con diferentes versiones del sistema operativo Android.  
+El despliegue se gestiona mediante la generación de archivos .apk y su distribución interna para pruebas cerradas.  
+El aplicativo mantiene sincronización con el backend en tiempo real, permitiendo a los usuarios gestionar tareas, recibir actualizaciones y visualizar su progreso desde el móvil.
+
+## Protocolo de Pruebas y Validación
+
+Antes de cada despliegue, se ejecuta un conjunto de pruebas funcionales y de integración que validan la comunicación entre los módulos del sistema.  
+También se realizan pruebas de rendimiento, validaciones de interfaz y revisiones de experiencia de usuario para garantizar una interacción fluida y coherente entre las plataformas.  
+Finalmente, cada versión se documenta y se etiqueta en el repositorio, siguiendo un control de versiones ordenado que facilita la trazabilidad y el mantenimiento del proyecto.
+
+
+
 ## Conclusiones
 
 **TB1**
