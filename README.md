@@ -109,6 +109,12 @@ Abril 2026
 | TP      | 30/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Solution UX Design: Elaboración de guías de estilo, arquitectura de información, sistemas de navegación y búsqueda, diseño de interfaces (landing page y aplicaciones), diagramas de flujo de usuario y prototipos interactivos centrados en la experiencia del usuario. |
 | TP      | 30/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Tactical-Level Software Design: Definición de Bounded Contexts y estructuración en capas (Domain, Interface, Application, Infrastructure), elaboración de diagramas a nivel de componentes y código, diagramas de clases del dominio y diseño de base de datos. |
 | TP      | 30/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Tactical-Level Software Design: Desarrollo de la arquitectura a nivel táctico mediante Bounded Contexts, definición de capas del sistema, diagramas de componentes y código, modelado del dominio con diagramas de clases y diseño de la base de datos. |
+| TB2     | 08/06/2026 | Omar Luquillas Asto (U20211G641)            | Solution UX Design: Desarrollo de Applications Mock-ups, Applications User Flow Diagrams y Applications Prototyping. Participación en el avance de la implementación del Backend y Frontend Web de la solución.                                                                                                                                  |
+| TB2     | 08/06/2026 | Sandoval Paiva, Valentino                   | Product Implementation, Validation & Deployment: Elaboración de Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. Participación en el avance de la implementación del Backend y Frontend Web de la solución. |
+| TB2     | 08/06/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Validation Interviews: Diseño de entrevistas, registro de entrevistas y evaluaciones según heurísticas. Desarrollo de la sección Video About-the-Product y avance de Conclusiones, Bibliografía y Anexos. Participación en el avance de la implementación de la aplicación móvil de la solución.                                                 |
+| TB2     | 08/06/2026 | Pilares Pocohuanca, Maria (U202215528)      | Solution Implementation: Desarrollo del Sprint 1, incluyendo Sprint Planning 1, Sprint Backlog 1, evidencias de desarrollo, pruebas, ejecución, documentación de servicios, despliegue de software y colaboración del equipo durante el Sprint. Participación en el avance de la implementación de la aplicación móvil de la solución.           |
+| TB2     | 08/06/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Validation Interviews: Diseño de entrevistas, registro de entrevistas y evaluaciones según heurísticas. Desarrollo de la sección Video About-the-Product y avance de Conclusiones, Bibliografía y Anexos. Participación en el avance de la implementación de la aplicación móvil de la solución.                                                 |
+
 
 ## Project Report Collaboration Insights
 
@@ -151,6 +157,24 @@ Pilares Pocohuanca, Maria: 33
 Sanchez Silva, Luciana Celeste:	4
 
 Sandoval Paiva, Valentino: 16
+
+**TB2:**
+
+**REPORT**
+
+![alt text](assets/TB2/commits.png)
+
+COMMITS:
+
+Luquillas Asto, Omar: 
+
+Peña Riofrio, Maria Fernanda: 
+
+Pilares Pocohuanca, Maria: 
+
+Sanchez Silva, Luciana Celeste:	
+
+Sandoval Paiva, Valentino: 
 
 
 ## Contenido
@@ -329,11 +353,29 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Fortalecí la comunicación oral al presentar flujos de usuario, wireflows y decisiones de diseño UX, explicando de manera estructurada cómo interactúan los usuarios con el sistema. <br><br>
         Sandoval Paiva, Valentino<br>
         Reforcé la comunicación oral al sustentar decisiones de diseño UX/UI y arquitectura de navegación, explicando la experiencia del usuario de forma clara, objetiva y adaptada a distintos niveles de conocimiento.
+        <br><br><strong>TB2</strong><br><br>
+
+Luquillas Asto, Omar<br>
+Fortalecí la comunicación oral al presentar los mockups, flujos de usuario y prototipos de la aplicación, explicando las decisiones de diseño y funcionalidad de manera clara para públicos con distintos niveles de conocimiento. Asimismo, participé en la sustentación de los avances del backend y frontend web, comunicando el progreso técnico del proyecto de forma estructurada y objetiva. <br><br>
+
+Peña Riofrio, Maria Fernanda<br>
+Fortalecí la comunicación oral al participar en la presentación de las entrevistas de validación, evaluaciones heurísticas y resultados obtenidos, explicando los hallazgos de manera comprensible para el equipo y otros interesados. Asimismo, sustenté los avances de la versión móvil y las conclusiones preliminares del proyecto. <br><br>
+
+Pilares Pocohuanca, Maria<br>
+Mejoré mis habilidades de comunicación oral al exponer el desarrollo del Sprint 1, incluyendo la planificación, backlog, evidencias de implementación, pruebas y despliegue del sistema. Además, participé en la presentación de los avances de la aplicación móvil, explicando el trabajo realizado y los resultados alcanzados durante el sprint. <br><br>
+
+Sanchez Silva, Luciana Celeste<br>
+Fortalecí la comunicación oral al presentar los resultados de las entrevistas de validación y las evaluaciones heurísticas, explicando de manera objetiva las observaciones y oportunidades de mejora identificadas. Asimismo, participé en la exposición de los avances de la aplicación móvil y del video About-the-Product. <br><br>
+
+Sandoval Paiva, Valentino<br>
+Reforcé la comunicación oral al sustentar la configuración del entorno de desarrollo, la gestión del código fuente y el proceso de despliegue del software. Además, participé en la presentación de los avances del backend y frontend web, explicando aspectos técnicos de la implementación de forma clara y adaptada al público.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
         <br><br><strong>TP:</strong><br>
         En esta fase se consolidó la capacidad del equipo para comunicar ideas de manera oral integrando tanto aspectos técnicos como de diseño, logrando explicar de forma clara la arquitectura del sistema y la experiencia de usuario. Esto permitió una comunicación más efectiva entre distintos niveles jerárquicos y especialidades, fortaleciendo la argumentación y la claridad en la presentación de soluciones de ingeniería.
+        <br><br><strong>TB2:</strong><br>
+Durante esta etapa se fortaleció la capacidad del equipo para comunicar resultados de implementación y validación del proyecto, integrando aspectos técnicos, funcionales y de experiencia de usuario. La exposición de avances de desarrollo, despliegue, validación y prototipado permitió mejorar la claridad, objetividad y adaptación del mensaje hacia públicos de diferentes especialidades y niveles jerárquicos.
       </td>
     </tr>
     <tr>
@@ -360,11 +402,29 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Fortalecí la comunicación escrita al documentar wireframes, user flows y componentes de experiencia de usuario, organizando la información de manera comprensible para distintos perfiles. <br><br>
         Sandoval Paiva, Valentino<br>
         Reforcé la redacción técnica al detallar prototipos, navegación y estructura UX/UI, explicando de manera clara cómo se relacionan los elementos del sistema.
+        <br><br><strong>TB2</strong><br><br>
+
+Luquillas Asto, Omar<br>
+Fortalecí la comunicación escrita al documentar los mockups, diagramas de flujo de usuario y prototipos de la aplicación, describiendo de forma clara las decisiones de diseño y funcionalidad. Asimismo, participé en la documentación de los avances del backend y frontend web del sistema. <br><br>
+
+Peña Riofrio, Maria Fernanda<br>
+Mejoré la redacción técnica al documentar las entrevistas de validación, evaluaciones heurísticas y resultados obtenidos, organizando la información de forma clara y estructurada. Además, contribuí en la elaboración de conclusiones, bibliografía y anexos del proyecto, así como en la documentación de avances de la aplicación móvil. <br><br>
+
+Pilares Pocohuanca, Maria<br>
+Fortalecí la comunicación escrita al documentar las actividades del Sprint 1, incluyendo planificación, backlog, evidencias de desarrollo, pruebas, despliegue y colaboración del equipo. Asimismo, participé en la documentación de los avances de la versión móvil del sistema. <br><br>
+
+Sanchez Silva, Luciana Celeste<br>
+Mejoré la comunicación escrita al registrar entrevistas de validación, evaluaciones heurísticas y hallazgos obtenidos durante el proceso de validación. También contribuí en la elaboración del contenido del video About-the-Product y en la documentación de avances de la aplicación móvil. <br><br>
+
+Sandoval Paiva, Valentino<br>
+Reforcé la redacción técnica al documentar la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue del software. Además, participé en la documentación de los avances del backend y frontend web de la solución.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
         <br><br><strong>TP:</strong><br>
         En esta etapa se consolidó la comunicación escrita del equipo al integrar documentación detallada de arquitectura de software y diseño UX/UI, logrando un informe más completo, coherente y comprensible para distintos tipos de público. Esto permitió presentar soluciones de ingeniería con mayor claridad, precisión y organización.
+        <br><br><strong>TB2:</strong><br>
+En esta fase se consolidó la capacidad del equipo para documentar procesos de implementación, validación y despliegue de manera clara y estructurada. La elaboración de documentación técnica, evidencias de desarrollo, resultados de validación y configuraciones del sistema permitió fortalecer la redacción profesional y garantizar una adecuada comunicación escrita de las soluciones de ingeniería hacia diferentes tipos de público.
       </td>
     </tr>
   </tbody>
@@ -4011,6 +4071,13 @@ Finalmente, cada versión se documenta y se etiqueta en el repositorio, siguiend
 **TP**
 
 - En esta segunda entrega del proyecto se consolidó el paso de una visión estratégica a un enfoque táctico, permitiendo definir con mayor precisión la estructura interna de TaskMaster mediante la identificación de Bounded Contexts y su organización en capas (Domain, Application, Interface e Infrastructure), lo que asegura una arquitectura modular, escalable y alineada a los principios de Domain-Driven Design. Además, la elaboración de diagramas a nivel de componentes, código, clases y base de datos permitió materializar las decisiones arquitectónicas en representaciones técnicas claras y coherentes con los requerimientos del sistema. Paralelamente, el desarrollo del Solution UX Design complementó esta base técnica al incorporar lineamientos de diseño, arquitectura de información y prototipos que garantizan una experiencia de usuario intuitiva y consistente. En conjunto, esta fase integra de manera efectiva la arquitectura de software con el diseño centrado en el usuario, dejando una base sólida y validada para la futura implementación del sistema.
+
+**TB2**
+
+- En esta tercera fase del proyecto se logró materializar la propuesta planteada en las etapas anteriores mediante la implementación y validación de la solución TaskMaster. La configuración del entorno de desarrollo, la gestión del código fuente y el despliegue de la aplicación permitieron establecer una base sólida para el desarrollo colaborativo y sostenible del sistema. Asimismo, la ejecución del Sprint 1 evidenció la capacidad del equipo para transformar los requerimientos definidos en funcionalidades concretas, integrando componentes web y móviles alineados con la arquitectura diseñada previamente.
+
+Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+
 
 
 ## Bibliografía
