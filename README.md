@@ -304,6 +304,18 @@ Sandoval Paiva, Valentino:
     - [6.4.4.	Applications User Flow Diagrams.](#644applications-user-flow-diagrams)
   - [6.5.	Applications Prototyping.](#65applications-prototyping)
 
+
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+
+
+
+  - [7.3. Validation Interviews.](#73validation-interviews)
+  - [7.3.1. Diseño de Entrevistas.](#731diseño-de-entrevistas)
+  - [7.3.2. Registro de Entrevistas.](#732registro-de-entrevistas)
+  - [7.3.3. Evaluación según heurísticas.](#733evaluaciones-según-heurísticas)
+  - [7.4. Video About-the-Product.](#74video-about-the-product)
+
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -4060,7 +4072,181 @@ Antes de cada despliegue, se ejecuta un conjunto de pruebas funcionales y de int
 También se realizan pruebas de rendimiento, validaciones de interfaz y revisiones de experiencia de usuario para garantizar una interacción fluida y coherente entre las plataformas.  
 Finalmente, cada versión se documenta y se etiqueta en el repositorio, siguiendo un control de versiones ordenado que facilita la trazabilidad y el mantenimiento del proyecto.
 
+## Capítulo VII: Product Implementation, Validation & Deployment
 
+
+
+### 7.3.	Validation Interviews.
+#### 7.3.1.	Diseño de Entrevistas.
+
+En esta sección se definen los elementos a validar para cada segmento objetivo, incluyendo la Landing Page, las aplicaciones (web y móvil) y los user flows correspondientes. Las preguntas están orientadas a obtener retroalimentación sobre la usabilidad, claridad, utilidad y experiencia general de los prototipos y funcionalidades implementadas.
+
+---
+
+**Segmento Objetivo 1: Líder o Gerente de Empresa**
+
+**User Flows a validar:**
+
+  1. Creación de un nuevo proyecto con asignación de usuarios.
+  2. Creación, edición y eliminación de tareas con prioridades y fechas límite.
+  3. Visualización de métricas de rendimiento con indicadores de riesgo (IA).
+  4. Gestión de miembros del equipo (agregar/eliminar).
+  5. Generación de reporte inteligente de desempeño por miembro y por proyecto.
+  6. Visualización de calendario con alertas inteligentes.
+
+**Preguntas de validación:**
+
+*Landing Page:*
+
+1. ¿La información presentada en la Landing Page explica claramente los beneficios de TaskMaster para la gestión de proyectos en su empresa?
+2. ¿Los planes y precios mostrados le parecen acordes al valor que ofrece la plataforma?
+3. ¿La sección de testimonios y About the Team le genera confianza para considerar la adopción del producto?
+
+*Aplicación Web y Móvil:*
+
+4. ¿Le resulta intuitivo el flujo de creación de un nuevo proyecto y asignación de miembros del equipo? ¿Qué mejoraría?
+5. ¿La interfaz para crear, editar y priorizar tareas le parece clara y eficiente?
+6. ¿Las métricas de rendimiento y los indicadores de riesgo (alto, medio, bajo) le ayudan a identificar rápidamente el estado de sus proyectos?
+7. ¿La generación de reportes inteligentes le proporciona la información que necesita para la toma de decisiones?
+8. ¿El calendario con alertas inteligentes le resulta útil para anticipar retrasos en las entregas?
+9. ¿La funcionalidad de gestión de miembros del equipo (invitar, asignar roles, eliminar) cubre sus necesidades?
+10. ¿Considera que la aplicación móvil le permite realizar las mismas tareas de supervisión que la versión web?
+11. ¿La navegación entre módulos (Proyectos, Tareas, Analíticas, Equipo, Calendario) le parece clara y sin fricción?
+12. ¿Los filtros de búsqueda de proyectos y tareas le permiten encontrar rápidamente lo que necesita?
+13. ¿Las alertas y notificaciones que recibe como líder le parecen suficientes para mantenerse informado sin saturarlo?
+14. ¿El diseño visual (colores, tipografía, iconos) le resulta profesional y adecuado para un entorno empresarial?
+15. ¿Cómo calificaría la velocidad y capacidad de respuesta del prototipo durante la navegación?
+16. ¿Le parece útil la función de exportar reportes en PDF o Excel? ¿En qué contexto la usaría?
+17. ¿Confiaría en los indicadores de riesgo generados por IA para tomar decisiones sobre el rumbo de un proyecto?
+18. ¿Qué tan importante es para usted la integración con herramientas externas (Slack, Google Calendar, correo) y ve factible usarlas desde TaskMaster?
+19. ¿Qué funcionalidad adicional considera indispensable para su rol que no esté presente en el prototipo actual?
+
+---
+
+**Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
+
+
+**User Flows a validar:**
+
+  1. Registro e inicio de sesión en la plataforma.
+  2. Unión a un proyecto mediante código de acceso.
+  3. Visualización de tareas asignadas en tablero Kanban.
+  4. Actualización del estado de una tarea (pendiente → en progreso → completada).
+  5. Visualización de calendario personal con tareas y alertas inteligentes.
+  6. Recepción y gestión de notificaciones automáticas (asignación, vencimiento, cambios).
+
+**Preguntas de validación:**
+
+*Landing Page:*
+1. ¿La Landing Page le comunica claramente cómo TaskMaster puede facilitar su trabajo diario y la colaboración en equipo?
+2. ¿La información sobre las características de la aplicación móvil le resulta atractiva para su uso diario?
+
+*Aplicación Web y Móvil:* 
+
+3. ¿El proceso de registro e inicio de sesión le parece sencillo y rápido?
+4. ¿La opción de unirse a un proyecto mediante código de acceso le resulta clara y útil?
+5. ¿El tablero Kanban le permite visualizar fácilmente sus tareas pendientes, en progreso y completadas?
+6. ¿Actualizar el estado de una tarea (marcar como completada) es intuitivo y se refleja correctamente?
+7. ¿El calendario con alertas inteligentes le ayuda a organizar sus plazos de entrega?
+8. ¿Las notificaciones automáticas (nueva tarea asignada, fecha límite próxima, cambios en tareas) le parecen oportunas y útiles para priorizar su trabajo?
+9. ¿La aplicación móvil le resulta cómoda y funcional para actualizar tareas sobre la marcha?
+10. ¿Considera que la interfaz es fácil de aprender sin necesidad de capacitación previa?
+11. ¿La organización de la información en el tablero y en las listas le parece clara o siente que hay demasiados elementos visuales?
+12. ¿Le resulta fácil distinguir entre tareas de alta, media y baja prioridad en la interfaz?
+13. ¿El formulario de creación de tareas cubre todos los campos que usted considera necesarios?
+14. ¿Las alertas de vencimiento le parecen tempranas, tardías o en el momento adecuado?
+15. ¿La navegación entre las secciones de la aplicación móvil (barra inferior) le resulta accesible e intuitiva?
+16. ¿Ha tenido dificultad para encontrar alguna funcionalidad o sección específica dentro del prototipo?
+17. ¿Le gustaría poder personalizar la vista del tablero (por ejemplo, cambiar entre Kanban, lista o calendario)?
+18. ¿Considera útil recibir un resumen semanal inteligente de su desempeño y avances como el planteado en el prototipo?
+19. ¿Qué funcionalidad adicional cree que mejoraría su productividad diaria y no está contemplada en el prototipo?
+
+#### 7.3.2.	Registro de Entrevistas.
+
+**Segmento Objetivo 1: Líder o Gerente de Empresa**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+**Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
+
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Josep Eliu Melgarejo Quiroz |
+| **Edad** | 22 |
+| **Profesión** | Ingeniero de Software |
+| **Departamento** | Lima |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Kiara cristina Gallardo Ortecho |
+| **Edad** | 22 |
+| **Profesión** | Ingeniera de Sistemas |
+| **Departamento** | Lima |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+### 7.3.3.	Evaluaciones según heurísticas.
+## 7.4.	Video About-the-Product.
 
 ## Conclusiones
 
@@ -4111,3 +4297,8 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 ## Anexos
 
+**Anexo A. Videos de exposición**
+
+- TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQAZO_cMWAd4RKKDMOsWrQU2ATJEeBNgs32C3dapT3eS7Zk 
+- TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDhWrwc9qytQovTEzgimi-oAQFp6YQIkF9BUpwvAKKM69w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aSrcbu
+- TB2:
