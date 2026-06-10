@@ -4246,6 +4246,67 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Resumen** |  |
 
 ### 7.3.3.	Evaluaciones según heurísticas.
+
+A continuación, se presenta la evaluación heurística de la solución:
+
+**App a evaluar:**
+TaskMaster
+
+**Tareas a evluar:**
+
+1. Navegar por la Landing Page y revisar la información principal del proyecto.
+2. Registrarse e iniciar sesión en la plataforma.
+3. Crear un nuevo proyecto.
+4. Crear, editar y eliminar tareas.
+5. Asignar tareas a miembros del equipo.
+6. Consultar y filtrar tareas en el tablero de trabajo.
+7. Configurar fechas límite y visualizar el calendario de actividades.
+8. Generar reportes y revisar métricas de rendimiento.
+9. Gestionar roles y miembros dentro de un proyecto.
+10. Unirse a un proyecto mediante código de acceso (aplicación móvil).
+11. Actualizar el estado de una tarea desde la aplicación móvil.
+12. Recibir y gestionar notificaciones relacionadas con tareas y proyectos.
+
+**Escala de severidad:**
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**Evaluación de la Landing Page:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | Los botones de llamado a la acción "Descargar App" no especifican la plataforma (Android/iOS) antes de redirigir. | 1 | Usability: Libertad y control del usuario |
+| 2 | La Landing Page no presenta testimonios, casos de éxito o evidencia de uso por parte de usuarios reales. | 2 | Information Architecture: Is it clear? |
+| 3 | La interfaz presenta elementos en inglés y español simultáneamente (por ejemplo, "Features", "Benefits", "About Us", junto con "Empieza Gratis"), lo que puede generar confusión y afectar la consistencia de la experiencia. | 2 | Usability: Consistencia y estándares |
+
+**Evaluación de la Aplicación Web:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | Al eliminar un proyecto o tarea, el mensaje de confirmación no especifica el nombre del elemento a eliminar, solo muestra un texto genérico. | 2 | Usability: Prevención de errores |
+| 2 | El tablero de métricas de rendimiento carga todos los datos simultáneamente sin paginación, lo que puede afectar el rendimiento en proyectos con muchas tareas. | 2 | Usability: Eficiencia y flexibilidad de uso |
+| 3 | La opción de generar reporte inteligente no muestra un indicador de progreso mientras se procesa el análisis con IA. | 2 | Usability: Visibilidad del estado del sistema |
+| 4 | Los filtros de búsqueda de tareas no persisten al regresar desde la vista detallada de una tarea. | 2 | Usability: Libertad y control del usuario |
+| 5 | No hay diferenciación visual suficiente entre los roles "Team Leader" y "Team Member" en el dashboard. | 1 | Information Architecture: Is it clear? |
+| 6 | El menú lateral no colapsa automáticamente en resoluciones intermedias, superponiéndose al contenido principal. | 3 | Usability: Consistencia y estándares |
+| 7 | Al asignar usuarios a un proyecto, la lista no permite buscar por nombre, solo muestra todos los disponibles. | 2 | Usability: Eficiencia y flexibilidad de uso |
+
+**Evaluación de la Aplicación Móvil:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | El botón de crear nueva tarea está ubicado en la parte superior, dificultando el alcance con una mano en dispositivos de pantalla grande. | 2 | Usability: Eficiencia y flexibilidad de uso |
+| 2 | Las notificaciones push no distinguen visualmente entre "nueva tarea asignada" y "cambio de estado" mediante iconos diferentes. | 1 | Usability: Consistencia y estándares |
+| 3 | Al unirse a un proyecto con código de acceso, no hay retroalimentación visual inmediata si el código es inválido, solo un mensaje de texto pequeño. | 2 | Usability: Visibilidad del estado del sistema |
+| 4 | La vista de calendario en móvil recarga completamente al cambiar de mes, perdiendo la posición de scroll. | 2 | Usability: Libertad y control del usuario |
+| 5 | El tamaño de los botones de prioridad (alta, media, baja) en la pantalla de edición de tareas es pequeño para interacción táctil precisa. | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 6 | No hay opción de deshacer el cambio de estado de una tarea inmediatamente después de marcarla como completada. | 2 | Usability: Prevención de errores |
+| 7 | La barra de navegación inferior no indica claramente en qué sección se encuentra el usuario cuando hay notificaciones no leídas. | 1 | Usability: Reconocimiento antes que recuerdo |
+
 ## 7.4.	Video About-the-Product.
 
 ## Conclusiones
