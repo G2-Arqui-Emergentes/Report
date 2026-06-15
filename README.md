@@ -3541,11 +3541,11 @@ El mock-up de la Landing Page muestra la propuesta visual final, incorporando co
 ![Inicio Mockup](assets/TP1/landing1.png)  
 ![Inicio Mockup](assets/TP1/LA7.png)  
 
-### 6.4.	Applications UX/UI Design.
+### 6.4.	Applications UX/UI Design
 
 Esta sección detalla el proceso de diseño de la experiencia (UX) y la interfaz de usuario (UI) de la aplicación móvil y web, enfocado en ofrecer una navegación intuitiva, coherente y funcional. Se abordan los lineamientos visuales, interacción y usabilidad general del sistema.
 
-#### 6.4.1.	Applications Wireframes.
+#### 6.4.1.	Applications Wireframes
 
 **Web Applications Wireframes**  
 
@@ -3578,7 +3578,7 @@ Los wireframes de la aplicación móvil presentan la estructura visual y funcion
 ![Mobile Application Wireframe](assets/TP1/wireframe_mobile6.png) 
 
 
-#### 6.4.2.	Applications Wireflow Diagrams.
+#### 6.4.2.	Applications Wireflow Diagrams
 
 Esta sección presenta los diagramas de Wireflow de las aplicaciones móvil y web, los cuales representan el flujo de interacción de los usuarios a través de las diferentes pantallas del sistema. Cada Wireflow se desarrolla a partir de un User Goal y su correspondiente Task Flow, permitiendo visualizar la secuencia de acciones, navegación y cambios de estado entre interfaces. Asimismo, los diagramas evidencian la aplicación de principios de usabilidad, arquitectura de información y diseño centrado en el usuario.
 
@@ -3806,41 +3806,291 @@ Este wireflow comienza en la pantalla de tareas de un proyecto. El usuario local
 ![Wireflow Mobile](assets/TP1/wireflow_mobile15.png)
 
 
-<!--
+#### 6.4.3.	Applications Mock-ups
 
-#### 6.4.2.	Applications Mock-ups.
+**Web Applications Mock-ups**
+
+Los mock-ups de la aplicación web presentan la propuesta visual final de la plataforma, incorporando los componentes gráficos, la paleta de colores, la tipografía, la iconografía y los estilos definidos en el Design System del proyecto. Estas representaciones permiten visualizar con mayor precisión la experiencia de usuario esperada, evidenciando la aplicación de principios de diseño visual, jerarquía de información, consistencia, accesibilidad y diseño inclusivo. Asimismo, reflejan la arquitectura de información establecida para facilitar la navegación y la interacción eficiente de los usuarios dentro de los distintos módulos del sistema.
+
+![Web Application Mock-up](assets/TB2/mockup_web1.png)
+![Web Application Mock-up](assets/TB2/mockup_web2.png)
+![Web Application Mock-up](assets/TB2/mockup_web3.png)
+![Web Application Mock-up](assets/TB2/mockup_web4.png)
+![Web Application Mock-up](assets/TB2/mockup_web5.png)
+![Web Application Mock-up](assets/TB2/mockup_web6.png)
+![Web Application Mock-up](assets/TB2/mockup_web7.png)
+![Web Application Mock-up](assets/TB2/mockup_web8.png)
+![Web Application Mock-up](assets/TB2/mockup_web9.png)
+![Web Application Mock-up](assets/TB2/mockup_web10.png)
+![Web Application Mock-up](assets/TB2/mockup_web11.png)
+![Web Application Mock-up](assets/TB2/mockup_web12.png)
+![Web Application Mock-up](assets/TB2/mockup_web13.png)
+![Web Application Mock-up](assets/TB2/mockup_web14.png)
 
 **Mobile Applications Mock-ups**
 
-Los mock-ups presentan las pantallas finales de la aplicación móvil con el diseño visual completo, reflejando el estilo gráfico, paleta de colores, iconografía y tipografía definidos. Permiten apreciar la identidad visual del producto antes de su implementación.
+Los mock-ups de la aplicación móvil muestran el diseño visual final de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se integran los elementos visuales definidos en el Design System, garantizando consistencia entre las diferentes interfaces del producto digital. Además, se aplican principios de usabilidad, accesibilidad, diseño inclusivo y jerarquía visual para optimizar la experiencia del usuario, permitiendo una navegación intuitiva y una interacción eficiente con las funcionalidades disponibles en entornos móviles.
 
-![ddd](assets/TP1/W10.png)  
+![Mobile Application Mock-up](assets/TB2/mockup_mobile1.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile2.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile3.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile4.png)
+ 
 
-#### 6.4.3.	Applications User Flow Diagrams.
+#### 6.4.4.	Applications User Flow Diagrams
 
-**Mobile Applications User Flow Diagrams**
+Esta sección presenta los User Flow Diagrams de la aplicación web, los cuales representan la interacción completa del usuario utilizando las interfaces visuales finales (mock-ups) desarrolladas para el sistema. Estos diagramas se derivan directamente de los Wireflows previamente definidos, incorporando los mock-ups finales de la aplicación para representar la experiencia visual definitiva del usuario.
 
-En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales.
+Cada User Flow se construye a partir de un User Goal y muestra tanto la ruta principal de éxito (Happy Path) como las posibles rutas alternativas o de error (Unhappy Paths). Asimismo, los diagramas evidencian la aplicación de principios de usabilidad, arquitectura de información, accesibilidad y diseño centrado en el usuario, garantizando una experiencia consistente y alineada con el Design System establecido para la solución.
 
-![ddd](assets/TP1/WA1.jpeg)
-![ddd](assets/TP1/WA2.jpeg)
-![ddd](assets/TP1/WA3.jpeg)
-![ddd](assets/TP1/WA4.jpeg)
-![ddd](assets/TP1/WA5.jpeg)
-![ddd](assets/TP1/WA6.jpeg)
-![ddd](assets/TP1/WA7.jpeg)
-![ddd](assets/TP1/WA8.jpeg)
-![ddd](assets/TP1/WA9.jpeg)
+**User Goal: Como usuario registrado quiero autenticarme con mis credenciales para acceder a mi cuenta y gestionar mis proyectos.**
+
+El User Flow comienza cuando el usuario se encuentra en la pantalla de inicio de sesión. El flujo principal consiste en ingresar las credenciales (correo electrónico y contraseña) y presionar el botón "Iniciar sesión". El sistema valida la información y, si es correcta, redirige al usuario al dashboard principal de TaskMaster, donde puede comenzar a gestionar sus proyectos. Si las credenciales son inválidas, el sistema muestra un mensaje de error y permanece en la misma pantalla.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow1.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web1.png)
+
+---
+
+**User Goal: Como visitante quiero registrarme en la plataforma proporcionando mis datos básicos para crear una cuenta y acceder a las funcionalidades de TaskMaster.**
+
+El User Flow inicia en la pantalla de inicio de sesión, donde el usuario selecciona la opción "Unirse" o "Registrarse". El sistema lo dirige al formulario de registro, donde debe completar los datos básicos (nombre, correo, contraseña, etc.). Al presionar "Registrarse", el sistema valida la información. Si el registro es exitoso, el sistema crea la cuenta y redirige al usuario al dashboard. Si el correo ya existe, se muestra un mensaje de error y se solicita un correo diferente.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow2.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web2.png)
+
+---
+
+**User Goal: Como usuario registrado quiero modificar mi información de perfil para mantener mis datos actualizados.**
+
+El User Flow comienza en el dashboard principal. El usuario hace clic en la opción "Perfil". Se muestra su información actual. Luego, selecciona "Editar", modifica los campos deseados y hace clic en "Guardar". El sistema valida los cambios y los actualiza en la base de datos, mostrando la información actualizada en la pantalla de perfil.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow3.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web3.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear un nuevo proyecto para organizar las tareas y asignar responsables de manera estructurada.**
+
+El User Flow inicia en la pantalla principal de "Proyectos". El usuario (Team Leader) hace clic en "Crear nuevo proyecto". Se abre un formulario donde completa los datos requeridos. Al hacer clic en "Crear", el sistema valida los datos. Si la validación es exitosa, el sistema registra el proyecto y lo muestra en la lista de proyectos del líder.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow4.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web4.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de un proyecto existente para mantener la información actualizada.**
+
+El User Flow comienza en la pantalla de "Proyectos". El usuario selecciona un proyecto y hace clic en "Editar proyecto". Se muestra un formulario con los datos actuales. El usuario modifica la información y hace clic en "Editar". El sistema valida y actualiza los datos, mostrando la información del proyecto actualizada.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow5.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web5.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un proyecto que ya no es necesario para mantener el espacio de trabajo organizado.**
+
+El flujo inicia en la pantalla de "Proyectos". El usuario hace clic en "Eliminar proyecto" para un proyecto específico. El sistema muestra un diálogo de confirmación para evitar eliminaciones accidentales. Al hacer clic en "Confirmar", el sistema elimina el proyecto de la base de datos y lo remueve de la lista visible en la interfaz del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow6.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web6.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear una nueva tarea dentro de un proyecto para distribuir el trabajo.**
+
+Este flujo comienza en la pantalla de "Proyectos". El usuario hace clic en un proyecto específico, accediendo a la "Pantalla de tareas". Luego, hace clic en "Añadir nueva tarea". Completa los datos y hace clic en "Crear". El sistema valida y registra la tarea, mostrándola en la lista de tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow7.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web7.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de una tarea, como su prioridad o fecha límite.**
+
+Este flujo inicia en la pantalla de tareas de un proyecto. El usuario hace clic en "Editar tarea" para una tarea específica. Se muestra un formulario con los datos actuales. El usuario modifica los campos necesarios. Al hacer clic en "Editar", el sistema valida los cambios y los actualiza, mostrando la información de la tarea actualizada en la lista.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow8.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web8.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar una tarea que ya no es relevante para el proyecto.**
+
+El User Flow comienza en la pantalla de tareas de un proyecto. El usuario identifica la tarea y hace clic en "Eliminar tarea". El sistema muestra un diálogo de confirmación para prevenir errores. Al confirmar, el sistema elimina la tarea de la base de datos y actualiza la interfaz, removiendo la tarea de la lista visible.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow9.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web9.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver métricas de rendimiento y visualizar análisis de un proyecto para identificar riesgos.**
+
+Este comienza en el dashboard principal. El usuario (Team Leader) hace clic en la sección "Analíticas". Luego, debe seleccionar un proyecto específico del cual desea ver el rendimiento. El sistema procesa la solicitud y muestra una pantalla con gráficos y reportes del proyecto seleccionado, incluyendo tareas completadas, retrasadas, porcentaje de avance e indicadores de riesgo.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow10.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web10.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero visualizar un calendario con mis tareas y alertas inteligentes para anticipar entregas.**
+
+Este User Flow inicia en el dashboard principal del usuario (miembro del equipo o líder). El usuario hace clic en la sección "Calendario". El sistema carga todas las tareas asignadas al usuario con sus respectivas fechas límite y las muestra distribuidas en una vista de calendario. Las tareas próximas a vencer o con riesgo de retraso se resaltan visualmente, cumpliendo con el criterio de alertas inteligentes.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow11.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web11.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver la lista de miembros de un proyecto para gestionar el equipo.**
+
+El User Flow comienza en el dashboard principal. El usuario hace clic en la sección "Equipo". Luego, selecciona un proyecto específico del cual desea ver los miembros. El sistema muestra una pantalla con la lista de todos los usuarios asignados a ese proyecto, junto con su rol y otra información relevante.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow12.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web12.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un miembro de un proyecto para gestionar la composición del equipo.**
+
+Inicia en la pantalla del equipo, con un proyecto seleccionado. El usuario localiza al miembro y hace clic en "Eliminar miembro". El sistema muestra un diálogo de confirmación. Al confirmar, el sistema elimina la asociación del usuario con el proyecto, removiéndolo de la lista de miembros visible y revocando su acceso a las tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow13.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web13.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero unirme a un proyecto existente mediante un código de acceso para colaborar.**
+
+Este User Flow comienza en la pantalla principal de "Proyectos". El usuario tiene la opción de "Ingresar código de proyecto". El usuario introduce el código de acceso único proporcionado por el Team Leader. El sistema valida el código. Si es válido y no ha caducado, la unión es exitosa y el proyecto aparece en la lista de proyectos del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow14.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web14.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero actualizar el estado de una tarea a completada para reflejar mi progreso.**
+
+Este User Flow comienza en la pantalla de tareas de un proyecto. El usuario localiza una tarea que le ha sido asignada. Al hacer clic en el checkbox correspondiente a esa tarea, el sistema cambia el estado de la tarea de "Pendiente" o "En progreso" a "Completada". Este cambio se refleja inmediatamente en la interfaz de usuario y en las métricas del proyecto para todos los miembros.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow15.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web15.png)
 
 
-### 6.5.	Applications Prototyping.
+### 6.5. Applications Prototyping.
 
-**Mobile Applications Prototyping**
+Esta sección presenta los prototipos interactivos desarrollados para las aplicaciones web y móvil de la solución. Los prototipos permiten simular la navegación, las transiciones entre pantallas y las principales interacciones definidas en los User Flow Diagrams, proporcionando una representación cercana al comportamiento esperado del producto final.
 
-En esta sección se presentan los prototipos interactivos desarrollados en Figma, que permiten simular la navegación y las interacciones principales de la aplicación móvil. Estos prototipos reflejan las decisiones de diseño, los criterios de usabilidad y la coherencia con la arquitectura de información definida. A continuación, se incluye el enlace al prototipo funcional en Figma para su exploración.
-[https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1](https://www.figma.com/design/qVKsPHnPjsibpP8v8EV9y4/Android-Adaptive-Icon-Template--Community-?node-id=14673-2444&t=RlkgCrmkxokKxwlS-1)
+Las decisiones de interacción fueron tomadas considerando principios de usabilidad, accesibilidad y diseño centrado en el usuario. Asimismo, se mantuvo coherencia con la arquitectura de información definida previamente, implementando sistemas de navegación intuitivos, consistentes y alineados con las necesidades de cada segmento objetivo. Los prototipos incluyen interacciones orientadas a facilitar la ejecución de tareas frecuentes, reducir la carga cognitiva del usuario y mejorar la experiencia de navegación dentro de la plataforma.
 
--->
+**Web Application Prototyping - Team Leader**
+
+El prototipo de la aplicación web para el segmento objetivo Team Leader permite simular los principales flujos relacionados con la gestión de proyectos, administración de tareas, monitoreo del rendimiento del equipo y visualización de analíticas. Durante la demostración se evidencian los flujos de creación, edición y eliminación de proyectos y tareas, así como la gestión de miembros y el seguimiento del progreso de los proyectos.
+
+**Screenshot del video:**
+
+![Web Prototype Team Leader](assets/TB2/prototype_web_leader.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQCr1_-wOG90Rqaijvb2kBE5AU9OV1wCJZSCvFKWNqYGd2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDqDXD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQCr1_-wOG90Rqaijvb2kBE5AU9OV1wCJZSCvFKWNqYGd2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDqDXD)
+
+---
+
+**Web Application Prototyping - Team Member**
+
+El prototipo de la aplicación web para el segmento objetivo Team Member permite simular las interacciones relacionadas con la participación en proyectos, actualización del estado de tareas, visualización de calendarios y consulta de actividades asignadas. El flujo presentado demuestra cómo un miembro del equipo interactúa con el sistema para gestionar sus responsabilidades y colaborar dentro de los proyectos asignados.
+
+**Screenshot del video:**
+
+![Web Prototype Team Member](assets/TB2/prototype_web_member.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQD8LCeH4cg-QZZVZpMbuLENAYLtVk0VL2YBSOgZU9IhHdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrjexS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQD8LCeH4cg-QZZVZpMbuLENAYLtVk0VL2YBSOgZU9IhHdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrjexS)
+
+---
+
+**Mobile Application Prototyping**
+
+El prototipo de la aplicación móvil permite simular las principales funcionalidades del sistema en dispositivos móviles, manteniendo la consistencia visual y funcional con la versión web. Durante la demostración se presentan los flujos de autenticación, gestión de tareas, consulta de proyectos y visualización de información relevante para los usuarios, optimizando la experiencia de uso en entornos móviles.
+
+**Screenshot del video:**
+
+![Mobile Prototype](assets/TB2/prototype_mobile.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQBkJ1-qZkPDQZ2yv8a8iyiYAb0l9v1VuxgcthokC60r8ss?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UClIZJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQBkJ1-qZkPDQZ2yv8a8iyiYAb0l9v1VuxgcthokC60r8ss?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UClIZJ)
 
 
 ## Capítulo VII: Product Implementation & Validation  
