@@ -4411,6 +4411,58 @@ Una historia de usuario se consideró completada cuando cumplía los siguientes 
 ##### 7.2.1.3.	Development Evidence for Sprint Review.
 
 
+Durante el Sprint 1 se desarrolló la primera versión funcional de los componentes que conforman el ecosistema TaskMaster. El trabajo realizado permitió construir una base sólida para las siguientes iteraciones, estableciendo la estructura inicial de la Landing Page, la aplicación web, la aplicación móvil y los servicios backend.
+
+La implementación siguió una estrategia modular, permitiendo que cada componente evolucionara de manera independiente y facilitando futuras integraciones entre las distintas capas del sistema.
+
+### Landing Page
+
+La Landing Page fue desarrollada con el objetivo de presentar la propuesta de valor de TaskMaster a potenciales usuarios. Durante este sprint se implementaron las principales secciones informativas, incluyendo descripción del producto, beneficios, características, preguntas frecuentes y mecanismos de contacto.
+
+Entre las funcionalidades implementadas destacan:
+
+* Navegación entre secciones mediante menú principal.
+* Diseño responsive para distintos tamaños de pantalla.
+* Secciones informativas sobre las funcionalidades del producto.
+* Llamados a la acción (Call to action) para incentivar el registro de usuarios.
+* Organización visual alineada con la identidad gráfica definida para TaskMaster.
+
+### Web Application
+
+La aplicación web concentró gran parte del esfuerzo de desarrollo del sprint. Se implementó la estructura base del proyecto utilizando tecnologías modernas orientadas al desarrollo frontend.
+
+Los principales avances obtenidos fueron:
+
+* Configuración inicial del proyecto.
+* Implementación de componentes reutilizables.
+* Desarrollo de vistas principales para navegación.
+* Estructuración de módulos relacionados con proyectos y tareas.
+* Configuración de rutas y navegación interna.
+* Integración inicial con servicios backend y datos simulados.
+
+### Mobile Application
+
+La aplicación móvil fue desarrollada con el propósito de ofrecer acceso a las funcionalidades principales de TaskMaster desde dispositivos Android.
+
+Los avances alcanzados durante el sprint incluyen:
+
+* Configuración inicial del entorno de desarrollo.
+* Implementación de pantallas base.
+* Navegación entre vistas principales.
+* Organización modular del proyecto.
+* Preparación para futuras integraciones con servicios backend.
+
+### Backend Services
+
+Los servicios backend fueron estructurados para soportar las operaciones principales del sistema y servir como punto de integración entre las aplicaciones cliente y la lógica de negocio.
+
+Durante este sprint se trabajó en:
+
+* Configuración inicial del proyecto backend.
+* Definición de la estructura de servicios.
+* Organización de controladores y rutas.
+* Preparación de endpoints para futuras funcionalidades.
+* Configuración de dependencias y entorno de ejecución.
 
 
 ---
