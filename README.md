@@ -4754,7 +4754,7 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** |  |
+| **Nombre completo entrevistado** | Kiara Gallardo |
 | **Edad** |  |
 | **Profesión** |  |
 | **Departamento** |  |
@@ -4800,24 +4800,24 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Edad** | 22 |
 | **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima |
-| **Inicio del video** |  |
-| **Fin del video** |   |
-| **Link del video** | []() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Inicio del video** | 00:04:57 |
+| **Fin del video** | 00:12:16  |
+| **Link del video** | [Link entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDPJrhonhEURJUvjhxP6-zVAQuUPwS2ewjBo9v-t9dcTFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mYkJ5T) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista21.png) |
+| **Resumen** | El entrevistado percibió a TaskMaster como una solución práctica para mantener organizadas las tareas y mejorar la coordinación dentro del equipo. Destacó la facilidad de uso de la aplicación móvil, la claridad del tablero Kanban y la utilidad de las alertas y notificaciones para cumplir plazos de entrega. Además, consideró que la interfaz es intuitiva y que las funcionalidades propuestas aportan valor al seguimiento diario de los proyectos. Como sugerencia, mencionó que sería beneficioso integrar la plataforma con herramientas de desarrollo como GitHub o GitLab para automatizar procesos y optimizar el flujo de trabajo. |
 
 
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** | Kiara cristina Gallardo Ortecho |
-| **Edad** | 22 |
+| **Nombre completo entrevistado** | Kaori Portocarrero |
+| **Edad** | 21 |
 | **Profesión** | Ingeniera de Sistemas |
 | **Departamento** | Lima |
 | **Inicio del video** |  |
 | **Fin del video** |   |
 | **Link del video** | []() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
+| **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
 
 
 | **ENTREVISTA 3** | |
@@ -4870,18 +4870,6 @@ TaskMaster
 | 2 | La Landing Page no presenta testimonios, casos de éxito o evidencia de uso por parte de usuarios reales. | 2 | Information Architecture: Is it clear? |
 | 3 | La interfaz presenta elementos en inglés y español simultáneamente (por ejemplo, "Features", "Benefits", "About Us", junto con "Empieza Gratis"), lo que puede generar confusión y afectar la consistencia de la experiencia. | 2 | Usability: Consistencia y estándares |
 
-**Evaluación de la Aplicación Web:**
-
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|---|----------|---------------------|----------------------------------|
-| 1 | Al eliminar un proyecto o tarea, el mensaje de confirmación no especifica el nombre del elemento a eliminar, solo muestra un texto genérico. | 2 | Usability: Prevención de errores |
-| 2 | El tablero de métricas de rendimiento carga todos los datos simultáneamente sin paginación, lo que puede afectar el rendimiento en proyectos con muchas tareas. | 2 | Usability: Eficiencia y flexibilidad de uso |
-| 3 | La opción de generar reporte inteligente no muestra un indicador de progreso mientras se procesa el análisis con IA. | 2 | Usability: Visibilidad del estado del sistema |
-| 4 | Los filtros de búsqueda de tareas no persisten al regresar desde la vista detallada de una tarea. | 2 | Usability: Libertad y control del usuario |
-| 5 | No hay diferenciación visual suficiente entre los roles "Team Leader" y "Team Member" en el dashboard. | 1 | Information Architecture: Is it clear? |
-| 6 | El menú lateral no colapsa automáticamente en resoluciones intermedias, superponiéndose al contenido principal. | 3 | Usability: Consistencia y estándares |
-| 7 | Al asignar usuarios a un proyecto, la lista no permite buscar por nombre, solo muestra todos los disponibles. | 2 | Usability: Eficiencia y flexibilidad de uso |
-
 **Evaluación de la Aplicación Móvil:**
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
@@ -4895,6 +4883,8 @@ TaskMaster
 | 7 | La barra de navegación inferior no indica claramente en qué sección se encuentra el usuario cuando hay notificaciones no leídas. | 1 | Usability: Reconocimiento antes que recuerdo |
 
 ## 7.4.	Video About-the-Product.
+
+
 
 ## Conclusiones
 
