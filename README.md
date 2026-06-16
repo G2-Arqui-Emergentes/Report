@@ -4378,6 +4378,31 @@ Como resultado de la planificación se definió un conjunto de actividades orien
 ##### 7.2.1.2.	Sprint Backlog 1.
 
 
+El Sprint Backlog 1 estuvo compuesto por las historias de usuario seleccionadas para la construcción del primer incremento funcional del sistema.
+
+Las tareas definidas permitieron desarrollar la estructura inicial de la Landing Page, la aplicación web, la aplicación móvil y los servicios backend necesarios para soportar la lógica de negocio básica.
+
+### Sprint Backlog
+
+| User Story | Descripción                                                                          | Tareas técnicas                                                      |
+| ---------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| US01       | Como visitante, deseo conocer TaskMaster para comprender sus beneficios.             | Implementación de Landing Page, navegación y secciones informativas. |
+| US02       | Como usuario, deseo acceder al sistema para utilizar sus funcionalidades.            | Desarrollo de interfaces de autenticación y navegación inicial.      |
+| US03       | Como líder de proyecto, deseo visualizar mis proyectos para realizar seguimiento.    | Implementación de vistas y componentes para proyectos.               |
+| US04       | Como miembro del equipo, deseo visualizar mis tareas asignadas.                      | Desarrollo de componentes de gestión de tareas.                      |
+| US05       | Como usuario, deseo navegar desde dispositivos móviles.                              | Desarrollo de estructura base de aplicación móvil.                   |
+| US06       | Como administrador, deseo disponer de servicios backend para soportar la aplicación. | Configuración inicial de API y estructura de backend.                |
+
+### Definition of Done (DoD)
+
+Una historia de usuario se consideró completada cuando cumplía los siguientes criterios:
+
+* Código implementado y almacenado en el repositorio correspondiente.
+* Funcionalidad ejecutable sin errores críticos.
+* Integración con la estructura general del proyecto.
+* Cumplimiento de estándares de codificación definidos por el equipo.
+* Evidencia disponible para la Sprint Review.
+* Registro de cambios mediante commits en GitHub.
 
 
 ---
