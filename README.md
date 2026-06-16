@@ -4546,6 +4546,40 @@ Los servicios backend fueron ejecutados en entorno local, permitiendo validar la
 ##### 7.2.1.6.	Services Documentation Evidence for Sprint Review.
 
 
+La documentación de servicios elaborada durante el Sprint 1 tuvo como objetivo establecer una base técnica para las futuras integraciones entre los distintos componentes del ecosistema TaskMaster.
+
+Esta documentación facilita la comprensión de las responsabilidades de cada módulo y mejora la mantenibilidad del sistema.
+
+### Servicios identificados
+
+| Servicio                   | Descripción                                               |
+| -------------------------- | --------------------------------------------------------- |
+| Landing Page Service       | Presentación pública de TaskMaster y sus funcionalidades. |
+| Authentication Service     | Gestión de acceso e identificación de usuarios.           |
+| Project Management Service | Administración de proyectos dentro de la plataforma.      |
+| Task Management Service    | Gestión y seguimiento de tareas.                          |
+| Mobile Client Service      | Acceso móvil a las funcionalidades del sistema.           |
+| Backend API Service        | Exposición de funcionalidades mediante servicios REST.    |
+
+### Contratos de servicio preliminares
+
+| Método | Endpoint      | Descripción                                   |
+| ------ | ------------- | --------------------------------------------- |
+| GET    | `/projects`   | Obtiene la lista de proyectos registrados.    |
+| POST   | `/projects`   | Registra un nuevo proyecto.                   |
+| GET    | `/tasks`      | Obtiene la lista de tareas disponibles.       |
+| POST   | `/tasks`      | Registra una nueva tarea.                     |
+| PUT    | `/tasks/{id}` | Actualiza información de una tarea existente. |
+| DELETE | `/tasks/{id}` | Elimina una tarea.                            |
+
+### Beneficios de la documentación
+
+* Facilita futuras integraciones.
+* Permite estandarizar la comunicación entre componentes.
+* Reduce ambigüedades durante el desarrollo.
+* Mejora la mantenibilidad del producto.
+
+
 ---
 
 
