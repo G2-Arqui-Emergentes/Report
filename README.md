@@ -4809,13 +4809,13 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** | Kaori Portocarrero |
+| **Nombre completo entrevistado** | Kaori Portocarrero Palacios |
 | **Edad** | 21 |
 | **Profesión** | Ingeniera de Sistemas |
 | **Departamento** | Lima |
-| **Inicio del video** |  |
-| **Fin del video** |   |
-| **Link del video** | []() |
+| **Inicio del video** | 00:06:20 |
+| **Fin del video** |  00:12:23 |
+| **Link del video** | [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDaJb9hfDoETI6sI3_A8ukXAfWVow6LDhiSxVlzlmfDrjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nNBUxI) |
 | **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
 | **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
 
