@@ -4505,6 +4505,39 @@ Las pruebas ejecutadas estuvieron orientadas principalmente a verificar la corre
 
 ##### 7.2.1.5.	Execution Evidence for Sprint Review.
 
+Demostramos el funcionamiento de los componentes desarrollados durante la iteración y validar que el incremento entregado cumple con los objetivos establecidos durante la planificación.
+
+### Evidencia de ejecución de la Landing Page
+
+La Landing Page se encuentra disponible públicamente y permite a los usuarios conocer las principales características de TaskMaster mediante una interfaz moderna y responsiva.
+
+Durante la revisión se verificó:
+
+* Correcta carga de la página.
+* Navegación entre secciones.
+* Visualización de contenido informativo.
+* Adaptación a dispositivos móviles.
+
+### Evidencia de ejecución de la Web Application
+
+La aplicación web permite navegar entre los módulos implementados durante el Sprint 1, evidenciando el avance funcional del producto.
+
+Las funcionalidades demostradas incluyen:
+
+* Navegación principal.
+* Visualización de proyectos.
+* Gestión inicial de tareas.
+* Componentes reutilizables.
+* Interfaz gráfica consistente.
+
+### Evidencia de ejecución de la Mobile Application
+
+La aplicación móvil permitió validar la estructura inicial del sistema en dispositivos Android y confirmar la correcta navegación entre pantallas implementadas.
+
+### Evidencia de ejecución de Backend Services
+
+Los servicios backend fueron ejecutados en entorno local, permitiendo validar la disponibilidad de la aplicación y la correcta configuración del proyecto.
+
 
 
 ---
