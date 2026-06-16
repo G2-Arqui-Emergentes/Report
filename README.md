@@ -4471,6 +4471,34 @@ Durante este sprint se trabajó en:
 ##### 7.2.1.4.	Testing Suite Evidence for Sprint Review.
 
 
+Con el objetivo de validar la estabilidad y funcionamiento de los componentes desarrollados durante el Sprint 1, se realizaron pruebas funcionales sobre los distintos módulos implementados.
+
+Las pruebas ejecutadas estuvieron orientadas principalmente a verificar la correcta navegación, ejecución y visualización de los elementos desarrollados durante esta iteración.
+
+### Estrategia de pruebas aplicada
+
+| Tipo de prueba      | Objetivo                                                          |
+| ------------------- | ----------------------------------------------------------------- |
+| Navegación          | Verificar el acceso correcto entre vistas y secciones.            |
+| Interfaz de usuario | Validar la correcta visualización de componentes.                 |
+| Responsividad       | Comprobar el comportamiento en distintos tamaños de pantalla.     |
+| Ejecución local     | Confirmar el funcionamiento del sistema en entorno de desarrollo. |
+| Integración básica  | Validar la interacción entre frontend y servicios disponibles.    |
+
+### Casos de prueba ejecutados
+
+| ID    | Caso de prueba                                   | Resultado |
+| ----- | ------------------------------------------------ | --------- |
+| TC-01 | Visualización de Landing Page                    | Aprobado  |
+| TC-02 | Navegación entre secciones de Landing Page       | Aprobado  |
+| TC-03 | Acceso a vistas principales de la aplicación web | Aprobado  |
+| TC-04 | Visualización de proyectos                       | Aprobado  |
+| TC-05 | Visualización de tareas                          | Aprobado  |
+| TC-06 | Navegación en aplicación móvil                   | Aprobado  |
+| TC-07 | Ejecución del backend en entorno local           | Aprobado  |
+| TC-08 | Compilación de proyectos para despliegue         | Aprobado  |
+
+
 
 ---
 
