@@ -4586,6 +4586,38 @@ Esta documentación facilita la comprensión de las responsabilidades de cada m�
 ##### 7.2.1.7.	Software Deployment Evidence for Sprint Review.
 
 
+Como parte del Sprint 1 se realizaron actividades de despliegue orientadas a disponibilizar los distintos componentes del ecosistema TaskMaster para su validación y revisión.
+
+### Componentes desplegados
+
+| Componente         | Entorno               |
+| ------------------ | --------------------- |
+| Landing Page       | GitHub Pages          |
+| Web Application    | Vercel                |
+| Mobile Application | Android Emulator      |
+| Backend Services   | Entorno de desarrollo |
+
+### Landing Page Deployment
+
+La Landing Page fue desplegada utilizando GitHub Pages, permitiendo el acceso público al sitio web y facilitando la validación temprana por parte de usuarios y evaluadores.
+
+### Web Application Deployment
+
+La aplicación web fue desplegada mediante Vercel, permitiendo validar el funcionamiento de los componentes desarrollados en un entorno accesible desde Internet.
+
+### Mobile Application Deployment
+
+La aplicación móvil fue ejecutada mediante Android Studio utilizando un emulador Android para validar el comportamiento de la aplicación durante la Sprint Review.
+
+### Backend Deployment
+
+Los servicios backend fueron ejecutados en entorno local con fines de validación funcional y pruebas de integración preliminares.
+
+### Resultado del despliegue
+
+El despliegue realizado permitió disponer de una primera versión funcional del ecosistema TaskMaster, facilitando la demostración de los avances obtenidos durante el Sprint 1.
+
+
 
 ---
 
