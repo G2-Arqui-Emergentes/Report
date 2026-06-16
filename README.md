@@ -4338,6 +4338,38 @@ Asimismo, se establecieron los entornos de desarrollo, repositorios de trabajo y
 ##### 7.2.1.1.	Sprint Planning 1.
 
 
+La planificación del Sprint 1 permitió definir el alcance inicial del producto, identificar las funcionalidades prioritarias y distribuir las actividades entre los integrantes del equipo de desarrollo.
+
+El equipo tomó como referencia los User Stories definidos en el Product Backlog, priorizando aquellas funcionalidades necesarias para construir una primera versión navegable y demostrable del sistema.
+
+### Sprint Goal
+
+> Implementar la primera versión funcional de TaskMaster, permitiendo a los usuarios conocer la propuesta de valor del producto, acceder a la plataforma y visualizar los principales módulos relacionados con la gestión de proyectos y tareas.
+
+### Funcionalidades priorizadas
+
+| ID   | Funcionalidad                                 |
+| ---- | --------------------------------------------- |
+| US01 | Visualización de la Landing Page del producto |
+| US02 | Navegación entre secciones principales        |
+| US03 | Pantalla de autenticación de usuarios         |
+| US04 | Gestión inicial de proyectos                  |
+| US05 | Gestión inicial de tareas                     |
+| US06 | Dashboard principal                           |
+| US07 | Navegación móvil básica                       |
+| US08 | Configuración inicial de servicios backend    |
+
+### Criterios de priorización
+
+* Valor funcional para los usuarios finales.
+* Dependencias técnicas necesarias para futuras iteraciones.
+* Complejidad de implementación.
+* Disponibilidad de recursos del equipo.
+* Relación con los flujos de usuario definidos durante la etapa de diseño UX/UI.
+
+### Resultado del Sprint Planning
+
+Como resultado de la planificación se definió un conjunto de actividades orientadas a construir un incremento funcional demostrable, permitiendo validar la arquitectura propuesta y sentar las bases para el desarrollo de funcionalidades avanzadas en futuros sprints.
 
 
 ---
