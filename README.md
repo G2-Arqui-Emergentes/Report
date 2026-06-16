@@ -4618,13 +4618,42 @@ Los servicios backend fueron ejecutados en entorno local con fines de validació
 El despliegue realizado permitió disponer de una primera versión funcional del ecosistema TaskMaster, facilitando la demostración de los avances obtenidos durante el Sprint 1.
 
 
-
 ---
 
 
 ##### 7.2.1.8.	Team Collaboration Insights during Sprint
 
 
+La colaboración entre los integrantes del equipo fue un factor clave para alcanzar los objetivos definidos para el Sprint 1. Durante la iteración se promovió una comunicación constante y una distribución equilibrada de responsabilidades, permitiendo avanzar simultáneamente en distintos componentes del sistema.
+
+### Herramientas de colaboración utilizadas
+
+| Herramienta        | Propósito                                       |
+| ------------------ | ----------------------------------------------- |
+| GitHub             | Control de versiones y gestión de repositorios. |
+| GitHub Projects    | Seguimiento de actividades y tareas.            |
+| Figma              | Diseño de interfaces y validación visual.       |
+| WhatsApp           | Coordinación y comunicación del equipo.         |
+| Google Meet        | Reuniones de seguimiento y revisión.            |
+
+### Principales aprendizajes del Sprint
+
+* La división modular del proyecto permitió trabajar en paralelo sobre diferentes componentes.
+* El uso de ramas facilitó la integración progresiva del código.
+* La documentación continua redujo el riesgo de inconsistencias técnicas.
+* La comunicación frecuente permitió resolver bloqueos de manera oportuna.
+* La integración temprana de los componentes ayudó a detectar problemas antes de etapas posteriores.
+
+### Retos identificados
+
+* Coordinación entre múltiples repositorios.
+* Sincronización de cambios entre frontend y backend.
+* Gestión de tiempos académicos y disponibilidad de los integrantes.
+* Adaptación de los componentes a los estándares definidos por el equipo.
+
+### Conclusión del Sprint 1
+
+El Sprint 1 permitió establecer una base funcional para TaskMaster, integrando avances en la Landing Page, aplicación web, aplicación móvil y servicios backend. Asimismo, el trabajo colaborativo facilitó la construcción de un incremento demostrable, sentando las bases para la incorporación de nuevas funcionalidades y mejoras arquitectónicas en los siguientes sprints.
 
 
 
