@@ -4754,28 +4754,28 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** | Kiara Gallardo |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |   |
-| **Link del video** | []() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Nombre completo entrevistado** |Fabiana Mayte Cabanillas Meza |
+| **Edad** | 19 |
+| **Profesión** | Administradora en Logística |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:10:54 |
+| **Fin del video** | 00:15:58 |
+| **Link del video** | [Link_entrevista_11](https://goo.su/RXNO6sz) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista11.png) |
+| **Resumen** | Fabiana consideró que TaskMaster es una herramienta práctica, intuitiva y fácil de usar, con una navegación clara y una distribución visual que facilita comprender rápidamente las tareas y el avance del proyecto. Describió el diseño como innovador y llamativo, sin elementos confusos, y afirmó que la plataforma permite identificar fácilmente las secciones principales, el calendario y las estadísticas. Aunque no observó dificultades ni cambios necesarios, sugirió incluir más botones que orienten acciones para mejorar la experiencia. |
 
 
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** |  |
-| **Edad** |  |
+| **Nombre completo entrevistado** | Mathias Medina Posito |
+| **Edad** | 20 |
 | **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |   |
-| **Link del video** | []() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Departamento** | Lima |
+| **Inicio del video** |  00:00:07 |
+| **Fin del video** | 00:02:53  |
+| **Link del video** | [Link_entrevista12](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQB-5cJcb0e7RYVHdCrRbexnARSe3-dCT5BeGpJa6ZeEXBA) |
+| **Foto entrevista** | ![Entrevista](assests/TB2/evidencia_entrevista12.png) |
+| **Resumen** | En la entrevista Mathias evidenció que la falta de informacion explicita en la aplicacion podria hacerla un poco confusa al usarla, ya que no sentia que era muy intuitiva, declaro que respecto al diseño era muy llamativo y agradable, afirmó que lo usaria si hay una informacion mas clara sobre como funciona cada apartado |
 
 **Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
 
@@ -4804,6 +4804,18 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Link del video** | [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDaJb9hfDoETI6sI3_A8ukXAfWVow6LDhiSxVlzlmfDrjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nNBUxI) |
 | **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
 | **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Paula Pilares |
+| **Edad** | 24 |
+| **Profesión** | Ingeniera de Software |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00:05 |
+| **Fin del video** |  00:08:25 |
+| **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
+| **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen cn el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opci{on de chatbot donde se pueda comentar de alguan iniciativa y además de saber algún riesgo que tiene otro proyecto. |
 
 ### 7.3.3.	Evaluaciones según heurísticas.
 
@@ -4854,6 +4866,22 @@ TaskMaster
 | 5 | El tamaño de los botones de prioridad (alta, media, baja) en la pantalla de edición de tareas es pequeño para interacción táctil precisa. | 2 | Inclusive Design: Proporciona experiencias comparables |
 | 6 | No hay opción de deshacer el cambio de estado de una tarea inmediatamente después de marcarla como completada. | 2 | Usability: Prevención de errores |
 | 7 | La barra de navegación inferior no indica claramente en qué sección se encuentra el usuario cuando hay notificaciones no leídas. | 1 | Usability: Reconocimiento antes que recuerdo |
+
+**Evaluación de la Aplicación Web**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---:|---|
+| 1 | Algunas secciones importantes como **Projects** y **Analytics** muestran mensajes vacíos como “No projects found” o espacios en blanco, sin explicar claramente qué debe hacer el usuario para continuar. | 2 | Usability: Visibilidad del estado del sistema |
+| 2 | La interfaz mezcla elementos en inglés y español, como “Calendar”, “Manage your tasks deadlines”, “Log out”, “ESP” y “No projects found”, lo que puede afectar la consistencia de la experiencia. | 2 | Usability: Consistencia y estándares |
+| 3 | En la vista de **Projects**, el botón “Join Project” está disponible, pero no se muestra una guía, mensaje o ayuda breve sobre cómo obtener o usar el código del proyecto. | 2 | Usability: Ayuda y documentación |
+| 4 | La vista de **Analytics** depende de seleccionar un proyecto, pero si no existen proyectos asociados solo muestra “No projects found”, sin sugerir crear o unirse a uno. | 2 | Usability: Reconocimiento antes que recuerdo |
+| 5 | En el **Dashboard** se muestran métricas como “0 active tasks”, “0 upcoming deadlines” y “0% weekly targets”, pero no hay un mensaje orientador para motivar al usuario a crear tareas o proyectos. | 1 | Usability: Visibilidad del estado del sistema |
+| 6 | En **Calendar**, la leyenda indica que los puntos rojos representan fechas con tareas pendientes, pero en la vista mostrada no se visualizan puntos ni ejemplos claros, lo que puede generar confusión. | 1 | Usability: Correspondencia entre el sistema y el mundo real |
+| 7 | La pantalla de **Account Settings** muestra campos como Phone, Age, Salary y Bio en “Not provided”, pero no queda del todo claro si todos son necesarios o editables desde la misma vista. | 1 | Usability: Claridad y arquitectura de información |
+| 8 | El botón de edición del perfil se representa solo con un ícono pequeño, lo que podría pasar desapercibido para algunos usuarios. | 1 | Usability: Reconocimiento antes que recuerdo |
+| 9 | En la navegación lateral, algunas secciones están bien diferenciadas, pero no siempre se evidencia un cambio fuerte de estado activo al navegar por todas las páginas. | 1 | Usability: Libertad y control del usuario |
+| 10 | Algunos espacios de la interfaz se ven poco aprovechados, especialmente en **Projects** y **Analytics**, generando una percepción de pantalla incompleta o falta de contenido. | 2 | UI Design: Uso eficiente del espacio y jerarquía visual |
+
 
 ## 7.4.	Video About-the-Product.
 
