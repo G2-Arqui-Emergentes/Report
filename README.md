@@ -64,6 +64,35 @@ Abril 2026
 <br>
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Registro de Versiones del Informe
 
@@ -75,6 +104,16 @@ Abril 2026
 | TB1     | 09/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Startup Profile: Descripción de la Startup, Perfiles de integrantes del equipo. Solution Profile: Antecedentes y problemática. Lean UX Process: Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas. Segmentos objetivo: Definición del público objetivo del proyecto.                                                                                                                    |
 | TB1     | 09/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Competidores: Identificación de competidores. Análisis competitivo: Evaluación de competidores. Estrategias y tácticas frente a competidores: Definición de acciones frente al mercado. Entrevistas: Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas. Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping. Ubiquitous Language: Definición del lenguaje común del dominio. |
 | TB1     | 09/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Strategic-Level Attribute-Driven Design: Design Purpose, Attribute-Driven Design Inputs (Primary Functionality, Quality Attribute Scenarios, Constraints), Architectural Drivers Backlog, Architectural Design Decisions, Quality Attribute Scenario Refinements.                                                                                                                                                                    |
+| TP      | 30/04/2026 | Omar Luquillas Asto (U20211G641)            | Solution UX Design: Definición de Style Guidelines (general, web, mobile & devices), Information Architecture (labeling, searching, SEO y navigation systems), Landing Page UI Design (wireframe y mockup), Applications UX/UI Design (wireframes, wireflows, mockups, user flows) y prototyping de la aplicación. |
+| TP      | 30/04/2026 | Sandoval Paiva, Valentino                   | Solution UX Design: Desarrollo de lineamientos de diseño y experiencia de usuario, arquitectura de información, diseño de landing page (wireframe y mockup), diseño de aplicaciones (wireframes, wireflows, mockups, user flows) y prototipado de la solución. |
+| TP      | 30/04/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Solution UX Design: Elaboración de guías de estilo, arquitectura de información, sistemas de navegación y búsqueda, diseño de interfaces (landing page y aplicaciones), diagramas de flujo de usuario y prototipos interactivos centrados en la experiencia del usuario. |
+| TP      | 30/04/2026 | Pilares Pocohuanca, Maria (U202215528)      | Tactical-Level Software Design: Definición de Bounded Contexts y estructuración en capas (Domain, Interface, Application, Infrastructure), elaboración de diagramas a nivel de componentes y código, diagramas de clases del dominio y diseño de base de datos. |
+| TP      | 30/04/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Tactical-Level Software Design: Desarrollo de la arquitectura a nivel táctico mediante Bounded Contexts, definición de capas del sistema, diagramas de componentes y código, modelado del dominio con diagramas de clases y diseño de la base de datos. |
+| TB2     | 08/06/2026 | Omar Luquillas Asto (U20211G641)            | Solution UX Design: Desarrollo de Applications Mock-ups, Applications User Flow Diagrams y Applications Prototyping. Participación en el avance de la implementación del Backend y Frontend Web de la solución.                                                                                                                                  |
+| TB2     | 08/06/2026 | Sandoval Paiva, Valentino                   | Product Implementation, Validation & Deployment: Elaboración de Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. Participación en el avance de la implementación del Backend y Frontend Web de la solución. |
+| TB2     | 08/06/2026 | Sanchez Silva, Luciana Celeste (U202215979) | Validation Interviews: Diseño de entrevistas, registro de entrevistas y evaluaciones según heurísticas. Desarrollo de la sección Video About-the-Product y avance de Conclusiones, Bibliografía y Anexos. Participación en el avance de la implementación de la aplicación móvil de la solución.                                                 |
+| TB2     | 08/06/2026 | Pilares Pocohuanca, Maria (U202215528)      | Solution Implementation: Desarrollo del Sprint 1, incluyendo Sprint Planning 1, Sprint Backlog 1, evidencias de desarrollo, pruebas, ejecución, documentación de servicios, despliegue de software y colaboración del equipo durante el Sprint. Participación en el avance de la implementación de la aplicación móvil de la solución.           |
+| TB2     | 08/06/2026 | Peña Riofrio, Maria Fernanda (U202113279)   | Validation Interviews: Diseño de entrevistas, registro de entrevistas y evaluaciones según heurísticas. Desarrollo de la sección Video About-the-Product y avance de Conclusiones, Bibliografía y Anexos. Participación en el avance de la implementación de la aplicación móvil de la solución.                                                 |
 
 
 ## Project Report Collaboration Insights
@@ -86,6 +125,46 @@ Abril 2026
 **TB1:**
 
 **REPORT**
+
+![alt text](assets/TB1/REPO.png)
+
+COMMITS:
+
+Luquillas Asto, Omar: 22
+
+Peña Riofrio, Maria Fernanda: 1
+
+Pilares Pocohuanca, Maria: 17
+
+Sanchez Silva, Luciana Celeste:	2
+
+Sandoval Paiva, Valentino: 12
+
+**TP:**
+
+**REPORT**
+
+![alt text](assets/TP1/commits.png)
+
+COMMITS:
+
+Luquillas Asto, Omar: 26
+
+Peña Riofrio, Maria Fernanda: 8
+
+Pilares Pocohuanca, Maria: 33
+
+Sanchez Silva, Luciana Celeste:	4
+
+Sandoval Paiva, Valentino: 16
+
+**TB2:**
+
+**REPORT**
+
+![alt text](assets/TB2/commits.png)
+
+COMMITS:
 
 Luquillas Asto, Omar: 
 
@@ -157,6 +236,86 @@ Sandoval Paiva, Valentino:
     - [4.3.3. Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context:  Registro y Autenticación de Usuario](#51bounded-context--registro-y-autenticación-de-usuario)
+    - [5.1.1.	Domain Layer](#511domain-layer)
+    - [5.1.2. Interface Layer.](#512-interface-layer)
+    - [5.1.3. Application Layer.](#513-application-layer)
+    - [5.1.4. Infrastructure Layer.](#514-infrastructure-layer)
+    - [5.1.6. Bounded Context Software Architecture Component Level Diagrams.](#516-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.7. Bounded Context Software Architecture Code Level Diagrams.](#517-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.7.1. Bounded Context Domain Layer Class Diagrams.](#5171-bounded-context-domain-layer-class-diagrams)
+      - [5.1.7.2. Bounded Context Database Design Diagram.](#5172-bounded-context-database-design-diagram)
+  - [5.2.	Bounded Context: Gestión de Proyectos y Tareas](#52bounded-context--gestión-de-proyectos-y-tareas)
+    - [5.2.1.	Domain Layer](#521domain-layer)
+    - [5.2.2.	Interface Layer](#522interface-layer)
+    - [5.2.3.	Application Layer](#523application-layer)
+    - [5.2.4.	Infrastructure Layer](#524infrastructure-layer)
+    - [5.2.6.	Bounded Context Software Architecture Component Level Diagrams](#526bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.7.	Bounded Context Software Architecture Code Level Diagrams](#527bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.7.1.	Bounded Context Domain Layer Class Diagrams](#5271bounded-context-domain-layer-class-diagrams)
+      - [5.2.7.2.	Bounded Context Database Design Diagram](#5272bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Visualización y Seguimiento](#53bounded-context--visualización-y-seguimiento)
+    - [5.3.1.	Domain Layer](#531domain-layer)
+    - [5.3.2.	Interface Layer](#532interface-layer)
+    - [5.3.3.	Application Layer](#533application-layer)
+    - [5.3.4.	Infrastructure Layer](#534infrastructure-layer)
+    - [5.3.6.	Bounded Context Software Architecture Component Level Diagrams](#536bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.7.	Bounded Context Software Architecture Code Level Diagrams](#537bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.7.1.	Bounded Context Domain Layer Class Diagrams](#5371bounded-context-domain-layer-class-diagrams)
+      - [5.3.7.2.	Bounded Context Database Design Diagram](#5372bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: Notificaciones](#54bounded-context--notificaciones)
+    - [5.4.1.	Domain Layer](#541domain-layer)
+    - [5.4.2.	Interface Layer](#542interface-layer)
+    - [5.4.3.	Application Layer](#543application-layer)
+    - [5.4.4.	Infrastructure Layer](#544infrastructure-layer)
+    - [5.4.6.	Bounded Context Software Architecture Component Level Diagrams](#546bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.7.	Bounded Context Software Architecture Code Level Diagrams](#547bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.7.1.	Bounded Context Domain Layer Class Diagrams](#5471bounded-context-domain-layer-class-diagrams)
+      - [5.4.7.2.	Bounded Context Database Design Diagram](#5472bounded-context-database-design-diagram)
+  - [5.5. Bounded Context: Analítica y Reportes](#55bounded-context--analítica-y-reportes)
+    - [5.5.1.	Domain Layer](#551domain-layer)
+    - [5.5.2.	Interface Layer](#552interface-layer)
+    - [5.5.3.	Application Layer](#553application-layer)
+    - [5.5.4.	Infrastructure Layer](#554infrastructure-layer)
+    - [5.5.6.	Bounded Context Software Architecture Component Level Diagrams](#556bounded-context-software-architecture-component-level-diagrams)
+    - [5.5.7.	Bounded Context Software Architecture Code Level Diagrams](#557bounded-context-software-architecture-code-level-diagrams)
+      - [5.5.7.1.	Bounded Context Domain Layer Class Diagrams](#5571bounded-context-domain-layer-class-diagrams)
+      - [5.5.7.2.	Bounded Context Database Design Diagram](#5572bounded-context-database-design-diagram)
+
+
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [6.1.	Style Guidelines](#61style-guidelines)
+    - [6.1.1.	General Style Guidelines.](#611general-style-guidelines)
+    - [6.1.2.	Web, Mobile & Devices Style Guidelines.](#612web-mobile--devices-style-guidelines)
+  - [6.2.	Information Architecture.](#62information-architecture)
+    - [6.2.2.	Labeling Systems.](#622labeling-systems)
+    - [6.2.3.	Searching Systems.](#623searching-systems)
+    - [6.2.5.	Navigation Systems.](#625navigation-systems)
+    - [6.2.4.	SEO Tags and Meta Tags.](#624seo-tags-and-meta-tags)
+  - [6.3.	Landing Page UI Design.](#63landing-page-ui-design)
+    - [6.3.1.	Landing Page Wireframe.](#631landing-page-wireframe)
+    - [6.3.2.	Landing Page Mock-up.](#632landing-page-mock-up)
+
+  - [6.4.	Applications UX/UI Design.](#64applications-uxui-design)
+    - [6.4.1.	Applications Wireframes.](#641applications-wireframes)
+    - [6.4.2.	Applications Wireflow Diagrams.](#642applications-wireflow-diagrams)
+    - [6.4.3.	Applications Mock-ups.](#643applications-mock-ups)
+    - [6.4.4.	Applications User Flow Diagrams.](#644applications-user-flow-diagrams)
+  - [6.5.	Applications Prototyping.](#65applications-prototyping)
+
+
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+
+
+
+  - [7.3. Validation Interviews.](#73validation-interviews)
+  - [7.3.1. Diseño de Entrevistas.](#731diseño-de-entrevistas)
+  - [7.3.2. Registro de Entrevistas.](#732registro-de-entrevistas)
+  - [7.3.3. Evaluación según heurísticas.](#733evaluaciones-según-heurísticas)
+  - [7.4. Video About-the-Product.](#74video-about-the-product)
+
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -195,9 +354,40 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
         Sandoval Paiva, Valentino<br>
         <em>TB1</em><br> Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
+        <br><br><strong>TP</strong><br><br>
+        Luquillas Asto, Omar<br>
+        Reforcé la comunicación oral al presentar propuestas de diseño UX/UI, explicando con claridad decisiones de usabilidad, estructura visual y navegación, adaptando el discurso según el nivel técnico del público. <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        Fortalecí la comunicación oral al explicar la arquitectura táctica del sistema, detallando los Bounded Contexts y su organización en capas, asegurando una comprensión clara tanto para perfiles técnicos como no técnicos. <br><br>
+        Pilares Pocohuanca, Maria<br>
+        Mejoré la exposición de ideas al explicar la estructura por capas (Domain, Application, Interface, Infrastructure) y los diagramas del sistema, organizando la información de forma lógica y comprensible. <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Fortalecí la comunicación oral al presentar flujos de usuario, wireflows y decisiones de diseño UX, explicando de manera estructurada cómo interactúan los usuarios con el sistema. <br><br>
+        Sandoval Paiva, Valentino<br>
+        Reforcé la comunicación oral al sustentar decisiones de diseño UX/UI y arquitectura de navegación, explicando la experiencia del usuario de forma clara, objetiva y adaptada a distintos niveles de conocimiento.
+        <br><br><strong>TB2</strong><br><br>
+
+Luquillas Asto, Omar<br>
+Fortalecí la comunicación oral al presentar los mockups, flujos de usuario y prototipos de la aplicación, explicando las decisiones de diseño y funcionalidad de manera clara para públicos con distintos niveles de conocimiento. Asimismo, participé en la sustentación de los avances del backend y frontend web, comunicando el progreso técnico del proyecto de forma estructurada y objetiva. <br><br>
+
+Peña Riofrio, Maria Fernanda<br>
+Fortalecí la comunicación oral al participar en la presentación de las entrevistas de validación, evaluaciones heurísticas y resultados obtenidos, explicando los hallazgos de manera comprensible para el equipo y otros interesados. Asimismo, sustenté los avances de la versión móvil y las conclusiones preliminares del proyecto. <br><br>
+
+Pilares Pocohuanca, Maria<br>
+Mejoré mis habilidades de comunicación oral al exponer el desarrollo del Sprint 1, incluyendo la planificación, backlog, evidencias de implementación, pruebas y despliegue del sistema. Además, participé en la presentación de los avances de la aplicación móvil, explicando el trabajo realizado y los resultados alcanzados durante el sprint. <br><br>
+
+Sanchez Silva, Luciana Celeste<br>
+Fortalecí la comunicación oral al presentar los resultados de las entrevistas de validación y las evaluaciones heurísticas, explicando de manera objetiva las observaciones y oportunidades de mejora identificadas. Asimismo, participé en la exposición de los avances de la aplicación móvil y del video About-the-Product. <br><br>
+
+Sandoval Paiva, Valentino<br>
+Reforcé la comunicación oral al sustentar la configuración del entorno de desarrollo, la gestión del código fuente y el proceso de despliegue del software. Además, participé en la presentación de los avances del backend y frontend web, explicando aspectos técnicos de la implementación de forma clara y adaptada al público.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
+        <br><br><strong>TP:</strong><br>
+        En esta fase se consolidó la capacidad del equipo para comunicar ideas de manera oral integrando tanto aspectos técnicos como de diseño, logrando explicar de forma clara la arquitectura del sistema y la experiencia de usuario. Esto permitió una comunicación más efectiva entre distintos niveles jerárquicos y especialidades, fortaleciendo la argumentación y la claridad en la presentación de soluciones de ingeniería.
+        <br><br><strong>TB2:</strong><br>
+Durante esta etapa se fortaleció la capacidad del equipo para comunicar resultados de implementación y validación del proyecto, integrando aspectos técnicos, funcionales y de experiencia de usuario. La exposición de avances de desarrollo, despliegue, validación y prototipado permitió mejorar la claridad, objetividad y adaptación del mensaje hacia públicos de diferentes especialidades y niveles jerárquicos.
       </td>
     </tr>
     <tr>
@@ -213,9 +403,40 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
         Sandoval Paiva, Valentino<br>
         <em>TB1</em><br> Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
+        <br><br><strong>TP</strong><br><br>
+        Luquillas Asto, Omar<br>
+        Mejoré la comunicación escrita al desarrollar secciones de UX Design, describiendo lineamientos de estilo, arquitectura de información y decisiones de diseño de forma clara y estructurada. <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        Fortalecí la redacción técnica al documentar el diseño táctico del sistema, incluyendo la organización en capas, diagramas y la relación entre componentes. <br><br>
+        Pilares Pocohuanca, Maria<br>
+        Mejoré la documentación al estructurar y detallar los Bounded Contexts, diagramas de clases y diseño de base de datos, asegurando coherencia y claridad en la información técnica. <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Fortalecí la comunicación escrita al documentar wireframes, user flows y componentes de experiencia de usuario, organizando la información de manera comprensible para distintos perfiles. <br><br>
+        Sandoval Paiva, Valentino<br>
+        Reforcé la redacción técnica al detallar prototipos, navegación y estructura UX/UI, explicando de manera clara cómo se relacionan los elementos del sistema.
+        <br><br><strong>TB2</strong><br><br>
+
+Luquillas Asto, Omar<br>
+Fortalecí la comunicación escrita al documentar los mockups, diagramas de flujo de usuario y prototipos de la aplicación, describiendo de forma clara las decisiones de diseño y funcionalidad. Asimismo, participé en la documentación de los avances del backend y frontend web del sistema. <br><br>
+
+Peña Riofrio, Maria Fernanda<br>
+Mejoré la redacción técnica al documentar las entrevistas de validación, evaluaciones heurísticas y resultados obtenidos, organizando la información de forma clara y estructurada. Además, contribuí en la elaboración de conclusiones, bibliografía y anexos del proyecto, así como en la documentación de avances de la aplicación móvil. <br><br>
+
+Pilares Pocohuanca, Maria<br>
+Fortalecí la comunicación escrita al documentar las actividades del Sprint 1, incluyendo planificación, backlog, evidencias de desarrollo, pruebas, despliegue y colaboración del equipo. Asimismo, participé en la documentación de los avances de la versión móvil del sistema. <br><br>
+
+Sanchez Silva, Luciana Celeste<br>
+Mejoré la comunicación escrita al registrar entrevistas de validación, evaluaciones heurísticas y hallazgos obtenidos durante el proceso de validación. También contribuí en la elaboración del contenido del video About-the-Product y en la documentación de avances de la aplicación móvil. <br><br>
+
+Sandoval Paiva, Valentino<br>
+Reforcé la redacción técnica al documentar la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue del software. Además, participé en la documentación de los avances del backend y frontend web de la solución.
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
+        <br><br><strong>TP:</strong><br>
+        En esta etapa se consolidó la comunicación escrita del equipo al integrar documentación detallada de arquitectura de software y diseño UX/UI, logrando un informe más completo, coherente y comprensible para distintos tipos de público. Esto permitió presentar soluciones de ingeniería con mayor claridad, precisión y organización.
+        <br><br><strong>TB2:</strong><br>
+En esta fase se consolidó la capacidad del equipo para documentar procesos de implementación, validación y despliegue de manera clara y estructurada. La elaboración de documentación técnica, evidencias de desarrollo, resultados de validación y configuraciones del sistema permitió fortalecer la redacción profesional y garantizar una adecuada comunicación escrita de las soluciones de ingeniería hacia diferentes tipos de público.
       </td>
     </tr>
   </tbody>
@@ -553,75 +774,21 @@ ClickUp es una plataforma de productividad y gestión de proyectos todo en uno q
 #### 2.1.1. Análisis competitivo
 
 
-En esta sección se expone un análisis de los principales competidores de WorkHub, poniendo el foco en aquellos que operan bajo modelos de negocio digitales similares o que, aunque no coincida por completo, ofrecen productos o servicios que se solapan parcialmente con nuestra propuesta. Se consideran tanto los competidores directos, que actúan en el mismo segmento de mercado, como los indirectos, que abarcan ámbitos relacionados con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
-
-**1. Wrike**
-
-**Descripción:**
-
-Wrike es una plataforma de gestión de proyectos y trabajo colaborativo diseñada para equipos de distintos tamaños. Permite planificar, priorizar y dar seguimiento a tareas en tiempo real, con funcionalidades orientadas a mejorar la visibilidad del flujo de trabajo y la comunicación entre los miembros del equipo.
-
-**Características principales:**
-- Organización de proyectos mediante diagramas de Gantt, tableros Kanban, calendarios y listas.
-
-- Creación de tareas, subtareas y dependencias para una planificación detallada.
-
-- Colaboración centralizada con comentarios, menciones, archivos adjuntos y aprobaciones en línea.
-
-- Automatización de flujos de trabajo y recordatorios para reducir tareas repetitivas.
-
-- Reportes personalizables con métricas de desempeño y paneles de control en tiempo real.
-
-- Integraciones con más de 400 herramientas, incluyendo Slack, Salesforce, Microsoft Teams y Google Workspace.
-
-- Aplicación móvil con acceso a tareas, notificaciones y actualización de proyectos desde cualquier lugar.
-
-**2. Trello**
-
-**Descripción:**
-
-Trello es una herramienta de gestión de proyectos basada en tableros Kanban, diseñada para facilitar la organización visual de tareas y proyectos. Su interfaz intuitiva y flexible lo convierte en una opción popular para equipos que buscan simplicidad y colaboración en tiempo real.
-
-**Características principales:**
-
-- Tableros, listas y tarjetas para organizar proyectos y tareas de forma visual.
-
-- Personalización de tarjetas con etiquetas, fechas de vencimiento, checklists y archivos adjuntos.
-
-- Colaboración en equipo mediante comentarios, menciones y notificaciones.
-
-- Automatización de tareas con Butler (reglas, recordatorios y acciones automáticas).
-
-- Integraciones con herramientas como Slack, Google Drive, Jira, Dropbox y más.
-
-- Plantillas predefinidas para distintos tipos de proyectos y flujos de trabajo.
-
-- Aplicación móvil con acceso completo a tableros y colaboración en cualquier lugar.
-
-**3. ClickUp**
-
-**Descripción:**
-
-ClickUp es una plataforma de productividad y gestión de proyectos todo en uno que busca centralizar tareas, documentos, comunicación y seguimiento de objetivos en un solo lugar. Está pensada para equipos que necesitan una solución flexible y personalizable, adaptándose tanto a proyectos simples como a flujos de trabajo complejos.
-
-**Características principales:**
-
-- Organización de proyectos mediante listas, tableros Kanban, calendarios, cronogramas y diagramas de Gantt.
-
--Gestión detallada de tareas con subtareas, prioridades, dependencias y asignaciones múltiples.
-
-- Colaboración en tiempo real con comentarios, menciones, chat integrado y documentos compartidos.
-
-- Paneles de control e informes personalizables para monitorear productividad y avances.
-
-- Funcionalidades de seguimiento de tiempo y estimaciones de esfuerzo.
-
-- Automatización de procesos para reducir tareas repetitivas.
-
-- Amplia integración con herramientas como Slack, GitHub, Zoom, Google Workspace, entre otras.
-
-- Aplicación móvil y de escritorio con sincronización completa para trabajar desde cualquier dispositivo.
-
+| **Competitive Analysis Landscape** |  |  |  |  |
+|----------------------------------|--|--|--|--|
+| **¿Por qué llevar a cabo este análisis?** | Permite identificar la posición de WorkHub frente a sus competidores, entender sus ventajas y desventajas, y detectar oportunidades estratégicas dentro del mercado de herramientas colaborativas. |  |  |  |
+|  | **WorkHub**  ![TaskMaster](assets/TB1/logo1.png) | **Wrike** ![Wrike](assets/TB1/logo2.png) | **Trello** ![Trello](assets/TB1/logo3.png) | **ClickUp** ![ClickUp](assets/TB1/logo4.png) |
+| **Perfil** | Overview | Plataforma colaborativa enfocada en equipos de desarrollo de software. | Plataforma de gestión de proyectos para equipos de distintos tamaños. | Herramienta visual basada en Kanban para gestión de tareas. | Plataforma todo-en-uno para productividad y gestión. |
+|  | Ventaja competitiva ¿Qué valor ofrece? | Interfaz intuitiva y sencilla, diseñada para todo el ciclo de desarrollo. | Automatización avanzada y análisis predictivo. | Simplicidad y facilidad de uso. | Alta personalización y solución integral. |
+| **Perfil de Marketing** | Mercado objetivo | Startups de tecnología. | Empresas medianas y grandes. | Equipos pequeños y startups. | Startups, pymes y empresas. |
+|  | Estrategias de marketing | Marketing digital, pruebas gratuitas y alianzas. | Enfoque en robustez e integraciones. | Simplicidad y accesibilidad. | Enfoque en precio y personalización. |
+| **Perfil de Producto** | Productos & Servicios | Plataforma colaborativa con edición en tiempo real. | Gestión completa de proyectos con múltiples herramientas. | Tableros Kanban visuales. | Gestión de tareas, tiempo y automatización. |
+|  | Precios & Costos | Planes escalables con versión gratuita. | Desde $9.80 por usuario/mes. | Desde $5 por usuario/mes. | Desde $5 por usuario/mes. |
+|  | Canales de distribución (Web y/o Móvil) | Web con integraciones. | Web y apps móviles. | Web y apps móviles. | Web, móvil y extensiones. |
+| **Análisis SWOT** | Fortalezas | Innovación y enfoque en startups. | Funcionalidad robusta. | Interfaz simple. | Alta personalización. |
+|  | Debilidades | Base de usuarios limitada. | Curva de aprendizaje. | Pocas funciones avanzadas. | Puede ser complejo. |
+|  | Oportunidades | Expansión en mercados emergentes. | Nuevas funciones de IA. | Nuevas integraciones. | Crecimiento global. |
+|  | Amenazas | Competencia fuerte. | Herramientas más económicas. | Competidores más completos. | Competidores con usuarios fieles. |
 
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
@@ -772,7 +939,7 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 #### 2.2.2. Registro de entrevistas
 
 
-**Segmento 1:** **Líder o Gerente de Empresa (Product Owner y Scrum Master)**
+**Segmento 1:** **Líder o Gerente de Empresa**
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
@@ -780,39 +947,14 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Edad** | 25 |
 | **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima  |
-| **Inicio del video** | 0:08 |
-| **Fin del video** | 8:30 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![Texto alternativo](Assets/TB1/entrevista1.png) |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 8:23 |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQDPKwC3T17dTIFuN-sGoMHfAZQ7C9A2ug6KuDGvwmoSWrY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQDPKwC3T17dTIFuN-sGoMHfAZQ7C9A2ug6KuDGvwmoSWrY) |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista1.png) |
 | **Resumen** | La entrevista con Juan de la Cruz, lidel del Grupo JPSP, reveló aspectos clave sobre la gestión de proyectos y el impacto de las herramientas que existen actualmente. El destacó que su principal responsabilidad es supervisar al equipo de desarrollo para cumplir con los plazos y estándares de calidad, mientras maneja el crecimiento rápido y los desafíos de integración tecnológica. Aunque también menciono que ha tenido experiencias mixtas con las herramientas actuales, principalmente debido a problemas de integración y personalización, considera esencial que las nuevas soluciones ofrezcan flexibilidad, integración fluida y capacidades avanzadas. La incorporación de tecnologías emergentes es vista como crucial para mejorar la eficiencia y la toma de decisiones. Además, se busca una solución que facilite la colaboración y la comunicación centralizada, y que esté dispuesta a adaptarse a las necesidades cambiantes del equipo. El entrevistado enfatiza la importancia de la seguridad y prioriza a los proveedores que brindan soporte confiable y pueden adaptar sus soluciones a los requisitos individuales. En el futuro, se espera una evolución hacia mayor automatización y herramientas que se adapten rápidamente a los cambios en los proyectos. |
 
-| **ENTREVISTA 2** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Carlos Medina Domingues |
-| **Edad** | 54 |
-| **Profesión** | Ingeniero de Sistemas  |
-| **Departamento** | Lima |
-| **Inicio del video** | 8:31 |
-| **Fin del video** | 23:14 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ImagenEntrevista](Assets/TB1/Imagen_Entrevista2.PNG) |
-| **Resumen** | Durante la entrevista, Carlos, gerente de desarrollo de aplicaciones y servicios en Atentus, explicó que trabaja principalmente de forma remota, coordinando equipos con empleados en distintas partes del mundo. Para la gestión utiliza metodologías ágiles como Agile y Scrum, junto con herramientas como Jira para organizar sprints y el product backlog. Destacó que una de sus principales necesidades es que las herramientas de gestión puedan integrarse con sistemas ya existentes, ya que ninguna empresa empieza desde cero y resulta esencial migrar progresivamente sin afectar la operatividad. También recalcó la importancia de que estas herramientas sean capaces de adaptarse a los horarios y dinámicas de trabajo de un equipo global, pues la coordinación en contextos remotos es clave. Finalmente, resaltó que, en un mercado altamente competitivo, es necesario innovar constantemente, y afirmó estar abierto a probar nuevas soluciones siempre que aporten valor y se ajusten a las necesidades reales de la empresa. |
 
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Alejandro David Bejarano Medina |
-| **Edad** | 55 |
-| **Profesión** | Ingeniero Electrico  |
-| **Departamento** | Lima |
-| **Inicio del video** | 23:15 |
-| **Fin del video** | 30:57 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](Assets/TB1/alejandrobejarano.jpg) |
-| **Resumen** | El entrevistado, líder de empresa orientada principalmente a las ventas y servicios, destacó que actualmente enfrentan limitaciones al gestionar sus procesos de forma manual con herramientas básicas como Office, lo que retrasa la eficiencia y dificulta la innovación. Entre los principales desafíos mencionó la competencia en un mercado en crecimiento y la necesidad de optimizar la gestión de proyectos y servicios. Considera esencial contar con un sistema integral que abarque tanto la parte administrativa como todo el ciclo de servicios, con características avanzadas, personalizables y seguras, que restrinjan accesos indebidos. Además, valora la integración con herramientas existentes, la colaboración fluida entre equipos y el cumplimiento de plazos de entrega por parte de socios estratégicos. Ve la adopción de una nueva herramienta como clave para un cambio total en los próximos años, permitiendo un mejor control en tiempo real de actividades, inversiones y logística, lo cual impactaría directamente en la competitividad y crecimiento de la empresa. |
-
-| **Duración total de las entrevistas** | 30:57  |
-|---------------------------------------|---|
-| **Link general del video**            | https://goo.su/SUO1  |
+---
 
 
 
@@ -820,15 +962,20 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 
 | **ENTREVISTA 1** |  |
 |------------------|----------------------------|
-| **Nombre entrevistado** | Eric Espinoza Perez |
-| **Edad** | 24 |
-| **Profesión** | Ingeniero de Sistemas |
+| **Nombre entrevistado** | Josep Melgarejo |
+| **Edad** | 23 |
+| **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima |
-| **Inicio del video** |  31:00|
-| **Fin del video** | 38:17 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](Assets/TB1/eric_1.png) |
-| **Resumen** | El entrevistado, de 24 años y parte de un equipo de desarrollo de proyectos multidisciplinario en psicología, señaló que su rol se centra en analizar necesidades, coordinar entregables y apoyar la organización del flujo de trabajo. Su equipo trabaja en proyectos digitales con participación de desarrolladores, diseñadores y administradores, pero enfrenta dificultades en la gestión debido a la dispersión de información entre múltiples canales (correos, chats, hojas de cálculo), lo que provoca retrasos, duplicidad de esfuerzos y una menor eficiencia en la colaboración. Además, mencionó experiencias negativas con herramientas poco intuitivas y rígidas, que limitan la capacidad de cumplir plazos con calidad. En cuanto a necesidades, destacó la importancia de contar con una plataforma centralizada que integre tableros visuales, calendarios compartidos, notificaciones claras. |
+| **Inicio del video** |  00:00|
+| **Fin del video** | 7:44 |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w) |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista2.png) |
+| **Resumen** | Josep menciona que la compañía se especializa en crear plataformas web para pequeñas y medianas empresas, así como para start-ups. La persona entrevistada tiene un papel orientado a la gestión de productos y a la implementación de metodologías ágiles, liderando la coordinación de equipos y la definición de prioridades. Uno de los retos más grandes que enfrentan es crecer sin perder velocidad de respuesta, por lo que están enfocados en perfeccionar la planificación de sus proyectos. Destaca que las herramientas que utilizan deben ser simples de implementar, intuitivas y adaptables. Sus experiencias anteriores con proveedores de software no han sido del todo positivas, pues las soluciones ofrecidas no encajan con su manera de trabajar. Por ello, considera esencial disponer de una plataforma que pueda ajustarse a los procesos particulares de cada organización. |
+
+
+---
+
+
 
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
@@ -836,27 +983,11 @@ preguntas ordenadas para entrevistar a los dos segmentos objetivos de la startup
 | **Edad** | 22 |
 | **Profesión** | Ingeniero de Software |
 | **Departamento** | Lima |
-| **Inicio del video** | 38:18 |
-| **Fin del video** | 48:47  |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](Assets/TB1/Entrevista5.png) |
+| **Inicio del video** | 7:45 |
+| **Fin del video** | 18:09  |
+| **Link del video** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCgMP1dXuc9TpgXSvT86bSQAVbpXL81nMVDeHWljXJQj5w) |
+| **Foto entrevista** | ![Entrevista](assets/TB1/entrevista3.png) |
 | **Resumen** | El entrevistado forma parte de un equipo de desarrollo de proyectos, donde apoya en la programación de módulos y pruebas de nuevas funcionalidades. Su equipo está conformado por programadores juniors y seniors, diseñadores UX, QA testers y analistas de requerimientos, trabajando bajo metodologías ágiles. Entre los principales desafíos mencionó la comunicación, ya que al trabajar de forma remota no siempre están conectados al mismo tiempo, así como los cambios repentinos de prioridades que generan desorden al pausar tareas en curso. Sobre herramientas anteriores como Trello, Slack, Excel y Drive, señaló que fueron un dolor de cabeza porque la información estaba dispersa y en ocasiones se duplicaban tareas por falta de claridad. Considera que sería de gran ayuda contar con una plataforma unificada que les permita ahorrar tiempo, ser más eficientes, automatizar procesos con alertas, y que además sea fácil de aprender, rápida, ligera e integrable con aplicaciones externas. |
-
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Andres Santos Espinoza |
-| **Edad** | 20 |
-| **Profesión** | Ingeniero de Software |
-| **Departamento** | Lima |
-| **Inicio del video** | 48:48 |
-| **Fin del video** | 55:22 |
-| **Link del video** | https://goo.su/SUO1 |
-| **Foto entrevista** | ![ddd](Assets/TB1/andresentrevista.jpg) |
-| **Resumen** |El entrevistado, miembro de un equipo multidisciplinario de desarrollo de proyectos digitales, desempeña tareas de programación, pruebas, análisis y coordinación del flujo de trabajo. Señaló que los principales desafíos son la comunicación remota y los cambios repentinos de prioridades, lo que genera desorden y retrasos. Su experiencia con herramientas como Trello, Slack, Excel y Drive fue negativa por la dispersión de información y duplicidad de tareas. Considera clave contar con una plataforma unificada, intuitiva, ligera y flexible, que integre tableros visuales, calendarios, notificaciones claras y automatización con alertas. Resaltó que la falta de herramientas adecuadas disminuye la productividad y limita la calidad de las entregas, mientras que una solución optimizada mejoraría la eficiencia, la visibilidad del progreso y la colaboración entre áreas, siempre que sea fácil de adoptar y permita personalización y soporte continuo.  |
-
-| **Duración total de las entrevistas** | 55:22  |
-|---------------------------------------|---|
-| **Link general del video**            | https://goo.su/SUO1  |
 
 
 
@@ -870,6 +1001,10 @@ Las entrevistas con líderes de empresas destacan una urgente necesidad de moder
 La mayoría de los líderes, aproximadamente 67%, ha tenido experiencias mixtas con las soluciones actuales, citando problemas de integración y personalización. La flexibilidad y una buena relación costo-beneficio son cruciales, con un 70% de los encuestados indicando que las nuevas soluciones deben adaptarse a las necesidades del equipo. Además, la seguridad de los datos es prioritaria para el 80%, quienes buscan proveedores confiables.
 
 Los líderes están enfocados en encontrar herramientas modernas que no solo mejoren la eficiencia y la colaboración, sino que también respondan a las cambiantes demandas de los proyectos. La integración de la IA y la personalización de las herramientas son vistas como esenciales para el éxito futuro en sus organizaciones.
+
+
+---
+
 
 **Análisis Segmento 2: Equipo de Desarrollo de proyectos**
 
@@ -886,11 +1021,11 @@ A continuación, se presentan las User Personas que representan a nuestros dos s
 
 **Semento 1: Líderes de proyectos:**
 
-![ddd](Assets/TB1/SunoQuispeHuaman.png)
+![ddd](assets/TB1/SunoQuispeHuaman.png)
 
 **Semento 2: Equipo de Desarrollo de Proyectos:**
 
-![ddd](Assets/TB1/DiegoRamírezTejeda.png)
+![ddd](assets/TB1/DiegoRamírezTejeda.png)
 
 
 
@@ -1023,14 +1158,62 @@ A continuación, se presentan las User Personas que representan a nuestros dos s
 
 #### 2.3.3. Empathy Mapping
 
+El Empathy Map nos permite identificar las emociones, pensamientos y acciones de nuestros usuarios, para comprender mejor sus necesidades y motivaciones. Con este propósito, se elaboraron los siguientes cuadros para los segmentos objetivo definidos:
 
 
+**Segmento 1: Líderes de proyecto:**
+<br>
+<br>
 
-#### 2.3.4. As-is Scenario Mapping
+![ddd](assets/TB1/EmpathymapSegmento1.png)
 
+<br>
+<br>
+
+**Segmento 2: Equipo de Desarrollo de proyectos:**
+
+<br>
+<br>
+
+![ddd](assets/TB1/EmpathymapSegmento2.png)
+
+<br>
+<br>
 
 
 ### 2.4. Ubiquitous Language
+
+En el proyecto, es fundamental contar con un lenguaje común que nos permita comunicarnos de manera clara y sin ambigüedades. Por ello, definimos un Ubiquitous Language, compuesto por términos clave que utilizaremos para describir tareas, roles y procesos. De esta forma, aseguramos que todos los involucrados compartan la misma comprensión y podamos trabajar de manera más organizada y eficiente.
+
+| Término (Inglés)        | Traducción (Español)   | Definición                                                                 |
+|--------------------------|------------------------|----------------------------------------------------------------------------|
+| Project                 | Proyecto               | Conjunto de actividades planificadas con un objetivo específico, un tiempo definido y recursos asignados. |
+| Task                    | Tarea                  | Actividad puntual asignada a un miembro del equipo, con fecha de inicio y vencimiento. |
+| Task Board              | Tablero de tareas      | Vista visual tipo Trello que organiza y gestiona las tareas asignadas según su estado (pendiente, en progreso, completada). |
+| Kanban Board            | Tablero Kanban         | Herramienta visual que organiza las tareas en columnas según su estado (pendiente, en progreso, completada). |
+| Milestone               | Hito                   | Evento clave dentro del proyecto que marca un avance importante o un entregable crítico. |
+| Budget                  | Presupuesto            | Estimación financiera destinada a la ejecución de un proyecto, que incluye gastos, pagos y recursos. |
+| Expense                 | Gasto                  | Registro de salida de dinero asociada a un proyecto. |
+| Team Member             | Miembro de equipo      | Profesional responsable de ejecutar tareas asignadas dentro del proyecto. |
+| Team Leader             | Líder de proyecto      | Persona encargada de coordinar al equipo, supervisar el progreso y garantizar el cumplimiento de plazos y recursos. |
+| Collaboration           | Colaboración           | Interacción en tiempo real entre los miembros del equipo para avanzar en el desarrollo del proyecto. |
+| Progress Tracking       | Seguimiento del progreso | Monitoreo continuo de tareas, métricas y resultados para evaluar el avance del proyecto. |
+| Notification            | Notificación           | Mensaje automático que informa a los usuarios sobre actualizaciones, vencimientos o cambios relevantes en el proyecto. |
+| Report                  | Reporte                | Documento o visualización que muestra el estado de un proyecto, métricas de desempeño y cumplimiento de objetivos. |
+| Project Dashboard       | Tablero del proyecto   | Vista de métricas y estadísticas globales del proyecto, accesible por el Team Leader. |
+| Member Dashboard        | Tablero del miembro    | Vista de métricas y estadísticas individuales de los miembros, accesible por el Team Leader. |
+| Progress Report         | Reporte de avance      | Documento solicitado por un Team Member que muestra su propio progreso en las tareas asignadas. |
+| User List               | Lista de usuarios      | Vista que muestra todos los usuarios que forman parte de un proyecto, incluyendo su rol y estado de participación. |
+| Personal Calendar       | Calendario personal    | Vista individual del calendario de un miembro, con sus tareas, fechas límite y hitos asignados. |
+| Role                    | Rol                    | Función asignada dentro del proyecto (ejemplo: líder, miembro, supervisor). |
+| Deadline                | Fecha límite           | Día y hora máxima en la que debe completarse una tarea o entregable. |
+| Workspace               | Espacio de trabajo     | Área digital dentro de la plataforma donde un equipo gestiona sus proyectos y tareas. |
+| Sprint                  | Iteración / Sprint     | Periodo corto de trabajo (1-4 semanas) en el que se completan entregables definidos dentro de metodologías ágiles. |
+| Backlog                 | Lista de pendientes    | Conjunto priorizado de tareas, historias de usuario o requerimientos que deben desarrollarse en el proyecto. |
+| User Story              | Historia de usuario    | Descripción breve y clara de una funcionalidad desde la perspectiva del usuario final. |
+| Deliverable             | Entregable             | Resultado tangible o intangible que debe ser completado y entregado en el marco de un proyecto. |
+| Dependency              | Dependencia            | Relación entre tareas o actividades en la que una no puede comenzar o finalizar hasta que otra se haya completado. |
+| Project Board           | Tablero de proyectos   | Vista que muestra todos los proyectos en los que participa un usuario, con información resumida como nombre, estado, fecha límite y rol asignado. |
 
 
 
@@ -1119,11 +1302,11 @@ Las User Stories fueron definidas siguiendo el enfoque ágil, describiendo funci
 
 **Segmento Team leader**
 
-![texto alternativo](assets/TB1/12.png)
+![texto alternativo](assets/TB1/Impactm1.png)
 
 **Segmento Team member**
 
-![texto alternativo](assets/TB1/13.png)
+![texto alternativo](assets/TB1/Impactm2.png)
 
 ### 3.4. Product Backlog
 
@@ -1524,13 +1707,13 @@ En esta sección se presenta el System Landscape Diagram, el cual permite visual
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 
-El diagrama muestra a TaskMaster System en el centro de la interacción. Los usuarios gestionan proyectos y consultan análisis directamente en la plataforma, mientras que el sistema se encarga de orquestar la comunicación con servicios externos. La relación con Mailgun permite que el usuario reciba notificaciones automáticas, y la integración con Google Calendar garantiza que los hitos del proyecto estén siempre sincronizados fuera de la aplicación.
+El diagrama muestra a TaskMaster System en el centro de la interacción. Los usuarios gestionan proyectos y consultan análisis directamente en la plataforma, mientras que el sistema se encarga de orquestar la comunicación con servicios externos. La relación con Mailgun permite que el usuario reciba notificaciones automáticas, la integración con Google Calendar garantiza que los hitos del proyecto estén siempre sincronizados fuera de la aplicación y la integración con Google Gemini potencia la plataforma al proporcionar análisis predictivos sobre el rendimiento de los equipos, generación automática de resúmenes de proyectos y sugerencias inteligentes para la optimización de tareas.
 
 ![Context Level Diagram](assets/TB1/context_level_diagram.png)
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 
-En este nivel, se observa cómo el tráfico entra a través de una Landing Page o directamente a las aplicaciones (Angular para web y Flutter para móvil). Todas las peticiones pasan por un API Gateway que las redirige a los servicios correspondientes de Spring Boot. Todos estos servicios comparten una base de datos central en PostgreSQL, asegurando la integridad de la información mientras se mantiene una arquitectura modular y fácil de mantener.
+En este nivel, se observa cómo el tráfico entra a través de una Landing Page o directamente a las aplicaciones (Vue para web y Flutter para móvil). Todas las peticiones pasan por un API Gateway que las redirige a los servicios correspondientes de Spring Boot. Todos estos servicios comparten una base de datos central en PostgreSQL, asegurando la integridad de la información mientras se mantiene una arquitectura modular y fácil de mantener.
 
 ![Container Level Diagram](assets/TB1/container_level_diagram.png)
 
@@ -1540,12 +1723,3158 @@ Finalmente, presentamos el Diagrama de Despliegue, que ilustra cómo se distribu
 
 ![Deployment Diagram](assets/TB1/deployment_diagram.png)
 
+## Capítulo V: Tactical-Level Software Design.
+### 5.1.	Bounded Context:  Registro y Autenticación de Usuario
+
+El bounded context de Registro y Autenticación de Usuario es responsable de gestionar la identidad digital de los usuarios dentro de la plataforma TaskMaster. Este contexto encapsula los procesos de registro, autenticación, autorización y administración de roles, garantizando que únicamente usuarios válidos puedan acceder a los recursos y funcionalidades del sistema.
+
+Asimismo, este bounded context ha sido diseñado considerando capacidades futuras de tecnologías emergentes, especialmente relacionadas con inteligencia artificial orientada a seguridad y automatización de procesos de autenticación mediante RPA.
+
+---
+
+#### 5.1.1.	Domain Layer.
+
+La Domain Layer representa el núcleo del dominio relacionado con identidad y control de acceso. Aquí se modelan las entidades, objetos de valor y servicios encargados de mantener la consistencia y seguridad de los procesos de autenticación y autorización.
+
+### Aggregate Root: User
+
+**Descripción**
+El agregado `User` representa la cuenta principal de un usuario dentro del sistema y actúa como raíz del agregado. Encapsula las credenciales, roles y estados de seguridad asociados al usuario.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador único del usuario |
+| username | String | Nombre de usuario único |
+| passwordHash | String | Contraseña cifrada |
+| email | EmailAddress | Correo electrónico validado |
+| roles | Set<Role> | Roles asignados al usuario |
+| status | UserStatus | Estado de la cuenta |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `register()`: Registra un nuevo usuario validando reglas de negocio.
+- `assignRole(Role role)`: Asigna un rol al usuario.
+- `changePassword(String newPassword)`: Actualiza la contraseña.
+- `lockAccount()`: Bloquea la cuenta ante actividad sospechosa.
+- `enableAccount()`: Reactiva la cuenta.
+- `validatePassword(String password)`: Valida credenciales.
+
+---
+
+### Entity: Role
+
+**Descripción**
+Representa los permisos y niveles de acceso disponibles dentro de la plataforma.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del rol |
+| name | RoleName | Nombre del rol |
+
+**Valores de RoleName**
+
+- TEAM_MEMBER
+- TEAM_LEADER
+- ADMIN
+
+**Métodos**
+
+- `isLeader()`
+- `isAdmin()`
+
+---
+
+### Value Object: EmailAddress
+
+**Descripción**
+Objeto de valor encargado de representar una dirección de correo válida.
+
+**Reglas de validación**
+
+- Debe tener formato válido.
+- No puede exceder la longitud permitida.
+- Es inmutable.
+
+---
+
+### Value Object: UserStatus
+
+**Valores**
+
+- ACTIVE
+- LOCKED
+- DISABLED
+
+---
+
+### Domain Service: AuthenticationService
+
+**Descripción**
+Encapsula la lógica de autenticación independiente de infraestructura técnica.
+
+**Métodos**
+
+- `authenticate(username, password)`
+- `validateCredentials(user, password)`
+- `initiatePasswordReset(email)`
+
+---
+
+### Domain Service: SecurityPolicyService
+
+**Descripción**
+Gestiona reglas de seguridad y prepara el dominio para futuras capacidades de inteligencia artificial enfocadas en detección de accesos sospechosos.
+
+**Métodos**
+
+- `isLoginAttemptValid(user, metadata)`
+- `evaluateRisk(loginData)`
+- `detectAnomalousBehavior(userActivity)`
+
+**Relación con tecnologías emergentes**
+
+Este servicio permitirá integrar modelos de IA capaces de:
+
+- Detectar patrones sospechosos de inicio de sesión.
+- Identificar accesos inusuales.
+- Generar alertas inteligentes de seguridad.
+
+---
+
+### Repository Interfaces
+
+**UserRepository**
+
+**Métodos:**
+
+- `save(User user)`
+- `findById(Long id)`
+- `findByUsername(String username)`
+- `findByEmail(String email)`
+
+**RoleRepository**
+
+**Métodos:**
+
+- `save(Role role)`
+- `findByName(String name)`
+- `findAll()`
+
+---
+
+#### 5.1.2.	Interface Layer.
+
+La Interface Layer expone los endpoints REST y gestiona la interacción entre los usuarios y el sistema.
+
+---
+
+### Controller: AuthenticationController
+
+**Descripción**
+Gestiona los procesos de autenticación y acceso.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| signUp | POST /auth/sign-up | Registro de usuario |
+| signIn | POST /auth/sign-in | Inicio de sesión |
+| logout | POST /auth/logout | Cierre de sesión |
+| resetPassword | POST /auth/reset-password | Recuperación de contraseña |
+
+---
+
+### Controller: UsersController
+
+**Descripción**
+Permite administrar usuarios registrados.
+
+| Método | Ruta |
+|---|---|
+| getAllUsers | GET /users |
+| getUserById | GET /users/{id} |
+| updateUserStatus | PUT /users/{id}/status |
+
+---
+
+### Controller: RolesController
+
+| Método | Ruta |
+|---|---|
+| getRoles | GET /roles |
+
+---
+
+### Assemblers y Resources
+
+Se utilizan DTOs y assemblers para desacoplar la API del dominio.
+
+**Resources principales**
+
+- SignInResource
+- SignUpResource
+- UserResource
+- RoleResource
+
+**Assemblers principales**
+
+- UserResourceAssembler
+- SignInCommandAssembler
+
+---
+
+#### 5.1.3.	Application Layer.
+
+La Application Layer orquesta los flujos de negocio y coordina comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**SignUpCommandHandler**
+
+Responsabilidades:
+
+- Validar datos del usuario.
+- Crear usuario.
+- Generar eventos de registro.
+
+**SignInCommandHandler**
+
+Responsabilidades:
+
+- Validar credenciales.
+- Generar token JWT.
+- Registrar actividad de acceso.
+
+**AssignRoleCommandHandler**
+
+Responsabilidades:
+
+- Asignar roles.
+- Validar permisos.
+
+**ResetPasswordCommandHandler**
+
+Responsabilidades:
+
+- Generar solicitudes de recuperación.
+- Disparar automatizaciones de notificación.
+
+---
+
+### Query Handlers
+
+- GetUserByIdQueryHandler
+- GetAllUsersQueryHandler
+- GetRolesQueryHandler
+
+---
+
+### Domain Events
+
+**UserRegisteredEvent**
+
+Se genera cuando un usuario es registrado exitosamente.
+
+**UserLoggedInEvent**
+
+Se genera cuando un usuario inicia sesión.
+
+**SuspiciousLoginDetectedEvent**
+
+Evento preparado para integraciones futuras con servicios inteligentes de seguridad.
+
+---
+
+### Servicios de soporte
+
+- TokenService
+- HashingService
+
+---
+
+### Integración con tecnologías emergentes
+
+**Inteligencia Artificial**
+
+La Application Layer permite integrar servicios de IA orientados a:
+
+- análisis de comportamiento de acceso
+- evaluación de riesgo
+- detección de accesos anómalos
+
+**RPA**
+
+Se incorporan automatizaciones para:
+
+- recuperación automática de contraseña
+- envío automático de correos
+- notificaciones inteligentes de seguridad
+
+---
+
+#### 5.1.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa los mecanismos técnicos de persistencia y conexión con servicios externos.
+
+---
+
+### Repository Implementations
+
+**JpaUserRepository**
+
+Implementación concreta del repositorio de usuarios.
+
+**JpaRoleRepository**
+
+Implementación concreta del repositorio de roles.
+
+---
+
+### Servicios técnicos
+
+**BCryptHashingService**
+
+Responsable del cifrado de contraseñas.
+
+**JwtTokenService**
+
+Encargado de generar y validar tokens JWT.
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Gestiona el envío de:
+
+- recuperación de contraseña
+- confirmaciones de registro
+- alertas de seguridad
+
+**NotificationAutomationService**
+
+Servicio orientado a automatizaciones RPA.
+
+**Funciones automatizadas**
+
+- envío automático de recordatorios
+- alertas inteligentes de acceso
+- automatización de recuperación de cuenta
+
+---
+
+### Integración IA
+
+**ExternalSecurityAnalysisService**
+
+Servicio preparado para consumir modelos de inteligencia artificial relacionados con:
+
+- análisis de riesgo
+- comportamiento sospechoso
+- patrones de acceso
+
+---
+
+#### 5.1.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram representa la descomposición interna del bounded context de Registro y Autenticación de Usuario, mostrando los componentes pertenecientes a las capas Interface, Application, Domain e Infrastructure, así como la integración con servicios de Inteligencia Artificial (AI) y automatización RPA para validaciones de seguridad y notificaciones automáticas.
+
+![BC1_Component](assets/TP1/BC1_Components_diagram.png)
+
+#### 5.1.7.	Bounded Context Software Architecture Code Level Diagrams.
+##### 5.1.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las principales entidades, servicios de dominio, interfaces y relaciones correspondientes al Domain Layer del bounded context de Registro y Autenticación de Usuario, siguiendo principios de Domain-Driven Design (DDD).
+
+![BC1_Class](assets/TP1/BC1_Class_diagram.png)
+
+
+##### 5.1.7.2.	Bounded Context Database Design Diagram.
+
+El siguiente Database Diagram muestra las entidades persistentes y relaciones utilizadas para gestionar usuarios, roles, intentos de inicio de sesión y procesos de recuperación de contraseña dentro del bounded context de Registro y Autenticación de Usuario.
+
+![BC1_Database](assets/TP1/BC1_Database_diagram.png)
+
+### 5.2.	Bounded Context:  Gestión de Proyectos y Tareas
+
+El bounded context de Gestión de Proyectos y Tareas es responsable de administrar la planificación, organización, asignación y seguimiento operativo de proyectos y tareas dentro de la plataforma TaskMaster. Este contexto representa el núcleo funcional del sistema, ya que concentra las reglas de negocio relacionadas con la ejecución de actividades colaborativas entre equipos de trabajo.
+
+Asimismo, este bounded context incorpora capacidades preparadas para tecnologías emergentes basadas en inteligencia artificial, orientadas al análisis predictivo de carga laboral, identificación de tareas críticas y evaluación automática de riesgos operativos. De igual manera, se integra con automatizaciones RPA para la generación de recordatorios y alertas inteligentes relacionadas con vencimientos y asignaciones.
+
+---
+
+#### 5.2.1.	Domain Layer.
+
+La Domain Layer modela las entidades, agregados y servicios que representan las reglas de negocio asociadas a la gestión de proyectos, tareas y colaboración entre usuarios.
+
+---
+
+### Aggregate Root: Project
+
+**Descripción**
+El agregado `Project` representa un proyecto de trabajo dentro del sistema y actúa como raíz del agregado. Encapsula la información general del proyecto, sus miembros y las tareas asociadas.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del proyecto |
+| name | String | Nombre del proyecto |
+| description | String | Descripción general |
+| status | ProjectStatus | Estado del proyecto |
+| startDate | Date | Fecha de inicio |
+| endDate | Date | Fecha límite |
+| ownerId | Long | Identificador del líder |
+| members | List<ProjectMember> | Miembros asociados |
+| tasks | List<Task> | Tareas del proyecto |
+| createdAt | Date | Fecha de creación |
+
+**Métodos principales**
+
+- `createTask()`
+- `assignMember()`
+- `removeMember()`
+- `changeStatus()`
+- `calculateProgress()`
+- `closeProject()`
+
+---
+
+### Entity: Task
+
+**Descripción**
+Representa una actividad específica perteneciente a un proyecto.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador de tarea |
+| title | String | Título de la tarea |
+| description | String | Descripción |
+| status | TaskStatus | Estado actual |
+| priority | TaskPriority | Nivel de prioridad |
+| dueDate | Date | Fecha límite |
+| assignedUserId | Long | Usuario asignado |
+| estimatedHours | Integer | Tiempo estimado |
+| completedAt | Date | Fecha de finalización |
+
+**Métodos principales**
+
+- `assignUser()`
+- `updateStatus()`
+- `markAsCompleted()`
+- `changePriority()`
+- `isOverdue()`
+- `calculateDelayRisk()`
+
+---
+
+### Entity: ProjectMember
+
+**Descripción**
+Representa la participación de un usuario dentro de un proyecto.
+
+**Atributos**
+
+- id
+- userId
+- role
+- joinedAt
+
+---
+
+### Value Object: ProjectStatus
+
+**Valores**
+
+- PLANNING
+- ACTIVE
+- COMPLETED
+- CANCELLED
+
+---
+
+### Value Object: TaskStatus
+
+**Valores**
+
+- PENDING
+- IN_PROGRESS
+- COMPLETED
+- BLOCKED
+- OVERDUE
+
+---
+
+### Value Object: TaskPriority
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: WorkloadAnalysisService
+
+**Descripción**
+Servicio de dominio encargado de analizar la distribución de tareas y carga laboral de los miembros del proyecto.
+
+**Métodos**
+
+- `analyzeWorkload(projectId)`
+- `detectOverloadedUsers()`
+- `calculateTeamCapacity()`
+
+**Relación con IA**
+
+Este servicio será integrado con modelos de inteligencia artificial capaces de:
+
+- analizar rendimiento del equipo
+- identificar sobrecarga laboral
+- detectar desequilibrio en asignaciones
+- predecir retrasos operativos
+
+---
+
+### Domain Service: TaskRiskAnalysisService
+
+**Descripción**
+Servicio responsable de evaluar riesgos asociados al progreso de tareas.
+
+**Métodos**
+
+- `evaluateTaskRisk(task)`
+- `predictDelayProbability(task)`
+- `detectCriticalTasks(projectId)`
+
+**Relación con IA**
+
+Este servicio permitirá integrar algoritmos predictivos orientados a:
+
+- detección temprana de retrasos
+- clasificación automática de tareas críticas
+- generación de alertas inteligentes
+
+---
+
+### Domain Service: ProjectCollaborationService
+
+**Descripción**
+
+Gestiona reglas relacionadas con colaboración y coordinación de equipos.
+
+**Métodos**
+
+- `validateAssignment()`
+- `verifyMemberPermissions()`
+- `recommendTaskDistribution()`
+
+---
+
+### Repository Interfaces
+
+**ProjectRepository**
+
+Métodos principales:
+
+- `save(Project project)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+- `findAll()`
+
+**TaskRepository**
+
+Métodos principales:
+
+- `save(Task task)`
+- `findByProjectId(Long projectId)`
+- `findOverdueTasks()`
+- `findByAssignedUser(Long userId)`
+
+**ProjectMemberRepository**
+
+Métodos principales:
+
+- `save(ProjectMember member)`
+- `findByProjectId(Long projectId)`
+
+---
+
+#### 5.2.2.	Interface Layer.
+
+La Interface Layer expone las funcionalidades relacionadas con proyectos y tareas mediante endpoints REST.
+
+---
+
+### Controller: ProjectsController
+
+**Descripción**
+Gestiona operaciones relacionadas con proyectos.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| createProject | POST /projects | Crear proyecto |
+| getProjects | GET /projects | Obtener proyectos |
+| getProjectById | GET /projects/{id} | Obtener proyecto |
+| updateProject | PUT /projects/{id} | Actualizar proyecto |
+| closeProject | PUT /projects/{id}/close | Finalizar proyecto |
+
+---
+
+### Controller: TasksController
+
+**Descripción**
+Gestiona tareas asociadas a proyectos.
+
+| Método | Ruta |
+|---|---|
+| createTask | POST /tasks |
+| assignTask | PUT /tasks/{id}/assign |
+| updateTaskStatus | PUT /tasks/{id}/status |
+| getTasksByProject | GET /projects/{id}/tasks |
+
+---
+
+### Controller: ProjectMembersController
+
+| Método | Ruta |
+|---|---|
+| addMember | POST /projects/{id}/members |
+| removeMember | DELETE /projects/{id}/members/{memberId} |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- ProjectResource
+- TaskResource
+- ProjectMemberResource
+- CreateProjectResource
+- CreateTaskResource
+
+**Assemblers principales**
+
+- ProjectResourceAssembler
+- TaskResourceAssembler
+- ProjectCommandAssembler
+
+---
+
+#### 5.2.3.	Application Layer.
+
+La Application Layer coordina los procesos de negocio relacionados con proyectos y tareas mediante comandos, consultas y eventos.
+
+---
+
+### Command Handlers
+
+**CreateProjectCommandHandler**
+
+Responsabilidades:
+
+- Crear proyectos.
+- Validar reglas de negocio.
+- Registrar eventos iniciales.
+
+**CreateTaskCommandHandler**
+
+Responsabilidades:
+
+- Crear tareas.
+- Validar asignaciones.
+- Calcular prioridad inicial.
+
+**AssignTaskCommandHandler**
+
+Responsabilidades:
+
+- Asignar usuarios.
+- Validar carga laboral.
+- Generar alertas inteligentes.
+
+**UpdateTaskStatusCommandHandler**
+
+Responsabilidades:
+
+- Actualizar estado.
+- Verificar vencimientos.
+- Disparar automatizaciones.
+
+**CloseProjectCommandHandler**
+
+Responsabilidades:
+
+- Finalizar proyectos.
+- Validar tareas pendientes.
+- Generar métricas finales.
+
+### Query Handlers
+
+- GetProjectsQueryHandler
+- GetProjectByIdQueryHandler
+- GetTasksByProjectQueryHandler
+- GetOverdueTasksQueryHandler
+
+---
+
+### Domain Events
+
+**ProjectCreatedEvent**
+
+Se genera cuando un proyecto es creado.
+
+**TaskAssignedEvent**
+
+Se genera cuando una tarea es asignada.
+
+**TaskOverdueEvent**
+
+Evento emitido cuando una tarea excede su fecha límite.
+
+**CriticalTaskDetectedEvent**
+
+Evento generado cuando una tarea es clasificada como crítica mediante análisis inteligente.
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra capacidades de IA orientadas a:
+
+- análisis de productividad
+- predicción de retrasos
+- identificación de riesgos
+- recomendaciones de asignación
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- recordatorios automáticos
+- alertas de vencimiento
+- seguimiento automático de tareas críticas
+- notificaciones inteligentes
+
+**Servicios de soporte**
+
+- NotificationService
+- SchedulingService
+- WorkloadMetricsService
+
+---
+
+#### 5.2.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa persistencia, servicios externos y mecanismos técnicos necesarios para la ejecución del bounded context.
+
+---
+
+### Repository Implementations
+
+**JpaProjectRepository**
+
+Implementación concreta de persistencia de proyectos.
+
+**JpaTaskRepository**
+
+Implementación concreta de persistencia de tareas.
+
+**JpaProjectMemberRepository**
+
+Implementación concreta de persistencia de miembros.
+
+---
+
+### Servicios técnicos
+
+**NotificationServiceImpl**
+
+Gestiona envío de notificaciones.
+
+**SchedulerService**
+
+Gestiona tareas automáticas programadas.
+
+**AIAnalyticsIntegrationService**
+
+Servicio encargado de consumir modelos externos de inteligencia artificial.
+
+**Funcionalidades**
+
+- análisis predictivo
+- evaluación de riesgos
+- análisis de rendimiento
+- cálculo inteligente de carga laboral
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable de:
+
+- envío de alertas
+- recordatorios automáticos
+- notificaciones inteligentes
+
+**CalendarIntegrationService**
+
+Permite sincronizar tareas y vencimientos con calendarios externos.
+
+**RpaWorkflowAutomationService**
+
+Servicio encargado de automatizar procesos repetitivos.
+
+**Automatizaciones principales**
+
+- envío automático de recordatorios
+- generación de alertas por vencimiento
+- seguimiento automatizado de tareas críticas
+- escalamiento automático de incidencias
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado para integrar tecnologías emergentes relacionadas con:
+
+**Inteligencia Artificial**
+
+- predicción de retrasos
+- análisis de productividad
+- evaluación automática de riesgos
+- recomendaciones inteligentes
+
+**Robotic Process Automation (RPA)**
+
+- automatización de notificaciones
+- ejecución automática de recordatorios
+- seguimiento inteligente de tareas vencidas
+
+---
+
+#### 5.2.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram representa la arquitectura interna del bounded context de Gestión de Proyectos y Tareas, incluyendo componentes encargados de la administración de proyectos, tareas, análisis predictivo mediante AI y automatización de flujos utilizando RPA.
+
+![BC2_Component](assets/TP1/BC2_Components_diagram.png)
+
+#### 5.2.7.	Bounded Context Software Architecture Code Level Diagrams.
+##### 5.2.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las entidades, agregados, servicios de dominio y repositorios relacionados con la gestión de proyectos y tareas, así como los mecanismos de análisis de carga laboral y predicción de riesgos basados en AI.
+
+![BC2_Class](assets/TP1/BC2_Class_diagram.png)
+
+##### 5.2.7.2.	Bounded Context Database Design Diagram.
+
+El siguiente Database Diagram representa la estructura de almacenamiento necesaria para gestionar proyectos, tareas, miembros de proyecto y predicciones de riesgo generadas mediante Inteligencia Artificial dentro del bounded context de Gestión de Proyectos y Tareas.
+
+![BC2_Database](assets/TP1/BC2_Database_diagram.png)
+
+### 5.3.	Bounded Context:  Visualización y Seguimiento
+
+El bounded context de Visualización y Seguimiento es responsable de consolidar, analizar y representar información relacionada con el estado operativo de proyectos, tareas y desempeño de equipos dentro de la plataforma TaskMaster. Su propósito principal es proporcionar visibilidad en tiempo real sobre el progreso de las actividades, facilitando la toma de decisiones estratégicas y operativas.
+
+Este bounded context incorpora capacidades basadas en inteligencia artificial orientadas al análisis predictivo, generación de alertas inteligentes e identificación automática de riesgos, permitiendo transformar datos operativos en información útil para líderes y miembros de equipos.
+
+Asimismo, integra automatizaciones basadas en RPA para el envío de reportes, alertas y seguimiento automatizado de incidencias críticas.
+
+---
+
+#### 5.3.1.	Domain Layer.
+
+La Domain Layer modela las entidades, objetos de valor y servicios encargados de representar indicadores, métricas, alertas y análisis relacionados con el seguimiento de proyectos y tareas.
+
+---
+
+### Aggregate Root: Dashboard
+
+**Descripción**
+El agregado `Dashboard` representa un panel de visualización que consolida indicadores y métricas de seguimiento asociadas a proyectos y equipos de trabajo.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|---|---|---|
+| id | Long | Identificador del dashboard |
+| name | String | Nombre del dashboard |
+| ownerId | Long | Usuario propietario |
+| widgets | List<DashboardWidget> | Componentes visuales |
+| createdAt | Date | Fecha de creación |
+| updatedAt | Date | Fecha de actualización |
+
+**Métodos principales**
+
+- `addWidget()`
+- `removeWidget()`
+- `refreshMetrics()`
+- `generateSummary()`
+
+---
+
+### Entity: DashboardWidget
+
+**Descripción**
+Representa un componente visual utilizado dentro del dashboard.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| title | String |
+| widgetType | WidgetType |
+| dataSource | String |
+| position | Integer |
+
+**Métodos principales**
+
+- `updateData()`
+- `renderVisualization()`
+
+---
+
+### Entity: RiskIndicator
+
+**Descripción**
+Representa un indicador de riesgo calculado automáticamente mediante análisis inteligente.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| projectId | Long |
+| riskLevel | RiskLevel |
+| probability | Double |
+| generatedAt | Date |
+| description | String |
+
+**Métodos principales**
+
+- `calculateRiskScore()`
+- `classifyRiskLevel()`
+- `generateRecommendation()`
+
+---
+
+### Entity: SmartAlert
+
+**Descripción**
+Representa una alerta inteligente generada automáticamente por análisis predictivos.
+
+**Atributos**
+
+| Atributo | Tipo |
+|---|---|
+| id | Long |
+| type | AlertType |
+| severity | AlertSeverity |
+| message | String |
+| createdAt | Date |
+| isResolved | Boolean |
+
+
+**Métodos principales**
+
+- `markAsResolved()`
+- `escalateAlert()`
+
+---
+
+### Value Object: RiskLevel
+
+**Valores**
+
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
+
+---
+
+### Value Object: WidgetType
+
+**Valores**
+
+- TASK_PROGRESS
+- TEAM_PERFORMANCE
+- WORKLOAD_ANALYSIS
+- RISK_MONITORING
+- PRODUCTIVITY_METRICS
+
+---
+
+### Value Object: AlertSeverity
+
+**Valores**
+
+- INFO
+- WARNING
+- HIGH
+- CRITICAL
+
+---
+
+### Domain Service: RiskAnalysisService
+
+**Descripción**
+Servicio encargado de analizar información operativa para identificar riesgos dentro de proyectos y tareas.
+
+**Métodos**
+
+- `analyzeProjectRisk(projectId)`
+- `detectOperationalRisks()`
+- `calculateRiskProbability()`
+
+**Relación con IA**
+
+Este servicio integra modelos de inteligencia artificial capaces de:
+
+- detectar patrones de retraso
+- identificar tareas críticas
+- calcular probabilidades de incumplimiento
+- generar recomendaciones inteligentes
+
+---
+
+### Domain Service: TeamPerformanceAnalysisService
+
+**Descripción**
+Analiza métricas relacionadas con desempeño y productividad de equipos.
+
+**Métodos**
+
+- `analyzeTeamPerformance(teamId)`
+- `calculateProductivityMetrics()`
+- `identifyPerformanceIssues()`
+
+**Relación con IA**
+
+Permite implementar análisis predictivos relacionados con:
+
+- productividad del equipo
+- carga laboral
+- tareas atrasadas
+- eficiencia operativa
+
+---
+
+### Domain Service: SmartAlertService
+
+**Descripción**
+Gestiona la generación automática de alertas inteligentes.
+
+### Métodos
+
+- `generateAlert()`
+- `prioritizeAlerts()`
+- `escalateCriticalAlerts()`
+
+---
+
+### Repository Interfaces
+
+**DashboardRepository**
+
+Métodos principales:
+
+- `save(Dashboard dashboard)`
+- `findById(Long id)`
+- `findByOwnerId(Long ownerId)`
+
+**RiskIndicatorRepository**
+
+Métodos principales:
+
+- `save(RiskIndicator riskIndicator)`
+- `findByProjectId(Long projectId)`
+- `findCriticalRisks()`
+
+**SmartAlertRepository**
+
+Métodos principales:
+
+- `save(SmartAlert alert)`
+- `findActiveAlerts()`
+- `findBySeverity(AlertSeverity severity)`
+
+#### 5.3.2.	Interface Layer.
+
+La Interface Layer expone dashboards, métricas y alertas mediante endpoints REST y componentes visuales.
+
+---
+
+### Controller: DashboardController
+
+**Descripción**
+Gestiona paneles de seguimiento y visualización.
+
+| Método | Ruta |
+|---|---|
+| createDashboard | POST /dashboards |
+| getDashboard | GET /dashboards/{id} |
+| refreshDashboard | PUT /dashboards/{id}/refresh |
+
+---
+
+### Controller: RiskMonitoringController
+
+**Descripción**
+Gestiona indicadores de riesgo.
+
+| Método | Ruta |
+|---|---|
+| getProjectRisks | GET /risks/project/{id} |
+| getCriticalRisks | GET /risks/critical |
+
+---
+
+### Controller: SmartAlertsController
+
+**Descripción**
+Gestiona alertas inteligentes.
+
+| Método | Ruta |
+|---|---|
+| getAlerts | GET /alerts |
+| resolveAlert | PUT /alerts/{id}/resolve |
+
+---
+
+### Assemblers y Resources
+
+**Resources principales**
+
+- DashboardResource
+- RiskIndicatorResource
+- SmartAlertResource
+- TeamPerformanceResource
+
+**Assemblers principales**
+
+- DashboardResourceAssembler
+- RiskResourceAssembler
+- AlertResourceAssembler
+
+---
+
+#### 5.3.3.	Application Layer.
+
+La Application Layer coordina los flujos relacionados con métricas, análisis predictivo y seguimiento inteligente.
+
+---
+
+### Command Handlers
+
+**CreateDashboardCommandHandler**
+
+Responsabilidades:
+
+- Crear dashboards personalizados.
+- Configurar widgets iniciales.
+
+**RefreshDashboardCommandHandler**
+
+Responsabilidades:
+
+- Actualizar métricas.
+- Obtener información en tiempo real.
+- Ejecutar análisis predictivos.
+
+**ResolveAlertCommandHandler**
+
+Responsabilidades:
+
+- Resolver alertas.
+- Registrar historial de incidencias.
+
+---
+
+### Query Handlers
+
+- GetDashboardQueryHandler
+- GetProjectRisksQueryHandler
+- GetCriticalAlertsQueryHandler
+- GetPerformanceMetricsQueryHandler
+
+---
+
+### Domain Events
+
+**DashboardUpdatedEvent**
+
+Evento generado al actualizar métricas del dashboard.
+
+**RiskDetectedEvent**
+
+Evento generado cuando se identifica un riesgo operativo.
+
+**CriticalAlertGeneratedEvent**
+
+Evento generado cuando una alerta crítica es detectada.
+
+**TeamPerformanceAnalyzedEvent**
+
+Evento generado tras analizar productividad del equipo.
+
+---
+
+**Integración con Inteligencia Artificial**
+
+La Application Layer integra servicios de IA orientados a:
+
+- análisis predictivo
+- identificación de riesgos
+- evaluación de desempeño
+- generación de recomendaciones inteligentes
+- detección automática de tareas críticas
+
+---
+
+**Integración con RPA**
+
+Se implementan automatizaciones para:
+
+- envío automático de reportes
+- alertas inteligentes automatizadas
+- escalamiento automático de incidencias
+- seguimiento automatizado de riesgos críticos
+
+---
+
+**Servicios de soporte**
+
+- MetricsAggregationService
+- ReportGenerationService
+- VisualizationService
+- AlertNotificationService
+
+---
+
+#### 5.3.4.	Infrastructure Layer.
+
+La Infrastructure Layer implementa mecanismos de persistencia, integración externa y conexión con servicios analíticos inteligentes.
+
+---
+
+### Repository Implementations
+
+**JpaDashboardRepository**
+
+Implementación de persistencia para dashboards.
+
+**JpaRiskIndicatorRepository**
+
+Implementación de persistencia para indicadores de riesgo.
+
+**JpaSmartAlertRepository**
+
+Implementación de persistencia para alertas inteligentes.
+
+---
+
+### Servicios técnicos
+
+**DashboardMetricsService**
+
+Gestiona consolidación y cálculo de métricas.
+
+**DataVisualizationService**
+
+Genera representaciones visuales y gráficas.
+
+**AIAnalyticsEngineService**
+
+Servicio encargado de consumir modelos de inteligencia artificial.
+
+**Funcionalidades principales**
+
+- análisis predictivo
+- detección de riesgos
+- evaluación de productividad
+- identificación de anomalías
+- generación de recomendaciones inteligentes
+
+---
+
+### Integraciones externas
+
+**EmailService (Mailgun)**
+
+Responsable del envío de:
+
+- alertas críticas
+- reportes automáticos
+- notificaciones inteligentes
+
+**ReportAutomationService**
+
+Servicio orientado a automatización de reportes mediante RPA.
+
+**Automatizaciones principales**
+
+- generación automática de reportes
+- envío programado de métricas
+- alertas automáticas de riesgo
+- escalamiento de incidencias críticas
+
+**NotificationAutomationService**
+
+Automatiza procesos relacionados con:
+
+- seguimiento de alertas
+- envío de recordatorios
+- monitoreo automático de riesgos
+
+---
+
+### Preparación para tecnologías emergentes
+
+Este bounded context ha sido diseñado específicamente para integrar tecnologías emergentes enfocadas en analítica avanzada y automatización inteligente.
+
+**Inteligencia Artificial**
+
+- análisis predictivo
+- indicadores inteligentes de riesgo
+- alertas automáticas
+- análisis de desempeño
+- identificación de anomalías operativas
+
+**Robotic Process Automation (RPA)**
+
+- automatización de reportes
+- seguimiento automático de incidencias
+- envío inteligente de notificaciones
+- monitoreo automatizado de riesgos
+
+---
+
+#### 5.3.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+El siguiente Component Diagram muestra los componentes internos del bounded context de Visualización y Seguimiento, incluyendo módulos de dashboards, monitoreo de riesgos, alertas inteligentes y servicios de análisis predictivo basados en AI.
+
+![BC3_Component](assets/TP1/BC3_Components_diagram.png)
+
+#### 5.3.7.	Bounded Context Software Architecture Code Level Diagrams.
+##### 5.3.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+El siguiente diagrama de clases UML presenta las entidades y servicios de dominio responsables de la generación de dashboards, indicadores de riesgo, alertas inteligentes y análisis de desempeño dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Class](assets/TP1/BC3_Class_diagram.png)
+
+##### 5.3.7.2.	Bounded Context Database Design Diagram.
+
+El siguiente Database Diagram representa las entidades persistentes relacionadas con dashboards, indicadores de riesgo, métricas de rendimiento, alertas inteligentes y reportes automatizados generados dentro del bounded context de Visualización y Seguimiento.
+
+![BC3_Database](assets/TP1/BC3_Database_diagram.png)
+
+---
+
+
+### 5.4.	Bounded Context:  Notificaciones
+
+Este bounded context se encarga de crear, almacenar, consultar y eliminar notificaciones dentro de la plataforma. En el avance actual, ya no se presenta solo como un módulo de avisos, sino como un componente formal de comunicación reactiva entre eventos del sistema y el usuario autenticado. Su objetivo es mantener informado al usuario sobre acciones relevantes como asignaciones de tareas, cambios de estado, recordatorios o eventos internos generados por otros módulos.
+
+
+#### 5.4.1.	Domain Layer.
+
+La Domain Layer concentra las reglas de negocio relacionadas con la gestión de notificaciones. En este contexto, la entidad principal es `Notification`, la cual representa un mensaje asociado a un usuario, con información como identificador, contenido, estado de lectura y marca de tiempo. También se maneja la clasificación de notificaciones mediante `NotificationType` y estados como `READ` y `UNREAD`, permitiendo distinguir el tipo de evento y su situación dentro del flujo del usuario.
+
+El dominio define que una notificación debe estar asociada a un usuario válido, contener un mensaje significativo y conservar trazabilidad temporal. Además, admite la generación de notificaciones a partir de eventos del sistema, manteniendo el comportamiento independiente de la interfaz y de la persistencia.
+
+
+
+#### 5.4.2.	Interface Layer.
+
+La Interface Layer expone los endpoints REST que permiten interactuar con el bounded context desde el frontend o desde servicios internos. En el trabajo actual, el controlador principal es `NotificationController`, construido bajo una estructura limpia y documentado con Swagger 3.0.
+
+
+| Endpoint | Descripción | Método |
+|---|---|---|
+| `/api/v1/notifications/me` | Obtiene las notificaciones del usuario autenticado. | GET |
+| `/api/v1/notifications` | Crea una nueva notificación dentro del sistema. | POST |
+
+Esta capa recibe las solicitudes, valida los datos de entrada y los transforma en comandos o consultas para delegarlos a la capa de aplicación. No contiene lógica de negocio, solo coordinación de entrada y salida.
+
+
+#### 5.4.3.	Application Layer.
+
+
+La Application Layer orquesta los casos de uso del bounded context. Aquí se encuentran los servicios de comando y consulta que gestionan la creación y recuperación de notificaciones.
+
+Los principales componentes son:
+
+- `NotificationCommandService`
+- `NotificationQueryService`
+- `CreateNotificationCommandFromResourceAssembler`
+- `NotificationResourceFromEntityAssembler`
+
+Además, el módulo reacciona a eventos internos del sistema, como asignaciones de tareas o cambios de estado, para generar notificaciones automáticas.
+
+
+#### 5.4.4.	Infrastructure Layer.
+
+
+La Infrastructure Layer implementa la persistencia y las integraciones externas necesarias para que el contexto funcione. Aquí se concretan los repositorios que almacenan y recuperan notificaciones, además de adaptadores para comunicación con servicios externos de mensajería o envío, como correo o push, cuando aplique.
+
+Sus responsabilidades principales son:
+
+- guardar notificaciones nuevas;
+- consultar notificaciones por usuario;
+- recuperar una notificación específica;
+- eliminar notificaciones;
+- adaptar el envío hacia servicios externos.
+
+
+#### 5.4.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+![ddd](assets/TP1/diagrama-componentes-BC-notificaciones2.png)
+
+#### 5.4.7.	Bounded Context Software Architecture Code Level Diagrams.
+
+Este nivel muestra cómo se materializa el bounded context en clases, entidades y estructuras de datos. La intención es evidenciar la separación entre dominio, aplicación e infraestructura, manteniendo bajo acoplamiento y alta cohesión.
+
+
+##### 5.4.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+![ddd](assets/TP1/diagrama-domain-BC-notificaciones.png)
+
+##### 5.4.7.2.	Bounded Context Database Design Diagram.
+
+![ddd](assets/TP1/diagrama-database-BC-notificaciones.png)
+
+
+---
+
+
+### 5.5.	Bounded Context:  Analítica y Reportes
+
+Este bounded context está orientado al procesamiento de información operativa para convertirla en métricas útiles para la toma de decisiones. El módulo ya no se limita a “mostrar reportes”, sino que genera indicadores de proyecto y de miembro, calcula rankings, administra presupuesto y calcula tarifas por hora. Eso lo vuelve más robusto y más cercano a una solución analítica real dentro del sistema.
+
+
+#### 5.5.1.	Domain Layer.
+
+
+La Domain Layer concentra las reglas que permiten construir métricas confiables a partir de proyectos, tareas y miembros. Los agregados principales son:
+
+- `ProjectAnalytics`
+- `MemberAnalytics`
+
+Estos agregados trabajan con objetos de valor como:
+
+- `DateRange`
+- `TaskStats`
+- `AverageMetric`
+- `BudgetUsage`
+
+Además, el contexto maneja datos como `bestMemberId`, `worstMemberId` y `rankingReason`, que permiten resumir el desempeño del equipo de forma interpretables por el usuario.
+
+La lógica de dominio se encarga de calcular conteos, promedios, horas invertidas, costo estimado, presupuesto usado y velocidad de trabajo, separando claramente el cálculo de negocio de la persistencia.
+
+
+
+#### 5.5.2.	Interface Layer.
+
+
+La Interface Layer expone los endpoints HTTP que permiten generar y consultar métricas vivas, tanto a nivel de proyecto como de miembro.
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| POST | `/api/v1/projects/{projectId}/analytics/generate` | Genera o actualiza las métricas del proyecto. |
+| GET | `/api/v1/projects/{projectId}/analytics` | Obtiene las métricas actuales del proyecto. |
+| POST | `/api/v1/projects/{projectId}/ranking/recalculate` | Recalcula el ranking del proyecto. |
+| GET | `/api/v1/projects/{projectId}/ranking` | Obtiene el ranking actual. |
+| PATCH | `/api/v1/projects/{projectId}/budget` | Actualiza el presupuesto del proyecto. |
+| POST | `/api/v1/projects/{projectId}/members/{memberId}/analytics/generate` | Genera métricas de un miembro. |
+| GET | `/api/v1/projects/{projectId}/members/{memberId}/analytics` | Obtiene las métricas de un miembro. |
+| PATCH | `/api/v1/projects/{projectId}/members/{memberId}/hourly-rate` | Actualiza la tarifa por hora del miembro. |
+
+Esta capa muestra con claridad el salto del trabajo actual: ahora el contexto analítico ya no es solo descriptivo, sino que permite consultar y recalcular información útil para seguimiento, presupuesto y desempeño.
+
+
+#### 5.5.3.	Application Layer.
+
+
+La Application Layer coordina el flujo de casos de uso mediante servicios de comando, consulta y eventos. Sus componentes principales son:
+
+- `ProjectAnalyticsCommandService`
+- `MemberAnalyticsCommandService`
+- `ProjectAnalyticsQueryService`
+- `MemberAnalyticsQueryService`
+
+También utiliza assemblers para convertir recursos HTTP en comandos o DTOs de salida. La lógica de aplicación administra la ejecución de casos como:
+
+- generar métricas de proyecto;
+- generar métricas de miembro;
+- recalcular ranking;
+- actualizar presupuesto aprobado/usado;
+- definir tarifa por hora;
+- responder consultas de dashboards.
+
+Esta capa funciona como el puente entre la interacción del usuario y el cálculo de negocio, manteniendo la arquitectura desacoplada y coherente con CQRS.
+
+
+
+#### 5.5.4.	Infrastructure Layer.
+
+
+La Infrastructure Layer implementa la persistencia de los agregados analíticos y las operaciones concretas sobre la base de datos. Los repositorios principales son:
+
+- `ProjectAnalyticsRepository`
+- `MemberAnalyticsRepository`
+
+Sus funciones incluyen recuperar métricas por proyecto o por miembro, guardar agregados actualizados y sostener la información necesaria para que los dashboards se mantengan consistentes. En esta capa no se calcula la lógica de negocio; solo se materializa y consulta la información procesada por las capas superiores.
+
+
+#### 5.5.6.	Bounded Context Software Architecture Component Level Diagrams.
+
+![ddd](assets/TP1/diagrama-componentes-BC-analiticayreportes2.png)
+
+
+#### 5.5.7.	Bounded Context Software Architecture Code Level Diagrams.
+
+Refleja cómo se implementan los agregados analíticos, los servicios de aplicación y la persistencia de métricas. Se muestra la separación entre la lógica de cálculo y el acceso a datos.
+
+
+##### 5.5.7.1.	Bounded Context Domain Layer Class Diagrams.
+
+![ddd](assets/TP1/diagrama-domain-BC-analiticayreportes.png)
+
+
+##### 5.5.7.2.	Bounded Context Database Design Diagram.
+
+![ddd](assets/TP1/diagrama-database-BC-analiticayreportes.png)
+
+
+---
+
+
+
+
+## Capítulo VI: Solution UX Design
+### 6.1 Product design  
+
+El diseño del producto de WorkHub se basa en un enfoque centrado en el usuario, priorizando la claridad visual, la accesibilidad y la eficiencia en la gestión colaborativa de proyectos. La interfaz busca ofrecer una experiencia intuitiva donde cada elemento, desde la navegación hasta la disposición de las tareas, responda a las necesidades reales de los equipos de trabajo. Este enfoque permite equilibrar estética y funcionalidad, garantizando una interacción fluida y coherente con los principios del diseño de experiencias digitales (Nielsen Norman Group, 2023).
+
+### 6.1. Style Guidelines  
+
+El diseño de estilo de WorkHub se fundamenta en la coherencia visual y la identidad de marca, garantizando una experiencia estética uniforme en todos los componentes de la interfaz. Se aplicó una paleta cromática equilibrada que combina tonos neutros con acentos contrastantes para resaltar acciones clave, junto con una tipografía moderna y legible que refuerza la claridad comunicativa. Asimismo, se definieron márgenes, espaciados y jerarquías visuales consistentes para mantener armonía entre las vistas de proyectos, tareas y estadísticas. Estas guías de estilo buscan no solo reforzar la identidad visual de la plataforma, sino también mejorar la usabilidad y la comprensión del contenido por parte del usuario (Interaction Design Foundation, 2022).
+
+#### 6.1.1. General Style Guidelines  
+
+**Branding**
+
+La identidad de TaskMaster refleja organización, colaboración y eficiencia. Su diseño combina colores cálidos y suaves que transmiten equilibrio y dinamismo, mientras que el logotipo y la interfaz proyectan una estética moderna y accesible. El branding busca conectar con jóvenes profesionales y estudiantes que valoran la simplicidad y la claridad en la gestión de proyectos.
+
+![ddd](assets/TP1/branding.png)
+
+**Color:**
+
+Para WorkHub, una plataforma de gestión colaborativa de proyectos y tareas, la paleta de colores busca reflejar claridad, accesibilidad y profesionalismo. Los tonos principales transmiten confianza y simplicidad, mientras que los secundarios se aplican en fondos, estados y tipografía para mantener equilibrio visual y una experiencia coherente.
+
+- Colores Primarios:
+  
+La paleta de colores primarios de TaskMaster representa la esencia visual de la aplicación. Combina tonos cálidos y profundos como el RedWine600 y el Coral300, que transmiten energía, compromiso y dinamismo, con matices suaves como Blush100, que equilibran la intensidad visual y aportan armonía. Estos colores se utilizan principalmente en elementos de acción, encabezados y fondos clave, reforzando la identidad de marca y asegurando una interfaz coherente y atractiva.
+
+![ddd](assets/TP1/primarycolor.png)
+
+| Nombre | Hex | Descripción |
+|---------|------|--------------|
+| Brownish900 | #332A2A | Fondo oscuro y texto principal en modo oscuro. |
+| Brownish800 | #452B2B | Fondo alternativo o contenedores secundarios en modo oscuro. |
+| AlertRed | #D90404 | Color de alerta o error para mensajes importantes o botones críticos. |
+| Blush100 | #F2D0D3 | Fondo claro o elementos de contraste suave en interfaces limpias. |
+| Coral300 | #F27979 | Color de acento cálido para destacar botones o indicadores secundarios. |
+| RedWine600 | #A62424 | Color principal de marca, utilizado en headers, íconos y botones primarios. |
+| RedWine500 | #733030 | Variante más oscura para hover states o sombreados de elementos activos. |
+
+- Colores Secundarios:
+
+Los colores secundarios complementan la identidad principal de TaskMaster, proporcionando versatilidad y contraste en la interfaz. Incluyen tonos neutros como Black, White y LightGray, que aportan claridad y estructura, junto con acentos vibrantes como BrightRed, VividGreen, SunYellow y los tonos Lavender, que añaden dinamismo y ayudan a resaltar estados o categorías dentro de la aplicación.
+
+![ddd](assets/TP1/secondarycolor.png)
+
+| Nombre          | Hex     | Descripción                                                                  |
+| --------------- | ------- | ---------------------------------------------------------------------------- |
+| **Black**       | #000000 | Usado para texto principal, íconos o elementos que requieren alto contraste. |
+| **White**       | #FFFFFF | Fondo base para mantener limpieza y legibilidad en la interfaz.              |
+| **LightGray**   | #EFEFEF | Fondo neutro o separador visual entre secciones y tarjetas.                  |
+| **BrightRed**   | #FF0000 | Indicador de error, advertencia o acciones críticas.                         |
+| **VividGreen**  | #00FF09 | Representa éxito, confirmaciones o tareas completadas.                       |
+| **SunYellow**   | #FFD900 | Utilizado para advertencias suaves o resaltado de información importante.    |
+| **Lavender600** | #A06FC3 | Color de acento decorativo en componentes secundarios.                       |
+| **Lavender500** | #AC89C4 | Variante más clara del acento, aplicada en fondos o detalles visuales.       |
+
+
+**Typography**
+
+La tipografía de TaskMaster refuerza su enfoque en la claridad y la modernidad. Se emplea Sulphur Point para títulos y encabezados, transmitiendo fuerza y presencia visual, mientras que MS Reference Sans Serif se utiliza para textos descriptivos y funcionales, garantizando legibilidad en cualquier tamaño o dispositivo. La jerarquía tipográfica está cuidadosamente definida para guiar la atención del usuario y mantener una experiencia visual equilibrada.
+
+![ddd](assets/TP1/tipografia.png)
+
+#### 6.1.2. Web, Mobile & Devices Style Guidelines.
+
+Para la interfaz móvil (Android e iOS) y web de TaskMaster se adopta un estilo de diseño minimalista, limpio y profesional, orientado a optimizar la claridad y la eficiencia en la interacción; considerando nuestros segmentos objetivo, se prioriza una estructura visual ordenada con una jerarquía bien definida, el uso de tipografía moderna y legible, y componentes correctamente alineados que faciliten una navegación intuitiva, buscando así reducir la carga cognitiva del usuario, permitir una rápida comprensión del estado de los proyectos y transmitir confianza, seriedad y profesionalismo en entornos empresariales.
+
+Los principios clave de diseño incluyen:
+
+- Uso predominante de **Sulphur Point** para títulos y encabezados, aportando fuerza y presencia visual. 
+- Para textos descriptivos, funcionales y de lectura prolongada, se emplea **MS Reference Sans Serif**, garantizando una legibilidad óptima en cualquier dispositivo.
+- Diseño centrado en la eficiencia con espaciado generoso, alineaciones consistentes y márgenes equilibrados para guiar la atención del usuario sin distracciones.
+- Uso de íconos lineales que representan con claridad las funciones de productividad de la plataforma.
+- Aplicación estratégica de la paleta de colores.
+
+**iOS Mobile Style Guidelines**
+
+Para los dispositivos iOS, se implementarán las directrices de Apple Human Interface Guidelines, integrando la identidad visual específica de TaskMaster:
+
+- **Tipografía**: Se utiliza Sulphur Point para otorgar fuerza a los encabezados y títulos, mientras que MS Reference Sans Serif se emplea en el cuerpo de texto para asegurar una legibilidad superior.
+
+- **Escala Tipográfica Sugerida:**
+
+  - Título: 26 pt
+
+  - Subtítulo: 18 pt
+
+  - Cuerpo: 16 pt
+
+- **Esquema Cromático:**
+
+  - Acciones Principales: Botones con fondo RedWine 600 (#A62424) y texto en contraste claro.
+
+  - Interfaz Base: Fondo general en blanco para una apariencia limpia.
+
+  - Contenido Textual: Brownish 900 (#332A2A) para máxima claridad.
+
+- **Interacción Táctil:** Los elementos interactivos mantendrán un área de contacto mínima de 66x66 pt.
+
+- **Suavizado de Bordes:** Radio de 8–10 pt en tarjetas, contenedores y botones para una estética moderna.
+
+- **Estructura de Navegación:** Implementación de una organización jerarquica, secuencial y matricial.
+
+**Android Mobile Style Guidelines**
+
+En la plataforma Android, se adoptarán los principios de Material Design, personalizados para el ecosistema visual de TaskMaster:
+
+**Tipografía:** Sulphur Point para elementos de impacto visual (encabezados) y MS Reference Sans Serif para descripciones y textos funcionales.
+
+- Escala de Fuente Recomendada:
+
+  - Título: 22–26 sp
+
+  - Subtítulo: 16–18 sp
+
+  - Cuerpo: 16 sp
+
+- **Esquema Cromático:**
+
+  - Elementos Primarios: Uso de RedWine 600 (#A62424) con texto en blanco.
+
+  - Acentos: Coral 300 (#F27979) para destacar indicadores secundarios o botones de menor jerarquía.
+
+  - Superficie: Fondo general en blanco para una apariencia limpia.
+
+  - Contenido Textual: Brownish 900 (#332A2A) para máxima claridad.
+
+  - Ergonomía Digital: Espaciado táctil garantizado de al menos 66x66 dp por cada componente accionable.
+
+- **Elevación y Relieve:** Uso de sombras suaves para distinguir botones flotantes (FAB) y tarjetas de información.
+
+- **Navegación y Dinamismo:** Implementación de una organización jerarquica, secuencial y matricial.
+
+### 6.2. Information Architecture  
+
+La Arquitectura de la Información de TaskMaster se basa en una estructura jerárquica y organizada que permite al usuario acceder de manera intuitiva a las diferentes funciones del sistema. Como señalan Morville y Rosenfeld (2006), una buena arquitectura de la información “proporciona estructura, significado y contexto a los datos, facilitando su comprensión y uso eficiente”. En concordancia con este enfoque, TaskMaster organiza su contenido en secciones principales como proyectos, tareas, estadísticas y notificaciones, promoviendo una experiencia de navegación coherente, accesible y centrada en el usuario.
+
+#### 6.2.1. Organization Systems  
+
+En TaskMaster, se emplean diferentes sistemas de organización del contenido para garantizar una experiencia de uso clara, estructurada y enfocada en la productividad.
+
+Organización Jerárquica: En la pantalla principal y en el panel de proyectos, se prioriza la información esencial, mostrando primero los proyectos activos, las tareas pendientes y los avances recientes. Esta jerarquía visual permite que los usuarios comprendan rápidamente el estado general de su trabajo y luego profundicen en detalles específicos de cada proyecto o tarea.
+
+Organización Secuencial: Aplicada en los flujos de registro, creación de proyectos y asignación de tareas, donde el usuario avanza paso a paso siguiendo un orden lógico. Este enfoque facilita el aprendizaje inicial y evita errores durante la configuración o actualización de información.
+
+Organización Matricial: Presente en la sección de tareas y estadísticas, donde el usuario puede filtrar y cruzar información por estado, prioridad, responsable o fecha límite. Esto permite visualizar los datos desde distintos enfoques, adaptándose a las necesidades de planificación y seguimiento de cada equipo.
+
+En cuanto a los tipos de clasificación empleados:
+
+Por proyecto: Todas las tareas, recursos y miembros se agrupan dentro de su respectivo proyecto, promoviendo la organización y el trabajo en equipo.
+
+Por prioridad: Las tareas se categorizan según su nivel de urgencia o importancia, facilitando la gestión del tiempo y la toma de decisiones.
+
+Cronológica: Las actividades y notificaciones se ordenan por fecha, lo que permite un control eficiente del progreso y las próximas entregas.
+
+
+#### 6.2.2. Labelling Systems  
+
+En TaskMaster, se implementó un sistema de etiquetas simple, directo y coherente con las funciones principales de la aplicación. El objetivo fue que los usuarios identifiquen rápidamente cada sección sin necesidad de aprendizaje previo, utilizando palabras cortas, comunes y de uso cotidiano.
+
+Las etiquetas definidas son:
+
+- Proyectos
+
+- Calendario
+
+- Notificaciones
+
+- Tareas
+
+- Perfil
+
+- Membresías
+
+Cada etiqueta fue seleccionada para reflejar de manera inmediata la acción o información que el usuario encontrará. Por ejemplo, en “Proyectos”, el usuario puede visualizar y gestionar todos sus proyectos activos; en “Calendario”, consultar plazos y entregas; mientras que “Notificaciones” concentra avisos sobre actualizaciones o colaboraciones recientes. Asimismo, se evitó el uso de tecnicismos o nombres abstractos, priorizando la claridad, consistencia y familiaridad con el lenguaje cotidiano del público objetivo.
+
+#### 6.2.3. Searching Systems  
+
+Las funciones de búsqueda en TaskMaster se han diseñado para que los usuarios puedan encontrar rápidamente información relevante sin sentirse abrumados por la cantidad de datos disponibles. El objetivo es ofrecer una navegación eficiente, precisa y centrada en la productividad dentro de la aplicación. A continuación, se detallan las principales opciones de búsqueda y los filtros implementados, así como la forma en que se muestran los resultados.
+
+Barra de búsqueda global:
+En la pantalla principal de la aplicación se implementa una barra de búsqueda que permite localizar proyectos, tareas o notificaciones específicas. Esta barra se encuentra en la parte superior, accesible en todo momento, y utiliza sugerencias automáticas para agilizar la búsqueda.
+
+Búsqueda de notificaciones:
+En el módulo de Notificaciones, los usuarios pueden ingresar palabras clave para filtrar avisos relacionados con actualizaciones de tareas, cambios de estado o nuevas asignaciones. Los resultados se muestran de manera cronológica, priorizando las notificaciones más recientes y relevantes.
+
+Búsqueda de tareas:
+En la sección de Tareas, los usuarios pueden buscar tareas por nombre, estado o prioridad. Además, es posible filtrar por fecha límite o miembro asignado. Al seleccionar una tarea, se despliega una vista detallada con la descripción, progreso y responsable, permitiendo acceder a toda la información sin salir del módulo principal.
+
+Búsqueda de proyectos:
+En el módulo de Proyectos, se permite localizar proyectos activos o archivados ingresando su nombre o identificador. Los resultados muestran el nombre del proyecto, presupuesto, fechas de inicio y fin, y estado actual. Esta funcionalidad ayuda a los usuarios a acceder de manera inmediata al proyecto que desean gestionar.
+
+Búsqueda de proyectos con tareas asignadas:
+TaskMaster incluye un filtro combinado que permite visualizar proyectos que contienen tareas activas asignadas a un usuario específico. Esto facilita el seguimiento del trabajo individual y grupal, permitiendo a los líderes de proyecto identificar rápidamente qué miembros tienen responsabilidades en curso y en qué proyectos están involucrados.
+
+#### 6.2.4. SEO Tags and Meta Tags  
+
+Esta sección define cómo se implementarán las etiquetas de optimización para motores de búsqueda en el sitio web y cómo se optimizará la presencia de TaskMaster en la Play Store. El objetivo es mejorar la visibilidad de la plataforma, atraer tráfico orgánico y asegurar que tanto los usuarios como los motores de búsqueda comprendan de inmediato el propósito de la aplicación.
+
+Para Landing Page Web:
+
+- Title: TaskMaster - Gestiona tus proyectos de manera colaborativa y eficiente
+
+- Meta Description: Plataforma colaborativa para planificar, asignar y controlar tareas en equipo. Gestiona proyectos, establece prioridades y visualiza el progreso en tiempo real con TaskMaster.
+
+- Meta Keywords: gestión de proyectos, tareas colaborativas, productividad, trabajo en equipo, organización digital, app de gestión, seguimiento de tareas
+
+- Meta Author: WorkHub - TaskMaster Team
+
+Para Mobile App (Play Store):
+
+- App Title: TaskMaster: Gestión de Proyectos y Tareas
+
+- App Keywords: proyectos, tareas, colaboración, productividad, organización, planificación, trabajo en equipo, gestión ágil
+
+- App Subtitle: Organiza, planifica y colabora con tu equipo desde una sola aplicación.
+
+- App Description: TaskMaster es una aplicación diseñada para optimizar la gestión de proyectos y tareas en equipos de trabajo. Permite asignar responsabilidades, definir fechas límite, establecer prioridades y monitorear el progreso en tiempo real. Con una interfaz moderna y accesible, TaskMaster impulsa la productividad, mejora la comunicación y ayuda a mantener el control total de cada proyecto, desde la planificación hasta la ejecución. Ideal para estudiantes, profesionales y equipos que buscan trabajar de forma organizada y eficiente.
+
+#### 6.2.5. Navigation Systems  
+La estructura de navegación de TaskMaster ha sido diseñada para ofrecer una experiencia de usuario intuitiva, fluida y coherente entre la versión web y la aplicación móvil. Su objetivo es facilitar el acceso a la información, garantizar una interacción eficiente y mantener una organización visual clara que optimice la productividad del usuario.
+
+Landing Page (Web):
+
+La barra de navegación principal, ubicada en la parte superior de la página, permite a los usuarios desplazarse rápidamente por las secciones informativas del sitio. Las secciones disponibles son:
+
+Características: Presenta las principales funcionalidades de la plataforma y sus ventajas competitivas.
+
+Beneficios: Explica cómo TaskMaster mejora la gestión de proyectos y la colaboración en equipo.
+
+Nosotros: Muestra la historia, misión y valores del equipo desarrollador de WorkHub.
+
+FAQ: Contiene preguntas frecuentes que resuelven dudas comunes sobre el uso de la plataforma.
+
+Contáctanos: Proporciona formularios y datos de contacto para soporte y consultas directas.
+
+Aplicación Móvil:
+
+En la versión móvil, la navegación se organiza mediante una barra inferior fija con iconos intuitivos que representan las secciones más utilizadas por los usuarios. Las opciones principales son:
+
+Proyectos: Permite visualizar, crear y gestionar proyectos activos.
+
+Calendario: Muestra las fechas de inicio, vencimiento y progreso de las tareas programadas.
+
+Tareas: Acceso directo a las tareas personales o asignadas dentro de los proyectos.
+
+Notificaciones: Centraliza los avisos sobre actualizaciones, asignaciones o cambios de estado.
+
+Perfil: Permite al usuario visualizar y editar su información personal, membresía y estadísticas.
+
+### 6.3. Landing Page UI Design  
+
+El wireframe de la Landing Page de TaskMaster representa la estructura base y la distribución visual del sitio web antes de su diseño final. Su propósito es definir la jerarquía de la información, la ubicación de los elementos clave y el flujo de navegación que guiará al usuario desde su primera interacción. Este esquema permite visualizar de forma clara cómo se organizan las secciones principales como Características, Beneficios, Nosotros, FAQ y Contáctanos, garantizando una experiencia coherente, intuitiva y alineada con los objetivos de comunicación y promoción de la plataforma.
+
+#### 6.3.1. Landing Page Wireframe  
+
+En esta sección se presenta la estructura base de la página principal del proyecto, mostrando la disposición inicial de los elementos visuales y la jerarquía de contenido. El wireframe permite definir la arquitectura de información antes de aplicar estilos gráficos o componentes interactivos.
+
+![Inicio Wireframe](assets/TP1/L1.png)  
+![Características Wireframe](assets/TP1/L2.png)  
+![About the Team Wireframe](assets/TP1/L3.png)  
+![Beneficios](assets/TP1/L4.png)
+![Nosotros Wireframe](assets/TP1/L5.png)  
+![About the Team Wireframe](assets/TP1/L6.png)  
+![Contáctanos Wireframe](assets/TP1/L7.png)  
+
+#### 6.3.2. Landing Page Mock-up  
+
+El mock-up de la Landing Page muestra la propuesta visual final, incorporando colores, tipografía y estilo gráfico definidos en la guía de diseño. Este prototipo de alta fidelidad permite visualizar la apariencia y coherencia estética del sitio web antes de su desarrollo.
+
+![Inicio Mockup](assets/TP1/LA1.png)  
+![Inicio Mockup](assets/TP1/LA2.png)  
+![Inicio Mockup](assets/TP1/LA3.png)  
+![Inicio Mockup](assets/TP1/LA4.png)  
+![Inicio Mockup](assets/TP1/LA5.png)  
+![Inicio Mockup](assets/TP1/landing1.png)  
+![Inicio Mockup](assets/TP1/LA7.png)  
+
+### 6.4.	Applications UX/UI Design
+
+Esta sección detalla el proceso de diseño de la experiencia (UX) y la interfaz de usuario (UI) de la aplicación móvil y web, enfocado en ofrecer una navegación intuitiva, coherente y funcional. Se abordan los lineamientos visuales, interacción y usabilidad general del sistema.
+
+#### 6.4.1.	Applications Wireframes
+
+**Web Applications Wireframes**  
+
+Los wireframes de la aplicación web muestran la distribución estructural de los módulos, componentes y funcionalidades principales del sistema en un entorno de escritorio. El diseño propuesto aplica principios de arquitectura de información, consistencia visual y diseño centrado en el usuario, facilitando la navegación y comprensión de las distintas secciones de la plataforma. Además, se consideran elementos de diseño inclusivo y organización funcional para optimizar la experiencia de usuario y la interacción con el sistema.
+
+![Web Application Wireframe](assets/TP1/wireframe_web1.png)
+![Web Application Wireframe](assets/TP1/wireframe_web2.png)
+![Web Application Wireframe](assets/TP1/wireframe_web3.png)
+![Web Application Wireframe](assets/TP1/wireframe_web4.png)
+![Web Application Wireframe](assets/TP1/wireframe_web5.png)
+![Web Application Wireframe](assets/TP1/wireframe_web6.png)
+![Web Application Wireframe](assets/TP1/wireframe_web7.png)
+![Web Application Wireframe](assets/TP1/wireframe_web8.png)
+![Web Application Wireframe](assets/TP1/wireframe_web9.png)
+![Web Application Wireframe](assets/TP1/wireframe_web10.png)
+![Web Application Wireframe](assets/TP1/wireframe_web11.png)
+![Web Application Wireframe](assets/TP1/wireframe_web12.png)
+![Web Application Wireframe](assets/TP1/wireframe_web13.png)
+![Web Application Wireframe](assets/TP1/wireframe_web14.png)
+
+**Mobile Applications Wireframes**
+
+Los wireframes de la aplicación móvil presentan la estructura visual y funcional de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se consideran principios de usabilidad, jerarquía visual, accesibilidad y navegación intuitiva, permitiendo que los usuarios puedan interactuar de manera eficiente con las funcionalidades del sistema. Además, se evidencia la organización de la información y los flujos de interacción definidos para mejorar la experiencia de usuario en entornos móviles.
+
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile1.png)
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile2.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile3.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile4.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile5.png) 
+![Mobile Application Wireframe](assets/TP1/wireframe_mobile6.png) 
+
+
+#### 6.4.2.	Applications Wireflow Diagrams
+
+Esta sección presenta los diagramas de Wireflow de las aplicaciones móvil y web, los cuales representan el flujo de interacción de los usuarios a través de las diferentes pantallas del sistema. Cada Wireflow se desarrolla a partir de un User Goal y su correspondiente Task Flow, permitiendo visualizar la secuencia de acciones, navegación y cambios de estado entre interfaces. Asimismo, los diagramas evidencian la aplicación de principios de usabilidad, arquitectura de información y diseño centrado en el usuario.
+
+**User Goal: Como usuario registrado quiero autenticarme con mis credenciales para acceder a mi cuenta y gestionar mis proyectos.**
+
+El wireflow comienza cuando el usuario se encuentra en la pantalla de inicio de sesión. El flujo principal consiste en ingresar las credenciales (correo electrónico y contraseña) y presionar el botón "Iniciar sesión". El sistema valida la información y, si es correcta, redirige al usuario al dashboard principal de TaskMaster, donde puede comenzar a gestionar sus proyectos. Si las credenciales son inválidas, el sistema muestra un mensaje de error y permanece en la misma pantalla.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow1.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web1.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile1.png)
+
+---
+
+**User Goal: Como visitante quiero registrarme en la plataforma proporcionando mis datos básicos para crear una cuenta y acceder a las funcionalidades de TaskMaster.**
+
+El wireflow inicia en la pantalla de inicio de sesión, donde el usuario selecciona la opción "Unirse" o "Registrarse". El sistema lo dirige al formulario de registro, donde debe completar los datos básicos (nombre, correo, contraseña, etc.). Al presionar "Registrarse", el sistema valida la información. Si el registro es exitoso, el sistema crea la cuenta y redirige al usuario al dashboard. Si el correo ya existe, se muestra un mensaje de error y se solicita un correo diferente.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow2.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web2.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile2.png)
+
+---
+
+**User Goal: Como usuario registrado quiero modificar mi información de perfil para mantener mis datos actualizados.**
+
+El wireflow comienza en el dashboard principal. El usuario hace clic en la opción "Perfil". Se muestra su información actual. Luego, selecciona "Editar", modifica los campos deseados y hace clic en "Guardar". El sistema valida los cambios y los actualiza en la base de datos, mostrando la información actualizada en la pantalla de perfil.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow3.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web3.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile3.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear un nuevo proyecto para organizar las tareas y asignar responsables de manera estructurada.**
+
+El wireflow inicia en la pantalla principal de "Proyectos". El usuario (Team Leader) hace clic en "Crear nuevo proyecto". Se abre un formulario donde completa los datos requeridos. Al hacer clic en "Crear", el sistema valida los datos. Si la validación es exitosa, el sistema registra el proyecto y lo muestra en la lista de proyectos del líder.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow4.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web4.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile4.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de un proyecto existente para mantener la información actualizada.**
+
+El wireflow comienza en la pantalla de "Proyectos". El usuario selecciona un proyecto y hace clic en "Editar proyecto". Se muestra un formulario con los datos actuales. El usuario modifica la información y hace clic en "Editar". El sistema valida y actualiza los datos, mostrando la información del proyecto actualizada.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow5.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web5.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile5.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un proyecto que ya no es necesario para mantener el espacio de trabajo organizado.**
+
+El flujo inicia en la pantalla de "Proyectos". El usuario hace clic en "Eliminar proyecto" para un proyecto específico. El sistema muestra un diálogo de confirmación para evitar eliminaciones accidentales. Al hacer clic en "Confirmar", el sistema elimina el proyecto de la base de datos y lo remueve de la lista visible en la interfaz del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow6.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web6.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile6.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear una nueva tarea dentro de un proyecto para distribuir el trabajo.**
+
+Este flujo comienza en la pantalla de "Proyectos". El usuario hace clic en un proyecto específico, accediendo a la "Pantalla de tareas". Luego, hace clic en "Añadir nueva tarea". Completa los datos y hace clic en "Crear". El sistema valida y registra la tarea, mostrándola en la lista de tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow7.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web7.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile7.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de una tarea, como su prioridad o fecha límite.**
+
+Este flujo inicia en la pantalla de tareas de un proyecto. El usuario hace clic en "Editar tarea" para una tarea específica. Se muestra un formulario con los datos actuales. El usuario modifica los campos necesarios. Al hacer clic en "Editar", el sistema valida los cambios y los actualiza, mostrando la información de la tarea actualizada en la lista.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow8.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web8.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile8.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar una tarea que ya no es relevante para el proyecto.**
+
+El wireflow comienza en la pantalla de tareas de un proyecto. El usuario identifica la tarea y hace clic en "Eliminar tarea". El sistema muestra un diálogo de confirmación para prevenir errores. Al confirmar, el sistema elimina la tarea de la base de datos y actualiza la interfaz, removiendo la tarea de la lista visible.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow9.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web9.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile9.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver métricas de rendimiento y visualizar análisis de un proyecto para identificar riesgos.**
+
+Este comienza en el dashboard principal. El usuario (Team Leader) hace clic en la sección "Analíticas". Luego, debe seleccionar un proyecto específico del cual desea ver el rendimiento. El sistema procesa la solicitud y muestra una pantalla con gráficos y reportes del proyecto seleccionado, incluyendo tareas completadas, retrasadas, porcentaje de avance e indicadores de riesgo.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow10.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web10.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile10.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero visualizar un calendario con mis tareas y alertas inteligentes para anticipar entregas.**
+
+Este wireflow inicia en el dashboard principal del usuario (miembro del equipo o líder). El usuario hace clic en la sección "Calendario". El sistema carga todas las tareas asignadas al usuario con sus respectivas fechas límite y las muestra distribuidas en una vista de calendario. Las tareas próximas a vencer o con riesgo de retraso se resaltan visualmente, cumpliendo con el criterio de alertas inteligentes.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow11.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web11.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile11.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver la lista de miembros de un proyecto para gestionar el equipo.**
+
+El wireflow comienza en el dashboard principal. El usuario hace clic en la sección "Equipo". Luego, selecciona un proyecto específico del cual desea ver los miembros. El sistema muestra una pantalla con la lista de todos los usuarios asignados a ese proyecto, junto con su rol y otra información relevante.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow12.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web12.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile12.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un miembro de un proyecto para gestionar la composición del equipo.**
+
+Inicia en la pantalla del equipo, con un proyecto seleccionado. El usuario localiza al miembro y hace clic en "Eliminar miembro". El sistema muestra un diálogo de confirmación. Al confirmar, el sistema elimina la asociación del usuario con el proyecto, removiéndolo de la lista de miembros visible y revocando su acceso a las tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow13.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web13.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile13.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero unirme a un proyecto existente mediante un código de acceso para colaborar.**
+
+Este wireflow comienza en la pantalla principal de "Proyectos". El usuario tiene la opción de "Ingresar código de proyecto". El usuario introduce el código de acceso único proporcionado por el Team Leader. El sistema valida el código. Si es válido y no ha caducado, la unión es exitosa y el proyecto aparece en la lista de proyectos del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow14.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web14.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile14.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero actualizar el estado de una tarea a completada para reflejar mi progreso.**
+
+Este wireflow comienza en la pantalla de tareas de un proyecto. El usuario localiza una tarea que le ha sido asignada. Al hacer clic en el checkbox correspondiente a esa tarea, el sistema cambia el estado de la tarea de "Pendiente" o "En progreso" a "Completada". Este cambio se refleja inmediatamente en la interfaz de usuario y en las métricas del proyecto para todos los miembros.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow15.png)
+
+**Wireflows**
+
+![Wireflow Web](assets/TP1/wireflow_web15.png)
+![Wireflow Mobile](assets/TP1/wireflow_mobile15.png)
+
+
+#### 6.4.3.	Applications Mock-ups
+
+**Web Applications Mock-ups**
+
+Los mock-ups de la aplicación web presentan la propuesta visual final de la plataforma, incorporando los componentes gráficos, la paleta de colores, la tipografía, la iconografía y los estilos definidos en el Design System del proyecto. Estas representaciones permiten visualizar con mayor precisión la experiencia de usuario esperada, evidenciando la aplicación de principios de diseño visual, jerarquía de información, consistencia, accesibilidad y diseño inclusivo. Asimismo, reflejan la arquitectura de información establecida para facilitar la navegación y la interacción eficiente de los usuarios dentro de los distintos módulos del sistema.
+
+![Web Application Mock-up](assets/TB2/mockup_web1.png)
+![Web Application Mock-up](assets/TB2/mockup_web2.png)
+![Web Application Mock-up](assets/TB2/mockup_web3.png)
+![Web Application Mock-up](assets/TB2/mockup_web4.png)
+![Web Application Mock-up](assets/TB2/mockup_web5.png)
+![Web Application Mock-up](assets/TB2/mockup_web6.png)
+![Web Application Mock-up](assets/TB2/mockup_web7.png)
+![Web Application Mock-up](assets/TB2/mockup_web8.png)
+![Web Application Mock-up](assets/TB2/mockup_web9.png)
+![Web Application Mock-up](assets/TB2/mockup_web10.png)
+![Web Application Mock-up](assets/TB2/mockup_web11.png)
+![Web Application Mock-up](assets/TB2/mockup_web12.png)
+![Web Application Mock-up](assets/TB2/mockup_web13.png)
+![Web Application Mock-up](assets/TB2/mockup_web14.png)
+
+**Mobile Applications Mock-ups**
+
+Los mock-ups de la aplicación móvil muestran el diseño visual final de las principales pantallas orientadas a la gestión de proyectos y tareas desde dispositivos móviles. En esta propuesta se integran los elementos visuales definidos en el Design System, garantizando consistencia entre las diferentes interfaces del producto digital. Además, se aplican principios de usabilidad, accesibilidad, diseño inclusivo y jerarquía visual para optimizar la experiencia del usuario, permitiendo una navegación intuitiva y una interacción eficiente con las funcionalidades disponibles en entornos móviles.
+
+![Mobile Application Mock-up](assets/TB2/mockup_mobile1.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile2.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile3.png)
+![Mobile Application Mock-up](assets/TB2/mockup_mobile4.png)
+ 
+
+#### 6.4.4.	Applications User Flow Diagrams
+
+Esta sección presenta los User Flow Diagrams de la aplicación web, los cuales representan la interacción completa del usuario utilizando las interfaces visuales finales (mock-ups) desarrolladas para el sistema. Estos diagramas se derivan directamente de los Wireflows previamente definidos, incorporando los mock-ups finales de la aplicación para representar la experiencia visual definitiva del usuario.
+
+Cada User Flow se construye a partir de un User Goal y muestra tanto la ruta principal de éxito (Happy Path) como las posibles rutas alternativas o de error (Unhappy Paths). Asimismo, los diagramas evidencian la aplicación de principios de usabilidad, arquitectura de información, accesibilidad y diseño centrado en el usuario, garantizando una experiencia consistente y alineada con el Design System establecido para la solución.
+
+**User Goal: Como usuario registrado quiero autenticarme con mis credenciales para acceder a mi cuenta y gestionar mis proyectos.**
+
+El User Flow comienza cuando el usuario se encuentra en la pantalla de inicio de sesión. El flujo principal consiste en ingresar las credenciales (correo electrónico y contraseña) y presionar el botón "Iniciar sesión". El sistema valida la información y, si es correcta, redirige al usuario al dashboard principal de TaskMaster, donde puede comenzar a gestionar sus proyectos. Si las credenciales son inválidas, el sistema muestra un mensaje de error y permanece en la misma pantalla.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow1.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web1.png)
+
+---
+
+**User Goal: Como visitante quiero registrarme en la plataforma proporcionando mis datos básicos para crear una cuenta y acceder a las funcionalidades de TaskMaster.**
+
+El User Flow inicia en la pantalla de inicio de sesión, donde el usuario selecciona la opción "Unirse" o "Registrarse". El sistema lo dirige al formulario de registro, donde debe completar los datos básicos (nombre, correo, contraseña, etc.). Al presionar "Registrarse", el sistema valida la información. Si el registro es exitoso, el sistema crea la cuenta y redirige al usuario al dashboard. Si el correo ya existe, se muestra un mensaje de error y se solicita un correo diferente.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow2.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web2.png)
+
+---
+
+**User Goal: Como usuario registrado quiero modificar mi información de perfil para mantener mis datos actualizados.**
+
+El User Flow comienza en el dashboard principal. El usuario hace clic en la opción "Perfil". Se muestra su información actual. Luego, selecciona "Editar", modifica los campos deseados y hace clic en "Guardar". El sistema valida los cambios y los actualiza en la base de datos, mostrando la información actualizada en la pantalla de perfil.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow3.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web3.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear un nuevo proyecto para organizar las tareas y asignar responsables de manera estructurada.**
+
+El User Flow inicia en la pantalla principal de "Proyectos". El usuario (Team Leader) hace clic en "Crear nuevo proyecto". Se abre un formulario donde completa los datos requeridos. Al hacer clic en "Crear", el sistema valida los datos. Si la validación es exitosa, el sistema registra el proyecto y lo muestra en la lista de proyectos del líder.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow4.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web4.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de un proyecto existente para mantener la información actualizada.**
+
+El User Flow comienza en la pantalla de "Proyectos". El usuario selecciona un proyecto y hace clic en "Editar proyecto". Se muestra un formulario con los datos actuales. El usuario modifica la información y hace clic en "Editar". El sistema valida y actualiza los datos, mostrando la información del proyecto actualizada.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow5.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web5.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un proyecto que ya no es necesario para mantener el espacio de trabajo organizado.**
+
+El flujo inicia en la pantalla de "Proyectos". El usuario hace clic en "Eliminar proyecto" para un proyecto específico. El sistema muestra un diálogo de confirmación para evitar eliminaciones accidentales. Al hacer clic en "Confirmar", el sistema elimina el proyecto de la base de datos y lo remueve de la lista visible en la interfaz del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow6.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web6.png)
+
+---
+
+**User Goal: Como líder de equipo quiero crear una nueva tarea dentro de un proyecto para distribuir el trabajo.**
+
+Este flujo comienza en la pantalla de "Proyectos". El usuario hace clic en un proyecto específico, accediendo a la "Pantalla de tareas". Luego, hace clic en "Añadir nueva tarea". Completa los datos y hace clic en "Crear". El sistema valida y registra la tarea, mostrándola en la lista de tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow7.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web7.png)
+
+---
+
+**User Goal: Como líder de equipo quiero modificar los detalles de una tarea, como su prioridad o fecha límite.**
+
+Este flujo inicia en la pantalla de tareas de un proyecto. El usuario hace clic en "Editar tarea" para una tarea específica. Se muestra un formulario con los datos actuales. El usuario modifica los campos necesarios. Al hacer clic en "Editar", el sistema valida los cambios y los actualiza, mostrando la información de la tarea actualizada en la lista.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow8.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web8.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar una tarea que ya no es relevante para el proyecto.**
+
+El User Flow comienza en la pantalla de tareas de un proyecto. El usuario identifica la tarea y hace clic en "Eliminar tarea". El sistema muestra un diálogo de confirmación para prevenir errores. Al confirmar, el sistema elimina la tarea de la base de datos y actualiza la interfaz, removiendo la tarea de la lista visible.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow9.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web9.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver métricas de rendimiento y visualizar análisis de un proyecto para identificar riesgos.**
+
+Este comienza en el dashboard principal. El usuario (Team Leader) hace clic en la sección "Analíticas". Luego, debe seleccionar un proyecto específico del cual desea ver el rendimiento. El sistema procesa la solicitud y muestra una pantalla con gráficos y reportes del proyecto seleccionado, incluyendo tareas completadas, retrasadas, porcentaje de avance e indicadores de riesgo.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow10.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web10.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero visualizar un calendario con mis tareas y alertas inteligentes para anticipar entregas.**
+
+Este User Flow inicia en el dashboard principal del usuario (miembro del equipo o líder). El usuario hace clic en la sección "Calendario". El sistema carga todas las tareas asignadas al usuario con sus respectivas fechas límite y las muestra distribuidas en una vista de calendario. Las tareas próximas a vencer o con riesgo de retraso se resaltan visualmente, cumpliendo con el criterio de alertas inteligentes.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow11.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web11.png)
+
+---
+
+**User Goal: Como líder de equipo quiero ver la lista de miembros de un proyecto para gestionar el equipo.**
+
+El User Flow comienza en el dashboard principal. El usuario hace clic en la sección "Equipo". Luego, selecciona un proyecto específico del cual desea ver los miembros. El sistema muestra una pantalla con la lista de todos los usuarios asignados a ese proyecto, junto con su rol y otra información relevante.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow12.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web12.png)
+
+---
+
+**User Goal: Como líder de equipo quiero eliminar un miembro de un proyecto para gestionar la composición del equipo.**
+
+Inicia en la pantalla del equipo, con un proyecto seleccionado. El usuario localiza al miembro y hace clic en "Eliminar miembro". El sistema muestra un diálogo de confirmación. Al confirmar, el sistema elimina la asociación del usuario con el proyecto, removiéndolo de la lista de miembros visible y revocando su acceso a las tareas del proyecto.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow13.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web13.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero unirme a un proyecto existente mediante un código de acceso para colaborar.**
+
+Este User Flow comienza en la pantalla principal de "Proyectos". El usuario tiene la opción de "Ingresar código de proyecto". El usuario introduce el código de acceso único proporcionado por el Team Leader. El sistema valida el código. Si es válido y no ha caducado, la unión es exitosa y el proyecto aparece en la lista de proyectos del usuario.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow14.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web14.png)
+
+---
+
+**User Goal: Como miembro del equipo quiero actualizar el estado de una tarea a completada para reflejar mi progreso.**
+
+Este User Flow comienza en la pantalla de tareas de un proyecto. El usuario localiza una tarea que le ha sido asignada. Al hacer clic en el checkbox correspondiente a esa tarea, el sistema cambia el estado de la tarea de "Pendiente" o "En progreso" a "Completada". Este cambio se refleja inmediatamente en la interfaz de usuario y en las métricas del proyecto para todos los miembros.
+
+**Task Flow**
+
+![Task Flow](assets/TP1/task_flow15.png)
+
+**User Flow**
+
+![User Flow Web](assets/TB2/user_flow_web15.png)
+
+
+### 6.5. Applications Prototyping.
+
+Esta sección presenta los prototipos interactivos desarrollados para las aplicaciones web y móvil de la solución. Los prototipos permiten simular la navegación, las transiciones entre pantallas y las principales interacciones definidas en los User Flow Diagrams, proporcionando una representación cercana al comportamiento esperado del producto final.
+
+Las decisiones de interacción fueron tomadas considerando principios de usabilidad, accesibilidad y diseño centrado en el usuario. Asimismo, se mantuvo coherencia con la arquitectura de información definida previamente, implementando sistemas de navegación intuitivos, consistentes y alineados con las necesidades de cada segmento objetivo. Los prototipos incluyen interacciones orientadas a facilitar la ejecución de tareas frecuentes, reducir la carga cognitiva del usuario y mejorar la experiencia de navegación dentro de la plataforma.
+
+**Web Application Prototyping - Team Leader**
+
+El prototipo de la aplicación web para el segmento objetivo Team Leader permite simular los principales flujos relacionados con la gestión de proyectos, administración de tareas, monitoreo del rendimiento del equipo y visualización de analíticas. Durante la demostración se evidencian los flujos de creación, edición y eliminación de proyectos y tareas, así como la gestión de miembros y el seguimiento del progreso de los proyectos.
+
+**Screenshot del video:**
+
+![Web Prototype Team Leader](assets/TB2/prototype_web_leader.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQCr1_-wOG90Rqaijvb2kBE5AU9OV1wCJZSCvFKWNqYGd2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDqDXD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQCr1_-wOG90Rqaijvb2kBE5AU9OV1wCJZSCvFKWNqYGd2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDqDXD)
+
+---
+
+**Web Application Prototyping - Team Member**
+
+El prototipo de la aplicación web para el segmento objetivo Team Member permite simular las interacciones relacionadas con la participación en proyectos, actualización del estado de tareas, visualización de calendarios y consulta de actividades asignadas. El flujo presentado demuestra cómo un miembro del equipo interactúa con el sistema para gestionar sus responsabilidades y colaborar dentro de los proyectos asignados.
+
+**Screenshot del video:**
+
+![Web Prototype Team Member](assets/TB2/prototype_web_member.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQD8LCeH4cg-QZZVZpMbuLENAYLtVk0VL2YBSOgZU9IhHdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrjexS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQD8LCeH4cg-QZZVZpMbuLENAYLtVk0VL2YBSOgZU9IhHdY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrjexS)
+
+---
+
+**Mobile Application Prototyping**
+
+El prototipo de la aplicación móvil permite simular las principales funcionalidades del sistema en dispositivos móviles, manteniendo la consistencia visual y funcional con la versión web. Durante la demostración se presentan los flujos de autenticación, gestión de tareas, consulta de proyectos y visualización de información relevante para los usuarios, optimizando la experiencia de uso en entornos móviles.
+
+**Screenshot del video:**
+
+![Mobile Prototype](assets/TB2/prototype_mobile.png)
+
+**Video de demostración:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQBkJ1-qZkPDQZ2yv8a8iyiYAb0l9v1VuxgcthokC60r8ss?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UClIZJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQBkJ1-qZkPDQZ2yv8a8iyiYAb0l9v1VuxgcthokC60r8ss?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UClIZJ)
+
+
+## Capítulo VII: Product Implementation & Validation  
+
+### 7.1. Software Configuration Management  
+#### 7.1.1. Software Development Environment Configuration  
+En este apartado se describe la configuración del entorno de desarrollo de Task Master, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo.  
+Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida del desarrollo, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
+
+| Plataforma / Herramienta | Descripción | Enlace |
+|---------------------------|--------------|---------|
+| GitHub | Plataforma de control de versiones basada en Git que permite la colaboración entre desarrolladores, la gestión de ramas, control de cambios y automatización del despliegue continuo (CI/CD). | [https://github.com](https://github.com) |
+| Render | Servicio de despliegue automatizado para backend y frontend. Facilita la integración continua, escalado automático y monitoreo del sistema en producción. | [https://render.com](https://render.com) |
+| Figma | Herramienta colaborativa de diseño de interfaces, utilizada para la creación de wireframes, mockups y prototipos interactivos de Task Master. Permite trabajo simultáneo entre diseñadores y desarrolladores. | [https://www.figma.com](https://www.figma.com) |
+| Mural | Plataforma colaborativa para sesiones de ideación, flujo de usuario (user flow) y mapas de tareas. Ideal para estructurar el diseño de experiencias y estrategias de interacción del usuario. | [https://www.mural.co](https://www.mural.co) |
+| Lucidchart | Herramienta para la creación de diagramas UML, diagramas de flujo de tareas y modelos de procesos de Task Master. Facilita la documentación visual y el análisis técnico. | [https://lucidchart.com](https://lucidchart.com) |
+| Vertabelo | Plataforma especializada para el modelado y documentación de bases de datos relacionales, utilizada para diseñar la estructura de datos del sistema de gestión de tableros, columnas y tareas. | [https://vertabelo.com](https://vertabelo.com) |
+| Structurizr | Herramienta usada para representar la arquitectura C4 de Task Master (Contexto, Contenedor, Componente, Código), mostrando la relación entre los módulos principales (Gestión de Tareas, Tableros, Usuarios, Visualización). | [https://structurizr.com](https://structurizr.com) |
+| C4 Model | Modelo conceptual que permite documentar las decisiones arquitectónicas del sistema de manera jerárquica y comprensible para todo el equipo. | [https://c4model.com](https://c4model.com) |
+| Postman | Herramienta para pruebas y validación de APIs REST del backend de Task Master. Permite automatizar test cases, analizar respuestas y validar endpoints de integración. | [https://www.postman.com](https://www.postman.com) |
+| Trello | Plataforma de gestión de proyectos que facilita la organización de tareas y entregables mediante tableros, listas y tarjetas. Se emplea para la planificación ágil (sprints, backlogs, revisiones). | [https://trello.com](https://trello.com) |
+| UXPressia | Utilizada para la creación de User Personas y Customer Journey Maps, ayudando a entender las necesidades, frustraciones y objetivos de los usuarios que gestionan tareas dentro de la app. | [https://uxpressia.com](https://uxpressia.com) |
+| Canva | Aplicación complementaria para el diseño visual de materiales gráficos, como banners, íconos e imágenes promocionales de la marca Task Master. | [https://www.canva.com](https://www.canva.com) |
+| Firebase (opcional) | Plataforma en la nube utilizada para autenticación de usuarios y almacenamiento en tiempo real en etapas tempranas del desarrollo o pruebas del módulo de notificaciones. | [https://firebase.google.com](https://firebase.google.com) |
+
+
+#### 7.1.2. Source Code Management 
+
+En esta sección, el equipo de desarrollo de Task Master establece los medios y el esquema de organización aplicados para el seguimiento de modificaciones, utilizando GitHub como plataforma principal de control de versiones.  
+De esta manera, se configuró un repositorio remoto en GitHub para almacenar el código fuente, documentar los cambios y colaborar de manera eficiente entre los miembros del equipo durante todo el ciclo de desarrollo.
+
+Se utiliza GitHub como sistema centralizado para el versionado y la colaboración.  
+Los repositorios oficiales del proyecto Task Master son los siguientes:
+
+- Landing Page: `https://github.com/G2-Arqui-Emergentes/TaskMaster-LandingPage.git`
+- Wep Aplication: `https://github.com/G2-Arqui-Emergentes/Web-Frontend.git`
+- Movile Application: `https://github.com/G2-Arqui-Emergentes/Native-Frontend.git`
+- Backend Web Services: `https://github.com/G2-Arqui-Emergentes/Backend.git`
+
+Cada repositorio cuenta con flujos de trabajo independientes, integraciones de despliegue automático en Render y acciones de CI/CD configuradas en GitHub Actions.
+
+
+#### Implementación de GitFlow
+
+Para mantener una estructura organizada y evitar conflictos durante el desarrollo colaborativo, el equipo adopta la estrategia **GitFlow**, con ramas bien definidas para diferentes etapas y propósitos del proyecto.
+
+**Ramas base:**
+
+- **main**: Contiene la versión estable del código desplegada en producción.  
+- **develop**: Incluye las últimas actualizaciones y desarrollos en curso que eventualmente serán fusionados a `main`.
+
+**Feature branches:**
+
+Cada nueva funcionalidad o módulo inicia desde `develop`.  
+Convención de nombres: `feature/nombre-descriptivo`  
+Ejemplo: `feature/task-calendar-sync`
+
+**Release branches:**
+
+Cuando el proyecto alcanza una versión candidata para producción, se crea una rama de liberación desde `develop`.  
+Convención: `release/x.y.z` (siguiendo versionado semántico)
+
+**Hotfix branches:**
+
+Si se detecta un error crítico en producción, se crea una rama desde `main` para solucionarlo de inmediato.  
+
+
+#### Versionado Semántico (Semantic Versioning)
+
+El proyecto Task Master aplica **versionado semántico** (SemVer) siguiendo el formato **MAJOR.MINOR.PATCH**, asegurando coherencia entre las actualizaciones y compatibilidad entre versiones.
+
+| Parte  | Significado |
+|--------|--------------|
+| MAJOR  | Cambios incompatibles o refactorizaciones críticas que alteran el funcionamiento existente. |
+| MINOR  | Nuevas funcionalidades agregadas de forma retrocompatible. |
+| PATCH  | Corrección de errores menores sin alterar funcionalidades existentes. |
+
+**Tipos comunes de commits:**
+
+- `feat`: nueva funcionalidad o módulo implementado  
+- `fix`: corrección de errores  
+- `docs`: cambios en documentación  
+- `style`: ajustes de formato o estilo (sin afectar el código)  
+- `refactor`: reestructuración de código sin alterar el comportamiento  
+- `test`: creación o modificación de pruebas unitarias  
+- `chore`: tareas de mantenimiento o actualización de dependencias  
+
+
+#### 7.1.3. Source Code Style Guide & Conventions  
+
+El equipo ha definido las siguientes convenciones de nombres y estilos de codificación para el proyecto LearnHive, aplicadas en los lenguajes HTML, CSS, JavaScript, TypeScript y Java. Todas las nomenclaturas están en inglés, buscando claridad, estandarización y buenas prácticas de desarrollo. Se han adoptado guías de estilo reconocidas y actualizadas para cada tecnología.
+
+## HTML
+
+- Guía adoptada: [W3C HTML Style Guide](https://www.w3.org/TR/html5/)
+- Nomenclatura y convenciones:
+  - Minúsculas para etiquetas y atributos: `<div class="container">`
+  - Indentación: 2 espacios
+  - Atributos entre comillas dobles: `<img src="logo.png" alt="TaskMaster Logo">`
+  - Uso semántico de etiquetas: `<header>`, `<section>`, `<footer>`
+  - Comentarios HTML: `<!-- This is a comment -->`
+
+## CSS
+
+- Guía adoptada: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- Nomenclatura y convenciones:
+  - `kebab-case` para clases e IDs  
+    Ejemplo: `.main-header`, `#footer-section`
+  - Agrupación de estilos por componente
+  - Evitar el uso de `!important` salvo en casos necesarios
+  - Indentación: 2 espacios
+
+## JavaScript
+
+- Guía adoptada: [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- Nomenclatura y convenciones:
+  - `camelCase` para variables y funciones  
+    Ejemplo: `let Name = 'Luis';`, `function calculateAverage() {}`
+  - `PascalCase` para clases  
+    Ejemplo: `class DashboardManager {}`
+  - Evitar `snake_case`
+  - Usar `const` y `let` en lugar de `var`
+
+## TypeScript
+
+- Guía adoptada: [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- Nomenclatura y convenciones:
+  - `camelCase` para variables, funciones y propiedades  
+    Ejemplo: `let isActive: boolean = true;`, `function getUserData() {}`
+  - `PascalCase` para clases, interfaces, enums y tipos  
+    Ejemplo: `class CourseCard {}`, `interface UserProfileDTO {}`, `enum Role { Member,Leader  }`
+  - Tipado estricto (`strict: true`) habilitado
+  - Interfaces nombradas con sufijo `DTO` o `Props`
+  - Uso de modificadores `readonly`, `private`, `public`
+
+## Java
+
+- Guía adoptada: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- Nomenclatura y convenciones:
+  - `PascalCase` para clases  
+    Ejemplo: `public class CourseService {}`
+  - `camelCase` para variables, métodos y atributos  
+    Ejemplo: `int totalCourses;`, `calculateProgress();`
+  - Constantes en MAYÚSCULAS con `snake_case`  
+    Ejemplo: `public static final int MAX_MEMBERS = 50;`
+  - Paquetes en minúsculas separados por punto  
+    Ejemplo: `com.taskmaster.backend.controller`
+
+## Gherkin Conventions for Readable Specifications
+
+- Guía adoptada: [Gherkin Syntax and Conventions](https://cucumber.io/docs/gherkin/reference/)
+- Nomenclatura y convenciones:
+  - Estructura:
+    - Given: Define el contexto o estado inicial
+    - When: Define la acción o evento que ocurre
+    - Then: Define el resultado o expectativa
+  - Ejemplo:
+    ```gherkin
+    Feature: Member dashboard access
+      Scenario: Successful login with valid credentials
+        Given the Member is on the login page
+        When the member enters valid credentials
+        Then the member should be redirected to the dashboard
+    ```
+  - Uso de tablas para datos:
+    ```gherkin
+    Given the following users exist:
+      | username | password |
+      | member1 | pass123  |
+      | leader1 | pass456  |
+    ```
+
+## SQL / Data Modeling (Vertabelo)
+
+- Guía adoptada: [SQL Style Guide](https://www.sqlstyle.guide/)
+- Nomenclatura y convenciones:
+  - Nombres en inglés, en singular
+  - Prefijos según entidad o módulo
+  - Palabras reservadas en mayúsculas
+  - Relaciones consistentes entre tablas
+  - Ejemplo:
+    ```sql
+    CREATE TABLE Member (
+      member_id INT PRIMARY KEY,
+      first_name VARCHAR(50),
+      last_name VARCHAR(50),
+      enrollment_date DATE
+    );
+    ```
+
+## Kotlin / XML (Aplicativo móvil – Android Studio)
+
+- Guía adoptada: [Android Kotlin Style Guide](https://developer.android.com/kotlin/style-guide)
+- Nomenclatura y convenciones:
+  - Código limpio, reutilizable y seguro
+  - `camelCase` para variables y funciones  
+    Ejemplo: `val userName: String = "Eric"`
+  - `PascalCase` para clases y componentes de UI  
+    Ejemplo: `class DashboardActivity : AppCompatActivity()`
+  - XML en `snake_case`  
+    Ejemplo: `<TextView android:id="@+id/student_name_text" />`
+  - Comentarios claros y concisos
+
+
+#### 7.1.4. Software Deployment Configuration  
+
+## Despliegue del Frontend (Landing Page)
+
+La landing page de Task Master fue desarrollada utilizando HTML, CSS y JavaScript, enfocándose en un diseño responsivo, limpio y rápido.  
+El sitio se publica mediante GitHub Pages, lo que permite una distribución gratuita, confiable y accesible desde cualquier navegador.  
+Durante el proceso de preparación para producción, se aplican optimizaciones de carga como la reducción de archivos CSS y JS, la organización modular del código y la compresión de imágenes en formatos .jpg, .png y .svg.  
+
+## Despliegue del Backend (API – Spring Boot)
+
+El backend de Task Master está implementado con Java y el framework Spring Boot, siguiendo principios de arquitectura modular y escalable.  Actualmente, el entorno de despliegue se realiza en la nube en Render.  
+Se manejan variables de entorno para gestionar las credenciales y configuraciones sensibles, manteniendo la seguridad y trazabilidad del sistema.  
+La API REST está diseñada para gestionar tareas, usuarios y tableros de forma eficiente, garantizando una comunicación estable con el frontend y la aplicación móvil.
+
+## Configuración del Aplicativo Móvil (Android)
+
+La versión móvil de Task Master fue desarrollada en Android Studio, empleando Kotlin para la lógica y XML para el diseño de interfaces.  
+En la etapa actual, las pruebas se realizan mediante emuladores locales y dispositivos físicos, asegurando la compatibilidad con diferentes versiones del sistema operativo Android.  
+El despliegue se gestiona mediante la generación de archivos .apk y su distribución interna para pruebas cerradas.  
+El aplicativo mantiene sincronización con el backend en tiempo real, permitiendo a los usuarios gestionar tareas, recibir actualizaciones y visualizar su progreso desde el móvil.
+
+## Protocolo de Pruebas y Validación
+
+Antes de cada despliegue, se ejecuta un conjunto de pruebas funcionales y de integración que validan la comunicación entre los módulos del sistema.  
+También se realizan pruebas de rendimiento, validaciones de interfaz y revisiones de experiencia de usuario para garantizar una interacción fluida y coherente entre las plataformas.  
+Finalmente, cada versión se documenta y se etiqueta en el repositorio, siguiendo un control de versiones ordenado que facilita la trazabilidad y el mantenimiento del proyecto.
+
+
+
+### 7.2.	Solution Implementation.
+#### 7.2.1.	Sprint 1
+
+El Sprint 1 tuvo como objetivo construir el primer incremento funcional de Taskmaster, enfocándose en las capacidades esenciales que permiten presentar la propuesta de valor del producto y habilitar los principales flujos de interacción para los usuarios.
+
+Durante este sprint se priorizó la implementación de componentes base relacionados con la autenticación de usuarios, navegación principal, gestión inicial de proyectos, administración de tareas y despliegue preliminar de los distintos componentes del ecosistema digital.
+
+Asimismo, se establecieron los entornos de desarrollo, repositorios de trabajo y mecanismos de integración necesarios para soportar la evolución futura de la solución.
+
+---
+
+##### 7.2.1.1.	Sprint Planning 1.
+
+
+La planificación del Sprint 1 permitió definir el alcance inicial del producto, identificar las funcionalidades prioritarias y distribuir las actividades entre los integrantes del equipo de desarrollo.
+
+El equipo tomó como referencia los User Stories definidos en el Product Backlog, priorizando aquellas funcionalidades necesarias para construir una primera versión navegable y demostrable del sistema.
+
+### Sprint Goal
+
+> Implementar la primera versión funcional de TaskMaster, permitiendo a los usuarios conocer la propuesta de valor del producto, acceder a la plataforma y visualizar los principales módulos relacionados con la gestión de proyectos y tareas.
+
+### Funcionalidades priorizadas
+
+| ID   | Funcionalidad                                 |
+| ---- | --------------------------------------------- |
+| US01 | Visualización de la Landing Page del producto |
+| US02 | Navegación entre secciones principales        |
+| US03 | Pantalla de autenticación de usuarios         |
+| US04 | Gestión inicial de proyectos                  |
+| US05 | Gestión inicial de tareas                     |
+| US06 | Dashboard principal                           |
+| US07 | Navegación móvil básica                       |
+| US08 | Configuración inicial de servicios backend    |
+
+### Criterios de priorización
+
+* Valor funcional para los usuarios finales.
+* Dependencias técnicas necesarias para futuras iteraciones.
+* Complejidad de implementación.
+* Disponibilidad de recursos del equipo.
+* Relación con los flujos de usuario definidos durante la etapa de diseño UX/UI.
+
+### Resultado del Sprint Planning
+
+Como resultado de la planificación se definió un conjunto de actividades orientadas a construir un incremento funcional demostrable, permitiendo validar la arquitectura propuesta y sentar las bases para el desarrollo de funcionalidades avanzadas en futuros sprints.
+
+
+---
+
+
+##### 7.2.1.2.	Sprint Backlog 1.
+
+
+El Sprint Backlog 1 estuvo compuesto por las historias de usuario seleccionadas para la construcción del primer incremento funcional del sistema.
+
+Las tareas definidas permitieron desarrollar la estructura inicial de la Landing Page, la aplicación web, la aplicación móvil y los servicios backend necesarios para soportar la lógica de negocio básica.
+
+### Sprint Backlog
+
+| User Story | Descripción                                                                          | Tareas técnicas                                                      |
+| ---------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| US01       | Como visitante, deseo conocer TaskMaster para comprender sus beneficios.             | Implementación de Landing Page, navegación y secciones informativas. |
+| US02       | Como usuario, deseo acceder al sistema para utilizar sus funcionalidades.            | Desarrollo de interfaces de autenticación y navegación inicial.      |
+| US03       | Como líder de proyecto, deseo visualizar mis proyectos para realizar seguimiento.    | Implementación de vistas y componentes para proyectos.               |
+| US04       | Como miembro del equipo, deseo visualizar mis tareas asignadas.                      | Desarrollo de componentes de gestión de tareas.                      |
+| US05       | Como usuario, deseo navegar desde dispositivos móviles.                              | Desarrollo de estructura base de aplicación móvil.                   |
+| US06       | Como administrador, deseo disponer de servicios backend para soportar la aplicación. | Configuración inicial de API y estructura de backend.                |
+
+### Definition of Done (DoD)
+
+Una historia de usuario se consideró completada cuando cumplía los siguientes criterios:
+
+* Código implementado y almacenado en el repositorio correspondiente.
+* Funcionalidad ejecutable sin errores críticos.
+* Integración con la estructura general del proyecto.
+* Cumplimiento de estándares de codificación definidos por el equipo.
+* Evidencia disponible para la Sprint Review.
+* Registro de cambios mediante commits en GitHub.
+
+
+---
+
+
+##### 7.2.1.3.	Development Evidence for Sprint Review.
+
+
+Durante el Sprint 1 se desarrolló la primera versión funcional de los componentes que conforman el ecosistema TaskMaster. El trabajo realizado permitió construir una base sólida para las siguientes iteraciones, estableciendo la estructura inicial de la Landing Page, la aplicación web, la aplicación móvil y los servicios backend.
+
+La implementación siguió una estrategia modular, permitiendo que cada componente evolucionara de manera independiente y facilitando futuras integraciones entre las distintas capas del sistema.
+
+### Landing Page
+
+La Landing Page fue desarrollada con el objetivo de presentar la propuesta de valor de TaskMaster a potenciales usuarios. Durante este sprint se implementaron las principales secciones informativas, incluyendo descripción del producto, beneficios, características, preguntas frecuentes y mecanismos de contacto.
+
+Entre las funcionalidades implementadas destacan:
+
+* Navegación entre secciones mediante menú principal.
+* Diseño responsive para distintos tamaños de pantalla.
+* Secciones informativas sobre las funcionalidades del producto.
+* Llamados a la acción (Call to action) para incentivar el registro de usuarios.
+* Organización visual alineada con la identidad gráfica definida para TaskMaster.
+
+### Web Application
+
+La aplicación web concentró gran parte del esfuerzo de desarrollo del sprint. Se implementó la estructura base del proyecto utilizando tecnologías modernas orientadas al desarrollo frontend.
+
+Los principales avances obtenidos fueron:
+
+* Configuración inicial del proyecto.
+* Implementación de componentes reutilizables.
+* Desarrollo de vistas principales para navegación.
+* Estructuración de módulos relacionados con proyectos y tareas.
+* Configuración de rutas y navegación interna.
+* Integración inicial con servicios backend y datos simulados.
+
+### Mobile Application
+
+La aplicación móvil fue desarrollada con el propósito de ofrecer acceso a las funcionalidades principales de TaskMaster desde dispositivos Android.
+
+Los avances alcanzados durante el sprint incluyen:
+
+* Configuración inicial del entorno de desarrollo.
+* Implementación de pantallas base.
+* Navegación entre vistas principales.
+* Organización modular del proyecto.
+* Preparación para futuras integraciones con servicios backend.
+
+### Backend Services
+
+Los servicios backend fueron estructurados para soportar las operaciones principales del sistema y servir como punto de integración entre las aplicaciones cliente y la lógica de negocio.
+
+Durante este sprint se trabajó en:
+
+* Configuración inicial del proyecto backend.
+* Definición de la estructura de servicios.
+* Organización de controladores y rutas.
+* Preparación de endpoints para futuras funcionalidades.
+* Configuración de dependencias y entorno de ejecución.
+
+
+---
+
+
+##### 7.2.1.4.	Testing Suite Evidence for Sprint Review.
+
+
+Con el objetivo de validar la estabilidad y funcionamiento de los componentes desarrollados durante el Sprint 1, se realizaron pruebas funcionales sobre los distintos módulos implementados.
+
+Las pruebas ejecutadas estuvieron orientadas principalmente a verificar la correcta navegación, ejecución y visualización de los elementos desarrollados durante esta iteración.
+
+### Estrategia de pruebas aplicada
+
+| Tipo de prueba      | Objetivo                                                          |
+| ------------------- | ----------------------------------------------------------------- |
+| Navegación          | Verificar el acceso correcto entre vistas y secciones.            |
+| Interfaz de usuario | Validar la correcta visualización de componentes.                 |
+| Responsividad       | Comprobar el comportamiento en distintos tamaños de pantalla.     |
+| Ejecución local     | Confirmar el funcionamiento del sistema en entorno de desarrollo. |
+| Integración básica  | Validar la interacción entre frontend y servicios disponibles.    |
+
+### Casos de prueba ejecutados
+
+| ID    | Caso de prueba                                   | Resultado |
+| ----- | ------------------------------------------------ | --------- |
+| TC-01 | Visualización de Landing Page                    | Aprobado  |
+| TC-02 | Navegación entre secciones de Landing Page       | Aprobado  |
+| TC-03 | Acceso a vistas principales de la aplicación web | Aprobado  |
+| TC-04 | Visualización de proyectos                       | Aprobado  |
+| TC-05 | Visualización de tareas                          | Aprobado  |
+| TC-06 | Navegación en aplicación móvil                   | Aprobado  |
+| TC-07 | Ejecución del backend en entorno local           | Aprobado  |
+| TC-08 | Compilación de proyectos para despliegue         | Aprobado  |
+
+
+
+---
+
+
+##### 7.2.1.5.	Execution Evidence for Sprint Review.
+
+Demostramos el funcionamiento de los componentes desarrollados durante la iteración y validar que el incremento entregado cumple con los objetivos establecidos durante la planificación.
+
+### Evidencia de ejecución de la Landing Page
+
+La Landing Page se encuentra disponible públicamente y permite a los usuarios conocer las principales características de TaskMaster mediante una interfaz moderna y responsiva.
+
+Durante la revisión se verificó:
+
+* Correcta carga de la página.
+* Navegación entre secciones.
+* Visualización de contenido informativo.
+* Adaptación a dispositivos móviles.
+
+### Evidencia de ejecución de la Web Application
+
+La aplicación web permite navegar entre los módulos implementados durante el Sprint 1, evidenciando el avance funcional del producto.
+
+Las funcionalidades demostradas incluyen:
+
+* Navegación principal.
+* Visualización de proyectos.
+* Gestión inicial de tareas.
+* Componentes reutilizables.
+* Interfaz gráfica consistente.
+
+### Evidencia de ejecución de la Mobile Application
+
+La aplicación móvil permitió validar la estructura inicial del sistema en dispositivos Android y confirmar la correcta navegación entre pantallas implementadas.
+
+### Evidencia de ejecución de Backend Services
+
+Los servicios backend fueron ejecutados en entorno local, permitiendo validar la disponibilidad de la aplicación y la correcta configuración del proyecto.
+
+
+
+---
+
+
+##### 7.2.1.6.	Services Documentation Evidence for Sprint Review.
+
+
+La documentación de servicios elaborada durante el Sprint 1 tuvo como objetivo establecer una base técnica para las futuras integraciones entre los distintos componentes del ecosistema TaskMaster.
+
+Esta documentación facilita la comprensión de las responsabilidades de cada módulo y mejora la mantenibilidad del sistema.
+
+### Servicios identificados
+
+| Servicio                   | Descripción                                               |
+| -------------------------- | --------------------------------------------------------- |
+| Landing Page Service       | Presentación pública de TaskMaster y sus funcionalidades. |
+| Authentication Service     | Gestión de acceso e identificación de usuarios.           |
+| Project Management Service | Administración de proyectos dentro de la plataforma.      |
+| Task Management Service    | Gestión y seguimiento de tareas.                          |
+| Mobile Client Service      | Acceso móvil a las funcionalidades del sistema.           |
+| Backend API Service        | Exposición de funcionalidades mediante servicios REST.    |
+
+### Contratos de servicio preliminares
+
+| Método | Endpoint      | Descripción                                   |
+| ------ | ------------- | --------------------------------------------- |
+| GET    | `/projects`   | Obtiene la lista de proyectos registrados.    |
+| POST   | `/projects`   | Registra un nuevo proyecto.                   |
+| GET    | `/tasks`      | Obtiene la lista de tareas disponibles.       |
+| POST   | `/tasks`      | Registra una nueva tarea.                     |
+| PUT    | `/tasks/{id}` | Actualiza información de una tarea existente. |
+| DELETE | `/tasks/{id}` | Elimina una tarea.                            |
+
+### Beneficios de la documentación
+
+* Facilita futuras integraciones.
+* Permite estandarizar la comunicación entre componentes.
+* Reduce ambigüedades durante el desarrollo.
+* Mejora la mantenibilidad del producto.
+
+
+---
+
+
+##### 7.2.1.7.	Software Deployment Evidence for Sprint Review.
+
+
+Como parte del Sprint 1 se realizaron actividades de despliegue orientadas a disponibilizar los distintos componentes del ecosistema TaskMaster para su validación y revisión.
+
+### Componentes desplegados
+
+| Componente         | Entorno               |
+| ------------------ | --------------------- |
+| Landing Page       | GitHub Pages          |
+| Web Application    | Vercel                |
+| Mobile Application | Android Emulator      |
+| Backend Services   | Entorno de desarrollo |
+
+### Landing Page Deployment
+
+La Landing Page fue desplegada utilizando GitHub Pages, permitiendo el acceso público al sitio web y facilitando la validación temprana por parte de usuarios y evaluadores.
+
+### Web Application Deployment
+
+La aplicación web fue desplegada mediante Vercel, permitiendo validar el funcionamiento de los componentes desarrollados en un entorno accesible desde Internet.
+
+### Mobile Application Deployment
+
+La aplicación móvil fue ejecutada mediante Android Studio utilizando un emulador Android para validar el comportamiento de la aplicación durante la Sprint Review.
+
+### Backend Deployment
+
+Los servicios backend fueron ejecutados en entorno local con fines de validación funcional y pruebas de integración preliminares.
+
+### Resultado del despliegue
+
+El despliegue realizado permitió disponer de una primera versión funcional del ecosistema TaskMaster, facilitando la demostración de los avances obtenidos durante el Sprint 1.
+
+
+---
+
+
+##### 7.2.1.8.	Team Collaboration Insights during Sprint
+
+
+La colaboración entre los integrantes del equipo fue un factor clave para alcanzar los objetivos definidos para el Sprint 1. Durante la iteración se promovió una comunicación constante y una distribución equilibrada de responsabilidades, permitiendo avanzar simultáneamente en distintos componentes del sistema.
+
+### Herramientas de colaboración utilizadas
+
+| Herramienta        | Propósito                                       |
+| ------------------ | ----------------------------------------------- |
+| GitHub             | Control de versiones y gestión de repositorios. |
+| GitHub Projects    | Seguimiento de actividades y tareas.            |
+| Figma              | Diseño de interfaces y validación visual.       |
+| WhatsApp           | Coordinación y comunicación del equipo.         |
+| Google Meet        | Reuniones de seguimiento y revisión.            |
+
+### Principales aprendizajes del Sprint
+
+* La división modular del proyecto permitió trabajar en paralelo sobre diferentes componentes.
+* El uso de ramas facilitó la integración progresiva del código.
+* La documentación continua redujo el riesgo de inconsistencias técnicas.
+* La comunicación frecuente permitió resolver bloqueos de manera oportuna.
+* La integración temprana de los componentes ayudó a detectar problemas antes de etapas posteriores.
+
+### Retos identificados
+
+* Coordinación entre múltiples repositorios.
+* Sincronización de cambios entre frontend y backend.
+* Gestión de tiempos académicos y disponibilidad de los integrantes.
+* Adaptación de los componentes a los estándares definidos por el equipo.
+
+### Conclusión del Sprint 1
+
+El Sprint 1 permitió establecer una base funcional para TaskMaster, integrando avances en la Landing Page, aplicación web, aplicación móvil y servicios backend. Asimismo, el trabajo colaborativo facilitó la construcción de un incremento demostrable, sentando las bases para la incorporación de nuevas funcionalidades y mejoras arquitectónicas en los siguientes sprints.
+
+
+
+---
+
+
+## Capítulo VII: Product Implementation, Validation & Deployment
+
+
+### 7.3.	Validation Interviews.
+#### 7.3.1.	Diseño de Entrevistas.
+
+En esta sección se definen los elementos a validar para cada segmento objetivo, incluyendo la Landing Page, las aplicaciones (web y móvil) y los user flows correspondientes. Las preguntas están orientadas a obtener retroalimentación sobre la usabilidad, claridad, utilidad y experiencia general de los prototipos y funcionalidades implementadas.
+
+---
+
+**Segmento Objetivo 1: Líder o Gerente de Empresa**
+
+**User Flows a validar:**
+
+  1. Creación de un nuevo proyecto con asignación de usuarios.
+  2. Creación, edición y eliminación de tareas con prioridades y fechas límite.
+  3. Visualización de métricas de rendimiento con indicadores de riesgo (IA).
+  4. Gestión de miembros del equipo (agregar/eliminar).
+  5. Generación de reporte inteligente de desempeño por miembro y por proyecto.
+  6. Visualización de calendario con alertas inteligentes.
+
+**Preguntas de validación:**
+
+*Landing Page:*
+
+1. ¿La información presentada en la Landing Page explica claramente los beneficios de TaskMaster para la gestión de proyectos en su empresa?
+2. ¿Los planes y precios mostrados le parecen acordes al valor que ofrece la plataforma?
+3. ¿La sección de testimonios y About the Team le genera confianza para considerar la adopción del producto?
+
+*Aplicación Web y Móvil:*
+
+4. ¿Le resulta intuitivo el flujo de creación de un nuevo proyecto y asignación de miembros del equipo? ¿Qué mejoraría?
+5. ¿La interfaz para crear, editar y priorizar tareas le parece clara y eficiente?
+6. ¿Las métricas de rendimiento y los indicadores de riesgo (alto, medio, bajo) le ayudan a identificar rápidamente el estado de sus proyectos?
+7. ¿La generación de reportes inteligentes le proporciona la información que necesita para la toma de decisiones?
+8. ¿El calendario con alertas inteligentes le resulta útil para anticipar retrasos en las entregas?
+9. ¿La funcionalidad de gestión de miembros del equipo (invitar, asignar roles, eliminar) cubre sus necesidades?
+10. ¿Considera que la aplicación móvil le permite realizar las mismas tareas de supervisión que la versión web?
+11. ¿La navegación entre módulos (Proyectos, Tareas, Analíticas, Equipo, Calendario) le parece clara y sin fricción?
+12. ¿Los filtros de búsqueda de proyectos y tareas le permiten encontrar rápidamente lo que necesita?
+13. ¿Las alertas y notificaciones que recibe como líder le parecen suficientes para mantenerse informado sin saturarlo?
+14. ¿El diseño visual (colores, tipografía, iconos) le resulta profesional y adecuado para un entorno empresarial?
+15. ¿Cómo calificaría la velocidad y capacidad de respuesta del prototipo durante la navegación?
+16. ¿Le parece útil la función de exportar reportes en PDF o Excel? ¿En qué contexto la usaría?
+17. ¿Confiaría en los indicadores de riesgo generados por IA para tomar decisiones sobre el rumbo de un proyecto?
+18. ¿Qué tan importante es para usted la integración con herramientas externas (Slack, Google Calendar, correo) y ve factible usarlas desde TaskMaster?
+19. ¿Qué funcionalidad adicional considera indispensable para su rol que no esté presente en el prototipo actual?
+
+---
+
+**Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
+
+
+**User Flows a validar:**
+
+  1. Registro e inicio de sesión en la plataforma.
+  2. Unión a un proyecto mediante código de acceso.
+  3. Visualización de tareas asignadas en tablero Kanban.
+  4. Actualización del estado de una tarea (pendiente → en progreso → completada).
+  5. Visualización de calendario personal con tareas y alertas inteligentes.
+  6. Recepción y gestión de notificaciones automáticas (asignación, vencimiento, cambios).
+
+**Preguntas de validación:**
+
+*Landing Page:*
+1. ¿La Landing Page le comunica claramente cómo TaskMaster puede facilitar su trabajo diario y la colaboración en equipo?
+2. ¿La información sobre las características de la aplicación móvil le resulta atractiva para su uso diario?
+
+*Aplicación Web y Móvil:* 
+
+3. ¿El proceso de registro e inicio de sesión le parece sencillo y rápido?
+4. ¿La opción de unirse a un proyecto mediante código de acceso le resulta clara y útil?
+5. ¿El tablero Kanban le permite visualizar fácilmente sus tareas pendientes, en progreso y completadas?
+6. ¿Actualizar el estado de una tarea (marcar como completada) es intuitivo y se refleja correctamente?
+7. ¿El calendario con alertas inteligentes le ayuda a organizar sus plazos de entrega?
+8. ¿Las notificaciones automáticas (nueva tarea asignada, fecha límite próxima, cambios en tareas) le parecen oportunas y útiles para priorizar su trabajo?
+9. ¿La aplicación móvil le resulta cómoda y funcional para actualizar tareas sobre la marcha?
+10. ¿Considera que la interfaz es fácil de aprender sin necesidad de capacitación previa?
+11. ¿La organización de la información en el tablero y en las listas le parece clara o siente que hay demasiados elementos visuales?
+12. ¿Le resulta fácil distinguir entre tareas de alta, media y baja prioridad en la interfaz?
+13. ¿El formulario de creación de tareas cubre todos los campos que usted considera necesarios?
+14. ¿Las alertas de vencimiento le parecen tempranas, tardías o en el momento adecuado?
+15. ¿La navegación entre las secciones de la aplicación móvil (barra inferior) le resulta accesible e intuitiva?
+16. ¿Ha tenido dificultad para encontrar alguna funcionalidad o sección específica dentro del prototipo?
+17. ¿Le gustaría poder personalizar la vista del tablero (por ejemplo, cambiar entre Kanban, lista o calendario)?
+18. ¿Considera útil recibir un resumen semanal inteligente de su desempeño y avances como el planteado en el prototipo?
+19. ¿Qué funcionalidad adicional cree que mejoraría su productividad diaria y no está contemplada en el prototipo?
+
+#### 7.3.2.	Registro de Entrevistas.
+
+**Segmento Objetivo 1: Líder o Gerente de Empresa**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Kiara Gallardo |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |   |
+| **Link del video** | []() |
+| **Foto entrevista** | ![Entrevista]() |
+| **Resumen** |  |
+
+**Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
+
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Josep Eliu Melgarejo Quiroz |
+| **Edad** | 22 |
+| **Profesión** | Ingeniero de Software |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:04:57 |
+| **Fin del video** | 00:12:16  |
+| **Link del video** | [Link entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDPJrhonhEURJUvjhxP6-zVAQuUPwS2ewjBo9v-t9dcTFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mYkJ5T) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista21.png) |
+| **Resumen** | El entrevistado percibió a TaskMaster como una solución práctica para mantener organizadas las tareas y mejorar la coordinación dentro del equipo. Destacó la facilidad de uso de la aplicación móvil, la claridad del tablero Kanban y la utilidad de las alertas y notificaciones para cumplir plazos de entrega. Además, consideró que la interfaz es intuitiva y que las funcionalidades propuestas aportan valor al seguimiento diario de los proyectos. Como sugerencia, mencionó que sería beneficioso integrar la plataforma con herramientas de desarrollo como GitHub o GitLab para automatizar procesos y optimizar el flujo de trabajo. |
+
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre completo entrevistado** | Kaori Portocarrero Palacios |
+| **Edad** | 21 |
+| **Profesión** | Ingeniera de Sistemas |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:06:20 |
+| **Fin del video** |  00:12:23 |
+| **Link del video** | [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDaJb9hfDoETI6sI3_A8ukXAfWVow6LDhiSxVlzlmfDrjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nNBUxI) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
+| **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
+
+### 7.3.3.	Evaluaciones según heurísticas.
+
+A continuación, se presenta la evaluación heurística de la solución:
+
+**App a evaluar:**
+TaskMaster
+
+**Tareas a evluar:**
+
+1. Navegar por la Landing Page y revisar la información principal del proyecto.
+2. Registrarse e iniciar sesión en la plataforma.
+3. Crear un nuevo proyecto.
+4. Crear, editar y eliminar tareas.
+5. Asignar tareas a miembros del equipo.
+6. Consultar y filtrar tareas en el tablero de trabajo.
+7. Configurar fechas límite y visualizar el calendario de actividades.
+8. Generar reportes y revisar métricas de rendimiento.
+9. Gestionar roles y miembros dentro de un proyecto.
+10. Unirse a un proyecto mediante código de acceso (aplicación móvil).
+11. Actualizar el estado de una tarea desde la aplicación móvil.
+12. Recibir y gestionar notificaciones relacionadas con tareas y proyectos.
+
+**Escala de severidad:**
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**Evaluación de la Landing Page:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | Los botones de llamado a la acción "Descargar App" no especifican la plataforma (Android/iOS) antes de redirigir. | 1 | Usability: Libertad y control del usuario |
+| 2 | La Landing Page no presenta testimonios, casos de éxito o evidencia de uso por parte de usuarios reales. | 2 | Information Architecture: Is it clear? |
+| 3 | La interfaz presenta elementos en inglés y español simultáneamente (por ejemplo, "Features", "Benefits", "About Us", junto con "Empieza Gratis"), lo que puede generar confusión y afectar la consistencia de la experiencia. | 2 | Usability: Consistencia y estándares |
+
+**Evaluación de la Aplicación Móvil:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | El botón de crear nueva tarea está ubicado en la parte superior, dificultando el alcance con una mano en dispositivos de pantalla grande. | 2 | Usability: Eficiencia y flexibilidad de uso |
+| 2 | Las notificaciones push no distinguen visualmente entre "nueva tarea asignada" y "cambio de estado" mediante iconos diferentes. | 1 | Usability: Consistencia y estándares |
+| 3 | Al unirse a un proyecto con código de acceso, no hay retroalimentación visual inmediata si el código es inválido, solo un mensaje de texto pequeño. | 2 | Usability: Visibilidad del estado del sistema |
+| 4 | La vista de calendario en móvil recarga completamente al cambiar de mes, perdiendo la posición de scroll. | 2 | Usability: Libertad y control del usuario |
+| 5 | El tamaño de los botones de prioridad (alta, media, baja) en la pantalla de edición de tareas es pequeño para interacción táctil precisa. | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 6 | No hay opción de deshacer el cambio de estado de una tarea inmediatamente después de marcarla como completada. | 2 | Usability: Prevención de errores |
+| 7 | La barra de navegación inferior no indica claramente en qué sección se encuentra el usuario cuando hay notificaciones no leídas. | 1 | Usability: Reconocimiento antes que recuerdo |
+
+## 7.4.	Video About-the-Product.
+
+
 
 ## Conclusiones
 
 **TB1**
 
 - El desarrollo de TaskMaster demuestra que la centralización de la gestión de proyectos, junto con el uso de metodologías modernas como Lean UX y Domain-Driven Design, permite abordar eficazmente los problemas de fragmentación, baja visibilidad y desorganización en equipos de trabajo; además, la incorporación de tecnologías emergentes como inteligencia artificial para analítica y alertas, y RPA para automatización de notificaciones, posiciona la solución como innovadora y competitiva. Se recomienda continuar fortaleciendo estas capacidades mediante una mayor integración de IA y automatización, validaciones constantes con usuarios reales y mejoras progresivas en la experiencia de usuario, con el fin de asegurar una adopción efectiva y escalabilidad del producto en el mercado.
+
+**TP**
+
+- En esta segunda entrega del proyecto se consolidó el paso de una visión estratégica a un enfoque táctico, permitiendo definir con mayor precisión la estructura interna de TaskMaster mediante la identificación de Bounded Contexts y su organización en capas (Domain, Application, Interface e Infrastructure), lo que asegura una arquitectura modular, escalable y alineada a los principios de Domain-Driven Design. Además, la elaboración de diagramas a nivel de componentes, código, clases y base de datos permitió materializar las decisiones arquitectónicas en representaciones técnicas claras y coherentes con los requerimientos del sistema. Paralelamente, el desarrollo del Solution UX Design complementó esta base técnica al incorporar lineamientos de diseño, arquitectura de información y prototipos que garantizan una experiencia de usuario intuitiva y consistente. En conjunto, esta fase integra de manera efectiva la arquitectura de software con el diseño centrado en el usuario, dejando una base sólida y validada para la futura implementación del sistema.
+
+**TB2**
+
+- En esta tercera fase del proyecto se logró materializar la propuesta planteada en las etapas anteriores mediante la implementación y validación de la solución TaskMaster. La configuración del entorno de desarrollo, la gestión del código fuente y el despliegue de la aplicación permitieron establecer una base sólida para el desarrollo colaborativo y sostenible del sistema. Asimismo, la ejecución del Sprint 1 evidenció la capacidad del equipo para transformar los requerimientos definidos en funcionalidades concretas, integrando componentes web y móviles alineados con la arquitectura diseñada previamente.
+
+Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+
 
 
 ## Bibliografía
@@ -1579,3 +4908,8 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 ## Anexos
 
+**Anexo A. Videos de exposición**
+
+- TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQAZO_cMWAd4RKKDMOsWrQU2ATJEeBNgs32C3dapT3eS7Zk 
+- TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDhWrwc9qytQovTEzgimi-oAQFp6YQIkF9BUpwvAKKM69w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aSrcbu
+- TB2:
