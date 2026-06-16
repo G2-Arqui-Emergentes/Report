@@ -4814,7 +4814,7 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Inicio del video** | 00:00:05 |
 | **Fin del video** |  00:08:25 |
 | **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
-| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista23.png) |
 | **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen cn el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opci{on de chatbot donde se pueda comentar de alguan iniciativa y además de saber algún riesgo que tiene otro proyecto. |
 
 ### 7.3.3.	Evaluaciones según heurísticas.
@@ -4824,7 +4824,7 @@ A continuación, se presenta la evaluación heurística de la solución:
 **App a evaluar:**
 TaskMaster
 
-**Tareas a evluar:**
+**Tareas a evaluar:**
 
 1. Navegar por la Landing Page y revisar la información principal del proyecto.
 2. Registrarse e iniciar sesión en la plataforma.
@@ -4885,7 +4885,9 @@ TaskMaster
 
 ## 7.4.	Video About-the-Product.
 
+ ![Entrevista](assets/TB2/about_the_product.png) 
 
+ [Link_Video_About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQD8Uy2fAsh3QYpTfIjMg6iaAfScSxwRAIKEKE93NL_O3EI)
 
 ## Conclusiones
 
