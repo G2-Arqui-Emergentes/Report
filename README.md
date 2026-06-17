@@ -4588,6 +4588,25 @@ Las funcionalidades demostradas incluyen:
 
 LINK WEB APPLICATION: taskmaster-web-application.vercel.app
 
+![a1](assets/TP1/OA1.jpeg)
+
+![a1](assets/TP1/OA2.jpeg)
+
+![a1](assets/TP1/OA3.jpeg)
+
+![a1](assets/TP1/OA4.jpeg)
+
+![a1](assets/TP1/OA5.jpeg)
+
+![a1](assets/TP1/OA6.jpeg)
+
+![a1](assets/TP1/OA7.jpeg)
+
+![a1](assets/TP1/OA8.jpeg)
+
+![a1](assets/TP1/OA9.jpeg)
+
+![a1](assets/TP1/OA10.jpeg)
 
 ### Evidencia de ejecución de la Mobile Application
 
