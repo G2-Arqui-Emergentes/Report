@@ -162,19 +162,19 @@ Sandoval Paiva, Valentino: 16
 
 **REPORT**
 
-![alt text](assets/TB2/commits.png)
+![alt text](assets/TB2/WhatsApp Image 2026-06-16 at 10.23.54 PM.jpeg)
 
 COMMITS:
 
-Luquillas Asto, Omar: 
+Luquillas Asto, Omar: 28
 
-Peña Riofrio, Maria Fernanda: 
+Peña Riofrio, Maria Fernanda: 12
 
-Pilares Pocohuanca, Maria: 
+Pilares Pocohuanca, Maria: 42
 
-Sanchez Silva, Luciana Celeste:	
+Sanchez Silva, Luciana Celeste:	11
 
-Sandoval Paiva, Valentino: 
+Sandoval Paiva, Valentino: 21
 
 
 ## Contenido
