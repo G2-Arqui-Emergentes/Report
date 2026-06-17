@@ -4568,7 +4568,6 @@ Durante la revisión se verificó:
 ![a1](assets/TP1/a1.png)
 ![a1](assets/TP1/a2.png)
 ![a1](assets/TP1/a3.png)
-![a1](assets/TP1/a5.png)
 ![a1](assets/TP1/a6.png)
 ![a1](assets/TP1/a7.png)
 ![a1](assets/TP1/a8.png)
@@ -4592,8 +4591,8 @@ La aplicación móvil permitió validar la estructura inicial del sistema en dis
 vistas de nuestra aplicación móvil del **Lider de equipo** - jetpack compose: 
 
 <div style="display: flex; gap: 10px;">
-  <img src="Assets/TB2/F5.jpg" width="250">
-  <img src="Assets/TB2/F6.jpg" width="250">
+  <img src="assets/TP1/F5.jpg" width="250">
+  <img src="assets/TP1/F6.jpg" width="250">
 </div>
 
 ![a1](assets/TP1/F3.png)
@@ -4609,7 +4608,6 @@ vistas de nuestra aplicación móvil del **Lider de equipo** - jetpack compose:
 ![a1](assets/TP1/FLUTT1.png)
 ![a1](assets/TP1/FLUTT2.png)
 ![a1](assets/TP1/FLUTT3.png)
-![a1](assets/TP1/FLUTT4.png)
 
 Vistas de nuestra aplicación móvil del **Miembro de equipo** - flutter: 
 
@@ -4637,9 +4635,6 @@ Vistas de nuestra aplicación móvil del **Miembro de equipo** - flutter:
 
 ![a1](assets/TP1/F2.jpg)
 
-**Vista de estadísticas del proyecto**
-
-![a1](assets/TP1/F4.jpg)
 
 **NOTIFICACIONES**
 
@@ -5127,7 +5122,7 @@ Authorization: Bearer <JWT>
 
 # Sección Notification Management
 
-![b2](assets/TB2/notifications.png)
+![b2](assets/TP1/notifications.png)
 
 Se desarrolló e implementó la documentación y despliegue de los servicios web correspondientes al módulo **Notification Management**, encargado de la gestión y recuperación de notificaciones personalizadas dentro de la plataforma **ManageWise Horizon**.  
 Este módulo garantiza que los usuarios autenticados reciban y consulten sus notificaciones de acuerdo con los eventos del sistema (asignación de tareas, cambios de estado, recordatorios, entre otros).
