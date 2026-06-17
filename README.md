@@ -4565,6 +4565,8 @@ Durante la revisión se verificó:
 * Visualización de contenido informativo.
 * Adaptación a dispositivos móviles.
 
+LINK LANDIG PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
+
 ![a1](assets/TP1/a1.png)
 ![a1](assets/TP1/a2.png)
 ![a1](assets/TP1/a3.png)
@@ -4583,6 +4585,9 @@ Las funcionalidades demostradas incluyen:
 * Gestión inicial de tareas.
 * Componentes reutilizables.
 * Interfaz gráfica consistente.
+
+LINK WEB APPLICATION: taskmaster-web-application.vercel.app
+
 
 ### Evidencia de ejecución de la Mobile Application
 
