@@ -162,7 +162,7 @@ Sandoval Paiva, Valentino: 16
 
 **REPORT**
 
-![alt text](assets/TB2/commit)
+![alt text](assets/TB2/commit.jpeg)
 
 COMMITS:
 
