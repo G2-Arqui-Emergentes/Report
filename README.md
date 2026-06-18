@@ -283,7 +283,6 @@ Sandoval Paiva, Valentino: 21
       - [5.5.7.1.	Bounded Context Domain Layer Class Diagrams](#5571bounded-context-domain-layer-class-diagrams)
       - [5.5.7.2.	Bounded Context Database Design Diagram](#5572bounded-context-database-design-diagram)
 
-
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
   - [6.1.	Style Guidelines](#61style-guidelines)
     - [6.1.1.	General Style Guidelines.](#611general-style-guidelines)
@@ -296,7 +295,6 @@ Sandoval Paiva, Valentino: 21
   - [6.3.	Landing Page UI Design.](#63landing-page-ui-design)
     - [6.3.1.	Landing Page Wireframe.](#631landing-page-wireframe)
     - [6.3.2.	Landing Page Mock-up.](#632landing-page-mock-up)
-
   - [6.4.	Applications UX/UI Design.](#64applications-uxui-design)
     - [6.4.1.	Applications Wireframes.](#641applications-wireframes)
     - [6.4.2.	Applications Wireflow Diagrams.](#642applications-wireflow-diagrams)
@@ -304,17 +302,27 @@ Sandoval Paiva, Valentino: 21
     - [6.4.4.	Applications User Flow Diagrams.](#644applications-user-flow-diagrams)
   - [6.5.	Applications Prototyping.](#65applications-prototyping)
 
-
 - [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
-
-
-
+  - [7.1.	Software Configuration Management.](#71software-configuration-management)
+    - [7.1.1.	Software Development Environment Configuration.](#711software-development-environment-configuration)
+    - [7.1.2.	Source Code Management.](#712source-code-management)
+    - [7.1.3.	Source Code Style Guide & Conventions.](#713source-code-style-guide-&-conventions)
+    - [7.1.4.	Software Deployment Configuration.](#714software-deployment-configuration)
+  - [7.2.	Solution Implementation.](#72solution-implementation)
+    - [7.2.1.	Sprint 1](#721sprint-1)
+      - [7.2.1.1.	Sprint Planning 1.](#7211sprint-planning-1)
+      - [7.2.1.2.	Sprint Backlog 1.](#7212sprint-backlog-1)
+      - [7.2.1.3.	Development Evidence for Sprint Review.](#7213development-evidence-for-sprint-review)
+      - [7.2.1.4.	Testing Suite Evidence for Sprint Review.](#7214testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5.	Execution Evidence for Sprint Review.](#7215execution-evidence-for-sprint-review)
+      - [7.2.1.6.	Services Documentation Evidence for Sprint Review.](#7216services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7.	Software Deployment Evidence for Sprint Review.](#7217software-deployment-evidence-for-sprint-review)
+      - [7.2.1.8.	Team Collaboration Insights during Sprint.](#7218team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews.](#73validation-interviews)
   - [7.3.1. Diseño de Entrevistas.](#731diseño-de-entrevistas)
   - [7.3.2. Registro de Entrevistas.](#732registro-de-entrevistas)
   - [7.3.3. Evaluación según heurísticas.](#733evaluaciones-según-heurísticas)
   - [7.4. Video About-the-Product.](#74video-about-the-product)
-
 
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
