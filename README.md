@@ -5825,7 +5825,6 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 #### 7.3.2.	Registro de Entrevistas.
 
-**Segmento Objetivo 1: Líder o Gerente de Empresa**
 
 **Segmento Objetivo 1: Líder o Gerente de Empresa**
 
