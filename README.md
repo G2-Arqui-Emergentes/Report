@@ -283,6 +283,7 @@ Sandoval Paiva, Valentino: 21
       - [5.5.7.1.	Bounded Context Domain Layer Class Diagrams](#5571bounded-context-domain-layer-class-diagrams)
       - [5.5.7.2.	Bounded Context Database Design Diagram](#5572bounded-context-database-design-diagram)
 
+
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
   - [6.1.	Style Guidelines](#61style-guidelines)
     - [6.1.1.	General Style Guidelines.](#611general-style-guidelines)
@@ -295,6 +296,7 @@ Sandoval Paiva, Valentino: 21
   - [6.3.	Landing Page UI Design.](#63landing-page-ui-design)
     - [6.3.1.	Landing Page Wireframe.](#631landing-page-wireframe)
     - [6.3.2.	Landing Page Mock-up.](#632landing-page-mock-up)
+
   - [6.4.	Applications UX/UI Design.](#64applications-uxui-design)
     - [6.4.1.	Applications Wireframes.](#641applications-wireframes)
     - [6.4.2.	Applications Wireflow Diagrams.](#642applications-wireflow-diagrams)
@@ -302,27 +304,17 @@ Sandoval Paiva, Valentino: 21
     - [6.4.4.	Applications User Flow Diagrams.](#644applications-user-flow-diagrams)
   - [6.5.	Applications Prototyping.](#65applications-prototyping)
 
+
 - [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
-  - [7.1.	Software Configuration Management.](#71software-configuration-management)
-    - [7.1.1.	Software Development Environment Configuration.](#711software-development-environment-configuration)
-    - [7.1.2.	Source Code Management.](#712source-code-management)
-    - [7.1.3.	Source Code Style Guide & Conventions.](#713source-code-style-guide-&-conventions)
-    - [7.1.4.	Software Deployment Configuration.](#714software-deployment-configuration)
-  - [7.2.	Solution Implementation.](#72solution-implementation)
-    - [7.2.1.	Sprint 1](#721sprint-1)
-      - [7.2.1.1.	Sprint Planning 1.](#7211sprint-planning-1)
-      - [7.2.1.2.	Sprint Backlog 1.](#7212sprint-backlog-1)
-      - [7.2.1.3.	Development Evidence for Sprint Review.](#7213development-evidence-for-sprint-review)
-      - [7.2.1.4.	Testing Suite Evidence for Sprint Review.](#7214testing-suite-evidence-for-sprint-review)
-      - [7.2.1.5.	Execution Evidence for Sprint Review.](#7215execution-evidence-for-sprint-review)
-      - [7.2.1.6.	Services Documentation Evidence for Sprint Review.](#7216services-documentation-evidence-for-sprint-review)
-      - [7.2.1.7.	Software Deployment Evidence for Sprint Review.](#7217software-deployment-evidence-for-sprint-review)
-      - [7.2.1.8.	Team Collaboration Insights during Sprint.](#7218team-collaboration-insights-during-sprint)
+
+
+
   - [7.3. Validation Interviews.](#73validation-interviews)
   - [7.3.1. Diseño de Entrevistas.](#731diseño-de-entrevistas)
   - [7.3.2. Registro de Entrevistas.](#732registro-de-entrevistas)
   - [7.3.3. Evaluación según heurísticas.](#733evaluaciones-según-heurísticas)
   - [7.4. Video About-the-Product.](#74video-about-the-product)
+
 
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -4364,13 +4356,441 @@ Asimismo, se establecieron los entornos de desarrollo, repositorios de trabajo y
 
 
 
-El objetivo principal del Sprint 1 fue implementar las secciones principales de la Landing Page de Task Master y desarrollar las funcionalidades base de la aplicación web, la aplicación móvil y los servicios backend necesarios para soportar la lógica de negocio básica.
 
-Este sprint combinó tareas de diseño visual, estructura HTML, desarrollo en JavaScript y construcción de endpoints en Spring Boot.
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. El objetivo de este sprint es desarrollar el 50% de la aplicación, lo que incluye la primera versión funcional de la Landing Page, el Backend, el Frontend Web y el Frontend Mobile, sentando así las bases del proyecto "TaskMaster".
 
+Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de esta primera fase del proyecto.
 
-### Sprint Backlog
+![Sprint Backlog 1](assets/TB2/sprint_backlog1.png)
 
+Enlace público del Board en Trello: [https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes](https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes)
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Información general sobre TaskMaster</td>
+    <td>T-01</td>
+    <td>Diseñar sección de características clave</td>
+    <td>Crear una lista visual destacada con las funciones principales de la aplicación (gestión de tareas, reportes, etc.)</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-02</td>
+    <td>Implementar animaciones al hacer scroll</td>
+    <td>Añadir animaciones de entrada a los elementos de la sección "Características" para mejorar la experiencia de usuario.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Llamado a la acción para descargar la aplicación</td>
+    <td>T-03</td>
+    <td>Crear botón de registro/descarga</td>
+    <td>Implementar un botón de "Registrarse" o "Descargar App" en la parte superior e inferior de la landing page, con estilo llamativo.</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-04</td>
+    <td>Configurar redirección a tienda de aplicaciones</td>
+    <td>Asegurar que el botón de "Descargar App" redirija a las tiendas de aplicaciones correspondientes (App Store, Google Play).</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Testimonios de usuarios</td>
+    <td>T-05</td>
+    <td>Diseñar sección de testimonios</td>
+    <td>Crear la estructura visual para mostrar testimonios de usuarios con foto, nombre y cita.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-06</td>
+    <td>Poblar con testimonios de ejemplo</td>
+    <td>Agregar testimonios de muestra (estáticos) en la sección para demostrar la funcionalidad.</td>
+    <td>1</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Muestra de planes y precios</td>
+    <td>T-07</td>
+    <td>Diseñar sección de planes de suscripción</td>
+    <td>Crear una interfaz para mostrar los diferentes planes (Gratuito, Pro, Empresarial) con sus características.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-08</td>
+    <td>Implementar botón de "Seleccionar plan"</td>
+    <td>Añadir un botón en cada plan que redirija a la página de registro o a una página de detalles del plan.</td>
+    <td>1</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US05</td>
+    <td rowspan="2">Adaptabilidad móvil</td>
+    <td>T-09</td>
+    <td>Implementar menú hamburguesa</td>
+    <td>Crear un menú de navegación tipo hamburguesa que se active en dispositivos móviles.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-10</td>
+    <td>Configurar breakpoints y vista responsiva</td>
+    <td>Ajustar el diseño de la landing page para que sea completamente responsiva en móviles, tablets y desktop.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US06</td>
+    <td rowspan="2">Navegación mediante encabezado</td>
+    <td>T-11</td>
+    <td>Crear encabezado fijo</td>
+    <td>Desarrollar una barra de navegación fija en la parte superior de la landing page con enlaces a las secciones clave.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-12</td>
+    <td>Implementar desplazamiento suave (smooth scroll)</td>
+    <td>Añadir scroll animado al hacer clic en los enlaces del menú para navegar a las secciones correspondientes.</td>
+    <td>1</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US07</td>
+    <td rowspan="1">Misión y visión</td>
+    <td>T-13</td>
+    <td>Diseñar sección "Sobre la empresa"</td>
+    <td>Crear una sección en la landing page que muestre la Misión y Visión de la empresa de manera clara y legible.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US08</td>
+    <td rowspan="2">About the Team</td>
+    <td>T-14</td>
+    <td>Diseñar sección del equipo</td>
+    <td>Crear una sección para mostrar a los miembros del equipo con fotos, nombres, roles y descripciones breves.</td>
+    <td>3</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-15</td>
+    <td>Poblar con datos del equipo</td>
+    <td>Agregar la información de los 5 integrantes del equipo (Luquillas, Peña, Pilares, Sanchez, Sandoval) en la sección.</td>
+    <td>1</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Pie de página</td>
+    <td>T-16</td>
+    <td>Crear estructura del footer</td>
+    <td>Diseñar el pie de página con enlaces a secciones internas, políticas de privacidad, términos y condiciones, y enlaces a redes sociales.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-17</td>
+    <td>Configurar redirecciones y validaciones</td>
+    <td>Verificar que todos los enlaces del footer redirijan correctamente y que los campos de contacto (si existen) tengan validaciones básicas.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Registro de usuario</td>
+    <td>T-18</td>
+    <td>Diseñar interfaz de registro</td>
+    <td>Crear pantalla de registro con campos: nombre, email, contraseña y confirmación de contraseña.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-19</td>
+    <td>Implementar validaciones de campos</td>
+    <td>Validar formato de email, longitud de contraseña, coincidencia de contraseñas y campos obligatorios.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-20</td>
+    <td>Conectar con API de registro</td>
+    <td>Integrar la vista con el backend para enviar datos de registro y manejar respuestas (éxito o error).</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US11</td>
+    <td rowspan="2">Inicio de sesión</td>
+    <td>T-21</td>
+    <td>Diseñar interfaz de inicio de sesión</td>
+    <td>Crear pantalla de login con campos de email, contraseña y un botón de "Iniciar sesión".</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-22</td>
+    <td>Integrar con API de login</td>
+    <td>Conectar la vista con el backend para autenticar credenciales, manejar el token JWT y gestionar sesiones.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US13</td>
+    <td rowspan="1">Cierre de sesión</td>
+    <td>T-23</td>
+    <td>Implementar funcionalidad de cierre de sesión</td>
+    <td>Agregar un botón de "Cerrar sesión" en la interfaz de usuario que invalide el token de autenticación y redirija al login.</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US14</td>
+    <td rowspan="2">Invitación de usuarios con código de acceso</td>
+    <td>T-24</td>
+    <td>Diseñar interfaz de ingreso de código</td>
+    <td>Crear un campo en el registro o un flujo separado para que los usuarios ingresen un código de invitación.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-25</td>
+    <td>Implementar validación de código en backend</td>
+    <td>Desarrollar la lógica en el backend para validar códigos de acceso únicos y gestionar su estado (activo/caducado).</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US15</td>
+    <td rowspan="2">Registro de nuevos proyectos</td>
+    <td>T-26</td>
+    <td>Diseñar interfaz de creación de proyectos</td>
+    <td>Crear un formulario para que el líder de equipo registre un nuevo proyecto con nombre, descripción, fechas de inicio y fin.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-27</td>
+    <td>Conectar con API de proyectos</td>
+    <td>Integrar el formulario con el backend para guardar el proyecto en la base de datos y listarlo en el tablero del líder.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US16</td>
+    <td rowspan="2">Asignación de usuarios a proyectos</td>
+    <td>T-28</td>
+    <td>Diseñar interfaz de asignación de usuarios</td>
+    <td>Crear una vista para que el líder pueda ver una lista de usuarios disponibles y seleccionar aquellos que pertenecerán al proyecto.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-29</td>
+    <td>Conectar con API para asociar usuarios</td>
+    <td>Integrar la interfaz con el backend para guardar la relación entre usuarios y proyectos, evitando duplicados.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US17</td>
+    <td rowspan="2">Asignar tareas para los usuarios</td>
+    <td>T-30</td>
+    <td>Diseñar interfaz de asignación de tareas</td>
+    <td>Crear un componente para que el líder asigne un usuario responsable a cada tarea dentro del tablero de un proyecto.</td>
+    <td>3</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-31</td>
+    <td>Implementar lógica de asignación en backend</td>
+    <td>Desarrollar la lógica para registrar la asignación de un usuario a una tarea y actualizar el estado de la tarea.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US18</td>
+    <td rowspan="1">Establecer prioridad de tareas</td>
+    <td>T-32</td>
+    <td>Implementar selector de prioridad</td>
+    <td>Añadir un campo de selección (Alta, Media, Baja) en la creación/edición de tareas y ordenar las tareas en el tablero según este valor.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Notificaciones de tareas asignadas</td>
+    <td>T-33</td>
+    <td>Implementar sistema de notificaciones en app</td>
+    <td>Crear un sistema que, al asignar una tarea a un usuario, genere una notificación visible dentro de la aplicación para ese usuario.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-34</td>
+    <td>Configurar envío de correo electrónico</td>
+    <td>Implementar el envío automático de un correo electrónico notificando al usuario sobre la tarea asignada.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US20</td>
+    <td rowspan="1">Modificación de fechas límite de tareas</td>
+    <td>T-35</td>
+    <td>Implementar edición de fecha límite</td>
+    <td>Permitir al líder modificar la fecha límite de una tarea y validar que la nueva fecha sea posterior a la actual. Enviar notificación al usuario.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US21</td>
+    <td rowspan="1">Modificación de la prioridad de tareas</td>
+    <td>T-36</td>
+    <td>Implementar cambio de prioridad</td>
+    <td>Permitir al líder modificar la prioridad de una tarea, reordenando el tablero automáticamente tras el cambio.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US22</td>
+    <td rowspan="1">Actualización de estado de tareas</td>
+    <td>T-37</td>
+    <td>Implementar cambio de estado de tarea</td>
+    <td>Permitir a los miembros del equipo marcar una tarea como "Completada" o "Pendiente" y reflejar el cambio visualmente en el tablero.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US25</td>
+    <td rowspan="2">Visualizar calendario de tareas con alertas inteligentes</td>
+    <td>T-38</td>
+    <td>Diseñar e implementar vista de calendario</td>
+    <td>Crear una vista de calendario que muestre todas las tareas del usuario con sus fechas límite.</td>
+    <td>4</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-39</td>
+    <td>Implementar alertas de tareas próximas a vencer</td>
+    <td>Desarrollar una lógica que identifique tareas a 24 horas o menos de su fecha límite y las resalte en el calendario.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US29</td>
+    <td rowspan="1">Notificación automatizada de tarea asignada</td>
+    <td>T-40</td>
+    <td>Automatizar notificaciones de asignación</td>
+    <td>Configurar el sistema para que, tras la asignación de una tarea, se dispare automáticamente el envío de una notificación en app y por email.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US30</td>
+    <td rowspan="1">Notificación automatizada de fecha límite cercana</td>
+    <td>T-41</td>
+    <td>Implementar notificaciones de vencimiento</td>
+    <td>Crear un proceso programado o un trigger que, cuando una tarea esté a menos de 24 horas de vencer, notifique automáticamente al usuario asignado.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US31</td>
+    <td rowspan="1">Notificación automatizada de tarea completada</td>
+    <td>T-42</td>
+    <td>Notificar al líder sobre tarea completada</td>
+    <td>Implementar un flujo automático que envíe una notificación al líder del proyecto cuando un miembro del equipo marque una tarea como completada.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US32</td>
+    <td rowspan="1">Notificación automatizada de mensajes en proyecto</td>
+    <td>T-43</td>
+    <td>Notificar sobre nuevos mensajes</td>
+    <td>Desarrollar un mecanismo que, cuando se agregue un nuevo mensaje en un proyecto, notifique a los miembros del equipo que tienen acceso.</td>
+    <td>3</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US33</td>
+    <td rowspan="1">Notificación automatizada de actualización de tareas</td>
+    <td>T-44</td>
+    <td>Notificar sobre cambios en tareas</td>
+    <td>Crear un sistema que, ante cualquier modificación de una tarea (prioridad, fecha, descripción, etc.), envíe una notificación a los usuarios involucrados.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 
 
@@ -4577,10 +4997,17 @@ LINK LANDIG PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
 
 ![a1](assets/TP1/a1.png)
 ![a1](assets/TP1/a2.png)
+![a1](assets/TB2/LA7.jpeg)
 ![a1](assets/TP1/a3.png)
+![a1](assets/TB2/LA6.jpeg)
+![a1](assets/TB2/LA5.jpeg)
 ![a1](assets/TP1/a6.png)
+![a1](assets/TB2/LA4.jpeg)
 ![a1](assets/TP1/a7.png)
 ![a1](assets/TP1/a8.png)
+![a1](assets/TB2/LA1.jpeg)
+![a1](assets/TB2/LA2.jpeg)
+![a1](assets/TB2/LA3.jpeg)
 
 ### Evidencia de ejecución de la Web Application
 
