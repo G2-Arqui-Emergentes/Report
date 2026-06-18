@@ -5827,30 +5827,21 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 **Segmento Objetivo 1: Líder o Gerente de Empresa**
 
+**Segmento Objetivo 1: Líder o Gerente de Empresa**
+
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** |Fabiana Mayte Cabanillas Meza |
-| **Edad** | 19 |
-| **Profesión** | Administradora en Logística |
+| **Nombre completo entrevistado** | Paula Pilares |
+| **Edad** | 25 |
+| **Profesión** | Ingeniera de Software/Scrum Master |
 | **Departamento** | Lima |
-| **Inicio del video** | 00:10:54 |
-| **Fin del video** | 00:15:58 |
-| **Link del video** | [Link_entrevista_11](https://goo.su/RXNO6sz) |
-| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista11.png) |
-| **Resumen** | Fabiana consideró que TaskMaster es una herramienta práctica, intuitiva y fácil de usar, con una navegación clara y una distribución visual que facilita comprender rápidamente las tareas y el avance del proyecto. Describió el diseño como innovador y llamativo, sin elementos confusos, y afirmó que la plataforma permite identificar fácilmente las secciones principales, el calendario y las estadísticas. Aunque no observó dificultades ni cambios necesarios, sugirió incluir más botones que orienten acciones para mejorar la experiencia. |
+| **Inicio del video** | 00:00:05 |
+| **Fin del video** |  00:08:25 |
+| **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista23.png) |
+| **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen con el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opción de chatbot donde se pueda comentar de alguna iniciativa y además de saber algún riesgo que se tiene otro proyecto. |
 
 
-| **ENTREVISTA 2** | |
-|------------------|----------------------------|
-| **Nombre completo entrevistado** | Mathias Medina Posito |
-| **Edad** | 20 |
-| **Profesión** |  |
-| **Departamento** | Lima |
-| **Inicio del video** |  00:00:07 |
-| **Fin del video** | 00:02:53  |
-| **Link del video** | [Link_entrevista12](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQB-5cJcb0e7RYVHdCrRbexnARSe3-dCT5BeGpJa6ZeEXBA) |
-| **Foto entrevista** | ![Entrevista](assests/TB2/evidencia_entrevista12.png) |
-| **Resumen** | En la entrevista Mathias evidenció que la falta de informacion explicita en la aplicacion podria hacerla un poco confusa al usarla, ya que no sentia que era muy intuitiva, declaro que respecto al diseño era muy llamativo y agradable, afirmó que lo usaria si hay una informacion mas clara sobre como funciona cada apartado |
 
 **Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
 
@@ -5880,17 +5871,6 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
 | **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
 
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre completo entrevistado** | Paula Pilares |
-| **Edad** | 24 |
-| **Profesión** | Ingeniera de Software |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:05 |
-| **Fin del video** |  00:08:25 |
-| **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
-| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista23.png) |
-| **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen cn el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opci{on de chatbot donde se pueda comentar de alguan iniciativa y además de saber algún riesgo que tiene otro proyecto. |
 
 ### 7.3.3.	Evaluaciones según heurísticas.
 
