@@ -5941,7 +5941,7 @@ TaskMaster
 
  ![Entrevista](assets/TB2/about_the_product.png) 
 
- [Link_Video_About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQD8Uy2fAsh3QYpTfIjMg6iaAfScSxwRAIKEKE93NL_O3EI)
+ [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ)
 
 ## Conclusiones
 
