@@ -176,6 +176,24 @@ Sanchez Silva, Luciana Celeste:	11
 
 Sandoval Paiva, Valentino: 21
 
+**TF:**
+
+**REPORT**
+
+![alt text](assets/TB2/commit.jpeg)
+
+COMMITS:
+
+Luquillas Asto, Omar: 
+
+Peña Riofrio, Maria Fernanda: 
+
+Pilares Pocohuanca, Maria: 
+
+Sanchez Silva, Luciana Celeste:	
+
+Sandoval Paiva, Valentino: 
+
 
 ## Contenido
 
@@ -6009,21 +6027,6 @@ https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
 
 ##### 7.2.2.7.	Software Deployment Evidence for Sprint Review.
 
-La colaboración del equipo fue fundamental para cumplir los objetivos del Sprint 2. Durante esta iteración se mantuvo una comunicación constante para coordinar la implementación de las funcionalidades de Inteligencia Artificial en el backend y su integración con las aplicaciones web y móvil. Asimismo, se realizaron revisiones periódicas para validar el correcto funcionamiento de los servicios y las interfaces desarrolladas.
-
-**Herramientas de colaboración utilizadas**
-
-| **Herramienta** | **Propósito**                                                       |
-| --------------- | ------------------------------------------------------------------- |
-| GitHub          | Control de versiones y gestión de repositorios.                     |
-| GitHub Projects | Seguimiento del Sprint y gestión de tareas.                         |
-| Figma           | Diseño y actualización de las interfaces con funcionalidades de IA. |
-| WhatsApp        | Comunicación y coordinación del equipo.                             |
-| Google Meet     | Reuniones de planificación, seguimiento y Sprint Review.            |
-
-
-
-
 Desing:
 
 Accedemos a Figma: https://www.figma.com/login
@@ -6054,7 +6057,25 @@ Lanzamos el web Services
 
 ##### 7.2.2.8.	Team Collaboration Insights during Sprint. Versión final de Conclusiones, Bibliografía y Anexos.
 
+La colaboración del equipo fue fundamental para cumplir los objetivos del Sprint 2. Durante esta iteración se mantuvo una comunicación constante para coordinar la implementación de las funcionalidades de Inteligencia Artificial en el backend y su integración con las aplicaciones web y móvil. Asimismo, se realizaron revisiones periódicas para validar el correcto funcionamiento de los servicios y las interfaces desarrolladas.
 
+**Herramientas de colaboración utilizadas**
+
+| **Herramienta** | **Propósito**                                                       |
+| --------------- | ------------------------------------------------------------------- |
+| GitHub          | Control de versiones y gestión de repositorios.                     |
+| GitHub Projects | Seguimiento del Sprint y gestión de tareas.                         |
+| Figma           | Diseño y actualización de las interfaces con funcionalidades de IA. |
+| WhatsApp        | Comunicación y coordinación del equipo.                             |
+| Google Meet     | Reuniones de planificación, seguimiento y Sprint Review.            |
+
+**Lading Page:**
+
+**Web Application**
+
+**Mobile Application**
+
+**Backend Services**
 
 
 
