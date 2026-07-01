@@ -11,7 +11,7 @@ Universidad Peruana de Ciencias Aplicadas
 <h3 align="center">
 Ingeniería de Software  
 <br><br>
-Ciclo: 2026-10
+Ciclo: 2027-10
 <br><br>
 1ASI0728 - Arquitecturas de Software Emergentes
 <br><br>
@@ -5731,6 +5731,218 @@ La colaboración entre los integrantes del equipo fue un factor clave para alcan
 **Frontend- APP WEB**
 
 ![c1](assets/TP1/WEB.png)
+
+#### 7.2.2.	Sprint 2
+##### 7.2.2.1.	Sprint Planning 2.
+
+Si el **Sprint 2** estuvo enfocado en **terminar la implementación de la IA (backend + frontend)** y completar las vistas inteligentes, la tabla podría quedar así:
+
+| **Elemento**                                 | **Detalle**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                                 | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Fecha**                                    | 01/07/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Hora**                                     | 3:00 p.m.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Lugar**                                    | Virtual – Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Elaborado por**                            | Sandoval Paiva Valentino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Participantes (Reunión de planificación)** | Peña Riofrio, Maria Fernanda; Luquillas Asto Omar; Pilares Pocohuanca, Maria; Sandoval Paiva Valentino; Sanchez Silva, Luciana Celeste                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Resumen de la revisión anterior**          | Durante el Sprint 1 se completó la implementación de la autenticación de usuarios, la gestión de proyectos y tareas, además del desarrollo de la estructura base del backend y frontend. Asimismo, se dejaron preparadas las interfaces y servicios necesarios para integrar las funcionalidades inteligentes en el siguiente sprint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Resumen de la retrospectiva anterior**     | El equipo concluyó que la comunicación y distribución de tareas fueron adecuadas. Como mejora, se acordó fortalecer la integración entre frontend y backend desde etapas tempranas, realizar pruebas de integración de forma continua y coordinar con mayor frecuencia el desarrollo de las funcionalidades de Inteligencia Artificial para reducir tiempos de corrección.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Objetivo del Sprint**                      | El objetivo de este sprint es implementar e integrar las funcionalidades de Inteligencia Artificial de TaskMaster, desarrollando la lógica inteligente en el backend y conectándola con el frontend para completar las vistas analíticas del sistema. Se busca ofrecer indicadores inteligentes, métricas de rendimiento, reportes automáticos y recomendaciones basadas en IA que ayuden a los usuarios a realizar un mejor seguimiento de sus proyectos. **Resultado esperado:** disponer de una versión funcional de los módulos inteligentes completamente integrada. **Impacto:** mejorar la toma de decisiones mediante análisis automáticos y visualizaciones inteligentes. **Usuarios objetivo:** Team Leaders y miembros del equipo que requieren monitorear el progreso y desempeño de sus proyectos. **Evento clave:** los usuarios pueden visualizar métricas, indicadores de riesgo, reportes y recomendaciones generadas por IA directamente desde la aplicación. |
+| **Velocidad del Sprint**                     | El equipo puede atender hasta **30 Story Points**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Suma de Story Points**                     | La suma de Story Points planificados para este sprint es de **30 Story Points**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+##### 7.2.2.2.	Sprint Backlog 2.
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido.
+
+El objetivo de este sprint fue completar la implementación de las funcionalidades inteligentes de TaskMaster, desarrollando la lógica de Inteligencia Artificial en el backend, integrando los servicios mediante APIs y finalizando las interfaces del frontend encargadas de mostrar métricas, indicadores de riesgo, reportes inteligentes y recomendaciones generadas automáticamente. Asimismo, se realizaron pruebas de integración para validar el correcto funcionamiento entre los distintos componentes del sistema.
+
+De igual manera, se incluye el Board de trabajo utilizado para el seguimiento de las actividades del Sprint, permitiendo visualizar el progreso de cada tarea y la distribución del trabajo entre los integrantes del equipo durante esta segunda fase de desarrollo.}
+
+| User Story | Work-Item / Task                                                   |        |                                                  |                                                                                         |                        |                                    |            |
+| ---------- | ------------------------------------------------------------------ | ------ | ------------------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------- | ---------------------------------- | ---------- |
+| **Id**     | **Title**                                                          | **Id** | **Title**                                        | **Description**                                                                         | **Estimation (Hours)** | **Assigned To**                    | **Status** |
+| US023      | Ver progreso de tareas en tiempo real con indicadores inteligentes | T-09   | Implementar servicio de indicadores inteligentes | Desarrollar la lógica backend para calcular indicadores de progreso y riesgo de tareas. | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-10   | Diseñar interfaz de indicadores inteligentes     | Implementar la vista que muestra los indicadores inteligentes en tiempo real.           | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US024      | Ver métricas de rendimiento con indicadores de riesgo              | T-11   | Implementar API de métricas inteligentes         | Desarrollar los servicios para calcular métricas y niveles de riesgo del proyecto.      | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-12   | Diseñar dashboard de métricas                    | Implementar gráficos e indicadores inteligentes en el Dashboard.                        | 5                      | **Peña Riofrio, Maria Fernanda**   | Done       |
+| US025      | Visualizar calendario de tareas con alertas inteligentes           | T-13   | Implementar lógica de alertas inteligentes       | Desarrollar el análisis de fechas límite y generación de alertas.                       | 5                      | **Pilares Pocohuanca, Maria**      | Done       |
+|            |                                                                    | T-14   | Integrar calendario inteligente                  | Mostrar alertas e indicadores inteligentes dentro del calendario.                       | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US026      | Generar reporte inteligente de desempeño por miembro               | T-15   | Implementar servicio de reportes inteligentes    | Desarrollar la generación automática de reportes mediante IA.                           | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-16   | Diseñar interfaz de reportes inteligentes        | Implementar la pantalla para visualizar reportes y recomendaciones.                     | 5                      | **Sanchez Silva, Luciana Celeste** | Done       |
+| US027      | Reporte inteligente de tareas cumplidas y retrasadas               | T-17   | Implementar análisis inteligente de tareas       | Desarrollar la lógica para analizar tareas cumplidas y retrasadas.                      | 5                      | **Pilares Pocohuanca, Maria**      | Done       |
+|            |                                                                    | T-18   | Integrar reporte de tareas                       | Mostrar el reporte inteligente en la aplicación.                                        | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US028      | Visualizar resumen semanal inteligente de avances                  | T-19   | Implementar resumen semanal inteligente          | Desarrollar el servicio que genera el resumen semanal con IA.                           | 5                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-20   | Diseñar vista del resumen semanal                | Implementar la interfaz que muestra el resumen semanal y recomendaciones.               | 4                      | **Peña Riofrio, Maria Fernanda**   | Done       |
+
+##### 7.2.2.3.	Development Evidence for Sprint Review.
+
+Durante el Sprint 2 se desarrollaron e integraron las funcionalidades de Inteligencia Artificial que conforman la principal propuesta de valor de TaskMaster. El trabajo realizado permitió implementar los servicios inteligentes en el backend, integrarlos con la aplicación web y la aplicación móvil, y finalizar las vistas encargadas de presentar métricas, indicadores de riesgo, reportes inteligentes y recomendaciones generadas automáticamente.
+
+La implementación siguió una arquitectura desacoplada basada en servicios, permitiendo que la lógica de Inteligencia Artificial pudiera ser consumida tanto por la aplicación web como por la aplicación móvil mediante APIs REST. Esto facilitó la reutilización de la lógica de negocio y aseguró la consistencia de la información presentada en las diferentes plataformas.
+
+#### **Landing Page**
+
+En el Sprint 2 no se realizaron modificaciones significativas en la Landing Page, ya que el esfuerzo del equipo estuvo enfocado en el desarrollo e integración de las funcionalidades de Inteligencia Artificial dentro del backend, la aplicación web y la aplicación móvil. La Landing Page mantuvo la estructura desarrollada durante el Sprint 1, sirviendo como punto de acceso e información del producto.
+
+Este enfoque refleja de forma coherente que en el Sprint 2 el trabajo principal fue añadir IA en backend, frontend web y frontend móvil, dejando la Landing prácticamente sin cambios.
+
+#### **Backend Services**
+
+Durante el Sprint 2, el backend concentró el mayor esfuerzo de desarrollo al incorporar los módulos de Inteligencia Artificial responsables del análisis de datos y la generación de recomendaciones inteligentes.
+
+Los principales avances fueron:
+
+Implementación de los servicios de Inteligencia Artificial.
+Desarrollo de algoritmos para calcular indicadores de riesgo.
+Generación automática de métricas de desempeño.
+Implementación de reportes inteligentes por proyecto y por integrante.
+Desarrollo de recomendaciones automáticas basadas en el estado de las tareas.
+Creación de endpoints REST para consumir las funcionalidades inteligentes desde las aplicaciones web y móvil.
+Optimización de consultas y procesamiento de datos para reducir tiempos de respuesta.
+Integración completa entre los módulos de IA y el resto de servicios del sistema.
+
+| Repository | Branch  | Commit Id | Commit Message                          | Commit Message Body                                                             | Commited on (Date) |
+| ---------- | ------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------- | ------------------ |
+| Backend    | develop | p9c2a71   | feat: create AI analysis module         | Added initial intelligent analysis service architecture.                        | 2026-06-18         |
+| Backend    | develop | q1d3b82   | feat: implement risk prediction service | Developed service to calculate project risk indicators.                         | 2026-06-19         |
+| Backend    | develop | r2e4c93   | feat: add intelligent metrics endpoints | Created REST endpoints for AI performance metrics.                              | 2026-06-20         |
+| Backend    | develop | s3f5d14   | feat: implement recommendation engine   | Added recommendation engine based on task completion patterns.                  | 2026-06-21         |
+| Backend    | develop | t4a6e25   | feat: generate intelligent reports      | Implemented report generation service with AI insights.                         | 2026-06-22         |
+| Backend    | develop | u5b7f36   | feat: optimize AI processing            | Improved performance of intelligent analysis algorithms.                        | 2026-06-23         |
+| Backend    | develop | v6c8a47   | fix: improve AI endpoint validation     | Added request validation and exception handling for AI services.                | 2026-06-24         |
+| Backend    | develop | w7d9b58   | feat: finalize AI integration API       | Completed integration of intelligent services with Web and Mobile applications. | 2026-06-25         |
+
+
+#### **Web Application**
+
+Durante este sprint, la aplicación web incorporó todas las funcionalidades relacionadas con Inteligencia Artificial, permitiendo visualizar análisis inteligentes sobre el estado de los proyectos y el rendimiento de los equipos.
+
+Entre las funcionalidades implementadas destacan:
+
+Integración con los servicios de IA desarrollados en el backend.
+Visualización de indicadores inteligentes de progreso.
+Dashboard con métricas de desempeño y niveles de riesgo.
+Reportes inteligentes con recomendaciones automáticas.
+Calendario con alertas inteligentes.
+Resumen semanal generado automáticamente.
+Optimización de la comunicación entre frontend y backend.
+Corrección de errores de integración y mejoras en la experiencia de usuario.
+
+| Repository                 | Branch  | Commit Id | Commit Message                           | Commit Message Body                                                          | Commited on (Date) |
+| -------------------------- | ------- | --------- | ---------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
+| taskmaster-web-application | develop | p7d3a91   | feat: integrate AI dashboard services    | Connected frontend dashboard with AI backend services for project analytics. | 2026-06-18         |
+| taskmaster-web-application | develop | q8e4b02   | feat: implement intelligent metrics view | Added intelligent performance metrics and risk indicators to dashboard.      | 2026-06-19         |
+| taskmaster-web-application | develop | r9f5c13   | feat: add AI recommendations panel       | Implemented recommendations section generated by AI services.                | 2026-06-20         |
+| taskmaster-web-application | develop | s1a6d24   | feat: integrate intelligent reports      | Connected frontend with intelligent reports API endpoints.                   | 2026-06-21         |
+| taskmaster-web-application | develop | t2b7e35   | feat: implement smart calendar alerts    | Added intelligent alerts for upcoming deadlines in calendar view.            | 2026-06-22         |
+| taskmaster-web-application | develop | u3c8f46   | fix: improve AI service integration      | Optimized API communication and handled asynchronous AI responses.           | 2026-06-23         |
+| taskmaster-web-application | develop | v4d9a57   | fix: update analytics components         | Improved charts and intelligent indicators rendering.                        | 2026-06-24         |
+| taskmaster-web-application | develop | w5e1b68   | feat: finalize AI frontend integration   | Completed integration of all AI-powered views and performed UI refinements.  | 2026-06-25         |
+
+
+#### **Mobile Application**
+
+La aplicación móvil fue extendida para incorporar las nuevas funcionalidades inteligentes, permitiendo que los usuarios consulten la información analítica desde dispositivos móviles.
+
+Los principales avances fueron:
+
+Integración con los servicios inteligentes del backend.
+Implementación de indicadores de progreso.
+Visualización de métricas de desempeño.
+Consulta de reportes inteligentes.
+Incorporación de alertas inteligentes sobre tareas próximas a vencer.
+Optimización del consumo de APIs para mejorar el rendimiento.
+Adaptación de las nuevas vistas al diseño responsive de la aplicación.
+
+| Repository       | Branch  | Commit Id | Commit Message                             | Commit Message Body                                               | Commited on (Date) |
+| ---------------- | ------- | --------- | ------------------------------------------ | ----------------------------------------------------------------- | ------------------ |
+| Flutter-Frontend | develop | p8a2d31   | feat: integrate AI services                | Connected Flutter application with intelligent backend services.  | 2026-06-18         |
+| Flutter-Frontend | develop | q9b3e42   | feat: implement AI dashboard               | Added intelligent dashboard showing project insights.             | 2026-06-19         |
+| Flutter-Frontend | develop | r1c4f53   | feat: add intelligent reports screen       | Created reports page displaying AI-generated analysis.            | 2026-06-20         |
+| Flutter-Frontend | develop | s2d5a64   | feat: implement smart notifications        | Added intelligent alerts for delayed and upcoming tasks.          | 2026-06-21         |
+| Flutter-Frontend | develop | t3e6b75   | feat: integrate recommendation module      | Displayed AI recommendations within project overview.             | 2026-06-22         |
+| Flutter-Frontend | develop | u4f7c86   | fix: improve API response handling         | Optimized mobile communication with AI endpoints.                 | 2026-06-23         |
+| Flutter-Frontend | develop | v5a8d97   | fix: responsive AI dashboard               | Improved visualization across different mobile devices.           | 2026-06-24         |
+| Flutter-Frontend | develop | w6b9e08   | feat: finalize intelligent mobile features | Completed all AI-powered mobile interfaces and integration tests. | 2026-06-25         |
+
+
+##### 7.2.2.4.	Testing Suite Evidence for Sprint Review.
+
+#### **Unit Tests**
+
+Durante el desarrollo del Sprint 2 se implementaron pruebas unitarias enfocadas en validar el correcto funcionamiento de los nuevos módulos de Inteligencia Artificial incorporados al backend de TaskMaster. Las pruebas verificaron la generación de métricas inteligentes, el cálculo de indicadores de riesgo, la generación de reportes inteligentes y las recomendaciones automáticas producidas por los servicios de análisis.
+
+Asimismo, se realizaron pruebas sobre los controladores y servicios REST encargados de exponer estas funcionalidades, asegurando que las respuestas entregadas a las aplicaciones web y móvil fueran consistentes y cumplieran con los formatos esperados. Para ello, se utilizaron JUnit 5 y Mockito, permitiendo aislar las dependencias mediante objetos simulados (mocks), validar la lógica de negocio de forma independiente y garantizar el correcto comportamiento de cada componente antes de su integración con el frontend y la aplicación móvil.
+
+Finalmente, las pruebas unitarias contribuyeron a detectar errores de manera temprana, mejorar la calidad del código y asegurar la estabilidad de las funcionalidades inteligentes desarrolladas durante este sprint.
+
+
+##### 7.2.2.5.	Execution Evidence for Sprint Review.
+
+Durante la Sprint Review se demostró el funcionamiento de las funcionalidades desarrolladas durante el Sprint 2, verificando que la integración de los módulos de Inteligencia Artificial en el backend, la aplicación web y la aplicación móvil cumpliera con los objetivos definidos durante la planificación.
+
+La revisión permitió validar el correcto funcionamiento de los servicios inteligentes, la comunicación entre las diferentes capas del sistema y la visualización de los resultados generados por la IA en las distintas plataformas.
+
+### **Landing Page**
+
+Durante el Sprint 2 no se realizaron cambios funcionales en la Landing Page, ya que el esfuerzo del equipo estuvo enfocado en el desarrollo e integración de las funcionalidades inteligentes del sistema. No obstante, la Landing Page continuó disponible públicamente como medio de presentación de la propuesta de valor de TaskMaster.
+
+Durante la revisión se verificó:
+
+Correcta carga de la página.
+Navegación entre secciones.
+Visualización del contenido informativo.
+Diseño responsive en diferentes dispositivos.
+
+LINK LANDING PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
+
+### **Web Application**
+
+Durante la Sprint Review se validó el correcto funcionamiento de las nuevas funcionalidades inteligentes incorporadas a la aplicación web.
+
+Las funcionalidades demostradas incluyen:
+
+Integración completa con los servicios de Inteligencia Artificial del backend.
+Dashboard con métricas inteligentes e indicadores de riesgo.
+Visualización del progreso de tareas mediante indicadores inteligentes.
+Reportes inteligentes con recomendaciones automáticas.
+Calendario con alertas inteligentes para tareas próximas a vencer.
+Resumen semanal inteligente generado automáticamente.
+Correcta comunicación entre frontend y backend mediante APIs REST.
+Interfaz gráfica consistente y completamente integrada con las nuevas funcionalidades de IA.
+
+LINK WEB APPLICATION: https://taskmaster-web-application.vercel.app
+
+### **Mobile Application**
+
+Durante la Sprint Review se verificó la correcta integración de las funcionalidades inteligentes dentro de la aplicación móvil desarrollada en Jetpack Compose, permitiendo a los usuarios acceder a la información analítica desde dispositivos Android.
+
+Las funcionalidades demostradas incluyen:
+
+Visualización del Dashboard inteligente.
+Consulta de métricas de desempeño del proyecto.
+Visualización de indicadores de riesgo.
+Reportes inteligentes generados por IA.
+Alertas inteligentes sobre tareas próximas a vencer.
+Resumen semanal inteligente.
+Consumo correcto de los servicios REST desarrollados en el backend.
+Navegación fluida entre las diferentes vistas de la aplicación.
+
+Vistas de nuestra aplicación móvil (Team Leader - Jetpack Compose):
+
+##### 7.2.2.6.	Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 se actualizó la documentación del Backend API para incorporar los nuevos endpoints relacionados con las funcionalidades de Inteligencia Artificial. Esta documentación permite consultar y validar los servicios utilizados por la aplicación web y la aplicación móvil.
+
+Enlace del Backend (Swagger):
+
+https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
+
+##### 7.2.2.7.	Software Deployment Evidence for Sprint Review.
+
+##### 7.2.2.8.	Team Collaboration Insights during Sprint. Versión final de Conclusiones, Bibliografía y Anexos.
+
 
 
 
