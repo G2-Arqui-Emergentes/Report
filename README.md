@@ -5877,6 +5877,48 @@ Asimismo, se realizaron pruebas sobre los controladores y servicios REST encarga
 
 Finalmente, las pruebas unitarias contribuyeron a detectar errores de manera temprana, mejorar la calidad del código y asegurar la estabilidad de las funcionalidades inteligentes desarrolladas durante este sprint.
 
+Prueba de las Test de creación de tareas:
+              
+![a1](assets/TP1/e1.png)
+              
+Prueba de Test de creación de usuarios (IAM)
+              
+![a1](assets/TP1/e2.png)
+
+**Integration Tests**
+
+En cuanto a las pruebas de integración, se realizaron con el objetivo de comprobar la correcta interacción entre los distintos módulos del sistema. Se validó el flujo completo desde el controlador hasta las capas de servicio y repositorio, asegurando la comunicación adecuada con la base de datos y los servicios REST. Estas pruebas permitieron detectar posibles fallos en la configuración de dependencias y en la transferencia de datos entre componentes.
+
+![integration_test](assets/TP1/integration_test.png)
+
+**BDD Tests**
+
+Finalmente, se desarrollaron pruebas de aceptación bajo el enfoque BDD (Behavior Driven Development), utilizando archivos .feature escritos en lenguaje Gherkin. Estas pruebas reflejan los escenarios definidos en las historias de usuario, permitiendo validar el comportamiento del sistema desde la perspectiva del usuario final. Cada escenario fue automatizado mediante pasos (Steps) programados, comprobando que las funcionalidades entregadas cumplen con los criterios de aceptación definidos en el sprint.
+
+![bdd_test](assets/TP1/bdd_test.png)
+
+![bdd_test2](assets/TP1/bdd_test2.png)
+
+![bdd_test3](assets/TP1/bdd_test3.png)
+
+![bdd_test4](assets/TP1/bdd_test4.png)
+
+![bdd_test5](assets/TP1/bdd_test5.png)
+
+| Repository | Branch  | Commit Id | Commit Message                                   | Commit Message Body                                                                  | Commited on (Date) |
+| ---------- | ------- | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------ |
+| Backend    | develop | t1a4b72   | test: task creation unit test                    | Added JUnit and Mockito test cases to validate task creation service behavior.       | 2026-06-12         |
+| Backend    | develop | t2b5c83   | test: IAM user creation unit test                | Implemented unit tests for user registration and validation processes in IAM module. | 2026-06-12         |
+| Backend    | develop | t3c6d94   | test: service layer validation                   | Added tests for business logic execution and service methods.                        | 2026-06-13         |
+| Backend    | develop | t4d7e15   | test: integration between controller and service | Validated data flow from REST controllers to service layer.                          | 2026-06-14         |
+| Backend    | develop | t5e8f26   | test: repository integration                     | Verified repository operations and database interactions.                            | 2026-06-14         |
+| Backend    | develop | t6f9a37   | test: integration with REST endpoints            | Executed integration tests for API endpoints and request handling.                   | 2026-06-14         |
+| Backend    | develop | t7a1b48   | test: bdd user registration scenario             | Added Gherkin scenario and step definitions for user registration acceptance test.   | 2026-06-15         |
+| Backend    | develop | t8b2c59   | test: bdd task creation scenario                 | Implemented BDD scenario validating task creation workflow.                          | 2026-06-15         |
+| Backend    | develop | t9c3d60   | test: bdd project management scenarios           | Added acceptance tests for project creation and management features.                 | 2026-06-16         |
+| Backend    | develop | t1d4e71   | test: bdd sprint review validation               | Executed complete acceptance test suite covering sprint user stories.                | 2026-06-17         |
+
+
 
 ##### 7.2.2.5.	Execution Evidence for Sprint Review.
 
@@ -5897,6 +5939,20 @@ Diseño responsive en diferentes dispositivos.
 
 LINK LANDING PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
 
+![a1](assets/TP1/a1.png)
+![a1](assets/TP1/a2.png)
+![a1](assets/TB2/LA7.jpeg)
+![a1](assets/TP1/a3.png)
+![a1](assets/TB2/LA6.jpeg)
+![a1](assets/TB2/LA5.jpeg)
+![a1](assets/TP1/a6.png)
+![a1](assets/TB2/LA4.jpeg)
+![a1](assets/TP1/a7.png)
+![a1](assets/TP1/a8.png)
+![a1](assets/TB2/LA1.jpeg)
+![a1](assets/TB2/LA2.jpeg)
+![a1](assets/TB2/LA3.jpeg)
+
 ### **Web Application**
 
 Durante la Sprint Review se validó el correcto funcionamiento de las nuevas funcionalidades inteligentes incorporadas a la aplicación web.
@@ -5913,6 +5969,18 @@ Correcta comunicación entre frontend y backend mediante APIs REST.
 Interfaz gráfica consistente y completamente integrada con las nuevas funcionalidades de IA.
 
 LINK WEB APPLICATION: https://taskmaster-web-application.vercel.app
+
+![a1](assets/TF/F1.png)
+![a1](assets/TF/F2.png)
+![a1](assets/TF/F3.png)
+![a1](assets/TF/F4.png)
+![a1](assets/TF/F5.png)
+![a1](assets/TF/F6.png)
+![a1](assets/TF/F7.png)
+![a1](assets/TF/F8.png)
+![a1](assets/TF/F9.png)
+![a1](assets/TF/F10.png)
+![a1](assets/TF/F11.png)
 
 ### **Mobile Application**
 
@@ -5940,6 +6008,49 @@ Enlace del Backend (Swagger):
 https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
 
 ##### 7.2.2.7.	Software Deployment Evidence for Sprint Review.
+
+La colaboración del equipo fue fundamental para cumplir los objetivos del Sprint 2. Durante esta iteración se mantuvo una comunicación constante para coordinar la implementación de las funcionalidades de Inteligencia Artificial en el backend y su integración con las aplicaciones web y móvil. Asimismo, se realizaron revisiones periódicas para validar el correcto funcionamiento de los servicios y las interfaces desarrolladas.
+
+**Herramientas de colaboración utilizadas**
+
+| **Herramienta** | **Propósito**                                                       |
+| --------------- | ------------------------------------------------------------------- |
+| GitHub          | Control de versiones y gestión de repositorios.                     |
+| GitHub Projects | Seguimiento del Sprint y gestión de tareas.                         |
+| Figma           | Diseño y actualización de las interfaces con funcionalidades de IA. |
+| WhatsApp        | Comunicación y coordinación del equipo.                             |
+| Google Meet     | Reuniones de planificación, seguimiento y Sprint Review.            |
+
+
+
+
+Desing:
+
+Accedemos a Figma: https://www.figma.com/login
+![c1](assets/TP1/c1.png)
+En el apartado o creamos un nuevo proyecto o nos unimos a un proyecto
+![c1](assets/TP1/c2.png)
+![c1](assets/TP1/c3.png)
+
+Deployment
+Ingresamos a Github: https://www.github.com
+![c1](assets/TP1/c4.png)
+Nos registramos o ingresamos a una cuenta
+![c1](assets/TP1/c5.png)
+Ingresamos al repositorio que queremos publicar
+![c1](assets/TP1/c6.png)
+Ingresamos a "Settings" y luego a "Pages"
+![c1](assets/TP1/c7.png)
+Desplegamos la página y ya tendremos un link
+![c1](assets/TP1/c8.png)
+
+Accedamos a Render
+![c1](assets/TP1/c9.png)
+Ponemos nuestro repositorio de Backend
+![c1](assets/TP1/c11.png)
+Lanzamos el web Services
+![c1](assets/TP1/c12.png)
+![c1](assets/TP1/c13.png)
 
 ##### 7.2.2.8.	Team Collaboration Insights during Sprint. Versión final de Conclusiones, Bibliografía y Anexos.
 
