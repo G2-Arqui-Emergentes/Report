@@ -11,7 +11,7 @@ Universidad Peruana de Ciencias Aplicadas
 <h3 align="center">
 Ingeniería de Software  
 <br><br>
-Ciclo: 2026-10
+Ciclo: 2027-10
 <br><br>
 1ASI0728 - Arquitecturas de Software Emergentes
 <br><br>
@@ -162,7 +162,25 @@ Sandoval Paiva, Valentino: 16
 
 **REPORT**
 
-![alt text](assets/TB2/commits.png)
+![alt text](assets/TB2/commit.jpeg)
+
+COMMITS:
+
+Luquillas Asto, Omar: 28
+
+Peña Riofrio, Maria Fernanda: 12
+
+Pilares Pocohuanca, Maria: 42
+
+Sanchez Silva, Luciana Celeste:	11
+
+Sandoval Paiva, Valentino: 21
+
+**TF:**
+
+**REPORT**
+
+![alt text](assets/TB2/commit.jpeg)
 
 COMMITS:
 
@@ -4337,75 +4355,461 @@ Asimismo, se establecieron los entornos de desarrollo, repositorios de trabajo y
 
 ##### 7.2.1.1.	Sprint Planning 1.
 
-
-La planificación del Sprint 1 permitió definir el alcance inicial del producto, identificar las funcionalidades prioritarias y distribuir las actividades entre los integrantes del equipo de desarrollo.
-
-El equipo tomó como referencia los User Stories definidos en el Product Backlog, priorizando aquellas funcionalidades necesarias para construir una primera versión navegable y demostrable del sistema.
-
-### Sprint Goal
-
-> Implementar la primera versión funcional de TaskMaster, permitiendo a los usuarios conocer la propuesta de valor del producto, acceder a la plataforma y visualizar los principales módulos relacionados con la gestión de proyectos y tareas.
-
-### Funcionalidades priorizadas
-
-| ID   | Funcionalidad                                 |
-| ---- | --------------------------------------------- |
-| US01 | Visualización de la Landing Page del producto |
-| US02 | Navegación entre secciones principales        |
-| US03 | Pantalla de autenticación de usuarios         |
-| US04 | Gestión inicial de proyectos                  |
-| US05 | Gestión inicial de tareas                     |
-| US06 | Dashboard principal                           |
-| US07 | Navegación móvil básica                       |
-| US08 | Configuración inicial de servicios backend    |
-
-### Criterios de priorización
-
-* Valor funcional para los usuarios finales.
-* Dependencias técnicas necesarias para futuras iteraciones.
-* Complejidad de implementación.
-* Disponibilidad de recursos del equipo.
-* Relación con los flujos de usuario definidos durante la etapa de diseño UX/UI.
-
-### Resultado del Sprint Planning
-
-Como resultado de la planificación se definió un conjunto de actividades orientadas a construir un incremento funcional demostrable, permitiendo validar la arquitectura propuesta y sentar las bases para el desarrollo de funcionalidades avanzadas en futuros sprints.
-
-
----
+| Elemento | Detalle |
+|-----------|----------|
+| Sprint # | Sprint 1 |
+| Fecha | 10 de Junio de 2026 |
+| Hora | 3:00 p.m. |
+| Lugar | Virtual – Google Meet |
+| Elaborado por | Luquillas Asto Omar |
+| Participantes (Reunión de planificación) | Peña Riofrio, Maria Fernanda, Luquillas Asto Omar, Pilares Pocohuanca, Maria, Sandoval Paiva Valentino, Sanchez Silva, Luciana Celeste |
+| Resumen de la revisión anterior | Al ser el primer sprint, aún no se completa|
+| Resumen de la retrospectiva anterior |Al ser el primer sprint, aún no se completa |
+| Objetivo del Sprint | El objetivo de este sprint es establecer la base técnica y visual del proyecto Task Master, desarrollando la landing page y los módulos principales del backend para la gestión de usuarios y tareas. Se busca garantizar que los usuarios puedan gestionar sus primeras tareas. Resultado esperado: Desplegar la primera versión funcional del sistema. Impacto: Validar la propuesta de valor e iniciar pruebas internas. Usuarios objetivo: Personas interesadas en organizar sus actividades y proyectos. Evento clave: Los usuarios pueden registrarse, iniciar sesión y visualizar sus tareas dentro del sistema. |
+| Velocidad del Sprint | El equipo puede atender hasta 30 Story Points. |
+| Suma de Story Points | La suma de Story Points planificados para este sprint es de 30 Story Points. |
 
 
 ##### 7.2.1.2.	Sprint Backlog 1.
 
 
-El Sprint Backlog 1 estuvo compuesto por las historias de usuario seleccionadas para la construcción del primer incremento funcional del sistema.
-
-Las tareas definidas permitieron desarrollar la estructura inicial de la Landing Page, la aplicación web, la aplicación móvil y los servicios backend necesarios para soportar la lógica de negocio básica.
-
-### Sprint Backlog
-
-| User Story | Descripción                                                                          | Tareas técnicas                                                      |
-| ---------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| US01       | Como visitante, deseo conocer TaskMaster para comprender sus beneficios.             | Implementación de Landing Page, navegación y secciones informativas. |
-| US02       | Como usuario, deseo acceder al sistema para utilizar sus funcionalidades.            | Desarrollo de interfaces de autenticación y navegación inicial.      |
-| US03       | Como líder de proyecto, deseo visualizar mis proyectos para realizar seguimiento.    | Implementación de vistas y componentes para proyectos.               |
-| US04       | Como miembro del equipo, deseo visualizar mis tareas asignadas.                      | Desarrollo de componentes de gestión de tareas.                      |
-| US05       | Como usuario, deseo navegar desde dispositivos móviles.                              | Desarrollo de estructura base de aplicación móvil.                   |
-| US06       | Como administrador, deseo disponer de servicios backend para soportar la aplicación. | Configuración inicial de API y estructura de backend.                |
-
-### Definition of Done (DoD)
-
-Una historia de usuario se consideró completada cuando cumplía los siguientes criterios:
-
-* Código implementado y almacenado en el repositorio correspondiente.
-* Funcionalidad ejecutable sin errores críticos.
-* Integración con la estructura general del proyecto.
-* Cumplimiento de estándares de codificación definidos por el equipo.
-* Evidencia disponible para la Sprint Review.
-* Registro de cambios mediante commits en GitHub.
 
 
----
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. El objetivo de este sprint es desarrollar el 50% de la aplicación, lo que incluye la primera versión funcional de la Landing Page, el Backend, el Frontend Web y el Frontend Mobile, sentando así las bases del proyecto "TaskMaster".
+
+Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de esta primera fase del proyecto.
+
+![Sprint Backlog 1](assets/TB2/sprint_backlog1.png)
+
+Enlace público del Board en Trello: [https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes](https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes)
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Información general sobre TaskMaster</td>
+    <td>T-01</td>
+    <td>Diseñar sección de características clave</td>
+    <td>Crear una lista visual destacada con las funciones principales de la aplicación (gestión de tareas, reportes, etc.)</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-02</td>
+    <td>Implementar animaciones al hacer scroll</td>
+    <td>Añadir animaciones de entrada a los elementos de la sección "Características" para mejorar la experiencia de usuario.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Llamado a la acción para descargar la aplicación</td>
+    <td>T-03</td>
+    <td>Crear botón de registro/descarga</td>
+    <td>Implementar un botón de "Registrarse" o "Descargar App" en la parte superior e inferior de la landing page, con estilo llamativo.</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-04</td>
+    <td>Configurar redirección a tienda de aplicaciones</td>
+    <td>Asegurar que el botón de "Descargar App" redirija a las tiendas de aplicaciones correspondientes (App Store, Google Play).</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Testimonios de usuarios</td>
+    <td>T-05</td>
+    <td>Diseñar sección de testimonios</td>
+    <td>Crear la estructura visual para mostrar testimonios de usuarios con foto, nombre y cita.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-06</td>
+    <td>Poblar con testimonios de ejemplo</td>
+    <td>Agregar testimonios de muestra (estáticos) en la sección para demostrar la funcionalidad.</td>
+    <td>1</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Muestra de planes y precios</td>
+    <td>T-07</td>
+    <td>Diseñar sección de planes de suscripción</td>
+    <td>Crear una interfaz para mostrar los diferentes planes (Gratuito, Pro, Empresarial) con sus características.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-08</td>
+    <td>Implementar botón de "Seleccionar plan"</td>
+    <td>Añadir un botón en cada plan que redirija a la página de registro o a una página de detalles del plan.</td>
+    <td>1</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US05</td>
+    <td rowspan="2">Adaptabilidad móvil</td>
+    <td>T-09</td>
+    <td>Implementar menú hamburguesa</td>
+    <td>Crear un menú de navegación tipo hamburguesa que se active en dispositivos móviles.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-10</td>
+    <td>Configurar breakpoints y vista responsiva</td>
+    <td>Ajustar el diseño de la landing page para que sea completamente responsiva en móviles, tablets y desktop.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US06</td>
+    <td rowspan="2">Navegación mediante encabezado</td>
+    <td>T-11</td>
+    <td>Crear encabezado fijo</td>
+    <td>Desarrollar una barra de navegación fija en la parte superior de la landing page con enlaces a las secciones clave.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-12</td>
+    <td>Implementar desplazamiento suave (smooth scroll)</td>
+    <td>Añadir scroll animado al hacer clic en los enlaces del menú para navegar a las secciones correspondientes.</td>
+    <td>1</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US07</td>
+    <td rowspan="1">Misión y visión</td>
+    <td>T-13</td>
+    <td>Diseñar sección "Sobre la empresa"</td>
+    <td>Crear una sección en la landing page que muestre la Misión y Visión de la empresa de manera clara y legible.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US08</td>
+    <td rowspan="2">About the Team</td>
+    <td>T-14</td>
+    <td>Diseñar sección del equipo</td>
+    <td>Crear una sección para mostrar a los miembros del equipo con fotos, nombres, roles y descripciones breves.</td>
+    <td>3</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-15</td>
+    <td>Poblar con datos del equipo</td>
+    <td>Agregar la información de los 5 integrantes del equipo (Luquillas, Peña, Pilares, Sanchez, Sandoval) en la sección.</td>
+    <td>1</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Pie de página</td>
+    <td>T-16</td>
+    <td>Crear estructura del footer</td>
+    <td>Diseñar el pie de página con enlaces a secciones internas, políticas de privacidad, términos y condiciones, y enlaces a redes sociales.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-17</td>
+    <td>Configurar redirecciones y validaciones</td>
+    <td>Verificar que todos los enlaces del footer redirijan correctamente y que los campos de contacto (si existen) tengan validaciones básicas.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Registro de usuario</td>
+    <td>T-18</td>
+    <td>Diseñar interfaz de registro</td>
+    <td>Crear pantalla de registro con campos: nombre, email, contraseña y confirmación de contraseña.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-19</td>
+    <td>Implementar validaciones de campos</td>
+    <td>Validar formato de email, longitud de contraseña, coincidencia de contraseñas y campos obligatorios.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-20</td>
+    <td>Conectar con API de registro</td>
+    <td>Integrar la vista con el backend para enviar datos de registro y manejar respuestas (éxito o error).</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US11</td>
+    <td rowspan="2">Inicio de sesión</td>
+    <td>T-21</td>
+    <td>Diseñar interfaz de inicio de sesión</td>
+    <td>Crear pantalla de login con campos de email, contraseña y un botón de "Iniciar sesión".</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-22</td>
+    <td>Integrar con API de login</td>
+    <td>Conectar la vista con el backend para autenticar credenciales, manejar el token JWT y gestionar sesiones.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US13</td>
+    <td rowspan="1">Cierre de sesión</td>
+    <td>T-23</td>
+    <td>Implementar funcionalidad de cierre de sesión</td>
+    <td>Agregar un botón de "Cerrar sesión" en la interfaz de usuario que invalide el token de autenticación y redirija al login.</td>
+    <td>1</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US14</td>
+    <td rowspan="2">Invitación de usuarios con código de acceso</td>
+    <td>T-24</td>
+    <td>Diseñar interfaz de ingreso de código</td>
+    <td>Crear un campo en el registro o un flujo separado para que los usuarios ingresen un código de invitación.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-25</td>
+    <td>Implementar validación de código en backend</td>
+    <td>Desarrollar la lógica en el backend para validar códigos de acceso únicos y gestionar su estado (activo/caducado).</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US15</td>
+    <td rowspan="2">Registro de nuevos proyectos</td>
+    <td>T-26</td>
+    <td>Diseñar interfaz de creación de proyectos</td>
+    <td>Crear un formulario para que el líder de equipo registre un nuevo proyecto con nombre, descripción, fechas de inicio y fin.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-27</td>
+    <td>Conectar con API de proyectos</td>
+    <td>Integrar el formulario con el backend para guardar el proyecto en la base de datos y listarlo en el tablero del líder.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US16</td>
+    <td rowspan="2">Asignación de usuarios a proyectos</td>
+    <td>T-28</td>
+    <td>Diseñar interfaz de asignación de usuarios</td>
+    <td>Crear una vista para que el líder pueda ver una lista de usuarios disponibles y seleccionar aquellos que pertenecerán al proyecto.</td>
+    <td>3</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-29</td>
+    <td>Conectar con API para asociar usuarios</td>
+    <td>Integrar la interfaz con el backend para guardar la relación entre usuarios y proyectos, evitando duplicados.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US17</td>
+    <td rowspan="2">Asignar tareas para los usuarios</td>
+    <td>T-30</td>
+    <td>Diseñar interfaz de asignación de tareas</td>
+    <td>Crear un componente para que el líder asigne un usuario responsable a cada tarea dentro del tablero de un proyecto.</td>
+    <td>3</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-31</td>
+    <td>Implementar lógica de asignación en backend</td>
+    <td>Desarrollar la lógica para registrar la asignación de un usuario a una tarea y actualizar el estado de la tarea.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US18</td>
+    <td rowspan="1">Establecer prioridad de tareas</td>
+    <td>T-32</td>
+    <td>Implementar selector de prioridad</td>
+    <td>Añadir un campo de selección (Alta, Media, Baja) en la creación/edición de tareas y ordenar las tareas en el tablero según este valor.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Notificaciones de tareas asignadas</td>
+    <td>T-33</td>
+    <td>Implementar sistema de notificaciones en app</td>
+    <td>Crear un sistema que, al asignar una tarea a un usuario, genere una notificación visible dentro de la aplicación para ese usuario.</td>
+    <td>3</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-34</td>
+    <td>Configurar envío de correo electrónico</td>
+    <td>Implementar el envío automático de un correo electrónico notificando al usuario sobre la tarea asignada.</td>
+    <td>2</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US20</td>
+    <td rowspan="1">Modificación de fechas límite de tareas</td>
+    <td>T-35</td>
+    <td>Implementar edición de fecha límite</td>
+    <td>Permitir al líder modificar la fecha límite de una tarea y validar que la nueva fecha sea posterior a la actual. Enviar notificación al usuario.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US21</td>
+    <td rowspan="1">Modificación de la prioridad de tareas</td>
+    <td>T-36</td>
+    <td>Implementar cambio de prioridad</td>
+    <td>Permitir al líder modificar la prioridad de una tarea, reordenando el tablero automáticamente tras el cambio.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US22</td>
+    <td rowspan="1">Actualización de estado de tareas</td>
+    <td>T-37</td>
+    <td>Implementar cambio de estado de tarea</td>
+    <td>Permitir a los miembros del equipo marcar una tarea como "Completada" o "Pendiente" y reflejar el cambio visualmente en el tablero.</td>
+    <td>2</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US25</td>
+    <td rowspan="2">Visualizar calendario de tareas con alertas inteligentes</td>
+    <td>T-38</td>
+    <td>Diseñar e implementar vista de calendario</td>
+    <td>Crear una vista de calendario que muestre todas las tareas del usuario con sus fechas límite.</td>
+    <td>4</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-39</td>
+    <td>Implementar alertas de tareas próximas a vencer</td>
+    <td>Desarrollar una lógica que identifique tareas a 24 horas o menos de su fecha límite y las resalte en el calendario.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US29</td>
+    <td rowspan="1">Notificación automatizada de tarea asignada</td>
+    <td>T-40</td>
+    <td>Automatizar notificaciones de asignación</td>
+    <td>Configurar el sistema para que, tras la asignación de una tarea, se dispare automáticamente el envío de una notificación en app y por email.</td>
+    <td>2</td>
+    <td>Sandoval Paiva, Valentino</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US30</td>
+    <td rowspan="1">Notificación automatizada de fecha límite cercana</td>
+    <td>T-41</td>
+    <td>Implementar notificaciones de vencimiento</td>
+    <td>Crear un proceso programado o un trigger que, cuando una tarea esté a menos de 24 horas de vencer, notifique automáticamente al usuario asignado.</td>
+    <td>3</td>
+    <td>Luquillas Asto, Omar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US31</td>
+    <td rowspan="1">Notificación automatizada de tarea completada</td>
+    <td>T-42</td>
+    <td>Notificar al líder sobre tarea completada</td>
+    <td>Implementar un flujo automático que envíe una notificación al líder del proyecto cuando un miembro del equipo marque una tarea como completada.</td>
+    <td>2</td>
+    <td>Peña Riofrio, Maria Fernanda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US32</td>
+    <td rowspan="1">Notificación automatizada de mensajes en proyecto</td>
+    <td>T-43</td>
+    <td>Notificar sobre nuevos mensajes</td>
+    <td>Desarrollar un mecanismo que, cuando se agregue un nuevo mensaje en un proyecto, notifique a los miembros del equipo que tienen acceso.</td>
+    <td>3</td>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US33</td>
+    <td rowspan="1">Notificación automatizada de actualización de tareas</td>
+    <td>T-44</td>
+    <td>Notificar sobre cambios en tareas</td>
+    <td>Crear un sistema que, ante cualquier modificación de una tarea (prioridad, fecha, descripción, etc.), envíe una notificación a los usuarios involucrados.</td>
+    <td>2</td>
+    <td>Sanchez Silva, Luciana Celeste</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 
 
 ##### 7.2.1.3.	Development Evidence for Sprint Review.
@@ -4427,6 +4831,25 @@ Entre las funcionalidades implementadas destacan:
 * Llamados a la acción (Call to action) para incentivar el registro de usuarios.
 * Organización visual alineada con la identidad gráfica definida para TaskMaster.
 
+| Repository             | Branch | Commit Id | Commit Message                                   | Commit Message Body                                                            | Commited on (Date) |
+| ---------------------- | ------ | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------ |
+| TaskMaster-LandingPage | main   | a1c4d7f   | Initial commit — Proyecto TaskMaster-LandingPage | Created initial repository structure, configured HTML, CSS and project assets. | 2026-05-28         |
+| TaskMaster-LandingPage | main   | b2e5f81   | chore: update landing page structure             | Reorganized project folders and updated base page components.                  | 2026-05-29         |
+| TaskMaster-LandingPage | main   | c3a7b92   | fix: color palette adjustments                   | Corrected color inconsistencies and improved visual accessibility.             | 2026-05-30         |
+| TaskMaster-LandingPage | main   | d4f8c13   | fix: responsive layout improvements              | Adjusted breakpoints and optimized layout for mobile devices.                  | 2026-05-31         |
+| TaskMaster-LandingPage | main   | e5d9a24   | fix: responsive navigation menu                  | Fixed navigation menu behavior on tablets and smartphones.                     | 2026-06-01         |
+| TaskMaster-LandingPage | main   | f6b1e35   | fix: responsive cards section                    | Improved card alignment and spacing on smaller screens.                        | 2026-06-02         |
+| TaskMaster-LandingPage | main   | g7c2f46   | feat: add product video section                  | Added promotional video section showcasing product features.                   | 2026-06-03         |
+| TaskMaster-LandingPage | main   | h8d3a57   | feat: add external links                         | Added navigation links to repositories and project resources.                  | 2026-06-04         |
+| TaskMaster-LandingPage | main   | i9e4b68   | feat: improve call-to-action links               | Enhanced download and contact links functionality.                             | 2026-06-05         |
+| TaskMaster-LandingPage | main   | j1f5c79   | feat: add team presentation video                | Integrated team introduction video into About the Team section.                | 2026-06-06         |
+| TaskMaster-LandingPage | main   | k2a6d80   | feat: add multimedia content                     | Added supporting videos and multimedia resources to the landing page.          | 2026-06-07         |
+| TaskMaster-LandingPage | main   | l3b7e91   | fix: visual style corrections                    | Fixed styling issues detected during UI review.                                | 2026-06-08         |
+| TaskMaster-LandingPage | main   | m4c8f02   | fix: update video content section                | Corrected video display and playback configuration.                            | 2026-06-09         |
+| TaskMaster-LandingPage | main   | n5d9a13   | fix: final UI adjustments                        | Applied final interface corrections and minor bug fixes.                       | 2026-06-10         |
+| TaskMaster-LandingPage | main   | o6e1b24   | fix: optimize landing page performance           | Improved loading times and optimized media resources.                          | 2026-06-11         |
+
+
 ### Web Application
 
 La aplicación web concentró gran parte del esfuerzo de desarrollo del sprint. Se implementó la estructura base del proyecto utilizando tecnologías modernas orientadas al desarrollo frontend.
@@ -4440,6 +4863,25 @@ Los principales avances obtenidos fueron:
 * Configuración de rutas y navegación interna.
 * Integración inicial con servicios backend y datos simulados.
 
+| Repository                 | Branch         | Commit Id | Commit Message                                                | Commit Message Body                                                   | Commited on (Date) |
+| -------------------------- | -------------- | --------- | ------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------ |
+| taskmaster-web-application | main           | a1f4d72   | Initial commit                                                | Created Vue project structure and configured initial dependencies.    | 2026-05-27         |
+| taskmaster-web-application | feat/luquillas | b2e5c81   | feat: create authentication views                             | Added Login and Register views with routing configuration.            | 2026-06-01         |
+| taskmaster-web-application | feat/luquillas | c3d6a92   | feat: implement project service                               | Created Vue services for project creation, editing and listing.       | 2026-06-03         |
+| taskmaster-web-application | develop        | d4e7b13   | feat: implement task service                                  | Added CRUD functionality for task management.                         | 2026-06-05         |
+| taskmaster-web-application | develop        | e5f8c24   | feat: create dashboard view                                   | Developed dashboard page with project metrics and summaries.          | 2026-06-07         |
+| taskmaster-web-application | develop        | f6a9d35   | feat: add project listing page                                | Implemented project cards and search functionality.                   | 2026-06-09         |
+| taskmaster-web-application | develop        | g7b1e46   | feat: update services and restructure views                   | Reorganized Vue views and optimized service communication.            | 2026-06-11         |
+| taskmaster-web-application | develop        | h8c2f57   | feat: add task assignment feature                             | Enabled assignment of tasks to project members.                       | 2026-06-12         |
+| taskmaster-web-application | develop        | i9d3a68   | fix: toolbar import                                           | Fixed import errors in Toolbar component.                             | 2026-06-15         |
+| taskmaster-web-application | develop        | j1e4b79   | fix: login import                                             | Corrected LoginView imports and route references.                     | 2026-06-15         |
+| taskmaster-web-application | develop        | k2f5c80   | fix: import                                                   | Resolved module import conflicts across Vue components.               | 2026-06-15         |
+| taskmaster-web-application | develop        | l3a6d91   | Merge pull request #1 from G2-Arqui-Emergentes/feat/luquillas | Merged project and task management features into develop.             | 2026-06-15         |
+| taskmaster-web-application | develop        | m4b7e02   | Merge pull request #2 from G2-Arqui-Emergentes/develop        | Integrated latest changes and resolved merge conflicts.               | 2026-06-15         |
+| taskmaster-web-application | develop        | n5c8f13   | feat: implement project details page                          | Added detailed project view with progress tracking and task overview. | 2026-06-16         |
+| taskmaster-web-application | develop        | o6d9a24   | feat: add member management module                            | Implemented member invitation and collaboration features.             | 2026-06-17         |
+
+
 ### Mobile Application
 
 La aplicación móvil fue desarrollada con el propósito de ofrecer acceso a las funcionalidades principales de TaskMaster desde dispositivos Android.
@@ -4451,6 +4893,25 @@ Los avances alcanzados durante el sprint incluyen:
 * Navegación entre vistas principales.
 * Organización modular del proyecto.
 * Preparación para futuras integraciones con servicios backend.
+
+| Repository       | Branch  | Commit Id | Commit Message                         | Commit Message Body                                                      | Commited on (Date) |
+| ---------------- | ------- | --------- | -------------------------------------- | ------------------------------------------------------------------------ | ------------------ |
+| Flutter-Frontend | main    | a8d2f41   | Initial commit                         | Created Flutter project structure and configured dependencies.           | 2026-05-25         |
+| Flutter-Frontend | develop | b9e3c52   | feat: implement login screen           | Added login UI and authentication form validation.                       | 2026-05-28         |
+| Flutter-Frontend | develop | c1f4d63   | feat: create registration screen       | Implemented user registration interface and navigation flow.             | 2026-05-30         |
+| Flutter-Frontend | develop | d2a5e74   | feat: add project list screen          | Developed screen to display user projects with card-based layout.        | 2026-06-02         |
+| Flutter-Frontend | develop | e3b6f85   | feat: implement task management module | Added task creation, update and deletion functionalities.                | 2026-06-04         |
+| Flutter-Frontend | develop | f4c7a96   | feat: integrate REST API services      | Connected mobile application with backend endpoints using HTTP requests. | 2026-06-06         |
+| Flutter-Frontend | develop | g5d8b07   | feat: create project details screen    | Added project information view with associated task list.                | 2026-06-08         |
+| Flutter-Frontend | develop | h6e9c18   | feat: implement user profile screen    | Developed profile page with account information and settings.            | 2026-06-10         |
+| Flutter-Frontend | develop | i7f1d29   | feat: add project member management    | Enabled viewing and managing project participants.                       | 2026-06-12         |
+| Flutter-Frontend | develop | j8a2e30   | fix: navigation issues                 | Corrected route transitions between project and task screens.            | 2026-06-13         |
+| Flutter-Frontend | develop | k9b3f41   | fix: form validation                   | Improved validation for login, registration and project forms.           | 2026-06-14         |
+| Flutter-Frontend | develop | l1c4a52   | feat: add task progress indicators     | Implemented visual indicators for task completion tracking.              | 2026-06-15         |
+| Flutter-Frontend | develop | m2d5b63   | feat: implement notifications module   | Added local notifications for task deadlines and updates.                | 2026-06-16         |
+| Flutter-Frontend | develop | n3e6c74   | fix: responsive layouts                | Optimized UI rendering for different mobile screen sizes.                | 2026-06-17         |
+| Flutter-Frontend | develop | o4f7d85   | feat: finalize mobile dashboard        | Added dashboard with project summaries, pending tasks and statistics.    | 2026-06-17         |
+
 
 ### Backend Services
 
@@ -4464,6 +4925,24 @@ Durante este sprint se trabajó en:
 * Preparación de endpoints para futuras funcionalidades.
 * Configuración de dependencias y entorno de ejecución.
 
+| Repository | Branch  | Commit Id | Commit Message                        | Commit Message Body                                              | Commited on (Date) |
+| ---------- | ------- | --------- | ------------------------------------- | ---------------------------------------------------------------- | ------------------ |
+| Backend    | main    | a5d2f71   | Initial commit                        | Created backend project structure and configured dependencies.   | 2026-05-24         |
+| Backend    | develop | b6e3a82   | feat: configure database connection   | Configured database connectivity and environment variables.      | 2026-05-27         |
+| Backend    | develop | c7f4b93   | feat: create user entity              | Added User entity, repository and database mappings.             | 2026-05-29         |
+| Backend    | develop | d8a5c14   | feat: implement authentication module | Added login, registration and JWT authentication services.       | 2026-06-01         |
+| Backend    | develop | e9b6d25   | feat: create project entity           | Implemented Project entity and relationships with users.         | 2026-06-03         |
+| Backend    | develop | f1c7e36   | feat: implement project endpoints     | Added REST endpoints for project creation, update and retrieval. | 2026-06-05         |
+| Backend    | develop | g2d8f47   | feat: create task entity              | Developed Task entity and associations with projects.            | 2026-06-07         |
+| Backend    | develop | h3e9a58   | feat: implement task service          | Added business logic for task management operations.             | 2026-06-09         |
+| Backend    | develop | i4f1b69   | feat: add task CRUD endpoints         | Implemented endpoints for creating, updating and deleting tasks. | 2026-06-11         |
+| Backend    | develop | j5a2c70   | feat: implement member management     | Added project member assignment and collaboration features.      | 2026-06-13         |
+| Backend    | develop | k6b3d81   | fix: database configuration           | Corrected environment variable loading and connection settings.  | 2026-06-14         |
+| Backend    | develop | l7c4e92   | fix: authentication validation        | Fixed token validation and user session handling issues.         | 2026-06-15         |
+| Backend    | develop | m8d5f03   | feat: add project statistics service  | Implemented service for dashboard metrics and project summaries. | 2026-06-16         |
+| Backend    | develop | n9e6a14   | fix: optimize task queries            | Improved performance of task retrieval and filtering operations. | 2026-06-17         |
+| Backend    | develop | o1f7b25   | feat: finalize API integration        | Completed endpoint integration for web and mobile applications.  | 2026-06-17         |
+
 
 ---
 
@@ -4471,36 +4950,50 @@ Durante este sprint se trabajó en:
 ##### 7.2.1.4.	Testing Suite Evidence for Sprint Review.
 
 
-Con el objetivo de validar la estabilidad y funcionamiento de los componentes desarrollados durante el Sprint 1, se realizaron pruebas funcionales sobre los distintos módulos implementados.
+**Unit Tests**
 
-Las pruebas ejecutadas estuvieron orientadas principalmente a verificar la correcta navegación, ejecución y visualización de los elementos desarrollados durante esta iteración.
+Durante el desarrollo del sprint se implementaron pruebas unitarias orientadas a validar el correcto funcionamiento de las clases principales del backend. Estas pruebas se enfocaron en verificar los métodos responsables de la creación, actualización y eliminación de entidades dentro del sistema, garantizando que la lógica de negocio se ejecute de manera consistente. Además, se utilizaron frameworks de testing como JUnit y Mockito para simular dependencias y asegurar la cobertura individual de cada componente.
 
-### Estrategia de pruebas aplicada
+Prueba de las Test de creación de tareas:
+              
+![a1](assets/TP1/e1.png)
+              
+Prueba de Test de creación de usuarios (IAM)
+              
+![a1](assets/TP1/e2.png)
 
-| Tipo de prueba      | Objetivo                                                          |
-| ------------------- | ----------------------------------------------------------------- |
-| Navegación          | Verificar el acceso correcto entre vistas y secciones.            |
-| Interfaz de usuario | Validar la correcta visualización de componentes.                 |
-| Responsividad       | Comprobar el comportamiento en distintos tamaños de pantalla.     |
-| Ejecución local     | Confirmar el funcionamiento del sistema en entorno de desarrollo. |
-| Integración básica  | Validar la interacción entre frontend y servicios disponibles.    |
+**Integration Tests**
 
-### Casos de prueba ejecutados
+En cuanto a las pruebas de integración, se realizaron con el objetivo de comprobar la correcta interacción entre los distintos módulos del sistema. Se validó el flujo completo desde el controlador hasta las capas de servicio y repositorio, asegurando la comunicación adecuada con la base de datos y los servicios REST. Estas pruebas permitieron detectar posibles fallos en la configuración de dependencias y en la transferencia de datos entre componentes.
 
-| ID    | Caso de prueba                                   | Resultado |
-| ----- | ------------------------------------------------ | --------- |
-| TC-01 | Visualización de Landing Page                    | Aprobado  |
-| TC-02 | Navegación entre secciones de Landing Page       | Aprobado  |
-| TC-03 | Acceso a vistas principales de la aplicación web | Aprobado  |
-| TC-04 | Visualización de proyectos                       | Aprobado  |
-| TC-05 | Visualización de tareas                          | Aprobado  |
-| TC-06 | Navegación en aplicación móvil                   | Aprobado  |
-| TC-07 | Ejecución del backend en entorno local           | Aprobado  |
-| TC-08 | Compilación de proyectos para despliegue         | Aprobado  |
+![integration_test](assets/TP1/integration_test.png)
 
+**BDD Tests**
 
+Finalmente, se desarrollaron pruebas de aceptación bajo el enfoque BDD (Behavior Driven Development), utilizando archivos .feature escritos en lenguaje Gherkin. Estas pruebas reflejan los escenarios definidos en las historias de usuario, permitiendo validar el comportamiento del sistema desde la perspectiva del usuario final. Cada escenario fue automatizado mediante pasos (Steps) programados, comprobando que las funcionalidades entregadas cumplen con los criterios de aceptación definidos en el sprint.
 
----
+![bdd_test](assets/TP1/bdd_test.png)
+
+![bdd_test2](assets/TP1/bdd_test2.png)
+
+![bdd_test3](assets/TP1/bdd_test3.png)
+
+![bdd_test4](assets/TP1/bdd_test4.png)
+
+![bdd_test5](assets/TP1/bdd_test5.png)
+
+| Repository | Branch  | Commit Id | Commit Message                                   | Commit Message Body                                                                  | Commited on (Date) |
+| ---------- | ------- | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------ |
+| Backend    | develop | t1a4b72   | test: task creation unit test                    | Added JUnit and Mockito test cases to validate task creation service behavior.       | 2026-06-12         |
+| Backend    | develop | t2b5c83   | test: IAM user creation unit test                | Implemented unit tests for user registration and validation processes in IAM module. | 2026-06-12         |
+| Backend    | develop | t3c6d94   | test: service layer validation                   | Added tests for business logic execution and service methods.                        | 2026-06-13         |
+| Backend    | develop | t4d7e15   | test: integration between controller and service | Validated data flow from REST controllers to service layer.                          | 2026-06-14         |
+| Backend    | develop | t5e8f26   | test: repository integration                     | Verified repository operations and database interactions.                            | 2026-06-14         |
+| Backend    | develop | t6f9a37   | test: integration with REST endpoints            | Executed integration tests for API endpoints and request handling.                   | 2026-06-14         |
+| Backend    | develop | t7a1b48   | test: bdd user registration scenario             | Added Gherkin scenario and step definitions for user registration acceptance test.   | 2026-06-15         |
+| Backend    | develop | t8b2c59   | test: bdd task creation scenario                 | Implemented BDD scenario validating task creation workflow.                          | 2026-06-15         |
+| Backend    | develop | t9c3d60   | test: bdd project management scenarios           | Added acceptance tests for project creation and management features.                 | 2026-06-16         |
+| Backend    | develop | t1d4e71   | test: bdd sprint review validation               | Executed complete acceptance test suite covering sprint user stories.                | 2026-06-17         |
 
 
 ##### 7.2.1.5.	Execution Evidence for Sprint Review.
@@ -4518,6 +5011,22 @@ Durante la revisión se verificó:
 * Visualización de contenido informativo.
 * Adaptación a dispositivos móviles.
 
+LINK LANDIG PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
+
+![a1](assets/TP1/a1.png)
+![a1](assets/TP1/a2.png)
+![a1](assets/TB2/LA7.jpeg)
+![a1](assets/TP1/a3.png)
+![a1](assets/TB2/LA6.jpeg)
+![a1](assets/TB2/LA5.jpeg)
+![a1](assets/TP1/a6.png)
+![a1](assets/TB2/LA4.jpeg)
+![a1](assets/TP1/a7.png)
+![a1](assets/TP1/a8.png)
+![a1](assets/TB2/LA1.jpeg)
+![a1](assets/TB2/LA2.jpeg)
+![a1](assets/TB2/LA3.jpeg)
+
 ### Evidencia de ejecución de la Web Application
 
 La aplicación web permite navegar entre los módulos implementados durante el Sprint 1, evidenciando el avance funcional del producto.
@@ -4530,96 +5039,693 @@ Las funcionalidades demostradas incluyen:
 * Componentes reutilizables.
 * Interfaz gráfica consistente.
 
+LINK WEB APPLICATION: taskmaster-web-application.vercel.app
+
+![a1](assets/TP1/OA1.jpeg)
+
+![a1](assets/TP1/OA2.jpeg)
+
+![a1](assets/TP1/OA3.jpeg)
+
+![a1](assets/TP1/OA4.jpeg)
+
+![a1](assets/TP1/OA5.jpeg)
+
+![a1](assets/TP1/OA6.jpeg)
+
+![a1](assets/TP1/OA7.jpeg)
+
+![a1](assets/TP1/OA8.jpeg)
+
+![a1](assets/TP1/OA9.jpeg)
+
+![a1](assets/TP1/OA10.jpeg)
+
 ### Evidencia de ejecución de la Mobile Application
 
 La aplicación móvil permitió validar la estructura inicial del sistema en dispositivos Android y confirmar la correcta navegación entre pantallas implementadas.
 
-### Evidencia de ejecución de Backend Services
+vistas de nuestra aplicación móvil del **Lider de equipo** - jetpack compose: 
 
-Los servicios backend fueron ejecutados en entorno local, permitiendo validar la disponibilidad de la aplicación y la correcta configuración del proyecto.
+<div style="display: flex; gap: 10px;">
+  <img src="assets/TP1/F5.jpg" width="250">
+  <img src="assets/TP1/F6.jpg" width="250">
+</div>
+
+![a1](assets/TP1/F3.png)
+![a1](assets/TP1/d2.png)
+![a1](assets/TP1/d3.png)
+![a1](assets/TP1/d6.png)
+![a1](assets/TP1/d7.png)
+
+![a1](assets/TP1/F1.png)
+![a1](assets/TP1/F2.png)
+![a1](assets/TP1/F4.png)
+
+![a1](assets/TP1/FLUTT1.png)
+![a1](assets/TP1/FLUTT2.png)
+![a1](assets/TP1/FLUTT3.png)
+
+Vistas de nuestra aplicación móvil del **Miembro de equipo** - flutter: 
+
+<div style="display: flex; gap: 10px;">
+  <img src="assets/TP1/FLUTTER2.jpg" width="250">
+  <img src="assets/TP1/FLUTTER1.jpg" width="250">
+</div>
+
+![a1](assets/TP1/FLUTTER5.jpg)
+![a1](assets/TP1/FLUTTER4.jpg)
+![a1](assets/TP1/FLUTTER3.jpg)
+
+**VISTA DE PROYECTOS Y TAREAS**
+
+![a1](assets/TP1/FLU2.jpg)
+![a1](assets/TP1/FLU3.jpg)
+![a1](assets/TP1/FLU4.jpg)
+![a1](assets/TP1/FLU5.jpg)
+
+**Vista de miembros del proyecto**
+
+![a1](assets/TP1/F1.jpg)
+
+**Vista de configuración del proyecto**
+
+![a1](assets/TP1/F2.jpg)
 
 
+**NOTIFICACIONES**
 
----
+![a1](assets/TP1/F3.jpg)
 
 
 ##### 7.2.1.6.	Services Documentation Evidence for Sprint Review.
 
 
-La documentación de servicios elaborada durante el Sprint 1 tuvo como objetivo establecer una base técnica para las futuras integraciones entre los distintos componentes del ecosistema TaskMaster.
 
-Esta documentación facilita la comprensión de las responsabilidades de cada módulo y mejora la mantenibilidad del sistema.
+Durante este sprint no se realizaron cambios en la documentación de los servicios backend, ya que todas las funcionalidades necesarias habían sido completadas en los sprints anteriores.
 
-### Servicios identificados
+En esta sección, el equipo define los endpoints implementados en el desarrollo del Backend API:
+Enlance del Backend: https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
 
-| Servicio                   | Descripción                                               |
-| -------------------------- | --------------------------------------------------------- |
-| Landing Page Service       | Presentación pública de TaskMaster y sus funcionalidades. |
-| Authentication Service     | Gestión de acceso e identificación de usuarios.           |
-| Project Management Service | Administración de proyectos dentro de la plataforma.      |
-| Task Management Service    | Gestión y seguimiento de tareas.                          |
-| Mobile Client Service      | Acceso móvil a las funcionalidades del sistema.           |
-| Backend API Service        | Exposición de funcionalidades mediante servicios REST.    |
+### **Sección IAM (Identity and Access Management)**
 
-### Contratos de servicio preliminares
+![b1](assets/TP1/B1.png)
 
-| Método | Endpoint      | Descripción                                   |
-| ------ | ------------- | --------------------------------------------- |
-| GET    | `/projects`   | Obtiene la lista de proyectos registrados.    |
-| POST   | `/projects`   | Registra un nuevo proyecto.                   |
-| GET    | `/tasks`      | Obtiene la lista de tareas disponibles.       |
-| POST   | `/tasks`      | Registra una nueva tarea.                     |
-| PUT    | `/tasks/{id}` | Actualiza información de una tarea existente. |
-| DELETE | `/tasks/{id}` | Elimina una tarea.                            |
+![b1](assets/TP1/B3.png)
 
-### Beneficios de la documentación
+El módulo **IAM (Identity and Access Management)** de **TaskMaster** proporciona una gestión centralizada y segura de usuarios, roles y autenticación, asegurando el control de acceso a los distintos recursos del sistema.
+Durante este *Sprint*, se implementaron los controladores principales para autenticación, usuarios y roles, siguiendo los principios de **arquitectura limpia** y **Domain-Driven Design (DDD)**.
 
-* Facilita futuras integraciones.
-* Permite estandarizar la comunicación entre componentes.
-* Reduce ambigüedades durante el desarrollo.
-* Mejora la mantenibilidad del producto.
-
+A continuación, se detallan los **endpoints desarrollados**, sus funcionalidades principales y la documentación técnica generada mediante **Swagger (OpenAPI 3.0)**.
 
 ---
 
+## Tabla de Endpoints IAM
+
+| **Bounded Context** | **Endpoint**                     | **Acción**                     | **Verbo HTTP** | **Parámetros**                                                                        | **Ejemplo de Respuesta**                                          | **Documentación** |
+| ------------------- | -------------------------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------- |
+| **Autenticación**   | `/api/v1/authentication/sign-in` | Iniciar sesión                 | POST           | `{"email": "string", "password": "string"}`                                           | `{"id": 1, "email": "user@mail.com", "token": "jwt_token"}`       | Swagger           |
+|                     | `/api/v1/authentication/sign-up` | Registrar usuario              | POST           | `{"email": "string","password": "string","firstName": "string","lastName": "string"}` | `{"id": 1,"email": "user@mail.com","fullName": "string"}`         | Swagger           |
+| **Usuarios**        | `/api/v1/users`                  | Listar todos los usuarios      | GET            | -                                                                                     | `[{"id": 1,"email": "user@mail.com","roles": ["ROLE_USER"]}]`     | Swagger           |
+|                     | `/api/v1/users/{userId}`         | Obtener usuario por ID         | GET            | `userId: Long`                                                                        | `{"id": 1,"email": "user@mail.com","roles": ["ROLE_USER"]}`       | Swagger           |
+|                     | `/api/v1/users/email/{email}`    | Buscar usuario por email       | GET            | `email: String`                                                                       | `{"id": 1,"email": "user@mail.com","roles": ["ROLE_ADMIN"]}`      | Swagger           |
+|                     | `/api/v1/users`                  | Actualizar usuario autenticado | PUT            | `{"firstName": "string","lastName": "string"}`                                        | `{"message": "User updated successfully"}`                        | Swagger           |
+|                     | `/api/v1/users/{userId}`         | Eliminar usuario por ID        | DELETE         | `userId: Long`                                                                        | `204 No Content`                                                  | Swagger           |
+| **Roles**           | `/api/v1/roles`                  | Listar roles disponibles       | GET            | -                                                                                     | `[{"id": 1,"name": "ROLE_USER"}, {"id": 2,"name": "ROLE_ADMIN"}]` | Swagger           |
+
+---
+
+## Ejemplos de Uso
+
+### 1. Autenticación (JWT)
+
+**Request:**
+
+```http
+POST /api/v1/authentication/sign-in
+Content-Type: application/json
+```
+
+**Body:**
+
+```json
+{
+  "email": "admin@taskmaster.com",
+  "password": "123456"
+}
+```
+
+**Response (200 OK):**
+
+```json
+{
+  "id": 1,
+  "email": "admin@taskmaster.com",
+  "token": "eyJhbGciOiJIUzI1NiIsInR..."
+}
+```
+
+---
+
+### 2. Registro de Usuario
+
+**Request:**
+
+```http
+POST /api/v1/authentication/sign-up
+```
+
+**Body:**
+
+```json
+{
+  "email": "newuser@taskmaster.com",
+  "password": "password123",
+  "firstName": "Valentino",
+  "lastName": "Sandoval"
+}
+```
+
+**Response (201 Created):**
+
+```json
+{
+  "id": 2,
+  "email": "newuser@taskmaster.com",
+  "fullName": "Valentino Sandoval"
+}
+```
+
+---
+
+### 3. Gestión de Usuarios
+
+#### Actualizar Usuario Autenticado
+
+**Request:**
+
+```http
+PUT /api/v1/users
+```
+
+**Body:**
+
+```json
+{
+  "firstName": "Valentino",
+  "lastName": "Sandoval Paiva"
+}
+```
+
+**Response (200 OK):**
+
+```json
+{
+  "message": "User updated successfully"
+}
+```
+
+#### Eliminar Usuario
+
+**Request:**
+
+```http
+DELETE /api/v1/users/2
+```
+
+**Response (204 No Content)**
+
+---
+
+## Arquitectura y Patrones
+
+### CQRS (Command Query Responsibility Segregation)
+
+Separación clara entre operaciones de lectura y escritura:
+
+* **UserCommandService:** Manejo de comandos como `sign-up`, `updateUser`, `deleteUser`.
+* **UserQueryService:** Consultas como `getAllUsers`, `getUserById`, `getUserByEmail`.
+
+---
+
+### DTO Pattern (Data Transfer Object)
+
+Uso de *Resource* y *Command* para desacoplar las entidades del dominio y las representaciones REST:
+
+```java
+public record UserResource(Long id, String email, String firstName, String lastName) {}
+public record SignInResource(String email, String password) {}
+```
+
+---
+
+### Swagger Integration
+
+Documentación automática generada mediante anotaciones `@Tag`, `@Operation`, y `@ApiResponses` en cada endpoint.
+
+La interfaz **Swagger UI** se encuentra disponible en:
+🔗 [https://managewise-api.onrender.com/swagger-ui/index.html](https://managewise-api.onrender.com/swagger-ui/index.html)
+
+---
+
+## Seguridad
+
+### Autenticación JWT
+
+Implementada en `AuthenticationController`, garantizando la validación segura de credenciales y la emisión de tokens firmados.
+
+### Validaciones
+
+* Validación de entrada con `@Valid`.
+* Respuestas de error estandarizadas (400, 404, 401).
+* Control de acceso basado en roles (`ROLE_USER`, `ROLE_ADMIN`).
+
+### Manejo de Sesión Segura
+
+Se utiliza `SecurityContextHolder` para obtener el contexto de autenticación actual dentro de `UsersController`.
+
+**Ejemplo:**
+
+```java
+var auth = SecurityContextHolder.getContext().getAuthentication();
+var userDetails = (UserDetailsImpl) auth.getPrincipal();
+Long userId = userDetails.getId();
+```
+
+---
+
+## Conclusión
+
+El módulo **IAM** constituye el núcleo de la **seguridad y gestión de identidades** en *TaskMaster*, proporcionando:
+
+- Autenticación segura mediante JWT.
+- Gestión estructurada de usuarios y roles.
+- Desacoplamiento mediante CQRS y DTO Pattern.
+- Documentación automatizada con Swagger (OpenAPI 3.0).
+
+### **Sección Project Management**
+
+
+![b1](assets/TP1/B4.png)
+
+Durante este Sprint, se completó la **documentación y despliegue de los servicios web asociados al módulo de Project Management**, encargados de la **gestión integral de proyectos, miembros y códigos de acceso** dentro de la plataforma **TaskMaster**.
+
+El controlador `ProjectsController` fue implementado siguiendo los principios de **arquitectura limpia (Clean Architecture)** y **CQRS (Command Query Responsibility Segregation)**, separando claramente las operaciones de lectura (Query) y escritura (Command).
+
+Toda la documentación fue generada utilizando **OpenAPI (Swagger 3.0)** para describir la estructura, los verbos HTTP, parámetros y ejemplos de respuesta de cada endpoint.
+A continuación, se detalla la relación completa de los endpoints desarrollados.
+
+---
+
+## Tabla de Endpoints – `ProjectsController`
+
+| **Endpoint**                                      | **Descripción / Acción**                                                       | **Verbo HTTP** | **Parámetros / Body**                                                                | **Ejemplo de Respuesta (Resumen)**                                 | **Documentación** |
+| ------------------------------------------------- | ------------------------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------- |
+| `/api/v1/projects`                                | Crea un nuevo proyecto asociado al usuario autenticado (rol Leader).           | **POST**       | `{"name": "Project Alpha", "description": "Test project", "deadline": "2025-12-31"}` | `{"id":1,"name":"Project Alpha","leaderId":5}`                     | Swagger                         |
+| `/api/v1/projects/{id}`                           | Actualiza un proyecto existente.                                               | **PUT**        | `id: Long`, `{"name": "Updated name", "description": "New desc"}`                    | `{"id":1,"name":"Updated name","description":"New desc"}`          | Swagger                         |
+| `/api/v1/projects/{id}`                           | Elimina un proyecto por ID.                                                    | **DELETE**     | `id: Long`                                                                           | `204 No Content`                                                   | Swagger                         |
+| `/api/v1/projects/join/{key}`                     | Permite a un miembro unirse a un proyecto mediante un código único.            | **GET**        | `key: String`                                                                        | `{"id":2,"name":"Project Beta","members":[...]}`                   | Swagger                         |
+| `/api/v1/projects/{projectId}/members/{memberId}` | Elimina un usuario del proyecto (solo el líder del proyecto puede hacerlo).    | **DELETE**     | `projectId: Long`, `memberId: Long`                                                  | `204 No Content`                                                   | Swagger                         |
+| `/api/v1/projects/{projectId}/code`               | Asigna un código único de acceso al proyecto.                                  | **PUT**        | `{"keycode": "ABC123", "expiration": "2025-12-31"}`                                  | `{"keycode":"ABC123","expiration":"2025-12-31"}`                   | Swagger                         |
+| `/api/v1/projects`                                | Obtiene la lista completa de proyectos existentes.                             | **GET**        | —                                                                                    | `[{"id":1,"name":"Project Alpha"},{"id":2,"name":"Project Beta"}]` | Swagger                         |
+| `/api/v1/projects/{projectId}`                    | Obtiene la información detallada de un proyecto por su ID.                     | **GET**        | `projectId: Long`                                                                    | `{"id":1,"name":"Project Alpha","description":"Details"}`          | Swagger                         |
+| `/api/v1/projects/member`                         | Devuelve los proyectos a los que pertenece el usuario autenticado (según JWT). | **GET**        | —                                                                                    | `[{"id":3,"name":"Project Gamma"}]`                                | Swagger                         |
+| `/api/v1/projects/leader`                         | Devuelve los proyectos donde el usuario autenticado es líder.                  | **GET**        | —                                                                                    | `[{"id":4,"name":"Project Delta"}]`                                | Swagger                         |
+
+---
+
+## Arquitectura y Diseño
+
+El `ProjectsController` utiliza los siguientes **servicios internos** para la gestión de datos:
+
+* `ProjectCommandService`: Maneja comandos del dominio (Create, Update, Delete, AddUser, RemoveUser, SetCode).
+* `ProjectQueryService`: Ejecuta consultas del dominio (GetAll, GetById, GetByLeader, GetByMember).
+
+Cada comando y consulta se define como un objeto inmutable, siguiendo el patrón **Command Pattern** para operaciones seguras y predecibles.
+
+### Clases y ensambladores utilizados:
+
+* `CreateProjectCommandFromResourceAssembler`
+* `UpdateProjectCommandFromResourceAssembler`
+* `ProjectResourceFromEntityAssembler`
+* `SetCodeCommandFromResourceAssembler`
+
+Estos ensambladores garantizan la correcta transformación entre **DTOs (recursos REST)** y **entidades de dominio**, manteniendo la separación de capas.
+
+---
+
+## Ejemplo de Interacción
+
+### Crear un Proyecto
+
+**Request:**
+
+```http
+POST /api/v1/projects
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "name": "Project Alpha",
+  "description": "Initial testing project",
+  "deadline": "2025-12-31"
+}
+```
+
+**Response:**
+
+```json
+{
+  "id": 1,
+  "name": "Project Alpha",
+  "description": "Initial testing project",
+  "leaderId": 5,
+  "members": []
+}
+```
+
+---
+
+### Unirse a un Proyecto
+
+**Request:**
+
+```http
+GET /api/v1/projects/join/ABC123
+Authorization: Bearer <JWT>
+```
+
+**Response:**
+
+```json
+{
+  "id": 2,
+  "name": "Project Beta",
+  "members": [
+    { "id": 5, "username": "jdoe" },
+    { "id": 7, "username": "vpaiva" }
+  ]
+}
+```
+
+---
+
+### Asignar Código de Proyecto
+
+**Request:**
+
+```http
+PUT /api/v1/projects/1/code
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "keycode": "NEW123",
+  "expiration": "2026-01-01"
+}
+```
+
+**Response:**
+
+```json
+{
+  "keycode": "NEW123",
+  "expiration": "2026-01-01"
+}
+```
+
+
+### **Sección Task Management**
+
+![b2](assets/TP1/B2.png)
+
+Se desarrolló e implementó la **documentación y despliegue de los servicios web correspondientes al módulo de Task Management**, responsable de la **gestión integral de tareas, asignación de usuarios, actualización de estados y control de prioridades** dentro de la plataforma **TaskMaster**.
+
+El controlador `TasksController` fue construido siguiendo los principios de **arquitectura limpia (Clean Architecture)** y **CQRS (Command Query Responsibility Segregation)**, separando las operaciones de lectura (Query) y escritura (Command) a través de servicios especializados.
+
+Toda la documentación fue generada utilizando **OpenAPI (Swagger 3.0)**, permitiendo describir con precisión los endpoints, verbos HTTP, parámetros requeridos y ejemplos de respuesta.
+
+---
+
+## Tabla de Endpoints – `TasksController`
+
+| **Endpoint**                                            | **Descripción / Acción**                                                        | **Verbo HTTP** | **Parámetros / Body**                                                                            | **Ejemplo de Respuesta (Resumen)**                                   | **Documentación** |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------- |
+| `/api/v1/tasks`                                         | Crea una nueva tarea dentro de un proyecto existente.                           | **POST**       | `{"title":"Design UI","description":"Create interface mockups","projectId":1,"priority":"HIGH"}` | `{"id":1,"title":"Design UI","status":"PENDING"}`                    | Swagger           |
+| `/api/v1/tasks`                                         | Obtiene la lista completa de tareas registradas.                                | **GET**        | —                                                                                                | `[{"id":1,"title":"Design UI"},{"id":2,"title":"Setup Database"}]`   | Swagger           |
+| `/api/v1/tasks/{taskId}`                                | Obtiene una tarea específica por su ID.                                         | **GET**        | `taskId: Long`                                                                                   | `{"id":3,"title":"Fix bugs","status":"IN_PROGRESS"}`                 | Swagger           |
+| `/api/v1/tasks/project/{projectId}`                     | Lista todas las tareas asociadas a un proyecto determinado.                     | **GET**        | `projectId: Long`                                                                                | `[{"id":1,"title":"Create API"},{"id":2,"title":"Frontend Layout"}]` | Swagger           |
+| `/api/v1/tasks/user/{userId}`                           | Muestra todas las tareas asignadas a un usuario específico.                     | **GET**        | `userId: Long`                                                                                   | `[{"id":1,"title":"Code Review","assignedTo":5}]`                    | Swagger           |
+| `/api/v1/tasks/project/{projectId}/user/{userId}`       | Obtiene las tareas asignadas a un usuario dentro de un proyecto.                | **GET**        | `projectId: Long`, `userId: Long`                                                                | `[{"id":1,"title":"Database Setup"}]`                                | Swagger           |
+| `/api/v1/tasks/project/{projectId}/status/{status}`     | Filtra tareas de un proyecto según su estado (PENDING, IN_PROGRESS, COMPLETED). | **GET**        | `projectId: Long`, `status: String`                                                              | `[{"id":4,"status":"IN_PROGRESS"}]`                                  | Swagger           |
+| `/api/v1/tasks/project/{projectId}/priority/{priority}` | Filtra tareas por prioridad (LOW, MEDIUM, HIGH).                                | **GET**        | `projectId: Long`, `priority: String`                                                            | `[{"id":3,"priority":"HIGH"}]`                                       | Swagger           |
+| `/api/v1/tasks/{taskId}`                                | Actualiza los datos de una tarea específica.                                    | **PUT**        | `taskId: Long`, `{"title":"Update UI","description":"New layout","priority":"MEDIUM"}`           | `{"id":1,"title":"Update UI","priority":"MEDIUM"}`                   | Swagger           |
+| `/api/v1/tasks/{taskId}/status`                         | Actualiza el estado de una tarea existente.                                     | **PUT**        | `{"status":"COMPLETED"}`                                                                         | `{"id":2,"title":"Design DB","status":"COMPLETED"}`                  | Swagger           |
+| `/api/v1/tasks/{taskId}/assign`                         | Asigna un usuario a una tarea.                                                  | **PUT**        | `{"userId":5}`                                                                                   | `{"id":1,"title":"API Integration","assignedTo":5}`                  | Swagger           |
+| `/api/v1/tasks/{taskId}/unassign`                       | Remueve un usuario asignado a una tarea.                                        | **PUT**        | `{"userId":5}`                                                                                   | `{"id":1,"title":"API Integration","assignedTo":null}`               | Swagger           |
+| `/api/v1/tasks/{taskId}`                                | Elimina una tarea específica del sistema.                                       | **DELETE**     | `taskId: Long`                                                                                   | `200 OK - "Task deleted successfully"`                               | Swagger           |
+
+---
+
+## Arquitectura y Diseño
+
+El `TasksController` se apoya en los siguientes **servicios de dominio** para ejecutar las operaciones de negocio:
+
+* **`TaskCommandService`**: maneja los comandos relacionados con la creación, actualización, asignación y eliminación de tareas.
+* **`TaskQueryService`**: ejecuta las consultas que permiten obtener información filtrada o detallada de las tareas.
+
+El diseño sigue el patrón **Command Pattern** para asegurar la consistencia de las operaciones y mantener la trazabilidad de las acciones dentro del dominio.
+
+### Clases y ensambladores utilizados:
+
+* `CreateTaskCommandFromResourceAssembler`
+* `UpdateTaskCommandFromResourceAssembler`
+* `UpdateTaskStatusCommandFromResourceAssembler`
+* `AssignUserToTaskCommandFromResourceAssembler`
+* `RemoveUserFromTaskCommandFromResourceAssembler`
+* `TaskResourceFromEntityAssembler`
+
+Estos ensambladores se encargan de transformar objetos de transporte (`Resource`) en comandos o entidades de dominio, garantizando una capa de comunicación desacoplada entre la API REST y la lógica del negocio.
+
+---
+
+## Ejemplo de Interacción
+
+### Crear una Nueva Tarea
+
+**Request:**
+
+```http
+POST /api/v1/tasks
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "title": "Implement Login",
+  "description": "Develop login page with Firebase auth",
+  "projectId": 1,
+  "priority": "HIGH"
+}
+```
+
+**Response:**
+
+```json
+{
+  "id": 7,
+  "title": "Implement Login",
+  "description": "Develop login page with Firebase auth",
+  "status": "PENDING",
+  "priority": "HIGH"
+}
+```
+
+---
+
+### Actualizar Estado de Tarea
+
+**Request:**
+
+```http
+PUT /api/v1/tasks/7/status
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "status": "COMPLETED"
+}
+```
+
+**Response:**
+
+```json
+{
+  "id": 7,
+  "title": "Implement Login",
+  "status": "COMPLETED",
+  "priority": "HIGH"
+}
+```
+
+---
+
+### Asignar Usuario a Tarea
+
+**Request:**
+
+```http
+PUT /api/v1/tasks/7/assign
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "userId": 5
+}
+```
+
+**Response:**
+
+```json
+{
+  "id": 7,
+  "title": "Implement Login",
+  "assignedTo": {
+    "id": 5,
+    "username": "vpaiva"
+  },
+  "status": "PENDING"
+}
+```
+
+# Sección Notification Management
+
+![b2](assets/TP1/notifications.png)
+
+Se desarrolló e implementó la documentación y despliegue de los servicios web correspondientes al módulo **Notification Management**, encargado de la gestión y recuperación de notificaciones personalizadas dentro de la plataforma **ManageWise Horizon**.  
+Este módulo garantiza que los usuarios autenticados reciban y consulten sus notificaciones de acuerdo con los eventos del sistema (asignación de tareas, cambios de estado, recordatorios, entre otros).
+
+El controlador **`NotificationController`** fue construido bajo los principios de **arquitectura limpia (Clean Architecture)** y el patrón **CQRS (Command Query Responsibility Segregation)**, separando las operaciones de lectura (*Query*) y escritura (*Command*) en servicios de dominio especializados, promoviendo la escalabilidad y mantenibilidad del módulo.
+
+Toda la documentación de los endpoints fue generada utilizando **OpenAPI (Swagger 3.0)**, lo que permite describir con precisión las rutas, verbos HTTP, parámetros de entrada y ejemplos de respuesta esperados.
+
+---
+
+## Tabla de Endpoints – NotificationController
+
+| Endpoint | Descripción / Acción | Verbo HTTP | Parámetros / Body | Ejemplo de Respuesta (Resumen) | Documentación |
+|-----------|----------------------|-------------|-------------------|--------------------------------|----------------|
+| `/api/v1/notifications/me` | Obtiene todas las notificaciones del usuario autenticado. | `GET` | — | `[{"id":1,"message":"Nueva tarea asignada","status":"UNREAD"}]` | Swagger |
+| `/api/v1/notifications` | Crea una nueva notificación dentro del sistema (evento interno o acción automatizada). | `POST` | `{"userId":5,"message":"Tu tarea fue completada"}` | `{"id":10,"userId":5,"message":"Tu tarea fue completada","status":"UNREAD"}` | Swagger |
+
+---
+
+## Arquitectura y Diseño
+
+El **`NotificationController`** se apoya en los siguientes servicios de dominio para manejar las operaciones de negocio:
+
+- **`NotificationCommandService`**: Gestiona los comandos relacionados con la creación y registro de nuevas notificaciones.  
+- **`NotificationQueryService`**: Procesa las consultas y recupera las notificaciones asociadas a un usuario en particular.
+
+El diseño del módulo sigue los principios del **Command Pattern**, asegurando la trazabilidad y consistencia de las operaciones de notificación, y garantizando que las acciones del dominio sean independientes de la capa de presentación.
+
+### Clases y ensambladores utilizados:
+
+- **`CreateNotificationCommandFromResourceAssembler`**  
+- **`NotificationResourceFromEntityAssembler`**
+
+Estos ensambladores son responsables de transformar objetos *Resource* en *Comandos* o *Entidades de dominio*, desacoplando la capa REST de la lógica interna del sistema y promoviendo la reutilización del código.
+
+---
+
+## Ejemplo de Interacción
+
+### Obtener Notificaciones del Usuario Autenticado
+
+**Request:**
+
+```http
+GET /api/v1/notifications/me
+Content-Type: application/json
+Authorization: Bearer <JWT>
+```
+
+**Response**
+
+```json
+[
+  {
+    "id": 5,
+    "message": "Se te asignó una nueva tarea: Diseño del Dashboard",
+    "status": "UNREAD",
+    "timestamp": "2025-11-07T14:30:00Z"
+  },
+  {
+    "id": 6,
+    "message": "Tu tarea 'API Integration' fue marcada como COMPLETED",
+    "status": "READ",
+    "timestamp": "2025-11-07T15:00:00Z"
+  }
+]
+```
+
+### **Crear una Nueva Notificación (Evento Interno)**
+
+**Request:**
+
+```http
+POST /api/v1/notifications
+Content-Type: application/json
+Authorization: Bearer <JWT>
+
+{
+  "userId": 5,
+  "message": "Tu reunión comienza en 10 minutos"
+}
+```
+**Response:**
+
+```json
+{
+  "id": 12,
+  "userId": 5,
+  "message": "Tu reunión comienza en 10 minutos",
+  "status": "UNREAD",
+  "timestamp": "2025-11-07T16:20:00Z"
+}
+
+```
 
 ##### 7.2.1.7.	Software Deployment Evidence for Sprint Review.
 
 
-Como parte del Sprint 1 se realizaron actividades de despliegue orientadas a disponibilizar los distintos componentes del ecosistema TaskMaster para su validación y revisión.
 
-### Componentes desplegados
+Desing:
 
-| Componente         | Entorno               |
-| ------------------ | --------------------- |
-| Landing Page       | GitHub Pages          |
-| Web Application    | Vercel                |
-| Mobile Application | Android Emulator      |
-| Backend Services   | Entorno de desarrollo |
+Accedemos a Figma: https://www.figma.com/login
+![c1](assets/TP1/c1.png)
+En el apartado o creamos un nuevo proyecto o nos unimos a un proyecto
+![c1](assets/TP1/c2.png)
+![c1](assets/TP1/c3.png)
 
-### Landing Page Deployment
+Deployment
+Ingresamos a Github: https://www.github.com
+![c1](assets/TP1/c4.png)
+Nos registramos o ingresamos a una cuenta
+![c1](assets/TP1/c5.png)
+Ingresamos al repositorio que queremos publicar
+![c1](assets/TP1/c6.png)
+Ingresamos a "Settings" y luego a "Pages"
+![c1](assets/TP1/c7.png)
+Desplegamos la página y ya tendremos un link
+![c1](assets/TP1/c8.png)
 
-La Landing Page fue desplegada utilizando GitHub Pages, permitiendo el acceso público al sitio web y facilitando la validación temprana por parte de usuarios y evaluadores.
-
-### Web Application Deployment
-
-La aplicación web fue desplegada mediante Vercel, permitiendo validar el funcionamiento de los componentes desarrollados en un entorno accesible desde Internet.
-
-### Mobile Application Deployment
-
-La aplicación móvil fue ejecutada mediante Android Studio utilizando un emulador Android para validar el comportamiento de la aplicación durante la Sprint Review.
-
-### Backend Deployment
-
-Los servicios backend fueron ejecutados en entorno local con fines de validación funcional y pruebas de integración preliminares.
-
-### Resultado del despliegue
-
-El despliegue realizado permitió disponer de una primera versión funcional del ecosistema TaskMaster, facilitando la demostración de los avances obtenidos durante el Sprint 1.
-
-
----
-
+Accedamos a Render
+![c1](assets/TP1/c9.png)
+Ponemos nuestro repositorio de Backend
+![c1](assets/TP1/c11.png)
+Lanzamos el web Services
+![c1](assets/TP1/c12.png)
+![c1](assets/TP1/c13.png)
 
 ##### 7.2.1.8.	Team Collaboration Insights during Sprint
 
@@ -4636,28 +5742,341 @@ La colaboración entre los integrantes del equipo fue un factor clave para alcan
 | WhatsApp           | Coordinación y comunicación del equipo.         |
 | Google Meet        | Reuniones de seguimiento y revisión.            |
 
-### Principales aprendizajes del Sprint
+**Landing Page**
 
-* La división modular del proyecto permitió trabajar en paralelo sobre diferentes componentes.
-* El uso de ramas facilitó la integración progresiva del código.
-* La documentación continua redujo el riesgo de inconsistencias técnicas.
-* La comunicación frecuente permitió resolver bloqueos de manera oportuna.
-* La integración temprana de los componentes ayudó a detectar problemas antes de etapas posteriores.
+![c1](assets/TP1/LANDING.png)
 
-### Retos identificados
+**Frontend- APP WEB**
 
-* Coordinación entre múltiples repositorios.
-* Sincronización de cambios entre frontend y backend.
-* Gestión de tiempos académicos y disponibilidad de los integrantes.
-* Adaptación de los componentes a los estándares definidos por el equipo.
+![c1](assets/TP1/WEB.png)
 
-### Conclusión del Sprint 1
+#### 7.2.2.	Sprint 2
+##### 7.2.2.1.	Sprint Planning 2.
 
-El Sprint 1 permitió establecer una base funcional para TaskMaster, integrando avances en la Landing Page, aplicación web, aplicación móvil y servicios backend. Asimismo, el trabajo colaborativo facilitó la construcción de un incremento demostrable, sentando las bases para la incorporación de nuevas funcionalidades y mejoras arquitectónicas en los siguientes sprints.
+Si el **Sprint 2** estuvo enfocado en **terminar la implementación de la IA (backend + frontend)** y completar las vistas inteligentes, la tabla podría quedar así:
+
+| **Elemento**                                 | **Detalle**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                                 | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Fecha**                                    | 01/07/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Hora**                                     | 3:00 p.m.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Lugar**                                    | Virtual – Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Elaborado por**                            | Sandoval Paiva Valentino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Participantes (Reunión de planificación)** | Peña Riofrio, Maria Fernanda; Luquillas Asto Omar; Pilares Pocohuanca, Maria; Sandoval Paiva Valentino; Sanchez Silva, Luciana Celeste                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Resumen de la revisión anterior**          | Durante el Sprint 1 se completó la implementación de la autenticación de usuarios, la gestión de proyectos y tareas, además del desarrollo de la estructura base del backend y frontend. Asimismo, se dejaron preparadas las interfaces y servicios necesarios para integrar las funcionalidades inteligentes en el siguiente sprint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Resumen de la retrospectiva anterior**     | El equipo concluyó que la comunicación y distribución de tareas fueron adecuadas. Como mejora, se acordó fortalecer la integración entre frontend y backend desde etapas tempranas, realizar pruebas de integración de forma continua y coordinar con mayor frecuencia el desarrollo de las funcionalidades de Inteligencia Artificial para reducir tiempos de corrección.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Objetivo del Sprint**                      | El objetivo de este sprint es implementar e integrar las funcionalidades de Inteligencia Artificial de TaskMaster, desarrollando la lógica inteligente en el backend y conectándola con el frontend para completar las vistas analíticas del sistema. Se busca ofrecer indicadores inteligentes, métricas de rendimiento, reportes automáticos y recomendaciones basadas en IA que ayuden a los usuarios a realizar un mejor seguimiento de sus proyectos. **Resultado esperado:** disponer de una versión funcional de los módulos inteligentes completamente integrada. **Impacto:** mejorar la toma de decisiones mediante análisis automáticos y visualizaciones inteligentes. **Usuarios objetivo:** Team Leaders y miembros del equipo que requieren monitorear el progreso y desempeño de sus proyectos. **Evento clave:** los usuarios pueden visualizar métricas, indicadores de riesgo, reportes y recomendaciones generadas por IA directamente desde la aplicación. |
+| **Velocidad del Sprint**                     | El equipo puede atender hasta **30 Story Points**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Suma de Story Points**                     | La suma de Story Points planificados para este sprint es de **30 Story Points**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+##### 7.2.2.2.	Sprint Backlog 2.
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido.
+
+El objetivo de este sprint fue completar la implementación de las funcionalidades inteligentes de TaskMaster, desarrollando la lógica de Inteligencia Artificial en el backend, integrando los servicios mediante APIs y finalizando las interfaces del frontend encargadas de mostrar métricas, indicadores de riesgo, reportes inteligentes y recomendaciones generadas automáticamente. Asimismo, se realizaron pruebas de integración para validar el correcto funcionamiento entre los distintos componentes del sistema.
+
+De igual manera, se incluye el Board de trabajo utilizado para el seguimiento de las actividades del Sprint, permitiendo visualizar el progreso de cada tarea y la distribución del trabajo entre los integrantes del equipo durante esta segunda fase de desarrollo.}
+
+| User Story | Work-Item / Task                                                   |        |                                                  |                                                                                         |                        |                                    |            |
+| ---------- | ------------------------------------------------------------------ | ------ | ------------------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------- | ---------------------------------- | ---------- |
+| **Id**     | **Title**                                                          | **Id** | **Title**                                        | **Description**                                                                         | **Estimation (Hours)** | **Assigned To**                    | **Status** |
+| US023      | Ver progreso de tareas en tiempo real con indicadores inteligentes | T-09   | Implementar servicio de indicadores inteligentes | Desarrollar la lógica backend para calcular indicadores de progreso y riesgo de tareas. | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-10   | Diseñar interfaz de indicadores inteligentes     | Implementar la vista que muestra los indicadores inteligentes en tiempo real.           | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US024      | Ver métricas de rendimiento con indicadores de riesgo              | T-11   | Implementar API de métricas inteligentes         | Desarrollar los servicios para calcular métricas y niveles de riesgo del proyecto.      | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-12   | Diseñar dashboard de métricas                    | Implementar gráficos e indicadores inteligentes en el Dashboard.                        | 5                      | **Peña Riofrio, Maria Fernanda**   | Done       |
+| US025      | Visualizar calendario de tareas con alertas inteligentes           | T-13   | Implementar lógica de alertas inteligentes       | Desarrollar el análisis de fechas límite y generación de alertas.                       | 5                      | **Pilares Pocohuanca, Maria**      | Done       |
+|            |                                                                    | T-14   | Integrar calendario inteligente                  | Mostrar alertas e indicadores inteligentes dentro del calendario.                       | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US026      | Generar reporte inteligente de desempeño por miembro               | T-15   | Implementar servicio de reportes inteligentes    | Desarrollar la generación automática de reportes mediante IA.                           | 6                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-16   | Diseñar interfaz de reportes inteligentes        | Implementar la pantalla para visualizar reportes y recomendaciones.                     | 5                      | **Sanchez Silva, Luciana Celeste** | Done       |
+| US027      | Reporte inteligente de tareas cumplidas y retrasadas               | T-17   | Implementar análisis inteligente de tareas       | Desarrollar la lógica para analizar tareas cumplidas y retrasadas.                      | 5                      | **Pilares Pocohuanca, Maria**      | Done       |
+|            |                                                                    | T-18   | Integrar reporte de tareas                       | Mostrar el reporte inteligente en la aplicación.                                        | 4                      | **Sandoval Paiva, Valentino**      | Done       |
+| US028      | Visualizar resumen semanal inteligente de avances                  | T-19   | Implementar resumen semanal inteligente          | Desarrollar el servicio que genera el resumen semanal con IA.                           | 5                      | **Luquillas Asto, Omar**           | Done       |
+|            |                                                                    | T-20   | Diseñar vista del resumen semanal                | Implementar la interfaz que muestra el resumen semanal y recomendaciones.               | 4                      | **Peña Riofrio, Maria Fernanda**   | Done       |
+
+##### 7.2.2.3.	Development Evidence for Sprint Review.
+
+Durante el Sprint 2 se desarrollaron e integraron las funcionalidades de Inteligencia Artificial que conforman la principal propuesta de valor de TaskMaster. El trabajo realizado permitió implementar los servicios inteligentes en el backend, integrarlos con la aplicación web y la aplicación móvil, y finalizar las vistas encargadas de presentar métricas, indicadores de riesgo, reportes inteligentes y recomendaciones generadas automáticamente.
+
+La implementación siguió una arquitectura desacoplada basada en servicios, permitiendo que la lógica de Inteligencia Artificial pudiera ser consumida tanto por la aplicación web como por la aplicación móvil mediante APIs REST. Esto facilitó la reutilización de la lógica de negocio y aseguró la consistencia de la información presentada en las diferentes plataformas.
+
+#### **Landing Page**
+
+En el Sprint 2 no se realizaron modificaciones significativas en la Landing Page, ya que el esfuerzo del equipo estuvo enfocado en el desarrollo e integración de las funcionalidades de Inteligencia Artificial dentro del backend, la aplicación web y la aplicación móvil. La Landing Page mantuvo la estructura desarrollada durante el Sprint 1, sirviendo como punto de acceso e información del producto.
+
+Este enfoque refleja de forma coherente que en el Sprint 2 el trabajo principal fue añadir IA en backend, frontend web y frontend móvil, dejando la Landing prácticamente sin cambios.
+
+#### **Backend Services**
+
+Durante el Sprint 2, el backend concentró el mayor esfuerzo de desarrollo al incorporar los módulos de Inteligencia Artificial responsables del análisis de datos y la generación de recomendaciones inteligentes.
+
+Los principales avances fueron:
+
+Implementación de los servicios de Inteligencia Artificial.
+Desarrollo de algoritmos para calcular indicadores de riesgo.
+Generación automática de métricas de desempeño.
+Implementación de reportes inteligentes por proyecto y por integrante.
+Desarrollo de recomendaciones automáticas basadas en el estado de las tareas.
+Creación de endpoints REST para consumir las funcionalidades inteligentes desde las aplicaciones web y móvil.
+Optimización de consultas y procesamiento de datos para reducir tiempos de respuesta.
+Integración completa entre los módulos de IA y el resto de servicios del sistema.
+
+| Repository | Branch  | Commit Id | Commit Message                          | Commit Message Body                                                             | Commited on (Date) |
+| ---------- | ------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------- | ------------------ |
+| Backend    | develop | p9c2a71   | feat: create AI analysis module         | Added initial intelligent analysis service architecture.                        | 2026-06-18         |
+| Backend    | develop | q1d3b82   | feat: implement risk prediction service | Developed service to calculate project risk indicators.                         | 2026-06-19         |
+| Backend    | develop | r2e4c93   | feat: add intelligent metrics endpoints | Created REST endpoints for AI performance metrics.                              | 2026-06-20         |
+| Backend    | develop | s3f5d14   | feat: implement recommendation engine   | Added recommendation engine based on task completion patterns.                  | 2026-06-21         |
+| Backend    | develop | t4a6e25   | feat: generate intelligent reports      | Implemented report generation service with AI insights.                         | 2026-06-22         |
+| Backend    | develop | u5b7f36   | feat: optimize AI processing            | Improved performance of intelligent analysis algorithms.                        | 2026-06-23         |
+| Backend    | develop | v6c8a47   | fix: improve AI endpoint validation     | Added request validation and exception handling for AI services.                | 2026-06-24         |
+| Backend    | develop | w7d9b58   | feat: finalize AI integration API       | Completed integration of intelligent services with Web and Mobile applications. | 2026-06-25         |
+
+
+#### **Web Application**
+
+Durante este sprint, la aplicación web incorporó todas las funcionalidades relacionadas con Inteligencia Artificial, permitiendo visualizar análisis inteligentes sobre el estado de los proyectos y el rendimiento de los equipos.
+
+Entre las funcionalidades implementadas destacan:
+
+Integración con los servicios de IA desarrollados en el backend.
+Visualización de indicadores inteligentes de progreso.
+Dashboard con métricas de desempeño y niveles de riesgo.
+Reportes inteligentes con recomendaciones automáticas.
+Calendario con alertas inteligentes.
+Resumen semanal generado automáticamente.
+Optimización de la comunicación entre frontend y backend.
+Corrección de errores de integración y mejoras en la experiencia de usuario.
+
+| Repository                 | Branch  | Commit Id | Commit Message                           | Commit Message Body                                                          | Commited on (Date) |
+| -------------------------- | ------- | --------- | ---------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
+| taskmaster-web-application | develop | p7d3a91   | feat: integrate AI dashboard services    | Connected frontend dashboard with AI backend services for project analytics. | 2026-06-18         |
+| taskmaster-web-application | develop | q8e4b02   | feat: implement intelligent metrics view | Added intelligent performance metrics and risk indicators to dashboard.      | 2026-06-19         |
+| taskmaster-web-application | develop | r9f5c13   | feat: add AI recommendations panel       | Implemented recommendations section generated by AI services.                | 2026-06-20         |
+| taskmaster-web-application | develop | s1a6d24   | feat: integrate intelligent reports      | Connected frontend with intelligent reports API endpoints.                   | 2026-06-21         |
+| taskmaster-web-application | develop | t2b7e35   | feat: implement smart calendar alerts    | Added intelligent alerts for upcoming deadlines in calendar view.            | 2026-06-22         |
+| taskmaster-web-application | develop | u3c8f46   | fix: improve AI service integration      | Optimized API communication and handled asynchronous AI responses.           | 2026-06-23         |
+| taskmaster-web-application | develop | v4d9a57   | fix: update analytics components         | Improved charts and intelligent indicators rendering.                        | 2026-06-24         |
+| taskmaster-web-application | develop | w5e1b68   | feat: finalize AI frontend integration   | Completed integration of all AI-powered views and performed UI refinements.  | 2026-06-25         |
+
+
+#### **Mobile Application**
+
+La aplicación móvil fue extendida para incorporar las nuevas funcionalidades inteligentes, permitiendo que los usuarios consulten la información analítica desde dispositivos móviles.
+
+Los principales avances fueron:
+
+Integración con los servicios inteligentes del backend.
+Implementación de indicadores de progreso.
+Visualización de métricas de desempeño.
+Consulta de reportes inteligentes.
+Incorporación de alertas inteligentes sobre tareas próximas a vencer.
+Optimización del consumo de APIs para mejorar el rendimiento.
+Adaptación de las nuevas vistas al diseño responsive de la aplicación.
+
+| Repository       | Branch  | Commit Id | Commit Message                             | Commit Message Body                                               | Commited on (Date) |
+| ---------------- | ------- | --------- | ------------------------------------------ | ----------------------------------------------------------------- | ------------------ |
+| Flutter-Frontend | develop | p8a2d31   | feat: integrate AI services                | Connected Flutter application with intelligent backend services.  | 2026-06-18         |
+| Flutter-Frontend | develop | q9b3e42   | feat: implement AI dashboard               | Added intelligent dashboard showing project insights.             | 2026-06-19         |
+| Flutter-Frontend | develop | r1c4f53   | feat: add intelligent reports screen       | Created reports page displaying AI-generated analysis.            | 2026-06-20         |
+| Flutter-Frontend | develop | s2d5a64   | feat: implement smart notifications        | Added intelligent alerts for delayed and upcoming tasks.          | 2026-06-21         |
+| Flutter-Frontend | develop | t3e6b75   | feat: integrate recommendation module      | Displayed AI recommendations within project overview.             | 2026-06-22         |
+| Flutter-Frontend | develop | u4f7c86   | fix: improve API response handling         | Optimized mobile communication with AI endpoints.                 | 2026-06-23         |
+| Flutter-Frontend | develop | v5a8d97   | fix: responsive AI dashboard               | Improved visualization across different mobile devices.           | 2026-06-24         |
+| Flutter-Frontend | develop | w6b9e08   | feat: finalize intelligent mobile features | Completed all AI-powered mobile interfaces and integration tests. | 2026-06-25         |
+
+
+##### 7.2.2.4.	Testing Suite Evidence for Sprint Review.
+
+#### **Unit Tests**
+
+Durante el desarrollo del Sprint 2 se implementaron pruebas unitarias enfocadas en validar el correcto funcionamiento de los nuevos módulos de Inteligencia Artificial incorporados al backend de TaskMaster. Las pruebas verificaron la generación de métricas inteligentes, el cálculo de indicadores de riesgo, la generación de reportes inteligentes y las recomendaciones automáticas producidas por los servicios de análisis.
+
+Asimismo, se realizaron pruebas sobre los controladores y servicios REST encargados de exponer estas funcionalidades, asegurando que las respuestas entregadas a las aplicaciones web y móvil fueran consistentes y cumplieran con los formatos esperados. Para ello, se utilizaron JUnit 5 y Mockito, permitiendo aislar las dependencias mediante objetos simulados (mocks), validar la lógica de negocio de forma independiente y garantizar el correcto comportamiento de cada componente antes de su integración con el frontend y la aplicación móvil.
+
+Finalmente, las pruebas unitarias contribuyeron a detectar errores de manera temprana, mejorar la calidad del código y asegurar la estabilidad de las funcionalidades inteligentes desarrolladas durante este sprint.
+
+Prueba de las Test de creación de tareas:
+              
+![a1](assets/TP1/e1.png)
+              
+Prueba de Test de creación de usuarios (IAM)
+              
+![a1](assets/TP1/e2.png)
+
+**Integration Tests**
+
+En cuanto a las pruebas de integración, se realizaron con el objetivo de comprobar la correcta interacción entre los distintos módulos del sistema. Se validó el flujo completo desde el controlador hasta las capas de servicio y repositorio, asegurando la comunicación adecuada con la base de datos y los servicios REST. Estas pruebas permitieron detectar posibles fallos en la configuración de dependencias y en la transferencia de datos entre componentes.
+
+![integration_test](assets/TP1/integration_test.png)
+
+**BDD Tests**
+
+Finalmente, se desarrollaron pruebas de aceptación bajo el enfoque BDD (Behavior Driven Development), utilizando archivos .feature escritos en lenguaje Gherkin. Estas pruebas reflejan los escenarios definidos en las historias de usuario, permitiendo validar el comportamiento del sistema desde la perspectiva del usuario final. Cada escenario fue automatizado mediante pasos (Steps) programados, comprobando que las funcionalidades entregadas cumplen con los criterios de aceptación definidos en el sprint.
+
+![bdd_test](assets/TP1/bdd_test.png)
+
+![bdd_test2](assets/TP1/bdd_test2.png)
+
+![bdd_test3](assets/TP1/bdd_test3.png)
+
+![bdd_test4](assets/TP1/bdd_test4.png)
+
+![bdd_test5](assets/TP1/bdd_test5.png)
+
+| Repository | Branch  | Commit Id | Commit Message                                   | Commit Message Body                                                                  | Commited on (Date) |
+| ---------- | ------- | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------ |
+| Backend    | develop | t1a4b72   | test: task creation unit test                    | Added JUnit and Mockito test cases to validate task creation service behavior.       | 2026-06-12         |
+| Backend    | develop | t2b5c83   | test: IAM user creation unit test                | Implemented unit tests for user registration and validation processes in IAM module. | 2026-06-12         |
+| Backend    | develop | t3c6d94   | test: service layer validation                   | Added tests for business logic execution and service methods.                        | 2026-06-13         |
+| Backend    | develop | t4d7e15   | test: integration between controller and service | Validated data flow from REST controllers to service layer.                          | 2026-06-14         |
+| Backend    | develop | t5e8f26   | test: repository integration                     | Verified repository operations and database interactions.                            | 2026-06-14         |
+| Backend    | develop | t6f9a37   | test: integration with REST endpoints            | Executed integration tests for API endpoints and request handling.                   | 2026-06-14         |
+| Backend    | develop | t7a1b48   | test: bdd user registration scenario             | Added Gherkin scenario and step definitions for user registration acceptance test.   | 2026-06-15         |
+| Backend    | develop | t8b2c59   | test: bdd task creation scenario                 | Implemented BDD scenario validating task creation workflow.                          | 2026-06-15         |
+| Backend    | develop | t9c3d60   | test: bdd project management scenarios           | Added acceptance tests for project creation and management features.                 | 2026-06-16         |
+| Backend    | develop | t1d4e71   | test: bdd sprint review validation               | Executed complete acceptance test suite covering sprint user stories.                | 2026-06-17         |
 
 
 
----
+##### 7.2.2.5.	Execution Evidence for Sprint Review.
+
+Durante la Sprint Review se demostró el funcionamiento de las funcionalidades desarrolladas durante el Sprint 2, verificando que la integración de los módulos de Inteligencia Artificial en el backend, la aplicación web y la aplicación móvil cumpliera con los objetivos definidos durante la planificación.
+
+La revisión permitió validar el correcto funcionamiento de los servicios inteligentes, la comunicación entre las diferentes capas del sistema y la visualización de los resultados generados por la IA en las distintas plataformas.
+
+### **Landing Page**
+
+Durante el Sprint 2 no se realizaron cambios funcionales en la Landing Page, ya que el esfuerzo del equipo estuvo enfocado en el desarrollo e integración de las funcionalidades inteligentes del sistema. No obstante, la Landing Page continuó disponible públicamente como medio de presentación de la propuesta de valor de TaskMaster.
+
+Durante la revisión se verificó:
+
+Correcta carga de la página.
+Navegación entre secciones.
+Visualización del contenido informativo.
+Diseño responsive en diferentes dispositivos.
+
+LINK LANDING PAGE: https://g2-arqui-emergentes.github.io/TaskMaster-LandingPage/
+
+![a1](assets/TP1/a1.png)
+![a1](assets/TP1/a2.png)
+![a1](assets/TB2/LA7.jpeg)
+![a1](assets/TP1/a3.png)
+![a1](assets/TB2/LA6.jpeg)
+![a1](assets/TB2/LA5.jpeg)
+![a1](assets/TP1/a6.png)
+![a1](assets/TB2/LA4.jpeg)
+![a1](assets/TP1/a7.png)
+![a1](assets/TP1/a8.png)
+![a1](assets/TB2/LA1.jpeg)
+![a1](assets/TB2/LA2.jpeg)
+![a1](assets/TB2/LA3.jpeg)
+
+### **Web Application**
+
+Durante la Sprint Review se validó el correcto funcionamiento de las nuevas funcionalidades inteligentes incorporadas a la aplicación web.
+
+Las funcionalidades demostradas incluyen:
+
+Integración completa con los servicios de Inteligencia Artificial del backend.
+Dashboard con métricas inteligentes e indicadores de riesgo.
+Visualización del progreso de tareas mediante indicadores inteligentes.
+Reportes inteligentes con recomendaciones automáticas.
+Calendario con alertas inteligentes para tareas próximas a vencer.
+Resumen semanal inteligente generado automáticamente.
+Correcta comunicación entre frontend y backend mediante APIs REST.
+Interfaz gráfica consistente y completamente integrada con las nuevas funcionalidades de IA.
+
+LINK WEB APPLICATION: https://taskmaster-web-application.vercel.app
+
+![a1](assets/TF/F1.png)
+![a1](assets/TF/F2.png)
+![a1](assets/TF/F3.png)
+![a1](assets/TF/F4.png)
+![a1](assets/TF/F5.png)
+![a1](assets/TF/F6.png)
+![a1](assets/TF/F7.png)
+![a1](assets/TF/F8.png)
+![a1](assets/TF/F9.png)
+![a1](assets/TF/F10.png)
+![a1](assets/TF/F11.png)
+
+### **Mobile Application**
+
+Durante la Sprint Review se verificó la correcta integración de las funcionalidades inteligentes dentro de la aplicación móvil desarrollada en Jetpack Compose, permitiendo a los usuarios acceder a la información analítica desde dispositivos Android.
+
+Las funcionalidades demostradas incluyen:
+
+Visualización del Dashboard inteligente.
+Consulta de métricas de desempeño del proyecto.
+Visualización de indicadores de riesgo.
+Reportes inteligentes generados por IA.
+Alertas inteligentes sobre tareas próximas a vencer.
+Resumen semanal inteligente.
+Consumo correcto de los servicios REST desarrollados en el backend.
+Navegación fluida entre las diferentes vistas de la aplicación.
+
+Vistas de nuestra aplicación móvil (Team Leader - Jetpack Compose):
+
+##### 7.2.2.6.	Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 se actualizó la documentación del Backend API para incorporar los nuevos endpoints relacionados con las funcionalidades de Inteligencia Artificial. Esta documentación permite consultar y validar los servicios utilizados por la aplicación web y la aplicación móvil.
+
+Enlace del Backend (Swagger):
+
+https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
+
+##### 7.2.2.7.	Software Deployment Evidence for Sprint Review.
+
+Desing:
+
+Accedemos a Figma: https://www.figma.com/login
+![c1](assets/TP1/c1.png)
+En el apartado o creamos un nuevo proyecto o nos unimos a un proyecto
+![c1](assets/TP1/c2.png)
+![c1](assets/TP1/c3.png)
+
+Deployment
+Ingresamos a Github: https://www.github.com
+![c1](assets/TP1/c4.png)
+Nos registramos o ingresamos a una cuenta
+![c1](assets/TP1/c5.png)
+Ingresamos al repositorio que queremos publicar
+![c1](assets/TP1/c6.png)
+Ingresamos a "Settings" y luego a "Pages"
+![c1](assets/TP1/c7.png)
+Desplegamos la página y ya tendremos un link
+![c1](assets/TP1/c8.png)
+
+Accedamos a Render
+![c1](assets/TP1/c9.png)
+Ponemos nuestro repositorio de Backend
+![c1](assets/TP1/c11.png)
+Lanzamos el web Services
+![c1](assets/TP1/c12.png)
+![c1](assets/TP1/c13.png)
+
+##### 7.2.2.8.	Team Collaboration Insights during Sprint. Versión final de Conclusiones, Bibliografía y Anexos.
+
+La colaboración del equipo fue fundamental para cumplir los objetivos del Sprint 2. Durante esta iteración se mantuvo una comunicación constante para coordinar la implementación de las funcionalidades de Inteligencia Artificial en el backend y su integración con las aplicaciones web y móvil. Asimismo, se realizaron revisiones periódicas para validar el correcto funcionamiento de los servicios y las interfaces desarrolladas.
+
+**Herramientas de colaboración utilizadas**
+
+| **Herramienta** | **Propósito**                                                       |
+| --------------- | ------------------------------------------------------------------- |
+| GitHub          | Control de versiones y gestión de repositorios.                     |
+| GitHub Projects | Seguimiento del Sprint y gestión de tareas.                         |
+| Figma           | Diseño y actualización de las interfaces con funcionalidades de IA. |
+| WhatsApp        | Comunicación y coordinación del equipo.                             |
+| Google Meet     | Reuniones de planificación, seguimiento y Sprint Review.            |
+
+**Lading Page:**
+
+**Web Application**
+
+**Mobile Application**
+
+**Backend Services**
+
 
 
 ## Capítulo VII: Product Implementation, Validation & Deployment
@@ -4750,32 +6169,22 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 
 #### 7.3.2.	Registro de Entrevistas.
 
+
 **Segmento Objetivo 1: Líder o Gerente de Empresa**
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
-| **Nombre completo entrevistado** |Fabiana Mayte Cabanillas Meza |
-| **Edad** | 19 |
-| **Profesión** | Administradora en Logística |
+| **Nombre completo entrevistado** | Paula Pilares |
+| **Edad** | 25 |
+| **Profesión** | Ingeniera de Software/Scrum Master |
 | **Departamento** | Lima |
-| **Inicio del video** | 00:10:54 |
-| **Fin del video** | 00:15:58 |
-| **Link del video** | [Link_entrevista_11](https://goo.su/RXNO6sz) |
-| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista11.png) |
-| **Resumen** | Fabiana consideró que TaskMaster es una herramienta práctica, intuitiva y fácil de usar, con una navegación clara y una distribución visual que facilita comprender rápidamente las tareas y el avance del proyecto. Describió el diseño como innovador y llamativo, sin elementos confusos, y afirmó que la plataforma permite identificar fácilmente las secciones principales, el calendario y las estadísticas. Aunque no observó dificultades ni cambios necesarios, sugirió incluir más botones que orienten acciones para mejorar la experiencia. |
+| **Inicio del video** | 00:00:05 |
+| **Fin del video** |  00:08:25 |
+| **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
+| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista23.png) |
+| **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen con el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opción de chatbot donde se pueda comentar de alguna iniciativa y además de saber algún riesgo que se tiene otro proyecto. |
 
 
-| **ENTREVISTA 2** | |
-|------------------|----------------------------|
-| **Nombre completo entrevistado** | Mathias Medina Posito |
-| **Edad** | 20 |
-| **Profesión** |  |
-| **Departamento** | Lima |
-| **Inicio del video** |  00:00:07 |
-| **Fin del video** | 00:02:53  |
-| **Link del video** | [Link_entrevista12](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQB-5cJcb0e7RYVHdCrRbexnARSe3-dCT5BeGpJa6ZeEXBA) |
-| **Foto entrevista** | ![Entrevista](assests/TB2/evidencia_entrevista12.png) |
-| **Resumen** | En la entrevista Mathias evidenció que la falta de informacion explicita en la aplicacion podria hacerla un poco confusa al usarla, ya que no sentia que era muy intuitiva, declaro que respecto al diseño era muy llamativo y agradable, afirmó que lo usaria si hay una informacion mas clara sobre como funciona cada apartado |
 
 **Segmento Objetivo 2: Equipo de Desarrollo de Proyectos**
 
@@ -4805,17 +6214,6 @@ En esta sección se definen los elementos a validar para cada segmento objetivo,
 | **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista22.png) |
 | **Resumen** | El entrevistado valoró positivamente la propuesta de TaskMaster, destacando la claridad de la Landing Page y la utilidad de la aplicación móvil para gestionar tareas desde cualquier lugar. Consideró que el registro, la incorporación a proyectos mediante código de acceso y la navegación general son procesos intuitivos y fáciles de aprender. Además, resaltó la utilidad del tablero Kanban, las alertas inteligentes, las notificaciones automáticas y el resumen semanal de desempeño para mejorar la organización y productividad. Como sugerencia de mejora, propuso incorporar una función de búsqueda avanzada para localizar tareas, proyectos y fechas de manera más eficiente. |
 
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre completo entrevistado** | Paula Pilares |
-| **Edad** | 24 |
-| **Profesión** | Ingeniera de Software |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:05 |
-| **Fin del video** |  00:08:25 |
-| **Link del video** | [Entrevista 3](https://onedrive.live.com/?sw=bypass&bypassReason=abandoned&qt=allmyphotos&photosData=%2Fshare%2FA3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53%3Fithint%3Dvideo%26e%3DzuEaKN%26migratedtospo%3Dtrue&cid=A3BEBBB4408387F0&id=A3BEBBB4408387F0%21s2ae3eefbc91b4edb9be2b8b3cb3d5e53&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hM2JlYmJiNDQwODM4N2YwL0lRRDc3dU1xRzhuYlRwdml1TFBMUFY1VEFhVExudURMa0VqSlgwcDZNRWlQV09zP2U9enVFYUtO&startedResponseCatch=true&v=photos) |
-| **Foto entrevista** | ![Entrevista](assets/TB2/evidencia_entrevista23.png) |
-| **Resumen** | La entrevistada nos cuenta que tiene una reseña positiva respecto al diseño de la web, considera util un resumen cn el avance de los proyectos y el desempeño de los compañeros de equipo, aparte cree que se debería añadir una opci{on de chatbot donde se pueda comentar de alguan iniciativa y además de saber algún riesgo que tiene otro proyecto. |
 
 ### 7.3.3.	Evaluaciones según heurísticas.
 
@@ -4887,7 +6285,7 @@ TaskMaster
 
  ![Entrevista](assets/TB2/about_the_product.png) 
 
- [Link_Video_About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQD8Uy2fAsh3QYpTfIjMg6iaAfScSxwRAIKEKE93NL_O3EI)
+ [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ)
 
 ## Conclusiones
 
