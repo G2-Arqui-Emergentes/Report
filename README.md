@@ -362,16 +362,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
+      <br><br><strong>TB1</strong><br><br>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br>Fortalecí la comunicación oral al explicar soluciones técnicas del sistema, argumentando el uso de tecnologías y proponiendo ideas de manera estructurada. <br><br>
+        Fortalecí la comunicación oral al explicar soluciones técnicas del sistema, argumentando el uso de tecnologías y proponiendo ideas de manera estructurada. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> Reconocí la importancia de una comunicación oral efectiva al participar en la coordinación y explicación de ideas dentro del equipo, asegurando la comprensión de todos los integrantes. <br><br>
+        Reconocí la importancia de una comunicación oral efectiva al participar en la coordinación y explicación de ideas dentro del equipo, asegurando la comprensión de todos los integrantes. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> Desarrollé habilidades de comunicación oral al exponer ideas del proyecto y colaborar en la organización de la información, facilitando su entendimiento en el equipo. <br><br>
+        Desarrollé habilidades de comunicación oral al exponer ideas del proyecto y colaborar en la organización de la información, facilitando su entendimiento en el equipo. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
+        Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
+        Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
         <br><br><strong>TP</strong><br><br>
         Luquillas Asto, Omar<br>
         Reforcé la comunicación oral al presentar propuestas de diseño UX/UI, explicando con claridad decisiones de usabilidad, estructura visual y navegación, adaptando el discurso según el nivel técnico del público. <br><br>
@@ -383,7 +384,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Fortalecí la comunicación oral al presentar flujos de usuario, wireflows y decisiones de diseño UX, explicando de manera estructurada cómo interactúan los usuarios con el sistema. <br><br>
         Sandoval Paiva, Valentino<br>
         Reforcé la comunicación oral al sustentar decisiones de diseño UX/UI y arquitectura de navegación, explicando la experiencia del usuario de forma clara, objetiva y adaptada a distintos niveles de conocimiento.
-        <br><br><strong>TB2</strong><br><br>
+     <br><br><strong>TB2</strong><br><br>
 
 Luquillas Asto, Omar<br>
 Fortalecí la comunicación oral al presentar los mockups, flujos de usuario y prototipos de la aplicación, explicando las decisiones de diseño y funcionalidad de manera clara para públicos con distintos niveles de conocimiento. Asimismo, participé en la sustentación de los avances del backend y frontend web, comunicando el progreso técnico del proyecto de forma estructurada y objetiva. <br><br>
@@ -399,6 +400,17 @@ Fortalecí la comunicación oral al presentar los resultados de las entrevistas 
 
 Sandoval Paiva, Valentino<br>
 Reforcé la comunicación oral al sustentar la configuración del entorno de desarrollo, la gestión del código fuente y el proceso de despliegue del software. Además, participé en la presentación de los avances del backend y frontend web, explicando aspectos técnicos de la implementación de forma clara y adaptada al público.
+      <br><br><strong>TF</strong><br><br>
+        Luquillas Asto, Omar<br>
+        . <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        . <br><br>
+        Pilares Pocohuanca, Maria<br>
+        . <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Reconocí la importancia de la comunicación oral al compartir ideas argumentar la priorización de algunas historias de usuario de acuerdo al core del negocio para el desarrollo de la versión mobile de las aplicaciones para Leader y Team member. <br><br>
+        Sandoval Paiva, Valentino<br>
+        .
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
@@ -411,16 +423,17 @@ Durante esta etapa se fortaleció la capacidad del equipo para comunicar resulta
     <tr>
       <td><strong>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
+      <br><br><strong>TB1</strong><br><br>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br> Fortalecí la comunicación escrita al documentar soluciones técnicas del sistema, explicando de manera objetiva el uso de tecnologías y procesos implementados. <br><br>
+        Fortalecí la comunicación escrita al documentar soluciones técnicas del sistema, explicando de manera objetiva el uso de tecnologías y procesos implementados. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> Reconocí la importancia de la comunicación escrita efectiva al participar en la redacción y revisión del informe, asegurando coherencia, orden y comprensión del contenido. <br><br>
+        Reconocí la importancia de la comunicación escrita efectiva al participar en la redacción y revisión del informe, asegurando coherencia, orden y comprensión del contenido. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> Desarrollé habilidades de comunicación escrita al contribuir en la elaboración del documento final, organizando ideas de manera estructurada y accesible para diferentes niveles de conocimiento. <br><br>
+        Desarrollé habilidades de comunicación escrita al contribuir en la elaboración del documento final, organizando ideas de manera estructurada y accesible para diferentes niveles de conocimiento. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
+        Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
+        Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
         <br><br><strong>TP</strong><br><br>
         Luquillas Asto, Omar<br>
         Mejoré la comunicación escrita al desarrollar secciones de UX Design, describiendo lineamientos de estilo, arquitectura de información y decisiones de diseño de forma clara y estructurada. <br><br>
@@ -448,6 +461,17 @@ Mejoré la comunicación escrita al registrar entrevistas de validación, evalua
 
 Sandoval Paiva, Valentino<br>
 Reforcé la redacción técnica al documentar la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue del software. Además, participé en la documentación de los avances del backend y frontend web de la solución.
+        <br><br><strong>TF</strong><br><br>
+        Luquillas Asto, Omar<br>
+        . <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        . <br><br>
+        Pilares Pocohuanca, Maria<br>
+        . <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Reconocí de forma escrita la importancia de recopilar toda la documentación actualizada con la mejora continua de los artefactos moviles desarrollados en este último sprint. <br><br>
+        Sandoval Paiva, Valentino<br>
+        .
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
