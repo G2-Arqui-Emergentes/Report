@@ -362,16 +362,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <tr>
       <td><strong>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
+      <br><br><strong>TB1</strong><br><br>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br>Fortalecí la comunicación oral al explicar soluciones técnicas del sistema, argumentando el uso de tecnologías y proponiendo ideas de manera estructurada. <br><br>
+        Fortalecí la comunicación oral al explicar soluciones técnicas del sistema, argumentando el uso de tecnologías y proponiendo ideas de manera estructurada. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> Reconocí la importancia de una comunicación oral efectiva al participar en la coordinación y explicación de ideas dentro del equipo, asegurando la comprensión de todos los integrantes. <br><br>
+        Reconocí la importancia de una comunicación oral efectiva al participar en la coordinación y explicación de ideas dentro del equipo, asegurando la comprensión de todos los integrantes. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> Desarrollé habilidades de comunicación oral al exponer ideas del proyecto y colaborar en la organización de la información, facilitando su entendimiento en el equipo. <br><br>
+        Desarrollé habilidades de comunicación oral al exponer ideas del proyecto y colaborar en la organización de la información, facilitando su entendimiento en el equipo. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
+        Desarrollé la capacidad de comunicar ideas de forma oral al exponer los objetivos y la estructura del proyecto, organizando la información de manera clara y comprensible para el equipo. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
+        Mejoré la comunicación de conceptos técnicos al explicar aspectos como bases de datos y herramientas utilizadas, adaptando el lenguaje según el nivel de conocimiento del público.
         <br><br><strong>TP</strong><br><br>
         Luquillas Asto, Omar<br>
         Reforcé la comunicación oral al presentar propuestas de diseño UX/UI, explicando con claridad decisiones de usabilidad, estructura visual y navegación, adaptando el discurso según el nivel técnico del público. <br><br>
@@ -383,7 +384,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Fortalecí la comunicación oral al presentar flujos de usuario, wireflows y decisiones de diseño UX, explicando de manera estructurada cómo interactúan los usuarios con el sistema. <br><br>
         Sandoval Paiva, Valentino<br>
         Reforcé la comunicación oral al sustentar decisiones de diseño UX/UI y arquitectura de navegación, explicando la experiencia del usuario de forma clara, objetiva y adaptada a distintos niveles de conocimiento.
-        <br><br><strong>TB2</strong><br><br>
+     <br><br><strong>TB2</strong><br><br>
 
 Luquillas Asto, Omar<br>
 Fortalecí la comunicación oral al presentar los mockups, flujos de usuario y prototipos de la aplicación, explicando las decisiones de diseño y funcionalidad de manera clara para públicos con distintos niveles de conocimiento. Asimismo, participé en la sustentación de los avances del backend y frontend web, comunicando el progreso técnico del proyecto de forma estructurada y objetiva. <br><br>
@@ -399,6 +400,17 @@ Fortalecí la comunicación oral al presentar los resultados de las entrevistas 
 
 Sandoval Paiva, Valentino<br>
 Reforcé la comunicación oral al sustentar la configuración del entorno de desarrollo, la gestión del código fuente y el proceso de despliegue del software. Además, participé en la presentación de los avances del backend y frontend web, explicando aspectos técnicos de la implementación de forma clara y adaptada al público.
+      <br><br><strong>TF</strong><br><br>
+        Luquillas Asto, Omar<br>
+        . <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        . <br><br>
+        Pilares Pocohuanca, Maria<br>
+        . <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Reconocí la importancia de la comunicación oral al compartir ideas argumentar la priorización de algunas historias de usuario de acuerdo al core del negocio para el desarrollo de la versión mobile de las aplicaciones para Leader y Team member. <br><br>
+        Sandoval Paiva, Valentino<br>
+        .
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de manera clara, objetiva y estructurada, adaptando el lenguaje según el nivel técnico del público. Asimismo, se desarrollaron habilidades de trabajo colaborativo y exposición de propuestas, facilitando la comprensión de soluciones de ingeniería y contribuyendo a una mejor toma de decisiones durante el desarrollo del proyecto.
@@ -411,16 +423,17 @@ Durante esta etapa se fortaleció la capacidad del equipo para comunicar resulta
     <tr>
       <td><strong>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</strong></td>
       <td>
+      <br><br><strong>TB1</strong><br><br>
         Luquillas Asto, Omar<br>
-        <em>TB1</em><br> Fortalecí la comunicación escrita al documentar soluciones técnicas del sistema, explicando de manera objetiva el uso de tecnologías y procesos implementados. <br><br>
+        Fortalecí la comunicación escrita al documentar soluciones técnicas del sistema, explicando de manera objetiva el uso de tecnologías y procesos implementados. <br><br>
         Peña Riofrio, Maria Fernanda<br>
-        <em>TB1</em><br> Reconocí la importancia de la comunicación escrita efectiva al participar en la redacción y revisión del informe, asegurando coherencia, orden y comprensión del contenido. <br><br>
+        Reconocí la importancia de la comunicación escrita efectiva al participar en la redacción y revisión del informe, asegurando coherencia, orden y comprensión del contenido. <br><br>
         Pilares Pocohuanca, Maria<br>
-        <em>TB1</em><br> Desarrollé habilidades de comunicación escrita al contribuir en la elaboración del documento final, organizando ideas de manera estructurada y accesible para diferentes niveles de conocimiento. <br><br>
+        Desarrollé habilidades de comunicación escrita al contribuir en la elaboración del documento final, organizando ideas de manera estructurada y accesible para diferentes niveles de conocimiento. <br><br>
         Sanchez Silva, Luciana Celeste<br>
-        <em>TB1</em><br> Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
+        Desarrollé la capacidad de comunicar ideas de forma escrita al estructurar secciones del informe del proyecto, organizando la información de manera clara y coherente para distintos tipos de lectores. <br><br>
         Sandoval Paiva, Valentino<br>
-        <em>TB1</em><br> Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
+        Mejoré la redacción técnica al describir componentes del sistema, como bases de datos y herramientas utilizadas, asegurando claridad y precisión en la información presentada.
         <br><br><strong>TP</strong><br><br>
         Luquillas Asto, Omar<br>
         Mejoré la comunicación escrita al desarrollar secciones de UX Design, describiendo lineamientos de estilo, arquitectura de información y decisiones de diseño de forma clara y estructurada. <br><br>
@@ -448,6 +461,17 @@ Mejoré la comunicación escrita al registrar entrevistas de validación, evalua
 
 Sandoval Paiva, Valentino<br>
 Reforcé la redacción técnica al documentar la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue del software. Además, participé en la documentación de los avances del backend y frontend web de la solución.
+        <br><br><strong>TF</strong><br><br>
+        Luquillas Asto, Omar<br>
+        . <br><br>
+        Peña Riofrio, Maria Fernanda<br>
+        . <br><br>
+        Pilares Pocohuanca, Maria<br>
+        . <br><br>
+        Sanchez Silva, Luciana Celeste<br>
+        Reconocí de forma escrita la importancia de recopilar toda la documentación actualizada con la mejora continua de los artefactos moviles desarrollados en este último sprint. <br><br>
+        Sandoval Paiva, Valentino<br>
+        .
       </td>
       <td>
         TB1:<br> La elaboración del proyecto permitió fortalecer la capacidad del equipo para comunicar ideas y resultados de forma escrita de manera clara, objetiva y estructurada, adaptando el nivel de detalle según el público. Asimismo, se consolidaron habilidades en la redacción técnica y organización de la información, facilitando la documentación de soluciones de ingeniería y mejorando la comprensión del proyecto en distintos niveles.
@@ -6017,6 +6041,45 @@ Navegación fluida entre las diferentes vistas de la aplicación.
 
 Vistas de nuestra aplicación móvil (Team Leader - Jetpack Compose):
 
+<img src="assets/TF/AM1.png" alt="logo" width="350"/>
+<img src="assets/TF/AM2.png" alt="logo" width="325"/>
+
+- Vistas para el usuario leader:
+
+<img src="assets/TF/AM3.png" alt="logo" width="350"/>
+<img src="assets/TF/AM4.png" alt="logo" width="350"/>
+<img src="assets/TF/AM5.png" alt="logo" width="350"/>
+<img src="assets/TF/AM6.png" alt="logo" width="350"/>
+<img src="assets/TF/AM7.png" alt="logo" width="350"/>
+<img src="assets/TF/AM8.png" alt="logo" width="350"/>
+<img src="assets/TF/AM9.png" alt="logo" width="350"/>
+<img src="assets/TF/AM10.png" alt="logo" width="350"/>
+<img src="assets/TF/AM11.png" alt="logo" width="350"/>
+<img src="assets/TF/AM12.png" alt="logo" width="350"/>
+<img src="assets/TF/AM13.png" alt="logo" width="350"/>
+<img src="assets/TF/AM14.png" alt="logo" width="350"/>
+<img src="assets/TF/AM15.png" alt="logo" width="350"/>
+
+<br>
+
+- Vistas para el usuario member:
+
+<img src="assets/TF/AM16.png" alt="logo" width="350"/>
+<img src="assets/TF/AM17.png" alt="logo" width="350"/>
+<img src="assets/TF/AM18.png" alt="logo" width="350"/>
+<img src="assets/TF/AM19.png" alt="logo" width="350"/>
+<img src="assets/TF/AM20.png" alt="logo" width="350"/>
+<img src="assets/TF/AM21.png" alt="logo" width="350"/>
+<img src="assets/TF/AM22.png" alt="logo" width="350"/>
+<img src="assets/TF/AM23.png" alt="logo" width="350"/>
+<img src="assets/TF/AM24.png" alt="logo" width="350"/>
+<img src="assets/TF/AM25.png" alt="logo" width="350"/>
+<img src="assets/TF/AM26.png" alt="logo" width="350"/>
+<img src="assets/TF/AM27.png" alt="logo" width="350"/>
+<img src="assets/TF/AM28.png" alt="logo" width="350"/>
+<img src="assets/TF/AM29.png" alt="logo" width="350"/>
+<img src="assets/TF/AM30.png" alt="logo" width="350"/>
+
 ##### 7.2.2.6.	Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 2 se actualizó la documentación del Backend API para incorporar los nuevos endpoints relacionados con las funcionalidades de Inteligencia Artificial. Esta documentación permite consultar y validar los servicios utilizados por la aplicación web y la aplicación móvil.
@@ -6287,6 +6350,8 @@ TaskMaster
 
  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ)
 
+<div style="page-break-after: always;"></div>
+
 ## Conclusiones
 
 **TB1**
@@ -6301,9 +6366,14 @@ TaskMaster
 
 - En esta tercera fase del proyecto se logró materializar la propuesta planteada en las etapas anteriores mediante la implementación y validación de la solución TaskMaster. La configuración del entorno de desarrollo, la gestión del código fuente y el despliegue de la aplicación permitieron establecer una base sólida para el desarrollo colaborativo y sostenible del sistema. Asimismo, la ejecución del Sprint 1 evidenció la capacidad del equipo para transformar los requerimientos definidos en funcionalidades concretas, integrando componentes web y móviles alineados con la arquitectura diseñada previamente.
 
-Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+- Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+
+**TF**
+
+- En esta entrega final se culminó la implementación de TaskMaster con un enfoque en la integración de funcionalidades impulsadas por inteligencia artificial, tanto en la aplicación web como en la aplicación móvil. Durante el sprint final, se desarrollaron e incorporaron capacidades de IA generativa para la sugerencia inteligente de tareas, predicción de plazos y análisis predictivo de productividad, lo que permitió ofrecer una experiencia más adaptativa y proactiva a los usuarios. La aplicación web fue robustecida con dashboards inteligentes y recomendaciones contextuales, mientras que la aplicación móvil permitió el acceso a estas funcionalidades desde cualquier lugar, garantizando una experiencia consistente y multiplataforma. Asimismo, se realizaron pruebas de integración y validación con usuarios reales para asegurar la correcta operación de los componentes de IA dentro de la arquitectura existente. Esta fase consolida a TaskMaster como una solución innovadora que combina la gestión de proyectos con inteligencia artificial, sentando las bases para su evolución continua y escalabilidad en entornos empresariales.
 
 
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
@@ -6333,6 +6403,7 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 -Interaction Design Foundation. (2022). What is User Interface (UI) Design. https://www.interaction-design.org
 
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
@@ -6340,4 +6411,11 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 - TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQAZO_cMWAd4RKKDMOsWrQU2ATJEeBNgs32C3dapT3eS7Zk 
 - TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDhWrwc9qytQovTEzgimi-oAQFp6YQIkF9BUpwvAKKM69w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aSrcbu
-- TB2:
+- TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQBvS155n_fWTpJpHZKWw2Z0AZAmNVyr3e_callUmUUsueY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y22iRO
+- TF:
+
+<div style="page-break-after: always;"></div> 
+
+**Anexo B. Video About-The-Product**
+
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ
