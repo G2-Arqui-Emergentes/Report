@@ -6041,6 +6041,45 @@ Navegación fluida entre las diferentes vistas de la aplicación.
 
 Vistas de nuestra aplicación móvil (Team Leader - Jetpack Compose):
 
+<img src="assets/TF/AM1.png" alt="logo" width="350"/>
+<img src="assets/TF/AM2.png" alt="logo" width="325"/>
+
+- Vistas para el usuario leader:
+
+<img src="assets/TF/AM3.png" alt="logo" width="350"/>
+<img src="assets/TF/AM4.png" alt="logo" width="350"/>
+<img src="assets/TF/AM5.png" alt="logo" width="350"/>
+<img src="assets/TF/AM6.png" alt="logo" width="350"/>
+<img src="assets/TF/AM7.png" alt="logo" width="350"/>
+<img src="assets/TF/AM8.png" alt="logo" width="350"/>
+<img src="assets/TF/AM9.png" alt="logo" width="350"/>
+<img src="assets/TF/AM10.png" alt="logo" width="350"/>
+<img src="assets/TF/AM11.png" alt="logo" width="350"/>
+<img src="assets/TF/AM12.png" alt="logo" width="350"/>
+<img src="assets/TF/AM13.png" alt="logo" width="350"/>
+<img src="assets/TF/AM14.png" alt="logo" width="350"/>
+<img src="assets/TF/AM15.png" alt="logo" width="350"/>
+
+<br>
+
+- Vistas para el usuario member:
+
+<img src="assets/TF/AM16.png" alt="logo" width="350"/>
+<img src="assets/TF/AM17.png" alt="logo" width="350"/>
+<img src="assets/TF/AM18.png" alt="logo" width="350"/>
+<img src="assets/TF/AM19.png" alt="logo" width="350"/>
+<img src="assets/TF/AM20.png" alt="logo" width="350"/>
+<img src="assets/TF/AM21.png" alt="logo" width="350"/>
+<img src="assets/TF/AM22.png" alt="logo" width="350"/>
+<img src="assets/TF/AM23.png" alt="logo" width="350"/>
+<img src="assets/TF/AM24.png" alt="logo" width="350"/>
+<img src="assets/TF/AM25.png" alt="logo" width="350"/>
+<img src="assets/TF/AM26.png" alt="logo" width="350"/>
+<img src="assets/TF/AM27.png" alt="logo" width="350"/>
+<img src="assets/TF/AM28.png" alt="logo" width="350"/>
+<img src="assets/TF/AM29.png" alt="logo" width="350"/>
+<img src="assets/TF/AM30.png" alt="logo" width="350"/>
+
 ##### 7.2.2.6.	Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 2 se actualizó la documentación del Backend API para incorporar los nuevos endpoints relacionados con las funcionalidades de Inteligencia Artificial. Esta documentación permite consultar y validar los servicios utilizados por la aplicación web y la aplicación móvil.
@@ -6311,6 +6350,8 @@ TaskMaster
 
  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ)
 
+<div style="page-break-after: always;"></div>
+
 ## Conclusiones
 
 **TB1**
@@ -6325,9 +6366,14 @@ TaskMaster
 
 - En esta tercera fase del proyecto se logró materializar la propuesta planteada en las etapas anteriores mediante la implementación y validación de la solución TaskMaster. La configuración del entorno de desarrollo, la gestión del código fuente y el despliegue de la aplicación permitieron establecer una base sólida para el desarrollo colaborativo y sostenible del sistema. Asimismo, la ejecución del Sprint 1 evidenció la capacidad del equipo para transformar los requerimientos definidos en funcionalidades concretas, integrando componentes web y móviles alineados con la arquitectura diseñada previamente.
 
-Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+- Por otro lado, las entrevistas de validación y las evaluaciones heurísticas permitieron obtener retroalimentación relevante sobre la usabilidad, funcionalidad y experiencia de usuario de la solución, identificando oportunidades de mejora y validando el valor de la propuesta frente a las necesidades de los usuarios. La elaboración de prototipos, el desarrollo de evidencias de implementación y la presentación del producto consolidaron una visión integral del sistema, demostrando la viabilidad técnica y funcional de TaskMaster. En conjunto, esta entrega representa un avance significativo hacia la consolidación de una plataforma capaz de optimizar la gestión de proyectos y equipos de trabajo, dejando una base preparada para futuras iteraciones, mejoras continuas y escalamiento de la solución.
+
+**TF**
+
+- En esta entrega final se culminó la implementación de TaskMaster con un enfoque en la integración de funcionalidades impulsadas por inteligencia artificial, tanto en la aplicación web como en la aplicación móvil. Durante el sprint final, se desarrollaron e incorporaron capacidades de IA generativa para la sugerencia inteligente de tareas, predicción de plazos y análisis predictivo de productividad, lo que permitió ofrecer una experiencia más adaptativa y proactiva a los usuarios. La aplicación web fue robustecida con dashboards inteligentes y recomendaciones contextuales, mientras que la aplicación móvil permitió el acceso a estas funcionalidades desde cualquier lugar, garantizando una experiencia consistente y multiplataforma. Asimismo, se realizaron pruebas de integración y validación con usuarios reales para asegurar la correcta operación de los componentes de IA dentro de la arquitectura existente. Esta fase consolida a TaskMaster como una solución innovadora que combina la gestión de proyectos con inteligencia artificial, sentando las bases para su evolución continua y escalabilidad en entornos empresariales.
 
 
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
@@ -6357,6 +6403,7 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 -Interaction Design Foundation. (2022). What is User Interface (UI) Design. https://www.interaction-design.org
 
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
@@ -6364,4 +6411,11 @@ Miro. (n.d.). Miro | Event storming. Miro. Recuperado el 19 de septiembre de 202
 
 - TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQAZO_cMWAd4RKKDMOsWrQU2ATJEeBNgs32C3dapT3eS7Zk 
 - TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDhWrwc9qytQovTEzgimi-oAQFp6YQIkF9BUpwvAKKM69w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aSrcbu
-- TB2:
+- TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQBvS155n_fWTpJpHZKWw2Z0AZAmNVyr3e_callUmUUsueY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y22iRO
+- TF:
+
+<div style="page-break-after: always;"></div> 
+
+**Anexo B. Video About-The-Product**
+
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g641_upc_edu_pe/IQB_Dz-m6JcvT5bpoVZLoK2HAXBBlTeElSyzU-4jr8xde2o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UutCEJ
