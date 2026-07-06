@@ -5816,7 +5816,7 @@ El objetivo de este sprint fue completar la implementación de las funcionalidad
 
 De igual manera, se incluye el Board de trabajo utilizado para el seguimiento de las actividades del Sprint, permitiendo visualizar el progreso de cada tarea y la distribución del trabajo entre los integrantes del equipo durante esta segunda fase de desarrollo.}
 
-[text](assets/TF/TRELLO2.jpeg)
+![a1](assets/TF/TRELLO2.jpeg)
 
 Enlace público del Board en Trello: https://trello.com/invite/b/69deac0397d45ae667e9bdc4/ATTI76344d0809c09e954f74835bddd259248D3D43FC/g2-arqui-emergentes
 
