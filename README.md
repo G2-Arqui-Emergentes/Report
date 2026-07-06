@@ -6097,11 +6097,428 @@ Vistas de nuestra aplicación móvil (Team Leader - Jetpack Compose):
 
 ##### 7.2.2.6.	Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 2 se actualizó la documentación del Backend API para incorporar los nuevos endpoints relacionados con las funcionalidades de Inteligencia Artificial. Esta documentación permite consultar y validar los servicios utilizados por la aplicación web y la aplicación móvil.
+Durante este Sprint se desarrollaron nuevos servicios backend orientados a fortalecer las capacidades inteligentes de TaskMaster, así como mejoras sobre el módulo de gestión de usuarios existente y la incorporación del nuevo módulo de reuniones.
 
-Enlace del Backend (Swagger):
+En esta sección se presenta la evidencia correspondiente al desarrollo de los servicios implementados durante el Sprint. Toda la documentación técnica fue generada automáticamente mediante OpenAPI (Swagger 3.0), permitiendo visualizar la estructura de cada endpoint, sus parámetros, respuestas y ejemplos de uso.
 
-https://backend-taskmaster-1.onrender.com/swagger-ui/index.html
+Enlace del Backend API (Swagger UI):
+
+[https://backend-taskmaster-1.onrender.com/swagger-ui/index.html#/](https://backend-taskmaster-1.onrender.com/swagger-ui/index.html#/)
+
+---
+
+### Sección AI (Artificial Intelligence)
+
+![AI Endpoints](assets/TF/ai-endpoints.png)
+
+El módulo **AI (Artificial Intelligence)** incorpora funcionalidades inteligentes dentro de TaskMaster mediante servicios basados en inteligencia artificial. Durante este Sprint se implementaron los endpoints responsables de la comunicación con el chatbot inteligente y la generación de dashboards personalizados para los distintos perfiles de usuario.
+
+Estos servicios fueron desarrollados siguiendo los principios de Clean Architecture y una separación clara entre la lógica de negocio y la capa de presentación, facilitando la escalabilidad y futuras integraciones con nuevos modelos de IA.
+
+A continuación, se detallan los endpoints implementados, sus funcionalidades principales y la documentación técnica generada automáticamente mediante Swagger (OpenAPI 3.0).
+
+---
+
+## Tabla de Endpoints AI
+
+| Endpoint | Descripción / Acción | Verbo HTTP | Parámetros / Body | Ejemplo de respuesta | Documentación |
+|-----------|----------------------|------------|-------------------|----------------------|------------|
+| /api/v1/ai/chatbot/message | Envía un mensaje al asistente inteligente | POST | `{ "message": "string" }` | `{ "response":"string","context":"string" }` | Swagger |
+| /api/v1/ai/dashboard/member | Obtiene el dashboard inteligente del miembro autenticado | GET | — | Dashboard del miembro | Swagger |
+| /api/v1/ai/dashboard/leader | Obtiene el dashboard inteligente del líder autenticado | GET | — | Dashboard del líder | Swagger |
+
+---
+
+## Ejemplos de Uso
+
+### 1. Chatbot Inteligente
+
+**Request**
+
+```http
+POST /api/v1/ai/chatbot/message
+Content-Type: application/json
+Authorization: Bearer <JWT>
+```
+
+**Body**
+
+```json
+{
+    "message": "What tasks are delayed in my current project?"
+}
+```
+**Response (200 OK)**
+```json
+{
+    "response": "There are 3 delayed tasks. The highest priority task is 'Implement User Authentication'.",
+    "context": "Project Management Assistant"
+}
+```
+
+---
+
+### 2. Dashboard para Líder
+
+**Request**
+
+```http
+GET /api/v1/ai/dashboard/leader
+Authorization: Bearer <JWT>
+```
+
+**Response (200 OK)**
+```json
+{
+    "topRiskProject": {
+        "name": "TaskMaster",
+        "status": "AT_RISK"
+    },
+    "recommendations": [
+        "Reassign delayed tasks",
+        "Schedule a follow-up meeting"
+    ],
+    "totalProjects": 4,
+    "highRiskProjects": 1
+}
+```
+
+---
+
+## Arquitectura y Patrones
+
+El módulo AI fue implementado siguiendo una arquitectura desacoplada que facilita la integración de servicios inteligentes dentro de la plataforma.
+
+Entre los principales componentes utilizados se encuentran:
+
+- ChatbotController: expone los servicios REST relacionados con el chatbot y los dashboards inteligentes.
+- Servicios de Inteligencia Artificial encargados del procesamiento de consultas y generación de recomendaciones.
+- DTO Pattern para el intercambio de información entre la capa REST y la lógica de negocio.
+- OpenAPI (Swagger 3.0) para la documentación automática de los servicios.
+
+La separación entre la capa de presentación y la lógica de negocio permite mantener un código más limpio y facilita la incorporación de nuevas funcionalidades basadas en IA en futuros Sprints.
+
+---
+
+## Seguridad
+
+Los endpoints del módulo AI requieren autenticación mediante JWT para garantizar que únicamente usuarios autorizados puedan acceder a las funcionalidades inteligentes.
+
+Además, el dashboard para líderes valida que el usuario autenticado posea el rol correspondiente antes de generar la información estratégica del proyecto.
+
+Las principales medidas implementadas son:
+
+- Autenticación mediante JWT.
+- Validación de permisos según el rol del usuario.
+- Respuestas HTTP estandarizadas para errores de autenticación y autorización.
+- Integración con Spring Security.
+
+---
+
+## Conclusión
+
+El módulo AI representa una de las principales incorporaciones realizadas durante este Sprint, permitiendo integrar funcionalidades inteligentes dentro de TaskMaster mediante un chatbot conversacional y dashboards personalizados para líderes y miembros del proyecto.
+
+La implementación de estos servicios amplía las capacidades de la plataforma y sienta las bases para futuras funcionalidades basadas en Inteligencia Artificial, manteniendo una arquitectura limpia, segura y completamente documentada mediante Swagger (OpenAPI 3.0).
+
+---
+
+### Sección IAM (User Management)
+
+![Users Endpoints](assets/TF/users-endpoints.png)
+
+Durante este Sprint se realizaron mejoras sobre el módulo **IAM (Identity and Access Management)**, incorporando nuevos servicios orientados a fortalecer la gestión del perfil del usuario autenticado y la seguridad de las credenciales.
+
+A diferencia del Sprint anterior, donde se desarrollaron las funcionalidades principales relacionadas con autenticación y administración de usuarios, en esta iteración se añadieron endpoints para consultar el perfil autenticado, actualizar usuarios mediante su identificador y realizar el cambio seguro de contraseña.
+
+Estas mejoras fueron implementadas siguiendo los principios de Clean Architecture y Domain-Driven Design (DDD), manteniendo la separación entre las capas de presentación, aplicación y dominio.
+
+A continuación, se detallan los nuevos endpoints desarrollados, sus funcionalidades principales y la documentación técnica generada automáticamente mediante Swagger (OpenAPI 3.0).
+
+---
+
+## Tabla de Endpoints IAM (Sprint Actual)
+
+| Endpoint | Descripción / Acción | Verbo HTTP | Parámetros / Body | Ejemplo de respuesta | Documentación |
+|-----------|----------------------|------------|-------------------|----------------------|---------- |
+| /api/v1/users/{userId} | Actualizar usuario por ID | PUT | userId + información del usuario | Usuario actualizado | Swagger |
+| /api/v1/users/me | Obtener perfil del usuario autenticado | GET | — | Información completa del usuario | Swagger |
+| /api/v1/users/change-password | Cambiar contraseña del usuario autenticado | POST | currentPassword, newPassword | Confirmación de actualización | Swagger |
+
+---
+
+## Ejemplos de Uso
+
+### 1. Obtener Perfil del Usuario
+
+**Request**
+```http
+GET /api/v1/users/me
+Authorization: Bearer <JWT>
+```
+
+**Response (200 OK)**
+```json
+{
+    "id": 7,
+    "email": "xime@taskmaster.com",
+    "roles": [
+        "ROLE_MEMBER"
+    ],
+    "name": "Ximena",
+    "lastName": "Padilla",
+    "status": "ONLINE",
+    "projectIds": [
+        3,
+        5
+    ]
+}
+```
+
+---
+
+### 2. Cambio de Contraseña
+
+**Request**
+
+```http
+POST /api/v1/users/change-password
+Content-Type: application/json
+Authorization: Bearer <JWT>
+```
+
+**Body**
+
+```json
+{
+    "currentPassword": "OldPassword123",
+    "newPassword": "NewPassword456"
+}
+```
+
+**Response (200 OK)**
+
+```json
+{
+    "message": "Password changed successfully"
+}
+```
+
+---
+
+### 3. Actualizar Usuario por ID
+
+**Request**
+
+```http
+PUT /api/v1/users/{userId}
+Content-Type: application/json
+Authorization: Bearer <JWT>
+```
+
+**Body**
+
+```json
+{
+    "firstName": "Ximena",
+    "lastName": "Padilla",
+    "phone": "999888777",
+    "bio": "Software Engineering Student"
+}
+```
+
+**Response (200 OK)**
+
+```json
+{
+    "message": "User updated successfully"
+}
+```
+
+---
+
+## Arquitectura y Patrones
+
+Las nuevas funcionalidades del módulo **User Management** fueron implementadas siguiendo la misma arquitectura utilizada en el resto del sistema, promoviendo la reutilización de componentes y una correcta separación de responsabilidades.
+
+El controlador encargado de exponer estos servicios REST continúa integrándose con los servicios internos del módulo IAM para ejecutar las operaciones relacionadas con la administración de usuarios.
+
+Los principales componentes utilizados son:
+
+- UsersController: administra las operaciones relacionadas con los perfiles de usuario.
+- UserCommandService: ejecuta las operaciones de escritura, como actualización de usuarios y cambio de contraseña.
+- UserQueryService: obtiene la información del usuario autenticado y consultas relacionadas.
+- DTO Pattern para el intercambio de información entre la API REST y el dominio.
+- OpenAPI (Swagger 3.0) para la documentación automática de los servicios.
+
+Esta organización mantiene una arquitectura desacoplada y facilita la evolución del módulo sin afectar otras funcionalidades del sistema.
+
+---
+
+## Seguridad
+
+Los nuevos endpoints incorporan mecanismos adicionales para garantizar la seguridad de la información del usuario.
+
+Entre las medidas implementadas destacan:
+
+- Autenticación mediante JWT.
+- Validación del usuario autenticado utilizando SecurityContextHolder.
+- Verificación de la contraseña actual antes de permitir el cambio de credenciales.
+- Control de acceso basado en roles.
+- Validaciones de entrada utilizando Bean Validation.
+- Respuestas HTTP estandarizadas para errores de autenticación, autorización y validación.
+
+Estas medidas permiten proteger la información personal de los usuarios y asegurar que únicamente el propietario de la cuenta pueda modificar sus datos o cambiar su contraseña.
+
+---
+
+## Conclusión
+
+Las mejoras realizadas sobre el módulo IAM fortalecen la administración de usuarios dentro de TaskMaster al incorporar nuevas funcionalidades para la gestión del perfil autenticado y la actualización segura de credenciales.
+
+La integración con Spring Security y JWT garantiza un acceso seguro a los servicios, mientras que la documentación automática generada mediante Swagger facilita la validación y mantenimiento de los endpoints desarrollados durante este Sprint.
+
+---
+
+### Sección Meeting Management
+
+![Meeting Endpoints](assets/TF/meeting-endpoints.png)
+
+Durante este Sprint se desarrolló el nuevo módulo **Meeting Management**, encargado de administrar las reuniones asociadas a los proyectos dentro de TaskMaster.
+
+Este módulo permite a los líderes organizar reuniones con los miembros del equipo, consultar reuniones existentes, actualizar su información y eliminar registros cuando sea necesario. De esta manera, se centraliza la planificación de reuniones dentro de la misma plataforma, evitando el uso de herramientas externas para la coordinación del equipo.
+
+El controlador fue implementado siguiendo los principios de Clean Architecture (Clean Architecture) y CQRS (Command Query Responsibility Segregation), separando claramente las operaciones de lectura (Query) y escritura (Command).
+
+Toda la documentación fue generada utilizando **OpenAPI (Swagger 3.0)** para describir la estructura, los verbos HTTP, los parámetros y ejemplos de respuesta de cada endpoint. A continuación, se presenta la relación de los endpoints desarrollados durante este Sprint.
+
+---
+
+## Tabla de Endpoints – Meeting Management
+
+| Endpoint | Descripción / Acción | Verbo HTTP | Parámetros / Body | Ejemplo de respuesta | Documentación |
+|-----------|----------------------|------------|-------------------|----------------------|------- |
+| /api/v1/meetings | Crear una reunión | POST | Información de la reunión | Reunión creada correctamente | Swagger |
+| /api/v1/meetings | Obtener todas las reuniones | GET | — | Lista de reuniones | Swagger |
+| /api/v1/meetings/{meetingId} | Obtener reunión por ID | GET | meetingId | Información de la reunión | Swagger |
+| /api/v1/meetings/{meetingId} | Actualizar reunión | PUT | meetingId + información | Reunión actualizada | Swagger |
+| /api/v1/meetings/{meetingId} | Eliminar reunión | DELETE | meetingId | 204 No Content | Swagger |
+
+---
+
+## Ejemplos de Uso
+
+### 1. Crear Reunión
+
+**Request**
+
+```http
+POST /api/v1/meetings
+Content-Type: application/json
+Authorization: Bearer <JWT>
+```
+
+**Body**
+
+```json
+{
+    "title": "Sprint Review",
+    "description": "Sprint review with development team",
+    "startTime": "2026-07-10T15:00:00",
+    "endTime": "2026-07-10T16:00:00",
+    "participantIds": [
+        3,
+        5,
+        7
+    ]
+}
+```
+
+**Response (201 Created)**
+
+```json
+{
+    "meetingId": 15,
+    "leaderId": 2,
+    "title": "Sprint Review",
+    "description": "Sprint review with development team",
+    "meetingLink": "https://meet.taskmaster.com/abc123",
+    "status": "SCHEDULED"
+}
+```
+
+---
+
+### 2. Obtener Reunión por ID
+
+**Request**
+
+```http
+GET /api/v1/meetings/15
+Authorization: Bearer <JWT>
+```
+
+**Response (200 OK)**
+
+```json
+{
+    "meetingId": 15,
+    "leaderId": 2,
+    "title": "Sprint Review",
+    "description": "Sprint review with development team",
+    "startTime": "2026-07-10T15:00:00",
+    "endTime": "2026-07-10T16:00:00",
+    "participantIds": [
+        3,
+        5,
+        7
+    ],
+    "meetingLink": "https://meet.taskmaster.com/abc123",
+    "status": "SCHEDULED"
+}
+```
+
+---
+
+## Arquitectura y Diseño
+
+El módulo **Meeting Management** utiliza los servicios internos responsables de la administración de reuniones dentro de la plataforma.
+
+Las operaciones fueron implementadas siguiendo una arquitectura desacoplada, donde las responsabilidades de lectura y escritura permanecen separadas mediante el patrón CQRS.
+
+Los principales componentes utilizados son:
+
+- MeetingsController: expone los servicios REST relacionados con la gestión de reuniones.
+- MeetingCommandService: administra las operaciones de creación, actualización y eliminación de reuniones.
+- MeetingQueryService: ejecuta las consultas relacionadas con las reuniones registradas.
+- DTO Pattern para desacoplar la capa REST de las entidades del dominio.
+- OpenAPI (Swagger 3.0) para la documentación automática de todos los endpoints.
+
+Esta organización facilita la evolución del módulo y permite incorporar nuevas funcionalidades relacionadas con reuniones sin afectar el resto de la arquitectura del sistema.
+
+---
+
+## Seguridad
+
+Los servicios del módulo Meeting Management requieren autenticación mediante JWT para garantizar que únicamente usuarios autorizados puedan administrar reuniones dentro de los proyectos.
+
+Las principales medidas implementadas son:
+
+- Autenticación mediante JWT.
+- Validación del usuario autenticado.
+- Control de acceso basado en roles.
+- Validación de parámetros y datos de entrada.
+- Respuestas HTTP estandarizadas para errores de autenticación y autorización.
+
+---
+
+## Conclusión
+
+El módulo Meeting Management amplía las funcionalidades colaborativas de TaskMaster al integrar la gestión completa de reuniones dentro de la plataforma.
+
+Gracias a esta implementación, los equipos pueden planificar reuniones, consultar información, actualizar eventos y mantener una mejor organización de las actividades del proyecto desde un único entorno.
+
+La arquitectura implementada mantiene la separación de responsabilidades mediante CQRS y Clean Architecture, mientras que la documentación generada automáticamente mediante Swagger facilita la validación y mantenimiento de todos los servicios desarrollados.
 
 ##### 7.2.2.7.	Software Deployment Evidence for Sprint Review.
 
@@ -6149,11 +6566,19 @@ La colaboración del equipo fue fundamental para cumplir los objetivos del Sprin
 
 **Lading Page:**
 
+![landing2](assets/TF/commits-landing.png)
+
 **Web Application**
+
+![WEB2](assets/TF/commits-webapp.png)
 
 **Mobile Application**
 
+![MOBILE](assets/TF/commits-mobileapp.png)
+
 **Backend Services**
+
+![BACK](assets/TF/commits-backend.png)
 
 
 ### 7.3.	Validation Interviews.
